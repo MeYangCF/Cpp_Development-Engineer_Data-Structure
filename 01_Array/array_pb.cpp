@@ -129,3 +129,64 @@ int main(){
     cout << index << endl;
 }
 */
+
+//有序数组的平方
+/*
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<int> sortedSquares(vector<int>& nums) {
+    vector<int> results(nums.size());
+    int i = 0;
+    int j = nums.size() - 1;
+    int k = nums.size() - 1;
+    while (i <= j){
+        if(nums[i] * nums[i] <= nums[j] * nums[j]){
+            results[k--] = nums[j] * nums[j];
+            j--;
+        }
+        else{
+            results[k--] = nums[i] * nums[i];
+            i++;
+        }
+    }
+    return results;
+}
+
+int main(){
+    vector<int> nums{-7,-3,2,3,11};
+    nums = sortedSquares(nums);
+    for(int i = 0; i < nums.size(); i++)
+        cout << nums[i] << " ";
+}
+*/
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int minSubArrayLen(int target, vector<int>& nums) {
+    int sum = 0;
+    int result = INT_MAX;
+    int sublength = 0;
+    int i = 0;
+    for(int j = 0; j < nums.size(); j++){
+        sum += nums[j];
+        while(sum >= target){
+            sublength = j - i + 1;
+            result = result < sublength ? result : sublength;
+            sum -= nums[i++];
+        }
+    }
+    if(result == INT_MAX){
+        result = 0;
+    }
+    return result;
+}
+
+int main(){
+    vector<int> nums{2,3,1,2,4,3};
+    int result = minSubArrayLen(7, nums);
+    cout << result << endl;
+}
