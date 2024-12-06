@@ -173,37 +173,70 @@ build .runtime/02_Link_List.exe: CXX_EXECUTABLE_LINKER__02_Link_List_Debug CMake
   TARGET_PDB = 02_Link_List.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target LinkList
+# Object build statements for EXECUTABLE target linklist
 
 
 #############################################
-# Order-only phony target for LinkList
+# Order-only phony target for linklist
 
-build cmake_object_order_depends_target_LinkList: phony || CMakeFiles/LinkList.dir
+build cmake_object_order_depends_target_linklist: phony || CMakeFiles/linklist.dir
 
-build CMakeFiles/LinkList.dir/02_Link_List/LinkList.cpp.obj: CXX_COMPILER__LinkList_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/02_Link_List/LinkList.cpp || cmake_object_order_depends_target_LinkList
-  DEP_FILE = CMakeFiles\LinkList.dir\02_Link_List\LinkList.cpp.obj.d
+build CMakeFiles/linklist.dir/02_Link_List/linklist.cpp.obj: CXX_COMPILER__linklist_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/02_Link_List/linklist.cpp || cmake_object_order_depends_target_linklist
+  DEP_FILE = CMakeFiles\linklist.dir\02_Link_List\linklist.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\LinkList.dir
-  OBJECT_FILE_DIR = CMakeFiles\LinkList.dir\02_Link_List
+  OBJECT_DIR = CMakeFiles\linklist.dir
+  OBJECT_FILE_DIR = CMakeFiles\linklist.dir\02_Link_List
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target LinkList
+# Link build statements for EXECUTABLE target linklist
 
 
 #############################################
-# Link the executable .runtime\LinkList.exe
+# Link the executable .runtime\linklist.exe
 
-build .runtime/LinkList.exe: CXX_EXECUTABLE_LINKER__LinkList_Debug CMakeFiles/LinkList.dir/02_Link_List/LinkList.cpp.obj
+build .runtime/linklist.exe: CXX_EXECUTABLE_LINKER__linklist_Debug CMakeFiles/linklist.dir/02_Link_List/linklist.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\LinkList.dir
+  OBJECT_DIR = CMakeFiles\linklist.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\LinkList.exe
-  TARGET_IMPLIB = .archive\libLinkList.dll.a
-  TARGET_PDB = LinkList.exe.dbg
+  TARGET_FILE = .runtime\linklist.exe
+  TARGET_IMPLIB = .archive\liblinklist.dll.a
+  TARGET_PDB = linklist.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target linklist_pb
+
+
+#############################################
+# Order-only phony target for linklist_pb
+
+build cmake_object_order_depends_target_linklist_pb: phony || CMakeFiles/linklist_pb.dir
+
+build CMakeFiles/linklist_pb.dir/02_Link_List/linklist_pb.cpp.obj: CXX_COMPILER__linklist_pb_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/02_Link_List/linklist_pb.cpp || cmake_object_order_depends_target_linklist_pb
+  DEP_FILE = CMakeFiles\linklist_pb.dir\02_Link_List\linklist_pb.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linklist_pb.dir
+  OBJECT_FILE_DIR = CMakeFiles\linklist_pb.dir\02_Link_List
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linklist_pb
+
+
+#############################################
+# Link the executable .runtime\linklist_pb.exe
+
+build .runtime/linklist_pb.exe: CXX_EXECUTABLE_LINKER__linklist_pb_Debug CMakeFiles/linklist_pb.dir/02_Link_List/linklist_pb.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linklist_pb.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\linklist_pb.exe
+  TARGET_IMPLIB = .archive\liblinklist_pb.dll.a
+  TARGET_PDB = linklist_pb.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03_One-way_Circular_Linked_List
@@ -2329,10 +2362,6 @@ build LCS: phony .runtime/LCS.exe
 
 build LCS.exe: phony .runtime/LCS.exe
 
-build LinkList: phony .runtime/LinkList.exe
-
-build LinkList.exe: phony .runtime/LinkList.exe
-
 build Longest_non-decreasing_subsequence: phony .runtime/Longest_non-decreasing_subsequence.exe
 
 build Longest_non-decreasing_subsequence.exe: phony .runtime/Longest_non-decreasing_subsequence.exe
@@ -2397,6 +2426,14 @@ build floyd: phony .runtime/floyd.exe
 
 build floyd.exe: phony .runtime/floyd.exe
 
+build linklist: phony .runtime/linklist.exe
+
+build linklist.exe: phony .runtime/linklist.exe
+
+build linklist_pb: phony .runtime/linklist_pb.exe
+
+build linklist_pb.exe: phony .runtime/linklist_pb.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -2405,7 +2442,7 @@ build floyd.exe: phony .runtime/floyd.exe
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 
-build all: phony .runtime/01_Array.exe .runtime/array.exe .runtime/array_pb.exe .runtime/02_Link_List.exe .runtime/LinkList.exe .runtime/03_One-way_Circular_Linked_List.exe .runtime/04_Doubly_Linked_List.exe .runtime/05_Doubly_Circular_Linked_List.exe .runtime/06_Stack.exe .runtime/07_Chain_Stack.exe .runtime/08_Ring_Queue.exe .runtime/09_Chained_Queue.exe .runtime/10_Binary_Search_Algorithm.exe .runtime/11_Basic_Sort.exe .runtime/12_Quick_Sort.exe .runtime/13_Merge_Sort.exe .runtime/14_Binary_Heap.exe .runtime/15_Heap_Sort.exe .runtime/16_Advanced_Sorting_Performance_Test.exe .runtime/17_Radix_Sort.exe .runtime/18_Linear_Probing_Hash_Table.exe .runtime/19_Chained_Hash_Table.exe .runtime/20_Big_Data_Duplicate_Check.exe .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe .runtime/22_Bloom_Filter.exe .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe .runtime/25_Consistent_Hashing_Algorithm.exe .runtime/26_String_Operations.exe .runtime/27_BST_Tree.exe .runtime/28_AVL_Tree.exe .runtime/29_RB_Red-Black_Tree.exe .runtime/30_Jump_Table.exe .runtime/31_Backtracking_Algorithm.exe .runtime/Binary_Search.exe .runtime/Median.exe .runtime/Merge_Sort.exe .runtime/Merge_k_ordered_linked_lists.exe .runtime/Quick_Sort.exe .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe .runtime/01Backpack.exe .runtime/Coin_Problem.exe .runtime/Fibonacci_Sequence.exe .runtime/LCS.exe .runtime/Longest_non-decreasing_subsequence.exe .runtime/Maximum_sub-segment_sum.exe .runtime/Summing_a_triangular_array.exe .runtime/Coin_Selection_Problem.exe .runtime/Partial_Knapsack_Problem.exe .runtime/Service_at_the_counter.exe .runtime/02Backpack.exe .runtime/Optimal_load.exe .runtime/36_Trie_Dictionary_Tree.exe .runtime/37_Inverted_Index.exe .runtime/38_Huffman_Tree_And_Huffman_Coding.exe .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe .runtime/Dijkstra.exe .runtime/floyd.exe .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe .runtime/Kruskal.exe .runtime/Relatives.exe .runtime/The_best_route_to_avoid_traffic.exe .runtime/CMakeCXXCompilerId.exe
+build all: phony .runtime/01_Array.exe .runtime/array.exe .runtime/array_pb.exe .runtime/02_Link_List.exe .runtime/linklist.exe .runtime/linklist_pb.exe .runtime/03_One-way_Circular_Linked_List.exe .runtime/04_Doubly_Linked_List.exe .runtime/05_Doubly_Circular_Linked_List.exe .runtime/06_Stack.exe .runtime/07_Chain_Stack.exe .runtime/08_Ring_Queue.exe .runtime/09_Chained_Queue.exe .runtime/10_Binary_Search_Algorithm.exe .runtime/11_Basic_Sort.exe .runtime/12_Quick_Sort.exe .runtime/13_Merge_Sort.exe .runtime/14_Binary_Heap.exe .runtime/15_Heap_Sort.exe .runtime/16_Advanced_Sorting_Performance_Test.exe .runtime/17_Radix_Sort.exe .runtime/18_Linear_Probing_Hash_Table.exe .runtime/19_Chained_Hash_Table.exe .runtime/20_Big_Data_Duplicate_Check.exe .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe .runtime/22_Bloom_Filter.exe .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe .runtime/25_Consistent_Hashing_Algorithm.exe .runtime/26_String_Operations.exe .runtime/27_BST_Tree.exe .runtime/28_AVL_Tree.exe .runtime/29_RB_Red-Black_Tree.exe .runtime/30_Jump_Table.exe .runtime/31_Backtracking_Algorithm.exe .runtime/Binary_Search.exe .runtime/Median.exe .runtime/Merge_Sort.exe .runtime/Merge_k_ordered_linked_lists.exe .runtime/Quick_Sort.exe .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe .runtime/01Backpack.exe .runtime/Coin_Problem.exe .runtime/Fibonacci_Sequence.exe .runtime/LCS.exe .runtime/Longest_non-decreasing_subsequence.exe .runtime/Maximum_sub-segment_sum.exe .runtime/Summing_a_triangular_array.exe .runtime/Coin_Selection_Problem.exe .runtime/Partial_Knapsack_Problem.exe .runtime/Service_at_the_counter.exe .runtime/02Backpack.exe .runtime/Optimal_load.exe .runtime/36_Trie_Dictionary_Tree.exe .runtime/37_Inverted_Index.exe .runtime/38_Huffman_Tree_And_Huffman_Coding.exe .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe .runtime/Dijkstra.exe .runtime/floyd.exe .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe .runtime/Kruskal.exe .runtime/Relatives.exe .runtime/The_best_route_to_avoid_traffic.exe .runtime/CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets
