@@ -162,6 +162,8 @@ int main(){
 }
 */
 
+//长度最小的子数组
+/*
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -190,3 +192,4 @@ int main(){
     int result = minSubArrayLen(7, nums);
     cout << result << endl;
 }
+*/
