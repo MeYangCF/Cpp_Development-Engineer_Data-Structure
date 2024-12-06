@@ -77,6 +77,7 @@ int main(){
 */
 
 //移除元素问题
+/*
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -99,3 +100,32 @@ int main(){
     cout << endl;
     return 0;
 }
+*/
+
+//二分查找
+/*
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int search(vector<int>& nums, int target){
+    int left = 0;
+    int right = nums.size() - 1;
+    while(left <= right){
+        int index = (left + right)/2;
+        if(nums[index] < target)
+            left = index + 1;
+        else if (nums[index] > target)
+            right = index - 1;
+        else
+            return index;
+    }
+    return -1;
+}
+
+int main(){
+    vector<int> nums{-1,0,3,5,9,12};
+    int index = search(nums, 2);
+    cout << index << endl;
+}
+*/
