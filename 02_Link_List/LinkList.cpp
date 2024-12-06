@@ -79,6 +79,17 @@ public:
             }
         }
     }
+    //搜索
+    bool Find(int val){
+        Node* p = head_->next_;
+        while (p != nullptr){
+            if(p->data_ == val)
+                return true;
+            else
+                p = p->next_;
+        }
+        return false;
+    }
     //链表打印
     void Show(){
         Node* p = head_->next_;
