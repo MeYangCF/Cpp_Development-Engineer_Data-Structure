@@ -119,9 +119,11 @@ int main(){
     link.InsertHead(23);
     link.InsertHead(23);
 
+    cout << link.Find(22) << endl;
     link.Show();
 
     link.Remove(22);
+    cout << link.Find(22) << endl;
     link.Show();
 
     link.RemoveAll(23);
