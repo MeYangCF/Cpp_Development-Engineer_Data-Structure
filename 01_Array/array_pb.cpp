@@ -79,24 +79,15 @@ int main(){
 //移除元素问题
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 int removeElement(vector<int>& nums, int val) {
-    int i = 0;
-    int j = nums.size() - 1;
-    while (i <= j){
-        if(nums[j] == val){
-            j--;
-            continue;
-        }
-        if( nums[i] == val){
-            nums[i] = nums[j];
-            j--;
-        }
-        i++;
+    int slowindex = 0;
+    for(int fastindex = 0; fastindex < nums.size(); fastindex++){
+        if(nums[fastindex] != val)
+            nums[slowindex++] = nums[fastindex];
     }
-    return i;
+    return slowindex;
 }
 
 int main(){
