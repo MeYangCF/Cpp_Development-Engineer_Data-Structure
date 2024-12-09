@@ -124,15 +124,13 @@ void ReverseLink(Clink &link){
 //    }
     Node* head = link.head_;
     Node* p = head->next_;
-    if (p == nullptr)
-    {
+    if (p == nullptr){
         return;
     }
 
     head->next_ = nullptr;
 
-    while (p != nullptr)
-    {
+    while (p != nullptr){
         Node* q = p->next_;
 
         // p指针指向的节点进行头插
@@ -143,6 +141,21 @@ void ReverseLink(Clink &link){
     }
 
 }
+
+//ListNode* reverseList(ListNode* head) {
+//    if(head == nullptr)
+//        return nullptr;
+//    ListNode* pre = nullptr;
+//    ListNode* p = head;
+//    ListNode* tmp;
+//    while (p != nullptr){
+//        tmp = p->next;
+//        p->next = pre;
+//        pre = p;
+//        p = tmp;
+//    }
+//    return pre;
+//}
 
 //问题2：求倒数第k个节点的值
 bool GetLaskKNode(Clink& link, int k, int& val){
@@ -322,6 +335,97 @@ Node* rotateRight(Node* head, int k) {
 
     return head;
 }
+
+// 移除链表元素
+//    ListNode* removeElements(ListNode* head, int val) {
+//        ListNode* dummyNode = new ListNode();
+//        dummyNode->next = head;
+//        ListNode* p = head;
+//        ListNode* pre = dummyNode;
+//        while (p != nullptr){
+//            if(p->val == val){
+//                pre->next = p->next;
+//                p = p->next;
+//            }else{
+//                p = p->next;
+//                pre = pre->next;
+//            }
+//        }
+//       return dummyNode->next;
+//    }
+
+
+//设计链表
+//class MyLinkedList {
+//public:
+//    MyLinkedList() {
+//        dummyNode = new LinkedNode(0);
+//        size_ = 0;
+//    }
+//
+//    int get(int index) {
+//        if(index < 0 || index > (size_ - 1))
+//            return -1;
+//        LinkedNode* cur = dummyNode->next;
+//        while(index--){
+//            cur = cur->next;
+//        }
+//        return cur->val;
+//    }
+//
+//    void addAtHead(int val) {
+//        LinkedNode* newNode =new LinkedNode(val);
+//        newNode->next = dummyNode->next;
+//        dummyNode->next = newNode;
+//        size_++;
+//    }
+//
+//    void addAtTail(int val) {
+//        LinkedNode* newNode =new LinkedNode(val);
+//        LinkedNode* cur = dummyNode;
+//        while (cur->next != nullptr){
+//            cur = cur->next;
+//        }
+//        newNode->next = cur->next;
+//        cur->next = newNode;
+//        size_++;
+//    }
+//
+//    void addAtIndex(int index, int val) {
+//        if(index > size_) return;
+//        LinkedNode* newNode =new LinkedNode(val);
+//        LinkedNode* cur = dummyNode;
+//        while (index--){
+//            cur = cur->next;
+//        }
+//        newNode->next = cur->next;
+//        cur->next = newNode;
+//        size_++;
+//    }
+//
+//    void deleteAtIndex(int index) {
+//        if(index < 0 || index > (size_ - 1))
+//            return;
+//        LinkedNode* cur = dummyNode;
+//        while (index--){
+//            cur = cur->next;
+//        }
+//        LinkedNode* tmp = cur->next;
+//        cur->next = cur->next->next;
+//        delete tmp;
+//        tmp = nullptr;
+//        size_--;
+//    }
+//    struct LinkedNode {
+//        int val;
+//        LinkedNode* next;
+//        LinkedNode(int val):val(val), next(nullptr){}
+//    };
+//
+//private:
+//    LinkedNode* dummyNode;
+//    int size_;
+//};
 int main(){
 
     return  0;
