@@ -9,6 +9,7 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- [CircleLinkedList.cpp] will be compiled to '.runtime/CircleLinkedList.exe'
 -- [CircleLinkedList_pb.cpp] will be compiled to '.runtime/CircleLinkedList_pb.exe'
 -- [04_Doubly_Linked_List.cpp] will be compiled to '.runtime/04_Doubly_Linked_List.exe'
+-- [DLinkedList.cpp] will be compiled to '.runtime/DLinkedList.exe'
 -- [05_Doubly_Circular_Linked_List.cpp] will be compiled to '.runtime/05_Doubly_Circular_Linked_List.exe'
 -- [06_Stack.cpp] will be compiled to '.runtime/06_Stack.exe'
 -- [07_Chain_Stack.cpp] will be compiled to '.runtime/07_Chain_Stack.exe'
