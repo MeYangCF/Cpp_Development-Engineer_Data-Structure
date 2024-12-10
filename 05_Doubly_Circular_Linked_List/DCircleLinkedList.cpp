@@ -1,10 +1,9 @@
 /*
 @author: Yang ChengFeng
 @email: meyangcf@163.com
-@date: 2024 24-12-10 下午5:22
+@date: 2024 24-12-10 下午7:50
 @description:
 */
-
 #include <iostream>
 using namespace std;
 
@@ -21,71 +20,65 @@ struct Node
     Node* pre_;  // 指向前一个节点
 };
 
-// 双向链表
-class DoubleLink
+// 双向循环链表
+class DoubleCircleLink
 {
 public:
-    DoubleLink()
+    DoubleCircleLink()
     {
         head_ = new Node();
+        head_->next_ = head_;
+        head_->pre_ = head_;
     }
-    ~DoubleLink()
+    ~DoubleCircleLink()
     {
-        Node* p = head_;
-        while (p != nullptr)
+        Node* p = head_->next_;
+        while (p != head_)
         {
-            head_ = head_->next_;
+            head_->next_ = p->next_;
+            p->next_->pre_ = head_;
             delete p;
-            p = head_;
+            p = head_->next_; // 让p重新指向第一个节点，进行删除
         }
+        delete head_;
+        head_ = nullptr;
     }
 
 public:
-    // 头插法
+    // 头插法 O(1)
     void InsertHead(int val)
     {
         Node* node = new Node(val);
         node->next_ = head_->next_;
         node->pre_ = head_;
-        if (head_->next_ != nullptr)
-        {
-            head_->next_->pre_ = node;
-        }
+        head_->next_->pre_ = node;
         head_->next_ = node;
     }
 
-    // 尾插法
+    // 尾插法  O(1)
     void InsertTail(int val)
     {
-        Node* p = head_;
-        while (p->next_ != nullptr)
-        {
-            p = p->next_;
-        }
-
+        Node* p = head_->pre_;
         // p->尾节点
         Node* node = new Node(val);
         node->pre_ = p;
         p->next_ = node;
+        node->next_ = head_;
+        head_->pre_ = node;
     }
 
     // 节点删除
     void Remove(int val)
     {
         Node* p = head_->next_;
-        while (p != nullptr)
+        while (p != head_)
         {
             if (p->data_ == val)
             {
                 // 删除p指向的节点
                 p->pre_->next_ = p->next_;
-                if (p->next_ != nullptr)
-                {
-                    p->next_->pre_ = p->pre_;
-                }
-                //Node* next = p->next_;
+                p->next_->pre_ = p->pre_;
                 delete p;
-                //p = next;
                 return;
             }
             else
@@ -99,7 +92,7 @@ public:
     bool Find(int val)
     {
         Node* p = head_->next_;
-        while (p != nullptr)
+        while (p != head_)
         {
             if (p->data_ == val)
             {
@@ -117,7 +110,7 @@ public:
     void Show()
     {
         Node* p = head_->next_;
-        while (p != nullptr)
+        while (p != head_)
         {
             cout << p->data_ << " ";
             p = p->next_;
@@ -131,7 +124,7 @@ private:
 
 int main()
 {
-    DoubleLink dlink;
+    DoubleCircleLink dlink;
 
     dlink.InsertHead(100);
 
