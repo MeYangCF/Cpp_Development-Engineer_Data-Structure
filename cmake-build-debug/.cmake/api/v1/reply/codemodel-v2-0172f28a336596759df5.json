@@ -82,7 +82,9 @@
 						64,
 						65,
 						66,
-						67
+						67,
+						68,
+						69
 					]
 				}
 			],
@@ -164,7 +166,9 @@
 						64,
 						65,
 						66,
-						67
+						67,
+						68,
+						69
 					]
 				}
 			],
@@ -595,6 +599,20 @@
 					"id" : "Service_at_the_counter::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Service_at_the_counter-Debug-7117eccc9bf87c2f9e99.json",
 					"name" : "Service_at_the_counter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack-Debug-a9fa3181bd80171e7b50.json",
+					"name" : "Stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack_pb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack_pb-Debug-39ccc4c642c1d6ac5b0c.json",
+					"name" : "Stack_pb",
 					"projectIndex" : 0
 				},
 				{
