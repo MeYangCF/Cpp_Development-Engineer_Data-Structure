@@ -4,6 +4,10 @@
 5	213	7554343327748325	CMakeFiles/linklist_pb.dir/02_Link_List/linklist_pb.cpp.obj	fc7b15ce9f3774
 4	127	7550720665918370	.runtime/array.exe	17742019bfad87e4
 272	372	7551941958308918	.runtime/array_pb.exe	565eb4157441fd96
+496	818	7556032699891010	.runtime/Stack.exe	94c0b6f3c2902a80
 5	254	7551773466098595	CMakeFiles/LinkList.dir/02_Link_List/LinkList.cpp.obj	dc87c473a110fcf8
-254	334	7551773466849595	.runtime/LinkList.exe	71a08a123aec3db4
 213	287	7554343328461185	.runtime/linklist_pb.exe	5d22538de0ee4c7
+254	334	7551773466849595	.runtime/LinkList.exe	71a08a123aec3db4
+6	496	7556032696700272	CMakeFiles/Stack.dir/06_Stack/Stack.cpp.obj	cfc531c513fcceb
+4	275	7556037829781511	CMakeFiles/Link_Stack.dir/07_Link_Stack/Link_Stack.cpp.obj	85f18cef226928d8
+275	416	7556037831162671	.runtime/Link_Stack.exe	a423e4aaaa66fe72
