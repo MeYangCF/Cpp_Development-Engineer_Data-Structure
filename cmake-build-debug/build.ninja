@@ -140,103 +140,103 @@ build .runtime/array_pb.exe: CXX_EXECUTABLE_LINKER__array_pb_Debug CMakeFiles/ar
   TARGET_PDB = array_pb.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 02_Link_List
+# Object build statements for EXECUTABLE target 02_Linked_List
 
 
 #############################################
-# Order-only phony target for 02_Link_List
+# Order-only phony target for 02_Linked_List
 
-build cmake_object_order_depends_target_02_Link_List: phony || CMakeFiles/02_Link_List.dir
+build cmake_object_order_depends_target_02_Linked_List: phony || CMakeFiles/02_Linked_List.dir
 
-build CMakeFiles/02_Link_List.dir/02_Link_List/02_Link_List.cpp.obj: CXX_COMPILER__02_Link_List_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/02_Link_List/02_Link_List.cpp || cmake_object_order_depends_target_02_Link_List
-  DEP_FILE = CMakeFiles\02_Link_List.dir\02_Link_List\02_Link_List.cpp.obj.d
+build CMakeFiles/02_Linked_List.dir/02_Linked_List/02_Linked_List.cpp.obj: CXX_COMPILER__02_Linked_List_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/02_Linked_List/02_Linked_List.cpp || cmake_object_order_depends_target_02_Linked_List
+  DEP_FILE = CMakeFiles\02_Linked_List.dir\02_Linked_List\02_Linked_List.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\02_Link_List.dir
-  OBJECT_FILE_DIR = CMakeFiles\02_Link_List.dir\02_Link_List
+  OBJECT_DIR = CMakeFiles\02_Linked_List.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_Linked_List.dir\02_Linked_List
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 02_Link_List
+# Link build statements for EXECUTABLE target 02_Linked_List
 
 
 #############################################
-# Link the executable .runtime\02_Link_List.exe
+# Link the executable .runtime\02_Linked_List.exe
 
-build .runtime/02_Link_List.exe: CXX_EXECUTABLE_LINKER__02_Link_List_Debug CMakeFiles/02_Link_List.dir/02_Link_List/02_Link_List.cpp.obj
+build .runtime/02_Linked_List.exe: CXX_EXECUTABLE_LINKER__02_Linked_List_Debug CMakeFiles/02_Linked_List.dir/02_Linked_List/02_Linked_List.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\02_Link_List.dir
+  OBJECT_DIR = CMakeFiles\02_Linked_List.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\02_Link_List.exe
-  TARGET_IMPLIB = .archive\lib02_Link_List.dll.a
-  TARGET_PDB = 02_Link_List.exe.dbg
+  TARGET_FILE = .runtime\02_Linked_List.exe
+  TARGET_IMPLIB = .archive\lib02_Linked_List.dll.a
+  TARGET_PDB = 02_Linked_List.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target linklist
+# Object build statements for EXECUTABLE target linkedlist
 
 
 #############################################
-# Order-only phony target for linklist
+# Order-only phony target for linkedlist
 
-build cmake_object_order_depends_target_linklist: phony || CMakeFiles/linklist.dir
+build cmake_object_order_depends_target_linkedlist: phony || CMakeFiles/linkedlist.dir
 
-build CMakeFiles/linklist.dir/02_Link_List/linklist.cpp.obj: CXX_COMPILER__linklist_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/02_Link_List/linklist.cpp || cmake_object_order_depends_target_linklist
-  DEP_FILE = CMakeFiles\linklist.dir\02_Link_List\linklist.cpp.obj.d
+build CMakeFiles/linkedlist.dir/02_Linked_List/linkedlist.cpp.obj: CXX_COMPILER__linkedlist_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/02_Linked_List/linkedlist.cpp || cmake_object_order_depends_target_linkedlist
+  DEP_FILE = CMakeFiles\linkedlist.dir\02_Linked_List\linkedlist.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\linklist.dir
-  OBJECT_FILE_DIR = CMakeFiles\linklist.dir\02_Link_List
+  OBJECT_DIR = CMakeFiles\linkedlist.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedlist.dir\02_Linked_List
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target linklist
+# Link build statements for EXECUTABLE target linkedlist
 
 
 #############################################
-# Link the executable .runtime\linklist.exe
+# Link the executable .runtime\linkedlist.exe
 
-build .runtime/linklist.exe: CXX_EXECUTABLE_LINKER__linklist_Debug CMakeFiles/linklist.dir/02_Link_List/linklist.cpp.obj
+build .runtime/linkedlist.exe: CXX_EXECUTABLE_LINKER__linkedlist_Debug CMakeFiles/linkedlist.dir/02_Linked_List/linkedlist.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\linklist.dir
+  OBJECT_DIR = CMakeFiles\linkedlist.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\linklist.exe
-  TARGET_IMPLIB = .archive\liblinklist.dll.a
-  TARGET_PDB = linklist.exe.dbg
+  TARGET_FILE = .runtime\linkedlist.exe
+  TARGET_IMPLIB = .archive\liblinkedlist.dll.a
+  TARGET_PDB = linkedlist.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target linklist_pb
+# Object build statements for EXECUTABLE target linkedlist_pb
 
 
 #############################################
-# Order-only phony target for linklist_pb
+# Order-only phony target for linkedlist_pb
 
-build cmake_object_order_depends_target_linklist_pb: phony || CMakeFiles/linklist_pb.dir
+build cmake_object_order_depends_target_linkedlist_pb: phony || CMakeFiles/linkedlist_pb.dir
 
-build CMakeFiles/linklist_pb.dir/02_Link_List/linklist_pb.cpp.obj: CXX_COMPILER__linklist_pb_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/02_Link_List/linklist_pb.cpp || cmake_object_order_depends_target_linklist_pb
-  DEP_FILE = CMakeFiles\linklist_pb.dir\02_Link_List\linklist_pb.cpp.obj.d
+build CMakeFiles/linkedlist_pb.dir/02_Linked_List/linkedlist_pb.cpp.obj: CXX_COMPILER__linkedlist_pb_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/02_Linked_List/linkedlist_pb.cpp || cmake_object_order_depends_target_linkedlist_pb
+  DEP_FILE = CMakeFiles\linkedlist_pb.dir\02_Linked_List\linkedlist_pb.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\linklist_pb.dir
-  OBJECT_FILE_DIR = CMakeFiles\linklist_pb.dir\02_Link_List
+  OBJECT_DIR = CMakeFiles\linkedlist_pb.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkedlist_pb.dir\02_Linked_List
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target linklist_pb
+# Link build statements for EXECUTABLE target linkedlist_pb
 
 
 #############################################
-# Link the executable .runtime\linklist_pb.exe
+# Link the executable .runtime\linkedlist_pb.exe
 
-build .runtime/linklist_pb.exe: CXX_EXECUTABLE_LINKER__linklist_pb_Debug CMakeFiles/linklist_pb.dir/02_Link_List/linklist_pb.cpp.obj
+build .runtime/linkedlist_pb.exe: CXX_EXECUTABLE_LINKER__linkedlist_pb_Debug CMakeFiles/linkedlist_pb.dir/02_Linked_List/linkedlist_pb.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\linklist_pb.dir
+  OBJECT_DIR = CMakeFiles\linkedlist_pb.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\linklist_pb.exe
-  TARGET_IMPLIB = .archive\liblinklist_pb.dll.a
-  TARGET_PDB = linklist_pb.exe.dbg
+  TARGET_FILE = .runtime\linkedlist_pb.exe
+  TARGET_IMPLIB = .archive\liblinkedlist_pb.dll.a
+  TARGET_PDB = linkedlist_pb.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03_One-way_Circular_Linked_List
@@ -303,6 +303,39 @@ build .runtime/CircleLinkedList.exe: CXX_EXECUTABLE_LINKER__CircleLinkedList_Deb
   TARGET_FILE = .runtime\CircleLinkedList.exe
   TARGET_IMPLIB = .archive\libCircleLinkedList.dll.a
   TARGET_PDB = CircleLinkedList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CircleLinkedList_pb
+
+
+#############################################
+# Order-only phony target for CircleLinkedList_pb
+
+build cmake_object_order_depends_target_CircleLinkedList_pb: phony || CMakeFiles/CircleLinkedList_pb.dir
+
+build CMakeFiles/CircleLinkedList_pb.dir/03_One-way_Circular_Linked_List/CircleLinkedList_pb.cpp.obj: CXX_COMPILER__CircleLinkedList_pb_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/03_One-way_Circular_Linked_List/CircleLinkedList_pb.cpp || cmake_object_order_depends_target_CircleLinkedList_pb
+  DEP_FILE = CMakeFiles\CircleLinkedList_pb.dir\03_One-way_Circular_Linked_List\CircleLinkedList_pb.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CircleLinkedList_pb.dir
+  OBJECT_FILE_DIR = CMakeFiles\CircleLinkedList_pb.dir\03_One-way_Circular_Linked_List
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CircleLinkedList_pb
+
+
+#############################################
+# Link the executable .runtime\CircleLinkedList_pb.exe
+
+build .runtime/CircleLinkedList_pb.exe: CXX_EXECUTABLE_LINKER__CircleLinkedList_pb_Debug CMakeFiles/CircleLinkedList_pb.dir/03_One-way_Circular_Linked_List/CircleLinkedList_pb.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CircleLinkedList_pb.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\CircleLinkedList_pb.exe
+  TARGET_IMPLIB = .archive\libCircleLinkedList_pb.dll.a
+  TARGET_PDB = CircleLinkedList_pb.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 04_Doubly_Linked_List
@@ -2223,9 +2256,9 @@ build 02Backpack: phony .runtime/02Backpack.exe
 
 build 02Backpack.exe: phony .runtime/02Backpack.exe
 
-build 02_Link_List: phony .runtime/02_Link_List.exe
+build 02_Linked_List: phony .runtime/02_Linked_List.exe
 
-build 02_Link_List.exe: phony .runtime/02_Link_List.exe
+build 02_Linked_List.exe: phony .runtime/02_Linked_List.exe
 
 build 03_One-way_Circular_Linked_List: phony .runtime/03_One-way_Circular_Linked_List.exe
 
@@ -2375,6 +2408,10 @@ build CircleLinkedList: phony .runtime/CircleLinkedList.exe
 
 build CircleLinkedList.exe: phony .runtime/CircleLinkedList.exe
 
+build CircleLinkedList_pb: phony .runtime/CircleLinkedList_pb.exe
+
+build CircleLinkedList_pb.exe: phony .runtime/CircleLinkedList_pb.exe
+
 build Coin_Problem: phony .runtime/Coin_Problem.exe
 
 build Coin_Problem.exe: phony .runtime/Coin_Problem.exe
@@ -2463,13 +2500,13 @@ build floyd: phony .runtime/floyd.exe
 
 build floyd.exe: phony .runtime/floyd.exe
 
-build linklist: phony .runtime/linklist.exe
+build linkedlist: phony .runtime/linkedlist.exe
 
-build linklist.exe: phony .runtime/linklist.exe
+build linkedlist.exe: phony .runtime/linkedlist.exe
 
-build linklist_pb: phony .runtime/linklist_pb.exe
+build linkedlist_pb: phony .runtime/linkedlist_pb.exe
 
-build linklist_pb.exe: phony .runtime/linklist_pb.exe
+build linkedlist_pb.exe: phony .runtime/linkedlist_pb.exe
 
 # =============================================================================
 # Folder targets.
@@ -2479,7 +2516,7 @@ build linklist_pb.exe: phony .runtime/linklist_pb.exe
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 
-build all: phony .runtime/01_Array.exe .runtime/array.exe .runtime/array_pb.exe .runtime/02_Link_List.exe .runtime/linklist.exe .runtime/linklist_pb.exe .runtime/03_One-way_Circular_Linked_List.exe .runtime/CircleLinkedList.exe .runtime/04_Doubly_Linked_List.exe .runtime/05_Doubly_Circular_Linked_List.exe .runtime/06_Stack.exe .runtime/07_Chain_Stack.exe .runtime/08_Ring_Queue.exe .runtime/09_Chained_Queue.exe .runtime/10_Binary_Search_Algorithm.exe .runtime/11_Basic_Sort.exe .runtime/12_Quick_Sort.exe .runtime/13_Merge_Sort.exe .runtime/14_Binary_Heap.exe .runtime/15_Heap_Sort.exe .runtime/16_Advanced_Sorting_Performance_Test.exe .runtime/17_Radix_Sort.exe .runtime/18_Linear_Probing_Hash_Table.exe .runtime/19_Chained_Hash_Table.exe .runtime/20_Big_Data_Duplicate_Check.exe .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe .runtime/22_Bloom_Filter.exe .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe .runtime/25_Consistent_Hashing_Algorithm.exe .runtime/26_String_Operations.exe .runtime/27_BST_Tree.exe .runtime/28_AVL_Tree.exe .runtime/29_RB_Red-Black_Tree.exe .runtime/30_Jump_Table.exe .runtime/31_Backtracking_Algorithm.exe .runtime/Binary_Search.exe .runtime/Median.exe .runtime/Merge_Sort.exe .runtime/Merge_k_ordered_linked_lists.exe .runtime/Quick_Sort.exe .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe .runtime/01Backpack.exe .runtime/Coin_Problem.exe .runtime/Fibonacci_Sequence.exe .runtime/LCS.exe .runtime/Longest_non-decreasing_subsequence.exe .runtime/Maximum_sub-segment_sum.exe .runtime/Summing_a_triangular_array.exe .runtime/Coin_Selection_Problem.exe .runtime/Partial_Knapsack_Problem.exe .runtime/Service_at_the_counter.exe .runtime/02Backpack.exe .runtime/Optimal_load.exe .runtime/36_Trie_Dictionary_Tree.exe .runtime/37_Inverted_Index.exe .runtime/38_Huffman_Tree_And_Huffman_Coding.exe .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe .runtime/Dijkstra.exe .runtime/floyd.exe .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe .runtime/Kruskal.exe .runtime/Relatives.exe .runtime/The_best_route_to_avoid_traffic.exe .runtime/CMakeCXXCompilerId.exe
+build all: phony .runtime/01_Array.exe .runtime/array.exe .runtime/array_pb.exe .runtime/02_Linked_List.exe .runtime/linkedlist.exe .runtime/linkedlist_pb.exe .runtime/03_One-way_Circular_Linked_List.exe .runtime/CircleLinkedList.exe .runtime/CircleLinkedList_pb.exe .runtime/04_Doubly_Linked_List.exe .runtime/05_Doubly_Circular_Linked_List.exe .runtime/06_Stack.exe .runtime/07_Chain_Stack.exe .runtime/08_Ring_Queue.exe .runtime/09_Chained_Queue.exe .runtime/10_Binary_Search_Algorithm.exe .runtime/11_Basic_Sort.exe .runtime/12_Quick_Sort.exe .runtime/13_Merge_Sort.exe .runtime/14_Binary_Heap.exe .runtime/15_Heap_Sort.exe .runtime/16_Advanced_Sorting_Performance_Test.exe .runtime/17_Radix_Sort.exe .runtime/18_Linear_Probing_Hash_Table.exe .runtime/19_Chained_Hash_Table.exe .runtime/20_Big_Data_Duplicate_Check.exe .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe .runtime/22_Bloom_Filter.exe .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe .runtime/25_Consistent_Hashing_Algorithm.exe .runtime/26_String_Operations.exe .runtime/27_BST_Tree.exe .runtime/28_AVL_Tree.exe .runtime/29_RB_Red-Black_Tree.exe .runtime/30_Jump_Table.exe .runtime/31_Backtracking_Algorithm.exe .runtime/Binary_Search.exe .runtime/Median.exe .runtime/Merge_Sort.exe .runtime/Merge_k_ordered_linked_lists.exe .runtime/Quick_Sort.exe .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe .runtime/01Backpack.exe .runtime/Coin_Problem.exe .runtime/Fibonacci_Sequence.exe .runtime/LCS.exe .runtime/Longest_non-decreasing_subsequence.exe .runtime/Maximum_sub-segment_sum.exe .runtime/Summing_a_triangular_array.exe .runtime/Coin_Selection_Problem.exe .runtime/Partial_Knapsack_Problem.exe .runtime/Service_at_the_counter.exe .runtime/02Backpack.exe .runtime/Optimal_load.exe .runtime/36_Trie_Dictionary_Tree.exe .runtime/37_Inverted_Index.exe .runtime/38_Huffman_Tree_And_Huffman_Coding.exe .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe .runtime/Dijkstra.exe .runtime/floyd.exe .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe .runtime/Kruskal.exe .runtime/Relatives.exe .runtime/The_best_route_to_avoid_traffic.exe .runtime/CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets
