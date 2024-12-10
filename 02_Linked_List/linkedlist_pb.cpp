@@ -426,6 +426,26 @@ Node* rotateRight(Node* head, int k) {
 //    LinkedNode* dummyNode;
 //    int size_;
 //};
+
+// 两两交换链表中的节点
+//    ListNode* swapPairs(ListNode* head) {
+//        ListNode* dummyNode = new ListNode(0);
+//        dummyNode->next = head;
+//
+//        if(dummyNode->next == nullptr)
+//            return head;
+//        ListNode* p = dummyNode;
+//        ListNode* q = dummyNode->next;
+//        while(q != nullptr && q->next != nullptr){
+//            p->next = q->next;
+//            q->next = q->next->next;
+//            p->next->next = q;
+//
+//            p = q;
+//            q = q->next;
+//        }
+//        return dummyNode->next;
+//    }
 int main(){
 
     return  0;
