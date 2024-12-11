@@ -1,5 +1,6 @@
 # ninja log v5
 3	263	7550718281747630	CMakeFiles/array.dir/01_Array/array.obj	9a40018b9e37df08
+4	396	7556187759623960	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
 5	272	7551941957340164	CMakeFiles/array_pb.dir/01_Array/array_pb.cpp.obj	154545e81c651eea
 5	213	7554343327748325	CMakeFiles/linklist_pb.dir/02_Link_List/linklist_pb.cpp.obj	fc7b15ce9f3774
 4	127	7550720665918370	.runtime/array.exe	17742019bfad87e4
@@ -11,29 +12,4 @@
 6	496	7556032696700272	CMakeFiles/Stack.dir/06_Stack/Stack.cpp.obj	cfc531c513fcceb
 4	275	7556037829781511	CMakeFiles/Link_Stack.dir/07_Link_Stack/Link_Stack.cpp.obj	85f18cef226928d8
 275	416	7556037831162671	.runtime/Link_Stack.exe	a423e4aaaa66fe72
-4	350	7556061269751945	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-350	467	7556061270894054	.runtime/Stack_pb.exe	f503929b0ef97fbe
-5	338	7556061344542120	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-338	433	7556061345469846	.runtime/Stack_pb.exe	f503929b0ef97fbe
-6	329	7556061836102634	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-330	433	7556061837114321	.runtime/Stack_pb.exe	f503929b0ef97fbe
-5	301	7556062402448904	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-301	396	7556062403371259	.runtime/Stack_pb.exe	f503929b0ef97fbe
-4	312	7556064390951107	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-312	415	7556064391965690	.runtime/Stack_pb.exe	f503929b0ef97fbe
-6	362	7556066893499880	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-363	498	7556066894829349	.runtime/Stack_pb.exe	f503929b0ef97fbe
-7	315	7556066973621040	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-316	417	7556066974615415	.runtime/Stack_pb.exe	f503929b0ef97fbe
-5	343	7556070105925650	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-344	452	7556070106990954	.runtime/Stack_pb.exe	f503929b0ef97fbe
-6	286	7556070169595517	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-287	387	7556070170555280	.runtime/Stack_pb.exe	f503929b0ef97fbe
-5	335	7556070301537731	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-335	434	7556070302527416	.runtime/Stack_pb.exe	f503929b0ef97fbe
-5	330	7556071457324994	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-330	427	7556071458268635	.runtime/Stack_pb.exe	f503929b0ef97fbe
-5	296	7556071502031180	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
-297	399	7556071503036055	.runtime/Stack_pb.exe	f503929b0ef97fbe
-4	396	7556187759623960	CMakeFiles/Stack_pb.dir/06_Stack/Stack_pb.cpp.obj	64d2a426a451041a
 396	576	7556187761381165	.runtime/Stack_pb.exe	f503929b0ef97fbe

@@ -85,7 +85,8 @@
 						67,
 						68,
 						69,
-						70
+						70,
+						71
 					]
 				}
 			],
@@ -170,7 +171,8 @@
 						67,
 						68,
 						69,
-						70
+						70,
+						71
 					]
 				}
 			],
@@ -580,6 +582,13 @@
 					"id" : "Partial_Knapsack_Problem::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Partial_Knapsack_Problem-Debug-6ddb2437a2dcb585c709.json",
 					"name" : "Partial_Knapsack_Problem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue-Debug-ec03bb28909dbfba64fb.json",
+					"name" : "Queue",
 					"projectIndex" : 0
 				},
 				{
