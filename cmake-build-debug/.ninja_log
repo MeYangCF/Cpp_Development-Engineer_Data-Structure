@@ -5,6 +5,7 @@
 5	213	7554343327748325	CMakeFiles/linklist_pb.dir/02_Link_List/linklist_pb.cpp.obj	fc7b15ce9f3774
 4	127	7550720665918370	.runtime/array.exe	17742019bfad87e4
 272	372	7551941958308918	.runtime/array_pb.exe	565eb4157441fd96
+5	223	7556746366812375	CMakeFiles/Queue.dir/08_Ring_Queue/Queue.cpp.obj	d3d59c89bc0f8835
 496	818	7556032699891010	.runtime/Stack.exe	94c0b6f3c2902a80
 5	254	7551773466098595	CMakeFiles/LinkList.dir/02_Link_List/LinkList.cpp.obj	dc87c473a110fcf8
 213	287	7554343328461185	.runtime/linklist_pb.exe	5d22538de0ee4c7
@@ -13,3 +14,4 @@
 4	275	7556037829781511	CMakeFiles/Link_Stack.dir/07_Link_Stack/Link_Stack.cpp.obj	85f18cef226928d8
 275	416	7556037831162671	.runtime/Link_Stack.exe	a423e4aaaa66fe72
 396	576	7556187761381165	.runtime/Stack_pb.exe	f503929b0ef97fbe
+223	299	7556746367561842	.runtime/Queue.exe	5d70377c6b77bc1a
