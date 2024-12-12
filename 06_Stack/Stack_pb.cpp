@@ -9,6 +9,8 @@
 #include <string>
 #include <stack>
 #include <vector>
+#include <algorithm>
+
 using namespace std;
 
 //括号匹配问题
@@ -58,65 +60,84 @@ using namespace std;
 //}
 
 //中缀转后缀表达式
-string MiddleToEndExpr(string expr)
-{
-    string result;
-    stack<char> s;
+//string MiddleToEndExpr(string expr)
+//{
+//    string result;
+//    stack<char> s;
+//
+//    for (char ch : expr)
+//    {
+//        if (ch >= '0' && ch <= '9')
+//        {
+//            result.push_back(ch);
+//        }
+//        else
+//        {
+//            for (;;)
+//            {
+//                // 处理符号了
+//                if (s.empty() || ch == '(')
+//                {
+//                    s.push(ch);
+//                    break;
+//                }
+//
+//                // 比较当前符号ch和栈顶符号top的优先级
+//                char topch = s.top();
+//                // Priority:true ch > topch   false ch <= topch
+//                if (Priority(ch, topch))
+//                {
+//                    s.push(ch);
+//                    break;
+//                }
+//                else
+//                {
+//                    s.pop();
+//                    if (topch == '(') // 如果遇见)，一直出栈，直到(
+//                        break;
+//                    result.push_back(topch);
+//                }
+//            }
+//        }
+//    }
+//
+//    // 如果符号栈还存留符号，直接输出到后缀表达式里面     + /
+//    while (!s.empty())
+//    {
+//        result.push_back(s.top());
+//        s.pop();
+//    }
+//
+//    return result;
+//}
+//
+//bool Priority(char ch, char topch){
+//    if((ch == '*' || ch == '/') && (topch == '+' || topch == '-'))
+//        return true;
+//    if(topch == '(' && ch != ')')
+//        return true;
+//    return false;
+//}
 
-    for (char ch : expr)
-    {
-        if (ch >= '0' && ch <= '9')
-        {
-            result.push_back(ch);
-        }
-        else
-        {
-            for (;;)
-            {
-                // 处理符号了
-                if (s.empty() || ch == '(')
-                {
-                    s.push(ch);
-                    break;
-                }
+//删除字符串中的所有相邻重复项
+//string removeDuplicates(string s) {
+//    stack<char> strCheck;
+//    for(auto val : s){
+//        if(strCheck.empty() || val != strCheck.top())
+//            strCheck.push(val);
+//        else
+//            strCheck.pop();
+//    }
+//    string result = "";
+//    while (!strCheck.empty()) {
+//        result += strCheck.top();
+//        strCheck.pop();
+//    }
+//    reverse (result.begin(), result.end());
+//    return result;
+//}
 
-                // 比较当前符号ch和栈顶符号top的优先级
-                char topch = s.top();
-                // Priority:true ch > topch   false ch <= topch
-                if (Priority(ch, topch))
-                {
-                    s.push(ch);
-                    break;
-                }
-                else
-                {
-                    s.pop();
-                    if (topch == '(') // 如果遇见)，一直出栈，直到(
-                        break;
-                    result.push_back(topch);
-                }
-            }
-        }
-    }
-
-    // 如果符号栈还存留符号，直接输出到后缀表达式里面     + /
-    while (!s.empty())
-    {
-        result.push_back(s.top());
-        s.pop();
-    }
-
-    return result;
-}
-
-bool Priority(char ch, char topch){
-    if((ch == '*' || ch == '/') && (topch == '+' || topch == '-'))
-        return true;
-    if(topch == '(' && ch != ')')
-        return true;
-    return false;
-}
-
+//
 int main(){
 
     return 0;
