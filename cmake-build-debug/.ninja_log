@@ -17,3 +17,9 @@
 396	576	7556187761381165	.runtime/Stack_pb.exe	f503929b0ef97fbe
 223	299	7556746367561842	.runtime/Queue.exe	5d70377c6b77bc1a
 293	403	7556949302886673	.runtime/Queue_pb.exe	500085d57f8c3e3
+4	353	7557593243183399	CMakeFiles/binarySearch.dir/10_Binary_Search_Algorithm/binarySearch.cpp.obj	a1d5130422e38184
+353	475	7557593244385566	.runtime/binarySearch.exe	3aa43c246a1e53cb
+5	256	7557764483795006	CMakeFiles/binarySearch.dir/10_Binary_Search_Algorithm/binarySearch.cpp.obj	a1d5130422e38184
+256	345	7557764484673512	.runtime/binarySearch.exe	3aa43c246a1e53cb
+6	245	7557798366442373	CMakeFiles/binarySearch.dir/10_Binary_Search_Algorithm/binarySearch.cpp.obj	a1d5130422e38184
+245	347	7557798367379318	.runtime/binarySearch.exe	3aa43c246a1e53cb
