@@ -23,6 +23,7 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- [09_Chained_Queue.cpp] will be compiled to '.runtime/09_Chained_Queue.exe'
 -- [LinkQueue.cpp] will be compiled to '.runtime/LinkQueue.exe'
 -- [10_Binary_Search_Algorithm.cpp] will be compiled to '.runtime/10_Binary_Search_Algorithm.exe'
+-- [binarySearch.cpp] will be compiled to '.runtime/binarySearch.exe'
 -- [11_Basic_Sort.cpp] will be compiled to '.runtime/11_Basic_Sort.exe'
 -- [12_Quick_Sort.cpp] will be compiled to '.runtime/12_Quick_Sort.exe'
 -- [13_Merge_Sort.cpp] will be compiled to '.runtime/13_Merge_Sort.exe'
