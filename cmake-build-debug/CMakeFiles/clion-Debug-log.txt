@@ -27,6 +27,7 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- [11_Basic_Sort.cpp] will be compiled to '.runtime/11_Basic_Sort.exe'
 -- [basicSort.cpp] will be compiled to '.runtime/basicSort.exe'
 -- [12_Quick_Sort.cpp] will be compiled to '.runtime/12_Quick_Sort.exe'
+-- [quickSort.cpp] will be compiled to '.runtime/quickSort.exe'
 -- [13_Merge_Sort.cpp] will be compiled to '.runtime/13_Merge_Sort.exe'
 -- [14_Binary_Heap.cpp] will be compiled to '.runtime/14_Binary_Heap.exe'
 -- [15_Heap_Sort.cpp] will be compiled to '.runtime/15_Heap_Sort.exe'

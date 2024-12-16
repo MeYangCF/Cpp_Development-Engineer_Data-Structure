@@ -90,7 +90,8 @@
 						72,
 						73,
 						74,
-						75
+						75,
+						76
 					]
 				}
 			],
@@ -180,7 +181,8 @@
 						72,
 						73,
 						74,
-						75
+						75,
+						76
 					]
 				}
 			],
@@ -702,6 +704,13 @@
 					"id" : "queue_pb::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-queue_pb-Debug-16349c84a1679c2ebd1b.json",
 					"name" : "queue_pb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quickSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quickSort-Debug-9ab17be4b203867e40ea.json",
+					"name" : "quickSort",
 					"projectIndex" : 0
 				},
 				{

@@ -26,6 +26,7 @@ F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/bi
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/11_Basic_Sort.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/basicSort.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/12_Quick_Sort.dir
+F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/quickSort.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/13_Merge_Sort.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/14_Binary_Heap.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/15_Heap_Sort.dir
