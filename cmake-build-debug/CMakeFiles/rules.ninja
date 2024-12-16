@@ -71,7 +71,7 @@ rule CXX_EXECUTABLE_LINKER__array_pb_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__02_Linked_List_unscanned_Debug
+rule CXX_COMPILER__02_Link_List_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -81,7 +81,7 @@ rule CXX_COMPILER__02_Linked_List_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__02_Linked_List_Debug
+rule CXX_EXECUTABLE_LINKER__02_Link_List_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -90,7 +90,7 @@ rule CXX_EXECUTABLE_LINKER__02_Linked_List_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__linkedlist_unscanned_Debug
+rule CXX_COMPILER__linkList_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -100,7 +100,7 @@ rule CXX_COMPILER__linkedlist_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__linkedlist_Debug
+rule CXX_EXECUTABLE_LINKER__linkList_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -109,7 +109,7 @@ rule CXX_EXECUTABLE_LINKER__linkedlist_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__linkedlist_pb_unscanned_Debug
+rule CXX_COMPILER__linkList_pb_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -119,7 +119,7 @@ rule CXX_COMPILER__linkedlist_pb_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__linkedlist_pb_Debug
+rule CXX_EXECUTABLE_LINKER__linkList_pb_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -128,7 +128,7 @@ rule CXX_EXECUTABLE_LINKER__linkedlist_pb_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__03_One-way_Circular_Linked_List_unscanned_Debug
+rule CXX_COMPILER__03_One-way_Circle_Link_List_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -138,7 +138,7 @@ rule CXX_COMPILER__03_One-way_Circular_Linked_List_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__03_One-way_Circular_Linked_List_Debug
+rule CXX_EXECUTABLE_LINKER__03_One-way_Circle_Link_List_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -147,7 +147,7 @@ rule CXX_EXECUTABLE_LINKER__03_One-way_Circular_Linked_List_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__CircleLinkedList_unscanned_Debug
+rule CXX_COMPILER__circleLinkList_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -157,7 +157,7 @@ rule CXX_COMPILER__CircleLinkedList_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__CircleLinkedList_Debug
+rule CXX_EXECUTABLE_LINKER__circleLinkList_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -166,7 +166,7 @@ rule CXX_EXECUTABLE_LINKER__CircleLinkedList_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__CircleLinkedList_pb_unscanned_Debug
+rule CXX_COMPILER__circleLinkList_pb_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -176,7 +176,7 @@ rule CXX_COMPILER__CircleLinkedList_pb_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__CircleLinkedList_pb_Debug
+rule CXX_EXECUTABLE_LINKER__circleLinkList_pb_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -185,7 +185,7 @@ rule CXX_EXECUTABLE_LINKER__CircleLinkedList_pb_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__04_Doubly_Linked_List_unscanned_Debug
+rule CXX_COMPILER__04_Double_Link_List_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -195,7 +195,7 @@ rule CXX_COMPILER__04_Doubly_Linked_List_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__04_Doubly_Linked_List_Debug
+rule CXX_EXECUTABLE_LINKER__04_Double_Link_List_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -204,7 +204,7 @@ rule CXX_EXECUTABLE_LINKER__04_Doubly_Linked_List_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__DLinkedList_unscanned_Debug
+rule CXX_COMPILER__doubleLinkList_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -214,7 +214,7 @@ rule CXX_COMPILER__DLinkedList_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__DLinkedList_Debug
+rule CXX_EXECUTABLE_LINKER__doubleLinkList_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -223,7 +223,7 @@ rule CXX_EXECUTABLE_LINKER__DLinkedList_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__05_Doubly_Circular_Linked_List_unscanned_Debug
+rule CXX_COMPILER__05_Double_Circle_Link_List_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -233,7 +233,7 @@ rule CXX_COMPILER__05_Doubly_Circular_Linked_List_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__05_Doubly_Circular_Linked_List_Debug
+rule CXX_EXECUTABLE_LINKER__05_Double_Circle_Link_List_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -242,7 +242,7 @@ rule CXX_EXECUTABLE_LINKER__05_Doubly_Circular_Linked_List_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__DCircleLinkedList_unscanned_Debug
+rule CXX_COMPILER__doubleCircleLinkedList_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -252,7 +252,7 @@ rule CXX_COMPILER__DCircleLinkedList_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__DCircleLinkedList_Debug
+rule CXX_EXECUTABLE_LINKER__doubleCircleLinkedList_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -280,7 +280,7 @@ rule CXX_EXECUTABLE_LINKER__06_Stack_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Stack_unscanned_Debug
+rule CXX_COMPILER__stack_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -290,7 +290,7 @@ rule CXX_COMPILER__Stack_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Stack_Debug
+rule CXX_EXECUTABLE_LINKER__stack_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -299,7 +299,7 @@ rule CXX_EXECUTABLE_LINKER__Stack_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Stack_pb_unscanned_Debug
+rule CXX_COMPILER__stack_pb_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -309,7 +309,7 @@ rule CXX_COMPILER__Stack_pb_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Stack_pb_Debug
+rule CXX_EXECUTABLE_LINKER__stack_pb_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -337,7 +337,7 @@ rule CXX_EXECUTABLE_LINKER__07_Link_Stack_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Link_Stack_unscanned_Debug
+rule CXX_COMPILER__linkStack_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -347,7 +347,7 @@ rule CXX_COMPILER__Link_Stack_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Link_Stack_Debug
+rule CXX_EXECUTABLE_LINKER__linkStack_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -375,7 +375,7 @@ rule CXX_EXECUTABLE_LINKER__08_Ring_Queue_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Queue_unscanned_Debug
+rule CXX_COMPILER__queue_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -385,7 +385,7 @@ rule CXX_COMPILER__Queue_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Queue_Debug
+rule CXX_EXECUTABLE_LINKER__queue_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -394,7 +394,7 @@ rule CXX_EXECUTABLE_LINKER__Queue_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Queue_pb_unscanned_Debug
+rule CXX_COMPILER__queue_pb_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -404,7 +404,7 @@ rule CXX_COMPILER__Queue_pb_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Queue_pb_Debug
+rule CXX_EXECUTABLE_LINKER__queue_pb_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -432,7 +432,7 @@ rule CXX_EXECUTABLE_LINKER__09_Chained_Queue_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__LinkQueue_unscanned_Debug
+rule CXX_COMPILER__linkQueue_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -442,7 +442,7 @@ rule CXX_COMPILER__LinkQueue_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__LinkQueue_Debug
+rule CXX_EXECUTABLE_LINKER__linkQueue_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -500,6 +500,25 @@ rule CXX_COMPILER__11_Basic_Sort_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__11_Basic_Sort_Debug
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__basicSort_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}D:\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__basicSort_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
