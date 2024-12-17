@@ -35,7 +35,8 @@ void RadixSort(int arr[], int size)
 		{
 			// 得到当前元素第i个位置的数字
 			int index = arr[j] % mod / dev + 10;
-			vecs[index].push_back(arr[j]);
+
+            ecs[index].push_back(arr[j]);
 		}
 
 		// 依次遍历所有的桶，把元素拷贝回原始的数组当中
