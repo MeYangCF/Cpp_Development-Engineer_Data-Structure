@@ -1031,6 +1031,39 @@ build .runtime/13_Merge_Sort.exe: CXX_EXECUTABLE_LINKER__13_Merge_Sort_Debug CMa
   TARGET_PDB = 13_Merge_Sort.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target mergeSort
+
+
+#############################################
+# Order-only phony target for mergeSort
+
+build cmake_object_order_depends_target_mergeSort: phony || CMakeFiles/mergeSort.dir
+
+build CMakeFiles/mergeSort.dir/13_Merge_Sort/mergeSort.cpp.obj: CXX_COMPILER__mergeSort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/13_Merge_Sort/mergeSort.cpp || cmake_object_order_depends_target_mergeSort
+  DEP_FILE = CMakeFiles\mergeSort.dir\13_Merge_Sort\mergeSort.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\mergeSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\mergeSort.dir\13_Merge_Sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mergeSort
+
+
+#############################################
+# Link the executable .runtime\mergeSort.exe
+
+build .runtime/mergeSort.exe: CXX_EXECUTABLE_LINKER__mergeSort_Debug CMakeFiles/mergeSort.dir/13_Merge_Sort/mergeSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\mergeSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\mergeSort.exe
+  TARGET_IMPLIB = .archive\libmergeSort.dll.a
+  TARGET_PDB = mergeSort.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 14_Binary_Heap
 
 
@@ -1064,6 +1097,39 @@ build .runtime/14_Binary_Heap.exe: CXX_EXECUTABLE_LINKER__14_Binary_Heap_Debug C
   TARGET_PDB = 14_Binary_Heap.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target binaryHeap
+
+
+#############################################
+# Order-only phony target for binaryHeap
+
+build cmake_object_order_depends_target_binaryHeap: phony || CMakeFiles/binaryHeap.dir
+
+build CMakeFiles/binaryHeap.dir/14_Binary_Heap/binaryHeap.cpp.obj: CXX_COMPILER__binaryHeap_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/14_Binary_Heap/binaryHeap.cpp || cmake_object_order_depends_target_binaryHeap
+  DEP_FILE = CMakeFiles\binaryHeap.dir\14_Binary_Heap\binaryHeap.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\binaryHeap.dir
+  OBJECT_FILE_DIR = CMakeFiles\binaryHeap.dir\14_Binary_Heap
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binaryHeap
+
+
+#############################################
+# Link the executable .runtime\binaryHeap.exe
+
+build .runtime/binaryHeap.exe: CXX_EXECUTABLE_LINKER__binaryHeap_Debug CMakeFiles/binaryHeap.dir/14_Binary_Heap/binaryHeap.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\binaryHeap.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\binaryHeap.exe
+  TARGET_IMPLIB = .archive\libbinaryHeap.dll.a
+  TARGET_PDB = binaryHeap.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 15_Heap_Sort
 
 
@@ -1095,6 +1161,39 @@ build .runtime/15_Heap_Sort.exe: CXX_EXECUTABLE_LINKER__15_Heap_Sort_Debug CMake
   TARGET_FILE = .runtime\15_Heap_Sort.exe
   TARGET_IMPLIB = .archive\lib15_Heap_Sort.dll.a
   TARGET_PDB = 15_Heap_Sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target heapSort
+
+
+#############################################
+# Order-only phony target for heapSort
+
+build cmake_object_order_depends_target_heapSort: phony || CMakeFiles/heapSort.dir
+
+build CMakeFiles/heapSort.dir/15_Heap_Sort/heapSort.cpp.obj: CXX_COMPILER__heapSort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/15_Heap_Sort/heapSort.cpp || cmake_object_order_depends_target_heapSort
+  DEP_FILE = CMakeFiles\heapSort.dir\15_Heap_Sort\heapSort.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\heapSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\heapSort.dir\15_Heap_Sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target heapSort
+
+
+#############################################
+# Link the executable .runtime\heapSort.exe
+
+build .runtime/heapSort.exe: CXX_EXECUTABLE_LINKER__heapSort_Debug CMakeFiles/heapSort.dir/15_Heap_Sort/heapSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\heapSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\heapSort.exe
+  TARGET_IMPLIB = .archive\libheapSort.dll.a
+  TARGET_PDB = heapSort.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 16_Advanced_Sorting_Performance_Test
@@ -2855,6 +2954,10 @@ build basicSort: phony .runtime/basicSort.exe
 
 build basicSort.exe: phony .runtime/basicSort.exe
 
+build binaryHeap: phony .runtime/binaryHeap.exe
+
+build binaryHeap.exe: phony .runtime/binaryHeap.exe
+
 build binarySearch: phony .runtime/binarySearch.exe
 
 build binarySearch.exe: phony .runtime/binarySearch.exe
@@ -2879,6 +2982,10 @@ build floyd: phony .runtime/floyd.exe
 
 build floyd.exe: phony .runtime/floyd.exe
 
+build heapSort: phony .runtime/heapSort.exe
+
+build heapSort.exe: phony .runtime/heapSort.exe
+
 build linkList: phony .runtime/linkList.exe
 
 build linkList.exe: phony .runtime/linkList.exe
@@ -2894,6 +3001,10 @@ build linkQueue.exe: phony .runtime/linkQueue.exe
 build linkStack: phony .runtime/linkStack.exe
 
 build linkStack.exe: phony .runtime/linkStack.exe
+
+build mergeSort: phony .runtime/mergeSort.exe
+
+build mergeSort.exe: phony .runtime/mergeSort.exe
 
 build queue: phony .runtime/queue.exe
 
@@ -2923,7 +3034,7 @@ build stack_pb.exe: phony .runtime/stack_pb.exe
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 
-build all: phony .runtime/01_Array.exe .runtime/array.exe .runtime/array_pb.exe .runtime/02_Link_List.exe .runtime/linkList.exe .runtime/linkList_pb.exe .runtime/03_One-way_Circle_Link_List.exe .runtime/circleLinkList.exe .runtime/circleLinkList_pb.exe .runtime/04_Double_Link_List.exe .runtime/doubleLinkList.exe .runtime/05_Double_Circle_Link_List.exe .runtime/doubleCircleLinkedList.exe .runtime/06_Stack.exe .runtime/stack.exe .runtime/stack_pb.exe .runtime/07_Link_Stack.exe .runtime/linkStack.exe .runtime/08_Ring_Queue.exe .runtime/queue.exe .runtime/queue_pb.exe .runtime/09_Chained_Queue.exe .runtime/linkQueue.exe .runtime/10_Binary_Search_Algorithm.exe .runtime/binarySearch.exe .runtime/11_Basic_Sort.exe .runtime/basicSort.exe .runtime/12_Quick_Sort.exe .runtime/quickSort.exe .runtime/13_Merge_Sort.exe .runtime/14_Binary_Heap.exe .runtime/15_Heap_Sort.exe .runtime/16_Advanced_Sorting_Performance_Test.exe .runtime/17_Radix_Sort.exe .runtime/18_Linear_Probing_Hash_Table.exe .runtime/19_Chained_Hash_Table.exe .runtime/20_Big_Data_Duplicate_Check.exe .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe .runtime/22_Bloom_Filter.exe .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe .runtime/25_Consistent_Hashing_Algorithm.exe .runtime/26_String_Operations.exe .runtime/27_BST_Tree.exe .runtime/28_AVL_Tree.exe .runtime/29_RB_Red-Black_Tree.exe .runtime/30_Jump_Table.exe .runtime/31_Backtracking_Algorithm.exe .runtime/Binary_Search.exe .runtime/Median.exe .runtime/Merge_Sort.exe .runtime/Merge_k_ordered_linked_lists.exe .runtime/Quick_Sort.exe .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe .runtime/01Backpack.exe .runtime/Coin_Problem.exe .runtime/Fibonacci_Sequence.exe .runtime/LCS.exe .runtime/Longest_non-decreasing_subsequence.exe .runtime/Maximum_sub-segment_sum.exe .runtime/Summing_a_triangular_array.exe .runtime/Coin_Selection_Problem.exe .runtime/Partial_Knapsack_Problem.exe .runtime/Service_at_the_counter.exe .runtime/02Backpack.exe .runtime/Optimal_load.exe .runtime/36_Trie_Dictionary_Tree.exe .runtime/37_Inverted_Index.exe .runtime/38_Huffman_Tree_And_Huffman_Coding.exe .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe .runtime/Dijkstra.exe .runtime/floyd.exe .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe .runtime/Kruskal.exe .runtime/Relatives.exe .runtime/The_best_route_to_avoid_traffic.exe .runtime/CMakeCXXCompilerId.exe
+build all: phony .runtime/01_Array.exe .runtime/array.exe .runtime/array_pb.exe .runtime/02_Link_List.exe .runtime/linkList.exe .runtime/linkList_pb.exe .runtime/03_One-way_Circle_Link_List.exe .runtime/circleLinkList.exe .runtime/circleLinkList_pb.exe .runtime/04_Double_Link_List.exe .runtime/doubleLinkList.exe .runtime/05_Double_Circle_Link_List.exe .runtime/doubleCircleLinkedList.exe .runtime/06_Stack.exe .runtime/stack.exe .runtime/stack_pb.exe .runtime/07_Link_Stack.exe .runtime/linkStack.exe .runtime/08_Ring_Queue.exe .runtime/queue.exe .runtime/queue_pb.exe .runtime/09_Chained_Queue.exe .runtime/linkQueue.exe .runtime/10_Binary_Search_Algorithm.exe .runtime/binarySearch.exe .runtime/11_Basic_Sort.exe .runtime/basicSort.exe .runtime/12_Quick_Sort.exe .runtime/quickSort.exe .runtime/13_Merge_Sort.exe .runtime/mergeSort.exe .runtime/14_Binary_Heap.exe .runtime/binaryHeap.exe .runtime/15_Heap_Sort.exe .runtime/heapSort.exe .runtime/16_Advanced_Sorting_Performance_Test.exe .runtime/17_Radix_Sort.exe .runtime/18_Linear_Probing_Hash_Table.exe .runtime/19_Chained_Hash_Table.exe .runtime/20_Big_Data_Duplicate_Check.exe .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe .runtime/22_Bloom_Filter.exe .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe .runtime/25_Consistent_Hashing_Algorithm.exe .runtime/26_String_Operations.exe .runtime/27_BST_Tree.exe .runtime/28_AVL_Tree.exe .runtime/29_RB_Red-Black_Tree.exe .runtime/30_Jump_Table.exe .runtime/31_Backtracking_Algorithm.exe .runtime/Binary_Search.exe .runtime/Median.exe .runtime/Merge_Sort.exe .runtime/Merge_k_ordered_linked_lists.exe .runtime/Quick_Sort.exe .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe .runtime/01Backpack.exe .runtime/Coin_Problem.exe .runtime/Fibonacci_Sequence.exe .runtime/LCS.exe .runtime/Longest_non-decreasing_subsequence.exe .runtime/Maximum_sub-segment_sum.exe .runtime/Summing_a_triangular_array.exe .runtime/Coin_Selection_Problem.exe .runtime/Partial_Knapsack_Problem.exe .runtime/Service_at_the_counter.exe .runtime/02Backpack.exe .runtime/Optimal_load.exe .runtime/36_Trie_Dictionary_Tree.exe .runtime/37_Inverted_Index.exe .runtime/38_Huffman_Tree_And_Huffman_Coding.exe .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe .runtime/Dijkstra.exe .runtime/floyd.exe .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe .runtime/Kruskal.exe .runtime/Relatives.exe .runtime/The_best_route_to_avoid_traffic.exe .runtime/CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets

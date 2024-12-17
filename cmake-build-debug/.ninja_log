@@ -19,5 +19,9 @@
 396	576	7556187761381165	.runtime/Stack_pb.exe	f503929b0ef97fbe
 223	299	7556746367561842	.runtime/Queue.exe	5d70377c6b77bc1a
 293	403	7556949302886673	.runtime/Queue_pb.exe	500085d57f8c3e3
+520	863	7561209861371286	.runtime/quickSort.exe	4e9632890a247f
 6	245	7557798366442373	CMakeFiles/binarySearch.dir/10_Binary_Search_Algorithm/binarySearch.cpp.obj	a1d5130422e38184
 250	352	7560386184158898	.runtime/basicSort.exe	e61644b12e667346
+8	520	7561209857969167	CMakeFiles/quickSort.dir/12_Quick_Sort/quickSort.cpp.obj	6132d177c3f93f01
+6	248	7561242766284384	CMakeFiles/mergeSort.dir/13_Merge_Sort/mergeSort.cpp.obj	a941bc40244c041c
+248	339	7561242767167200	.runtime/mergeSort.exe	ce95cfa3c945941f
