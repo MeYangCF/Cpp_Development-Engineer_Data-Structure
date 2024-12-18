@@ -107,7 +107,7 @@ int main()
 	int* crr = new int[COUNT];
 	int* drr = new int[COUNT];
 
-	srand(time(NULL));
+	srand(time(nullptr));
 
 	for (int i = 0; i < COUNT; i++)
 	{
