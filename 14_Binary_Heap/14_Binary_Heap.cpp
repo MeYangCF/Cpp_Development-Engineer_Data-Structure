@@ -144,7 +144,7 @@ int main()
 
     // 基于小根堆实现的优先级队列
     PriorityQueue que([](int a, int b) {return a < b; });
-    srand(time(NULL));
+    srand(time(nullptr));
 
     for (int i = 0; i < 10; i++)
     {
