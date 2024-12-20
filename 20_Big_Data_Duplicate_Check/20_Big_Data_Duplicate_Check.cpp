@@ -23,8 +23,6 @@ using namespace std;
 
 */
 
-
-#if 0
 int main()
 {
     string src = "jjhfgiyuhrtytrs";
@@ -47,9 +45,8 @@ int main()
     cout << "所有字符都有重复出现过!" << endl;
     return 0;
 }
-#endif
 
-#if 0
+/*
 int main()
 {
     // 模拟问题，vector中放原始的数据
@@ -110,4 +107,4 @@ int main()
         s1.emplace(key);
     }
 }
-#endif
+*/
