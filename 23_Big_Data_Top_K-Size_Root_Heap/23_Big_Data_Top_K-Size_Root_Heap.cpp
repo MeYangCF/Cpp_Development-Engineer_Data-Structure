@@ -14,13 +14,12 @@ using namespace std;
 int main()
 {
     vector<int> vec;
-    srand(time(NULL));
+    srand(time(nullptr));
     for (int i = 0; i < 10000; i++)
     {
         vec.push_back(rand() % 1000);
     }
 
-#if 0
     // 统计重复次数最小的前3个数字
     int k = 3;
     unordered_map<int, int> map;
@@ -58,45 +57,44 @@ int main()
             << " cnt:" << maxheap.top().second << endl;
         maxheap.pop();
     }
-#endif
 
     // 统计重复次数最大的前3个数字
-    int k = 3;
-    unordered_map<int, int> map;
-    for (auto key : vec)
-    {
-        map[key]++;
-    }
-
-    // 放入大根堆的时候，需要放key-value键值对
-    using Type = pair<int, int>;
-    using Comp = function<bool(Type&, Type&)>;
-    priority_queue<Type, vector<Type>, Comp> minheap(
-        [](Type& a, Type& b)->bool {
-            return a.second > b.second;
-        });
-
-    auto it = map.begin();
-    for (int i = 0; i < k; i++, ++it)
-    {
-        minheap.push(*it);
-    }
-
-    for (; it != map.end(); ++it)
-    {
-        if (minheap.top().second < it->second)
-        {
-            minheap.pop();
-            minheap.push(*it);
-        }
-    }
-
-    while (!minheap.empty())
-    {
-        cout << "key:" << minheap.top().first
-            << " cnt:" << minheap.top().second << endl;
-        minheap.pop();
-    }
+//    int k = 3;
+//    unordered_map<int, int> map;
+//    for (auto key : vec)
+//    {
+//        map[key]++;
+//    }
+//
+//    // 放入大根堆的时候，需要放key-value键值对
+//    using Type = pair<int, int>;
+//    using Comp = function<bool(Type&, Type&)>;
+//    priority_queue<Type, vector<Type>, Comp> minheap(
+//        [](Type& a, Type& b)->bool {
+//            return a.second > b.second;
+//        });
+//
+//    auto it = map.begin();
+//    for (int i = 0; i < k; i++, ++it)
+//    {
+//        minheap.push(*it);
+//    }
+//
+//    for (; it != map.end(); ++it)
+//    {
+//        if (minheap.top().second < it->second)
+//        {
+//            minheap.pop();
+//            minheap.push(*it);
+//        }
+//    }
+//
+//    while (!minheap.empty())
+//    {
+//        cout << "key:" << minheap.top().first
+//            << " cnt:" << minheap.top().second << endl;
+//        minheap.pop();
+//    }
 }
 
 #if 0
