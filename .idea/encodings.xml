@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$/02_Link_List/linkList_pb.cpp" charset="GB2312" />
     <file url="file://$PROJECT_DIR$/21_Big_Data_Duplicate_Check-Bitmap/bigDataDuplicateCheckBitmap.cpp" charset="GB2312" />
     <file url="file://$PROJECT_DIR$/22_Bloom_Filter/stringhash.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/25_Consistent_Hashing_Algorithm/consistentHash.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/25_Consistent_Hashing_Algorithm/md5.h" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
