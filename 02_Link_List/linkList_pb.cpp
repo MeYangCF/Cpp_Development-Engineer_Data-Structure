@@ -11,7 +11,9 @@
 using namespace std;
 
 struct Node{
-    Node(int data = 0):data_(data), next_(nullptr){}
+    Node(int data = 0)
+        : data_(data)
+        , next_(nullptr){}
     int data_;
     Node* next_;
 };
@@ -19,56 +21,58 @@ struct Node{
 class Clink{
 public:
     Clink(){
-        //给head_初始化指向头节点
         head_ = new Node();
     }
+
     ~Clink(){
-        //节点的释放
         Node* p = head_ ;
+
         while (p != nullptr){
             head_ = head_->next_;
             delete p;
             p = head_;
         }
+
         head_ = nullptr;
     }
-    //链表尾插法o(n)
+
+public:
     void InsertTail(int val){
-        //先找到当前链表的末尾节点
         Node* p = head_;
+
         while(p->next_ != nullptr)
             p = p->next_;
-        //生成新节点
-        Node* node = new Node(val);
 
+        Node* node = new Node(val);
         p->next_ = node;
     }
-    //链表头插法o(1)
+
     void InsertHead(int val){
         Node* node = new Node(val);
         node->next_ = head_->next_;
         head_->next_ = node;
     }
-    //链表节点的删除
+
     void Remove(int val){
         Node* p = head_->next_;
         Node* q = head_;
+
         while (p != nullptr){
             if(p->data_ == val){
                 q->next_ = p->next_;
                 delete p;
                 return;
-            }
-            else{
+            }else{
                 q = p;
                 p = p->next_;
             }
         }
     }
-    //删除多个链表节点
+
     void RemoveAll(int val){
         Node* p = head_->next_;
         Node* q = head_;
+
         while (p != nullptr){
             if(p->data_ == val) {
                 q->next_ = p->next_;
@@ -80,28 +84,33 @@ public:
             }
         }
     }
-    //搜索
+
     bool Find(int val){
         Node* p = head_->next_;
+
         while (p != nullptr){
             if(p->data_ == val)
                 return true;
             else
                 p = p->next_;
         }
+
         return false;
     }
-    //链表打印
+
     void Show(){
         Node* p = head_->next_;
+
         while(p != nullptr){
             cout << p->data_ << " ";
             p = p->next_;
         }
+
         cout << endl;
     }
+
 private:
-    Node* head_;//指向链表的头节点
+    Node* head_;
 
     friend void ReverseLink(Clink& link);
     friend bool GetLaskKNode(Clink& link, int k, int& val);
@@ -111,19 +120,23 @@ private:
 //问题1：单链表逆序
 void ReverseLink(Clink &link){
 //    Node* p = link.head_->next_;
-//    if (p == nullptr)
-//    {
+//
+//    if (p == nullptr){
 //        return;
 //    }
+//
 //    Node* q;
+//
 //    while(p->next_ != nullptr){
 //        q = link.head_->next_;
 //        link.head_->next_ = p->next_;
 //        p->next_ = link.head_->next_->next_;
 //        link.head_->next_->next_ = q;
 //    }
+
     Node* head = link.head_;
     Node* p = head->next_;
+
     if (p == nullptr){
         return;
     }
@@ -132,11 +145,8 @@ void ReverseLink(Clink &link){
 
     while (p != nullptr){
         Node* q = p->next_;
-
-        // p指针指向的节点进行头插
         p->next_ = head->next_;
         head->next_ = p;
-
         p = q;
     }
 
@@ -145,15 +155,18 @@ void ReverseLink(Clink &link){
 //ListNode* reverseList(ListNode* head) {
 //    if(head == nullptr)
 //        return nullptr;
+//
 //    ListNode* pre = nullptr;
 //    ListNode* p = head;
 //    ListNode* tmp;
+//
 //    while (p != nullptr){
 //        tmp = p->next;
 //        p->next = pre;
 //        pre = p;
 //        p = tmp;
 //    }
+//
 //    return pre;
 //}
 
@@ -164,22 +177,15 @@ bool GetLaskKNode(Clink& link, int k, int& val){
     Node* p = head;
 
     if (k < 1)
-    {
         return false;
-    }
 
-    for (int i = 0; i < k; i++)
-    {
+    for (int i = 0; i < k; i++){
         p = p->next_;
         if (p == nullptr)
-        {
             return false;
-        }
     }
 
-    // pre在头节点，p在正数第k个节点
-    while (p != nullptr)
-    {
+    while (p != nullptr){
         pre = pre->next_;
         p = p->next_;
     }
@@ -201,15 +207,16 @@ void MergeLink(Clink& link1, Clink& link2){
             last->next_ = p;
             p = p->next_;
             last = last->next_;
-        }
-        else{
+        }else{
             last->next_ = q;
             q = q-> next_;
             last = last->next_;
         }
     }
+
     if(p != nullptr)
         last->next_ = p;
+
     if(q != nullptr)
         last->next_ = q;
 }
@@ -218,16 +225,19 @@ void MergeLink(Clink& link1, Clink& link2){
 bool IsLinkHasCircle(Node *head, int& val){
     Node *fast = head;
     Node *slow = head;
+
     while (fast != nullptr && fast->next_ != nullptr){
         slow = slow->next_;
         fast = fast->next_->next_;
+
         if(fast == slow){
-            //快慢指针再次遇见，链表存在环
             fast = head;
+
             while (fast != slow){
                 slow = slow->next_;
                 fast = fast->next_;
             }
+
             val = slow->data_;
             return true;
         }
@@ -253,29 +263,19 @@ bool IsLinkHasMerge(Node* head1, Node* head2, int& val){
 
     p = head1;
     q = head2;
-    if (cnt1 > cnt2)
-    {
-        // 第一个链表长
+
+    if (cnt1 > cnt2){
         int offset = cnt1 - cnt2;
         while (offset-- > 0)
-        {
             p = p->next_;
-        }
-    }
-    else
-    {
-        // 第二个链表长
+    }else{
         int offset = cnt2 - cnt1;
         while (offset-- > 0)
-        {
             q = q->next_;
-        }
     }
 
-    while (p != nullptr && q != nullptr)
-    {
-        if (p == q)
-        {
+    while (p != nullptr && q != nullptr){
+        if (p == q){
             val = p->data_;
             return true;
         }
@@ -292,16 +292,17 @@ Node* removeNthFromEnd(Node* head, int n) {
     dummyHead->next_ = head;
     Node* p = dummyHead;
     Node* pre = dummyHead;
-    for (int i = 0; i < n; i++){
+
+    for (int i = 0; i < n; i++)
         p = p->next_;
-    }
 
     p = p->next_;
-    while (p != nullptr)
-    {
+
+    while (p != nullptr){
         pre = pre->next_;
         p = p->next_;
     }
+
     pre->next_ = pre->next_->next_;
     return dummyHead->next_;
 }
@@ -311,18 +312,18 @@ Node* rotateRight(Node* head, int k) {
     Node* p = head;
     Node* q = head;
 
-    if(head == nullptr || k == 0){
+    if(head == nullptr || k == 0)
         return head;
-    }
 
     int number = 0;
+
     for(Node* m = head; m != nullptr; m = m->next_)
         number++;
+
     k = k % number;
 
-    for(int i = 0; i < k; i++){
+    for(int i = 0; i < k; i++)
         p = p->next_;
-    }
 
     while (p->next_ != nullptr){
         q = q->next_;
@@ -332,7 +333,6 @@ Node* rotateRight(Node* head, int k) {
     p->next_ = head;
     head = q->next_;
     q->next_ = nullptr;
-
     return head;
 }
 
@@ -342,6 +342,7 @@ Node* rotateRight(Node* head, int k) {
 //        dummyNode->next = head;
 //        ListNode* p = head;
 //        ListNode* pre = dummyNode;
+//
 //        while (p != nullptr){
 //            if(p->val == val){
 //                pre->next = p->next;
@@ -351,72 +352,79 @@ Node* rotateRight(Node* head, int k) {
 //                pre = pre->next;
 //            }
 //        }
+//
 //       return dummyNode->next;
 //    }
 
 
 //设计链表
-//class MyLinkedList {
+//class MyLinkedList{
 //public:
-//    MyLinkedList() {
+//    MyLinkedList(){
 //        dummyNode = new LinkedNode(0);
 //        size_ = 0;
 //    }
 //
-//    int get(int index) {
+//    int get(int index){
 //        if(index < 0 || index > (size_ - 1))
 //            return -1;
+//
 //        LinkedNode* cur = dummyNode->next;
-//        while(index--){
+//
+//        while(index--)
 //            cur = cur->next;
-//        }
+//
 //        return cur->val;
 //    }
 //
-//    void addAtHead(int val) {
+//    void addAtHead(int val){
 //        LinkedNode* newNode =new LinkedNode(val);
 //        newNode->next = dummyNode->next;
 //        dummyNode->next = newNode;
 //        size_++;
 //    }
 //
-//    void addAtTail(int val) {
+//    void addAtTail(int val){
 //        LinkedNode* newNode =new LinkedNode(val);
 //        LinkedNode* cur = dummyNode;
-//        while (cur->next != nullptr){
+//
+//        while (cur->next != nullptr)
 //            cur = cur->next;
-//        }
+//
 //        newNode->next = cur->next;
 //        cur->next = newNode;
 //        size_++;
 //    }
 //
-//    void addAtIndex(int index, int val) {
+//    void addAtIndex(int index, int val){
 //        if(index > size_) return;
 //        LinkedNode* newNode =new LinkedNode(val);
 //        LinkedNode* cur = dummyNode;
-//        while (index--){
+//
+//        while (index--)
 //            cur = cur->next;
-//        }
+//
 //        newNode->next = cur->next;
 //        cur->next = newNode;
 //        size_++;
 //    }
 //
-//    void deleteAtIndex(int index) {
+//    void deleteAtIndex(int index){
 //        if(index < 0 || index > (size_ - 1))
 //            return;
+//
 //        LinkedNode* cur = dummyNode;
-//        while (index--){
+//
+//        while (index--)
 //            cur = cur->next;
-//        }
+//
 //        LinkedNode* tmp = cur->next;
 //        cur->next = cur->next->next;
 //        delete tmp;
 //        tmp = nullptr;
 //        size_--;
 //    }
-//    struct LinkedNode {
+//    struct LinkedNode{
 //        int val;
 //        LinkedNode* next;
 //        LinkedNode(int val):val(val), next(nullptr){}
@@ -428,25 +436,23 @@ Node* rotateRight(Node* head, int k) {
 //};
 
 // 两两交换链表中的节点
-//    ListNode* swapPairs(ListNode* head) {
+//    ListNode* swapPairs(ListNode* head){
 //        ListNode* dummyNode = new ListNode(0);
 //        dummyNode->next = head;
 //
 //        if(dummyNode->next == nullptr)
 //            return head;
+//
 //        ListNode* p = dummyNode;
 //        ListNode* q = dummyNode->next;
+//
 //        while(q != nullptr && q->next != nullptr){
 //            p->next = q->next;
 //            q->next = q->next->next;
 //            p->next->next = q;
-//
 //            p = q;
 //            q = q->next;
 //        }
+//
 //        return dummyNode->next;
 //    }
-int main(){
-
-    return  0;
-}

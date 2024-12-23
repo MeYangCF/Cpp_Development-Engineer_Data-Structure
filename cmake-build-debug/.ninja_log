@@ -38,3 +38,5 @@
 352	453	7563867609225341	.runtime/bloomFilter.exe	63c9ee05d41c2066
 4	398	7565734346725773	CMakeFiles/bigDataTopKFastSortSeg.dir/24_Big_Data_Top_K-Fast_Sort_Segmentation/bigDataTopKFastSortSeg.cpp.obj	6678058f51422192
 398	613	7565734348837133	.runtime/bigDataTopKFastSortSeg.exe	d54b5b0bc55a566c
+4	246	7566600101839085	CMakeFiles/array.dir/01_Array/array.cpp.obj	21b39499be275391
+246	348	7566600102842517	.runtime/array.exe	dbe2d6b0aed3eb9b
