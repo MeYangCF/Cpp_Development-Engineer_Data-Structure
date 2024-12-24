@@ -102,7 +102,8 @@
 						84,
 						85,
 						86,
-						87
+						87,
+						88
 					]
 				}
 			],
@@ -204,7 +205,8 @@
 						84,
 						85,
 						86,
-						87
+						87,
+						88
 					]
 				}
 			],
@@ -817,6 +819,13 @@
 					"id" : "stack_pb::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-stack_pb-Debug-a142f10e443755646418.json",
 					"name" : "stack_pb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stringOperation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stringOperation-Debug-d34662e255be0805daca.json",
+					"name" : "stringOperation",
 					"projectIndex" : 0
 				},
 				{

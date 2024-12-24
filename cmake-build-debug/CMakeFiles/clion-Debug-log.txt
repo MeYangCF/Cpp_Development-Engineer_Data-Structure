@@ -53,6 +53,7 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- [25_Consistent_Hashing_Algorithm.cpp] will be compiled to '.runtime/25_Consistent_Hashing_Algorithm.exe'
 -- [consistentHash.cpp] will be compiled to '.runtime/consistentHash.exe'
 -- [26_String_Operations.cpp] will be compiled to '.runtime/26_String_Operations.exe'
+-- [stringOperation.cpp] will be compiled to '.runtime/stringOperation.exe'
 -- [27_BST_Tree.cpp] will be compiled to '.runtime/27_BST_Tree.exe'
 -- [28_AVL_Tree.cpp] will be compiled to '.runtime/28_AVL_Tree.exe'
 -- [29_RB_Red-Black_Tree.cpp] will be compiled to '.runtime/29_RB_Red-Black_Tree.exe'
@@ -87,6 +88,6 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- [Relatives.cpp] will be compiled to '.runtime/Relatives.exe'
 -- [The_best_route_to_avoid_traffic.cpp] will be compiled to '.runtime/The_best_route_to_avoid_traffic.exe'
 -- [CMakeCXXCompilerId.cpp] will be compiled to '.runtime/CMakeCXXCompilerId.exe'
--- Configuring done (0.2s)
+-- Configuring done (0.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
