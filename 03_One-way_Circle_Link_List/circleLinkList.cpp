@@ -16,6 +16,7 @@ public:
         tail_ = head_;
         head_->next_ = head_;
     }
+
     ~CircleLink(){
         Node* p = head_->next_;
 
