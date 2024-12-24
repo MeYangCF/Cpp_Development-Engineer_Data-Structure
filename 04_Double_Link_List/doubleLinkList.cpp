@@ -10,9 +10,9 @@ using namespace std;
 
 struct Node{
     Node(int data=0)
-            : data_(data)
-            , next_(nullptr)
-            , pre_(nullptr){}
+        : data_(data)
+        , next_(nullptr)
+        , pre_(nullptr){}
     int data_;
     Node* next_;
     Node* pre_;
