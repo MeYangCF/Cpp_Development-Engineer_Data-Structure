@@ -97,8 +97,8 @@ private:
         Node* next_;
     };
 
-    Node* head_; // 指向头节点
-    Node* tail_; // 指向末尾节点
+    Node* head_;
+    Node* tail_;
 };
 
 int main(){
