@@ -12,9 +12,9 @@ struct Node{
         : data_(data)
         , next_(nullptr)
         , pre_(nullptr){}
-    int data_;   // 数据域
-    Node* next_; // 指向下一个节点
-    Node* pre_;  // 指向前一个节点
+    int data_;
+    Node* next_;
+    Node* pre_;
 };
 
 class DoubleCircleLink{
