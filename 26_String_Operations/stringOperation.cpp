@@ -56,12 +56,12 @@ int KMP(string s, string t){
     int j = 0;
     int* next = getNext(t);
     unique_ptr<int> ptr(next);
-    cout << t << " : ";
-
-    for(int m = 0; m < t.size(); m++)
-        cout << next[m] << " ";
-
-    cout << endl;
+//    cout << t << " : ";
+//
+//    for(int m = 0; m < t.size(); m++)
+//        cout << next[m] << " ";
+//
+//    cout << endl;
     int size1 = s.size();
     int size2 = t.size();
 
