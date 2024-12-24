@@ -8,32 +8,25 @@
 #include <iostream>
 using namespace std;
 
-// 定义双向链表的节点类型
-struct Node
-{
+struct Node{
     Node(int data=0)
             : data_(data)
             , next_(nullptr)
-            , pre_(nullptr)
-    {}
-    int data_;   // 数据域
-    Node* next_; // 指向下一个节点
-    Node* pre_;  // 指向前一个节点
+            , pre_(nullptr){}
+    int data_;
+    Node* next_;
+    Node* pre_;
 };
 
-// 双向链表
-class DoubleLink
-{
+class DoubleLink{
 public:
-    DoubleLink()
-    {
+    DoubleLink(){
         head_ = new Node();
     }
-    ~DoubleLink()
-    {
+    ~DoubleLink(){
         Node* p = head_;
-        while (p != nullptr)
-        {
+
+        while (p != nullptr){
             head_ = head_->next_;
             delete p;
             p = head_;
@@ -41,92 +34,72 @@ public:
     }
 
 public:
-    // 头插法
-    void InsertHead(int val)
-    {
+    void InsertHead(int val){
         Node* node = new Node(val);
         node->next_ = head_->next_;
         node->pre_ = head_;
+
         if (head_->next_ != nullptr)
-        {
             head_->next_->pre_ = node;
-        }
+
         head_->next_ = node;
     }
 
-    // 尾插法
-    void InsertTail(int val)
-    {
+    void InsertTail(int val){
         Node* p = head_;
-        while (p->next_ != nullptr)
-        {
-            p = p->next_;
-        }
 
-        // p->尾节点
+        while (p->next_ != nullptr)
+            p = p->next_;
+
         Node* node = new Node(val);
         node->pre_ = p;
         p->next_ = node;
     }
 
-    // 节点删除
-    void Remove(int val)
-    {
+    void Remove(int val){
         Node* p = head_->next_;
-        while (p != nullptr)
-        {
-            if (p->data_ == val)
-            {
-                // 删除p指向的节点
+
+        while (p != nullptr){
+            if (p->data_ == val){
                 p->pre_->next_ = p->next_;
+
                 if (p->next_ != nullptr)
-                {
                     p->next_->pre_ = p->pre_;
-                }
-                //Node* next = p->next_;
+
                 delete p;
                 //p = next;
                 return;
-            }
-            else
-            {
+            }else
                 p = p->next_;
-            }
         }
     }
 
-    // 节点搜索
-    bool Find(int val)
-    {
+    bool Find(int val){
         Node* p = head_->next_;
-        while (p != nullptr)
-        {
+
+        while (p != nullptr){
             if (p->data_ == val)
-            {
                 return true;
-            }
             else
-            {
                 p = p->next_;
-            }
         }
+
         return false;
     }
 
-    // 链表节点输出
-    void Show()
-    {
+    void Show(){
         Node* p = head_->next_;
-        while (p != nullptr)
-        {
+
+        while (p != nullptr){
             cout << p->data_ << " ";
             p = p->next_;
         }
+
         cout << endl;
     }
 
 private:
-    Node* head_; // 指向头节点
+    Node* head_;
 };
 
 int main()
