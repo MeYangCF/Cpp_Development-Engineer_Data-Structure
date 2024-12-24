@@ -8,7 +8,6 @@
 #include <iostream>
 using namespace std;
 
-// 单向循环链表
 class CircleLink
 {
 public:
