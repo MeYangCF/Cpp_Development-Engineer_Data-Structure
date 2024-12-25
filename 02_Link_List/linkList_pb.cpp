@@ -117,7 +117,7 @@ private:
     friend void MergeLink(Clink& link1, Clink& link2);
 };
 
-//问题1：单链表逆序
+// 单链表逆序
 void ReverseLink(Clink &link){
 //    Node* p = link.head_->next_;
 //
@@ -170,7 +170,7 @@ void ReverseLink(Clink &link){
 //    return pre;
 //}
 
-//问题2：求倒数第k个节点的值
+// 求倒数第k个节点的值
 bool GetLaskKNode(Clink& link, int k, int& val){
     Node* head = link.head_;
     Node* pre = head;
@@ -194,7 +194,7 @@ bool GetLaskKNode(Clink& link, int k, int& val){
     return true;
 }
 
-//问题3：合并两个有序的单链表
+// 合并两个有序的单链表
 void MergeLink(Clink& link1, Clink& link2){
     Node* p = link1.head_->next_;
     Node* q = link2.head_->next_;
@@ -286,7 +286,7 @@ bool IsLinkHasMerge(Node* head1, Node* head2, int& val){
     return false;
 }
 
-//删除链表倒数第N个节点
+// 删除链表倒数第N个节点
 Node* removeNthFromEnd(Node* head, int n) {
     Node* dummyHead = new Node(0);
     dummyHead->next_ = head;
@@ -307,7 +307,7 @@ Node* removeNthFromEnd(Node* head, int n) {
     return dummyHead->next_;
 }
 
-//旋转链表
+// 旋转链表
 Node* rotateRight(Node* head, int k) {
     Node* p = head;
     Node* q = head;
@@ -337,122 +337,122 @@ Node* rotateRight(Node* head, int k) {
 }
 
 // 移除链表元素
-//    ListNode* removeElements(ListNode* head, int val) {
-//        ListNode* dummyNode = new ListNode();
-//        dummyNode->next = head;
-//        ListNode* p = head;
-//        ListNode* pre = dummyNode;
-//
-//        while (p != nullptr){
-//            if(p->val == val){
-//                pre->next = p->next;
-//                p = p->next;
-//            }else{
-//                p = p->next;
-//                pre = pre->next;
-//            }
-//        }
-//
-//       return dummyNode->next;
-//    }
+Node* removeElements(Node* head, int val) {
+    Node* dummyNode = new Node();
+    dummyNode->next_ = head;
+    Node* p = head;
+    Node* pre = dummyNode;
+
+    while (p != nullptr){
+        if(p->data_ == val){
+            pre->next_ = p->next_;
+            p = p->next_;
+        }else{
+            p = p->next_;
+            pre = pre->next_;
+        }
+    }
+
+   return dummyNode->next_;
+}
 
 
 //设计链表
-//class MyLinkedList{
-//public:
-//    MyLinkedList(){
-//        dummyNode = new LinkedNode(0);
-//        size_ = 0;
-//    }
-//
-//    int get(int index){
-//        if(index < 0 || index > (size_ - 1))
-//            return -1;
-//
-//        LinkedNode* cur = dummyNode->next;
-//
-//        while(index--)
-//            cur = cur->next;
-//
-//        return cur->val;
-//    }
-//
-//    void addAtHead(int val){
-//        LinkedNode* newNode =new LinkedNode(val);
-//        newNode->next = dummyNode->next;
-//        dummyNode->next = newNode;
-//        size_++;
-//    }
-//
-//    void addAtTail(int val){
-//        LinkedNode* newNode =new LinkedNode(val);
-//        LinkedNode* cur = dummyNode;
-//
-//        while (cur->next != nullptr)
-//            cur = cur->next;
-//
-//        newNode->next = cur->next;
-//        cur->next = newNode;
-//        size_++;
-//    }
-//
-//    void addAtIndex(int index, int val){
-//        if(index > size_) return;
-//        LinkedNode* newNode =new LinkedNode(val);
-//        LinkedNode* cur = dummyNode;
-//
-//        while (index--)
-//            cur = cur->next;
-//
-//        newNode->next = cur->next;
-//        cur->next = newNode;
-//        size_++;
-//    }
-//
-//    void deleteAtIndex(int index){
-//        if(index < 0 || index > (size_ - 1))
-//            return;
-//
-//        LinkedNode* cur = dummyNode;
-//
-//        while (index--)
-//            cur = cur->next;
-//
-//        LinkedNode* tmp = cur->next;
-//        cur->next = cur->next->next;
-//        delete tmp;
-//        tmp = nullptr;
-//        size_--;
-//    }
-//    struct LinkedNode{
-//        int val;
-//        LinkedNode* next;
-//        LinkedNode(int val):val(val), next(nullptr){}
-//    };
-//
-//private:
-//    LinkedNode* dummyNode;
-//    int size_;
-//};
+class MyLinkedList{
+public:
+    MyLinkedList(){
+        dummyNode = new LinkedNode(0);
+        size_ = 0;
+    }
+
+    int get(int index){
+        if(index < 0 || index > (size_ - 1))
+            return -1;
+
+        LinkedNode* cur = dummyNode->next;
+
+        while(index--)
+            cur = cur->next;
+
+        return cur->val;
+    }
+
+    void addAtHead(int val){
+        LinkedNode* newNode =new LinkedNode(val);
+        newNode->next = dummyNode->next;
+        dummyNode->next = newNode;
+        size_++;
+    }
+
+    void addAtTail(int val){
+        LinkedNode* newNode =new LinkedNode(val);
+        LinkedNode* cur = dummyNode;
+
+        while (cur->next != nullptr)
+            cur = cur->next;
+
+        newNode->next = cur->next;
+        cur->next = newNode;
+        size_++;
+    }
+
+    void addAtIndex(int index, int val){
+        if(index > size_) return;
+        LinkedNode* newNode =new LinkedNode(val);
+        LinkedNode* cur = dummyNode;
+
+        while (index--)
+            cur = cur->next;
+
+        newNode->next = cur->next;
+        cur->next = newNode;
+        size_++;
+    }
+
+    void deleteAtIndex(int index){
+        if(index < 0 || index > (size_ - 1))
+            return;
+
+        LinkedNode* cur = dummyNode;
+
+        while (index--)
+            cur = cur->next;
+
+        LinkedNode* tmp = cur->next;
+        cur->next = cur->next->next;
+        delete tmp;
+        tmp = nullptr;
+        size_--;
+    }
+    struct LinkedNode{
+        int val;
+        LinkedNode* next;
+        LinkedNode(int val):val(val), next(nullptr){}
+    };
+
+private:
+    LinkedNode* dummyNode;
+    int size_;
+};
 
 // 两两交换链表中的节点
-//    ListNode* swapPairs(ListNode* head){
-//        ListNode* dummyNode = new ListNode(0);
-//        dummyNode->next = head;
-//
-//        if(dummyNode->next == nullptr)
-//            return head;
-//
-//        ListNode* p = dummyNode;
-//        ListNode* q = dummyNode->next;
-//
-//        while(q != nullptr && q->next != nullptr){
-//            p->next = q->next;
-//            q->next = q->next->next;
-//            p->next->next = q;
-//            p = q;
-//            q = q->next;
-//        }
-//
-//        return dummyNode->next;
-//    }
+Node* swapPairs(Node* head){
+    Node* dummyNode = new Node(0);
+    dummyNode->next_ = head;
+
+    if(dummyNode->next_ == nullptr)
+        return head;
+
+    Node* p = dummyNode;
+    Node* q = dummyNode->next_;
+
+    while(q != nullptr && q->next_ != nullptr){
+        p->next_ = q->next_;
+        q->next_ = q->next_->next_;
+        p->next_->next_ = q;
+        p = q;
+        q = q->next_;
+    }
+
+    return dummyNode->next_;
+}
