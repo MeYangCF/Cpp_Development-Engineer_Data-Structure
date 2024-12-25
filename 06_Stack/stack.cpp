@@ -8,62 +8,53 @@
 #include <iostream>
 using namespace std;
 
-//顺序栈 c++容器适配器stack
-class SeqStack
-{
+class SeqStack{
 public:
     SeqStack(int size = 10)
         : mtop(0)
-        , mcap(size)
-    {
+        , mcap(size){
         mpStack = new int[mcap];
     }
-    ~SeqStack()
-    {
+
+    ~SeqStack(){
         delete[] mpStack;
         mpStack = nullptr;
     }
 
 public:
-    //入栈操作
-    void push(int val)
-    {
+    void push(int val){
         if(mtop == mcap)
-            expand(2 * mcap);//扩容
+            expand(2 * mcap);
         mpStack[mtop++] = val;
     }
 
-    void pop()
-    {
+    void pop(){
         if(mtop == 0)
             throw "stack is empty";
         mtop--;
     }
 
-    int top() const
-    {
+    int top() const{
         if(mtop == 0)
             throw "stack is empty";
         return mpStack[mtop - 1];
     }
 
-    bool empty()
-    {
+    bool empty(){
         return mtop == 0;
     }
 
-    int size() const
-    {
+    int size() const{
         return mtop;
     }
-private:
-    int *mpStack;
-    int mtop; //栈顶位置
-    int mcap;//栈空间大小
 
 private:
-    void expand(int size)
-    {
+    int *mpStack;
+    int mtop;
+    int mcap;
+
+private:
+    void expand(int size){
         int *p = new int[size];
         memcpy(p, mpStack, mtop * sizeof(int));
         delete[] mpStack;
@@ -71,21 +62,19 @@ private:
         mcap = size;
     }
 };
-int main()
-{
+
+int main(){
     int arr[] = { 12,4,56,7,89,31,53,75 };
     SeqStack s;
 
     for (int v : arr)
-    {
         s.push(v);
-    }
 
-    while (!s.empty())
-    {
+    while (!s.empty()){
         cout << s.top() << " ";
         s.pop();
     }
+
     cout << endl;
     return 0;
 }
