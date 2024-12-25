@@ -5,12 +5,12 @@
 @description:
 */
 
-//逆序字符串
-/*
+
 #include <iostream>
-#include <string.h>
+#include <vector>
 using namespace std;
 
+//逆序字符串
 void Reverse(char arr[], int size){
     char *p = arr;
     char *q = arr + size - 1;
@@ -24,20 +24,7 @@ void Reverse(char arr[], int size){
     }
 }
 
-int main(){
-    char arr[] = "Hello world!";
-    Reverse(arr, strlen(arr));
-    cout << arr << endl;
-    return 0;
-}
-*/
-
 //奇偶数调整问题
-/*
-#include <iostream>
-#include <time.h>
-using namespace std;
-
 void AdjustArray(int arr[], int size){
     int *p = arr;
     int *q = arr + size -1;
@@ -57,33 +44,7 @@ void AdjustArray(int arr[], int size){
     }
 }
 
-int main(){
-    int arr[10] = {0};
-    srand(time(0));
-
-    for(int i = 0; i < 10; i++)
-        arr[i] = rand() % 100;
-
-    for(int v : arr)
-        cout << v << " ";
-    cout << endl;
-
-    AdjustArray(arr, 10);
-
-    for(int v : arr)
-        cout << v << " ";
-    cout << endl;
-
-    return 0;
-}
-*/
-
 //移除元素问题
-/*
-#include <iostream>
-#include <vector>
-using namespace std;
-
 int removeElement(vector<int>& nums, int val){
     int slowindex = 0;
 
@@ -95,25 +56,7 @@ int removeElement(vector<int>& nums, int val){
     return slowindex;
 }
 
-int main(){
-    vector<int>nums {2};
-    int len = removeElement(nums, 3);
-    cout << len << endl;
-
-    for(int v : nums)
-        cout << v << " ";
-
-    cout << endl;
-    return 0;
-}
-*/
-
 //二分查找
-/*
-#include <iostream>
-#include <vector>
-using namespace std;
-
 int search(vector<int>& nums, int target){
     int left = 0;
     int right = nums.size() - 1;
@@ -131,19 +74,8 @@ int search(vector<int>& nums, int target){
     return -1;
 }
 
-int main(){
-    vector<int> nums{-1,0,3,5,9,12};
-    int index = search(nums, 2);
-    cout << index << endl;
-}
-*/
 
 //有序数组的平方
-/*
-#include <iostream>
-#include <vector>
-using namespace std;
-
 vector<int> sortedSquares(vector<int>& nums){
     vector<int> results(nums.size());
     int i = 0;
@@ -163,21 +95,7 @@ vector<int> sortedSquares(vector<int>& nums){
     return results;
 }
 
-int main(){
-    vector<int> nums{-7,-3,2,3,11};
-    nums = sortedSquares(nums);
-
-    for(int i = 0; i < nums.size(); i++)
-        cout << nums[i] << " ";
-}
-*/
-
 //长度最小的子数组
-/*
-#include <iostream>
-#include <vector>
-using namespace std;
-
 int minSubArrayLen(int target, vector<int>& nums){
     int sum = 0;
     int result = INT_MAX;
@@ -200,10 +118,3 @@ int minSubArrayLen(int target, vector<int>& nums){
 
     return result;
 }
-
-int main(){
-    vector<int> nums{2,3,1,2,4,3};
-    int result = minSubArrayLen(7, nums);
-    cout << result << endl;
-}
-*/
