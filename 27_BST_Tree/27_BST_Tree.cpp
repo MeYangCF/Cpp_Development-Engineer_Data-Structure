@@ -46,7 +46,7 @@ public:
 	}
 
 	// 非递归插入操作
-	void n_insert(const T& val)
+	void  n_insert(const T& val)
 	{
 		// 树为空，生成根节点
 		if (root_ == nullptr)
