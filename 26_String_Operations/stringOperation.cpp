@@ -35,17 +35,17 @@ int* getNext(string str){
     int k = -1;
     next[j] = k;
 
-    while (j < str.size() - 1){
-        if(-1 == k || str[k] == str[j]){
-            j++;
+    while(j < str.size() - 1){
+        if(k == -1 || str[j] == str[k]){
             k++;
+            j++;
 
-            if(str[k] == str[j])
+            if(str[j] == str[k])
                 next[j] = next[k];
-            else
-                next[j] = k;
-        } else
+            next[j] = k;
+        }else{
             k = next[k];
+        }
     }
 
     return next;
@@ -56,24 +56,16 @@ int KMP(string s, string t){
     int j = 0;
     int* next = getNext(t);
     unique_ptr<int> ptr(next);
-//    cout << t << " : ";
-//
-//    for(int m = 0; m < t.size(); m++)
-//        cout << next[m] << " ";
-//
-//    cout << endl;
-    int size1 = s.size();
-    int size2 = t.size();
 
-    while (i < size1 && j < size2){
-        if(-1 == j || s[i] == t[j]){
+    int size_s = s.size();
+    int size_t = t.size();
+    while (i < size_s && j < size_t) {
+        if (j == -1 || s[i] == t[j]) {
             i++;
             j++;
-        }else{
+        } else
             j = next[j];
-        }
     }
-
     if(j == t.size())
         return i - j;
     else
