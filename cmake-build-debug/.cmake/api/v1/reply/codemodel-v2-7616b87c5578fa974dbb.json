@@ -692,9 +692,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "bstTree::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bstTree-Debug-47c8be8d6c49858a7589.json",
-					"name" : "bstTree",
+					"id" : "bst::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bst-Debug-6c5b47b572d773d28d23.json",
+					"name" : "bst",
 					"projectIndex" : 0
 				},
 				{
