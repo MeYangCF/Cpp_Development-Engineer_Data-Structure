@@ -161,7 +161,25 @@ public:
     }
 
     void n_inOrder(){
+        cout << "[·ÇµÝ¹é]ÖÐÐò±éÀú:";
 
+        if(root_ == nullptr)
+            return;
+
+        stack<Node*> s;
+        Node* cur = root_;
+
+        while (!s.empty() || cur != nullptr){
+            if(cur != nullptr){
+                s.push(cur);
+                cur = cur->left_;
+            } else{
+                Node* top = s.top();
+                s.pop();
+                cout << top->data_ << " ";
+                cur = top->right_;
+            }
+        }
     }
 
     void inOrder(){
@@ -171,7 +189,33 @@ public:
     }
 
     void n_postOrder(){
+        cout << "[·ÇµÝ¹é]ºóÐò±éÀú:";
 
+        if (root_ == nullptr)
+            return;
+
+        stack<Node*> s1;
+        stack<Node*> s2;
+        s1.push(root_);
+
+        while (!s1.empty()){
+            Node* top = s1.top();
+            s1.pop();
+            s2.push(top);
+
+            if (top->left_ != nullptr)
+                s1.push(top->left_);
+
+            if (top->right_ != nullptr)
+                s1.push(top->right_);
+        }
+
+        while (!s2.empty()){
+            cout << s2.top()->data_ << " ";
+            s2.pop();
+        }
+
+        cout << endl;
     }
 
     void postOrder(){
@@ -181,7 +225,27 @@ public:
     }
 
     void n_levelOrder(){
+        cout << "[·ÇµÝ¹é]²ãÐò±éÀú:";
 
+        if (root_ == nullptr)
+            return;
+
+        queue<Node*> que;
+        que.push(root_);
+
+        while (!que.empty()){
+            Node* front = que.front();
+            que.pop();
+            cout << front->data_ << " ";
+
+            if (front->left_ != nullptr)
+                que.push(front->left_);
+
+            if (front->right_ != nullptr)
+                que.push(front->right_);
+        }
+
+        cout << endl;
     }
 
     void levelOrder(){
