@@ -51,7 +51,7 @@ int* getNext(string str){
     return next;
 }
 
-int KMP(string s, string t){
+int KMP(const string &s, const string &t){
     int i = 0;
     int j = 0;
     int* next = getNext(t);

@@ -67,7 +67,7 @@ int* getNext(string str)
 }
 
 // KMP算法  时间复杂度：O(n) + O(m) = O(n+m)  空间复杂度：O(m)
-int KMP(string s, string t)
+int KMP(const string &s, const string &t)
 {
 	int i = 0;
 	int j = 0;
