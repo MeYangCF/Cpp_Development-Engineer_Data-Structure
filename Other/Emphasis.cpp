@@ -2,6 +2,7 @@
 #include <string>
 #include <memory>
 #include <stack>
+#include <queue>
 using namespace std;
 
 int BF(string mainString, string subString){
@@ -235,11 +236,60 @@ public:
     }
 
     void nonRecursivePostOrder(){
+        if (root_ == nullptr)
+            return;;
 
+        stack<Node*> postOrderStack_1;
+        stack<Node*> postOrderStack_2;
+        postOrderStack_1.push(root_);
+
+        while (!postOrderStack_1.empty()) {
+            Node* topNode = postOrderStack_1.top();
+            postOrderStack_1.pop();
+            postOrderStack_2.push(topNode);
+
+            if (topNode->left_ != nullptr)
+                postOrderStack_1.push(topNode->left_);
+
+            if (topNode->right_ != nullptr)
+                postOrderStack_1.push(topNode->right_);
+        }
+
+        while (!postOrderStack_2.empty()) {
+            cout << postOrderStack_2.top()->data_ << " ";
+            postOrderStack_2.pop();
+        }
     }
 
     void recursivePostOrder(){
         recursivePostOrder(root_);
+    }
+
+    void nonRecursiveLevelOrder() {
+        if (root_ == nullptr)
+            return;
+
+        queue<Node*> levelOrderQue;
+        levelOrderQue.push(root_);
+
+        while (!levelOrderQue.empty()) {
+            Node* frontNode = levelOrderQue.front();
+            levelOrderQue.pop();
+            cout << frontNode->data_ << " ";
+
+            if (frontNode->left_ != nullptr)
+                levelOrderQue.push(frontNode->left_);
+
+            if (frontNode->right_ != nullptr)
+                levelOrderQue.push(frontNode->right_);
+        }
+    }
+
+    void recursiveLevelOrder() {
+        int treeHigh = high();
+
+        for (int i = 0; i < treeHigh; ++i)
+            recursiveLevelOrder(root_, i);
     }
 
 public:
@@ -339,6 +389,41 @@ public:
             recursivePreOrder(postOrderNode->right_);
             cout << postOrderNode->data_ << " ";
         }
+    }
+
+    void recursiveLevelOrder(Node* levelOrderNode, int index) {
+        if (levelOrderNode == nullptr)
+            return;
+
+        if (index == 0){
+            cout << levelOrderNode->data_ << " ";
+            return;
+        }
+
+        recursiveLevelOrder(levelOrderNode->left_, index - 1);
+        recursiveLevelOrder(levelOrderNode->right_, index - 1);
+    }
+
+    int high() {
+        return high(root_);
+    }
+
+    int high(Node* orderNode) {
+        if (orderNode == nullptr)
+            return 0;
+
+        int leftHigh = high(orderNode->left_);
+        int rightHigh = high(orderNode->right_);
+        return leftHigh > rightHigh ? leftHigh + 1 : rightHigh + 1;
+    }
+
+    int number(Node* orderNode)
+    {
+        if (orderNode == nullptr)
+            return 0;
+        int leftNum = number(orderNode->left_);
+        int rightNum = number(orderNode->right_);
+        return leftNum + rightNum + 1;
     }
 };
 int main()
