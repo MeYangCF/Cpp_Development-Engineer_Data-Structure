@@ -12,39 +12,42 @@ class SeqStack{
 public:
     SeqStack(int size = 10)
         : mtop(0)
-        , mcap(size){
+        , mcap(size) {
         mpStack = new int[mcap];
     }
 
-    ~SeqStack(){
+    ~SeqStack() {
         delete[] mpStack;
         mpStack = nullptr;
     }
 
 public:
-    void push(int val){
+    void push(int val) {
         if(mtop == mcap)
             expand(2 * mcap);
+
         mpStack[mtop++] = val;
     }
 
-    void pop(){
+    void pop() {
         if(mtop == 0)
             throw "stack is empty";
+
         mtop--;
     }
 
-    int top() const{
+    int top() const {
         if(mtop == 0)
             throw "stack is empty";
+
         return mpStack[mtop - 1];
     }
 
-    bool empty(){
+    bool empty() {
         return mtop == 0;
     }
 
-    int size() const{
+    int size() const {
         return mtop;
     }
 
@@ -54,7 +57,7 @@ private:
     int mcap;
 
 private:
-    void expand(int size){
+    void expand(int size) {
         int *p = new int[size];
         memcpy(p, mpStack, mtop * sizeof(int));
         delete[] mpStack;
@@ -63,14 +66,14 @@ private:
     }
 };
 
-int main(){
+int main() {
     int arr[] = { 12,4,56,7,89,31,53,75 };
     SeqStack s;
 
     for (int v : arr)
         s.push(v);
 
-    while (!s.empty()){
+    while (!s.empty()) {
         cout << s.top() << " ";
         s.pop();
     }

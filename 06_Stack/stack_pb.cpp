@@ -18,17 +18,17 @@ bool isValid(string s) {
     stack<char> strV;
 
     for(int i = 0; i < s.size(); i++){
-        if(s[i] == '(' || s[i] == '{' || s[i] == '['){
+        if (s[i] == '(' || s[i] == '{' || s[i] == '[') {
             strV.push(s[i]);
-        }else{
-            if(strV.empty())
+        } else {
+            if (strV.empty())
                 return false;
 
             char tmp = strV.top();
 
-            if((tmp == '(' && s[i] == ')')
+            if ((tmp == '(' && s[i] == ')')
                || (tmp == '{' && s[i] == '}')
-               || (tmp == '[' && s[i] == ']')){
+               || (tmp == '[' && s[i] == ']')) {
                 strV.pop();
                 continue;
             }else{
@@ -44,8 +44,8 @@ bool isValid(string s) {
 int evalRPN(vector<string>& tokens) {
     stack<int> valStack;
 
-    for(auto val : tokens){
-        if(val == "+" || val == "-" || val == "*" || val == "/"){
+    for (auto val : tokens) {
+        if(val == "+" || val == "-" || val == "*" || val == "/") {
             long long num1 = valStack.top();
             valStack.pop();
             long long num2 = valStack.top();
@@ -55,7 +55,7 @@ int evalRPN(vector<string>& tokens) {
             if(val == "-") valStack.push(num2 - num1);
             if(val == "*") valStack.push(num2 * num1);
             if(val == "/") valStack.push(num2 / num1);
-        }else
+        } else
             valStack.push(stoll(val));
     }
 
