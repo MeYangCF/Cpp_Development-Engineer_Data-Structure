@@ -492,7 +492,7 @@ public:
         if (comp_(node->data_, val1) && comp_(node->data_, val2))
             return getLCA(node->right_, val1, val2);
         else if (comp_(val1, node->data_) && comp_(val2, node->data_))
-            return getLCA(node->left_, val1, val2)
+            return getLCA(node->left_, val1, val2);
         else
             return node;
     }
