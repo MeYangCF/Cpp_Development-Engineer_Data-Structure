@@ -20,7 +20,23 @@ public:
             : root_(nullptr)
             , comp_(comp) {}
     ~BSTree() {
+        if (root_ != nullptr) {
+            queue<Node*> s;
+            s.push(root_);
 
+            while (!s.empty()) {
+                Node* front = s.front();
+                s.pop();
+
+                if (front->left_ != nullptr)
+                    s.push(front->left_);
+
+                if (front->right_ != nullptr)
+                    s.push(front->right_);
+
+                delete front;
+            }
+        }
     }
 
 public:
@@ -307,6 +323,29 @@ public:
         return mirror02(root_->left_, root_->right_);
     }
 
+    void rebuild(int pre[], int i, int j, int in[], int m, int n) {
+        root_ = _rebuild(pre, i, j, in, m, n);
+    }
+
+    bool isBalance() {
+        int l = 0;
+        bool flag = true;
+        isBalance02(root_, l , flag);
+        return flag;
+    }
+
+    int getVal(int k) {
+        int i = 1;
+        Node* node = getVal(root_, k, i);
+
+        if (node == nullptr) {
+            string err = "no No.";
+            err += k;
+            throw err;
+        } else
+            return node->data_;
+    }
+
 public:
     struct Node {
         Node(T data = T())
@@ -523,6 +562,73 @@ public:
         return mirror02(node1->left_, node2->right_)
             && mirror02(node1->right_, node2->left_);
     }
+
+    Node* _rebuild(int pre[], int i, int j, int in[], int m, int n) {
+        if (i > j || m > n)
+            return nullptr;
+
+        Node* node = new Node(pre[i]);
+
+        for (int k = m; k <= n; ++k) {
+            if (pre[i] == in[k]) {
+                node->left_ = _rebuild(pre, i + 1, i + (k - m), in, m, k - 1);
+                node->right_ = _rebuild(pre, i + (k - m) + 1, j, in, k + 1, n);
+                return node;
+            }
+        }
+
+        return node;
+    }
+
+    bool isBalance(Node* node) {
+        if (node == nullptr)
+            return true;
+
+        if (!isBalance(node->left_))
+            return false;
+
+        if (!isBalance(node->right_))
+            return false;
+
+        int left = high(node->left_);
+        int right = high(node->right_);
+        return abs(left - right) <= 1;
+    }
+
+    int isBalance02(Node* node, int l, bool& flag) {
+        if (node == nullptr)
+            return l;
+
+        int left = isBalance(node->left_, l + 1, flag);
+        if (!flag)
+            return left;
+
+        int right = isBalance(node->right_, l + 1, flag);
+        if (!flag)
+            return right;
+
+        if (abs(left - right) > 1)
+            flag = false;
+
+        return max(left, right);
+    }
+
+    Node* getVal(Node* node, int k, int i)
+    {
+        if (node == nullptr)
+            return nullptr;
+
+        Node* left = getVal(node->right_, k, i + 1);
+
+        if (left != nullptr)
+            return left;
+
+        if (i == k)
+            return node;
+
+        return getVal(node->left_, k, i + 1);
+    }
+
 };
 
 void test01() {
