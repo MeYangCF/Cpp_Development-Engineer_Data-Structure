@@ -19,6 +19,9 @@ foreach (file ${files})
     string(REGEX REPLACE ".+/(.+)\\..*" "\\1" exe ${file})
     # 将目标名限制为字母、数字和下划线
     string(REPLACE "/" "_" exe ${exe})
-    add_executable(${exe} ${file})
+    add_executable(${exe} ${file}
+            28_AVL_Tree/AVL.cpp
+            28_AVL_Tree/AVl.cpp
+            28_AVL_Tree/AVL.cpp)
     message( "-- [${exe}.cpp] will be compiled to '.runtime/${exe}.exe'" )
 endforeach ()

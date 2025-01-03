@@ -1,10 +1,4 @@
 D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S F:\CLion\Cpp_Development-Engineer_Data-Structure -B F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug
--- The CXX compiler identification is GNU 13.1.0
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: D:/CLion/bin/mingw/bin/g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- [01_Array.cpp] will be compiled to '.runtime/01_Array.exe'
 -- [array.cpp] will be compiled to '.runtime/array.exe'
 -- [array_pb.cpp] will be compiled to '.runtime/array_pb.exe'
@@ -63,8 +57,8 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- [27_BST_Tree.cpp] will be compiled to '.runtime/27_BST_Tree.exe'
 -- [bst.cpp] will be compiled to '.runtime/bst.exe'
 -- [28_AVL_Tree.cpp] will be compiled to '.runtime/28_AVL_Tree.exe'
+-- [AVL.cpp] will be compiled to '.runtime/AVL.exe'
 -- [29_RB_Red-Black_Tree.cpp] will be compiled to '.runtime/29_RB_Red-Black_Tree.exe'
--- [30_Jump_Table.cpp] will be compiled to '.runtime/30_Jump_Table.exe'
 -- [31_Backtracking_Algorithm.cpp] will be compiled to '.runtime/31_Backtracking_Algorithm.exe'
 -- [Binary_Search.cpp] will be compiled to '.runtime/Binary_Search.exe'
 -- [Median.cpp] will be compiled to '.runtime/Median.exe'
@@ -84,6 +78,7 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- [Service_at_the_counter.cpp] will be compiled to '.runtime/Service_at_the_counter.exe'
 -- [02Backpack.cpp] will be compiled to '.runtime/02Backpack.exe'
 -- [Optimal_load.cpp] will be compiled to '.runtime/Optimal_load.exe'
+-- [30_Jump_Table.cpp] will be compiled to '.runtime/30_Jump_Table.exe'
 -- [36_Trie_Dictionary_Tree.cpp] will be compiled to '.runtime/36_Trie_Dictionary_Tree.exe'
 -- [37_Inverted_Index.cpp] will be compiled to '.runtime/37_Inverted_Index.exe'
 -- [38_Huffman_Tree_And_Huffman_Coding.cpp] will be compiled to '.runtime/38_Huffman_Tree_And_Huffman_Coding.exe'
@@ -96,6 +91,6 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- [The_best_route_to_avoid_traffic.cpp] will be compiled to '.runtime/The_best_route_to_avoid_traffic.exe'
 -- [Emphasis.cpp] will be compiled to '.runtime/Emphasis.exe'
 -- [CMakeCXXCompilerId.cpp] will be compiled to '.runtime/CMakeCXXCompilerId.exe'
--- Configuring done (2.2s)
--- Generating done (0.2s)
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
 -- Build files have been written to: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
