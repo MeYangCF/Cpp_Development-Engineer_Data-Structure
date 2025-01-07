@@ -48,7 +48,72 @@ public:
     }
 
     void remove(const T& val) {
+        if (root_ == nullptr)
+            return;
 
+        Node* cur = root_;
+
+        while (cur != nullptr) {
+            if (cur->data_ > val)
+                cur = cur->left_;
+            else if (cur->data_ < val)
+                cur = cur->right_;
+            else
+                break;
+        }
+
+        if (cur == nullptr)
+            return;
+
+        if (cur->left_ != nullptr && cur->right_ != nullptr) {
+            Node* pre = cur->left_;
+
+            while (pre->right_ != nullptr)
+                pre = pre->right_;
+
+            cur->data_ = pre->data_;
+            cur = pre;
+        }
+
+        Node* child = cur->left_;
+
+        if (child == nullptr)
+            child = child->right_;
+
+        if (child != nullptr) {
+            child->parent_ = cur->parent_;
+
+            if (cur->parent_ == nullptr)
+                root_ = child;
+            else {
+                if (cur->parent_->left_ == cur)
+                    cur->parent_->left_ = child;
+                else
+                    cur->parent_->right_ = child;
+            }
+
+            Color c = clock(cur);
+            delete cur;
+
+            if (c == BLACK)
+                fixAfterRemove(child);
+        } else {
+            if (cur->parent_ == nullptr) {
+                delete cur;
+                root_ = nullptr;
+                return;
+            } else {
+                if (color(cur) == BLACK)
+                    fixAfterRemove(cur);
+
+                if (cur->parent_->left_ == cur)
+                    cur->parent_->left_ = nullptr;
+                else
+                    cur->parent_->right_ = nullptr;
+
+                delete cur;
+            }
+        }
     }
 private:
     enum Color {
@@ -185,7 +250,65 @@ private:
     }
 
     void fixAfterRemove(Node* node) {
+        while (color(node) == BLACK) {
+            if (left(parent(node)) == node) {
+                Node* brother = right(parent(node));
 
+                if (color(brother) == RED) {
+                    setColor(parent(node), RED);
+                    setColor(brother, BLACK);
+                    leftRotate(parent(node));
+                    brother = right(parent(node));
+                }
+
+                if (color(left(brother)) == BLACK && color(right(brother)) == BLACK) {
+                    setColor(brother, RED);
+                    node = parent(node);
+                } else {
+                    if (color(right(brother)) != RED) {
+                        setColor(brother, RED);
+                        setColor(left(brother), BLACK);
+                        rightRotate(brother);
+                        brother = right(parent(node));
+                    }
+
+                    setColor(brother, color(parent(node)));
+                    setColor(parent(node), BLACK);
+                    setColor(right(brother), BLACK);
+                    leftRotate(parent(node));
+                    break;
+                }
+            } else {
+                Node* brother = left(parent(node));
+
+                if(color(brother) == RED) {
+                    setColor(parent(node), RED);
+                    setColor(brother, BLACK);
+                    rightRotate(parent(node));
+                    brother = left(parent(node));
+                }
+
+                if (color(left(brother)) == BLACK && color(right(brother)) == BLACK) {
+                    setColor(brother, RED);
+                    node = parent(node);
+                } else {
+                    if (color(left(brother)) != RED) {
+                        setColor(brother, RED);
+                        setColor(right(brother), BLACK);
+                        leftRotate(brother);
+                        brother = left(parent(node));
+                    }
+
+                    setColor(brother, color(parent(node)));
+                    setColor(parent(node), BLACK);
+                    setColor(left(brother), BLACK);
+                    rightRotate(parent(node));
+                    break;
+                }
+            }
+        }
+
+        setColor(node, BLACK);
     }
 };
 
