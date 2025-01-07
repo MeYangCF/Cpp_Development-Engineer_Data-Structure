@@ -61,6 +61,12 @@ build CMakeFiles/01_Array.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__01_Array_un
   OBJECT_DIR = CMakeFiles\01_Array.dir
   OBJECT_FILE_DIR = CMakeFiles\01_Array.dir\28_AVL_Tree
 
+build CMakeFiles/01_Array.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__01_Array_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_01_Array
+  DEP_FILE = CMakeFiles\01_Array.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01_Array.dir
+  OBJECT_FILE_DIR = CMakeFiles\01_Array.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01_Array
@@ -69,7 +75,7 @@ build CMakeFiles/01_Array.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__01_Array_un
 #############################################
 # Link the executable .runtime\01_Array.exe
 
-build .runtime/01_Array.exe: CXX_EXECUTABLE_LINKER__01_Array_Debug CMakeFiles/01_Array.dir/01_Array/01_Array.cpp.obj CMakeFiles/01_Array.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/01_Array.exe: CXX_EXECUTABLE_LINKER__01_Array_Debug CMakeFiles/01_Array.dir/01_Array/01_Array.cpp.obj CMakeFiles/01_Array.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/01_Array.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\01_Array.dir
@@ -100,6 +106,12 @@ build CMakeFiles/array.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__array_unscanne
   OBJECT_DIR = CMakeFiles\array.dir
   OBJECT_FILE_DIR = CMakeFiles\array.dir\28_AVL_Tree
 
+build CMakeFiles/array.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__array_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_array
+  DEP_FILE = CMakeFiles\array.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\array.dir
+  OBJECT_FILE_DIR = CMakeFiles\array.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target array
@@ -108,7 +120,7 @@ build CMakeFiles/array.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__array_unscanne
 #############################################
 # Link the executable .runtime\array.exe
 
-build .runtime/array.exe: CXX_EXECUTABLE_LINKER__array_Debug CMakeFiles/array.dir/01_Array/array.cpp.obj CMakeFiles/array.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/array.exe: CXX_EXECUTABLE_LINKER__array_Debug CMakeFiles/array.dir/01_Array/array.cpp.obj CMakeFiles/array.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/array.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\array.dir
@@ -139,6 +151,12 @@ build CMakeFiles/array_pb.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__array_pb_un
   OBJECT_DIR = CMakeFiles\array_pb.dir
   OBJECT_FILE_DIR = CMakeFiles\array_pb.dir\28_AVL_Tree
 
+build CMakeFiles/array_pb.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__array_pb_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_array_pb
+  DEP_FILE = CMakeFiles\array_pb.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\array_pb.dir
+  OBJECT_FILE_DIR = CMakeFiles\array_pb.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target array_pb
@@ -147,7 +165,7 @@ build CMakeFiles/array_pb.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__array_pb_un
 #############################################
 # Link the executable .runtime\array_pb.exe
 
-build .runtime/array_pb.exe: CXX_EXECUTABLE_LINKER__array_pb_Debug CMakeFiles/array_pb.dir/01_Array/array_pb.cpp.obj CMakeFiles/array_pb.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/array_pb.exe: CXX_EXECUTABLE_LINKER__array_pb_Debug CMakeFiles/array_pb.dir/01_Array/array_pb.cpp.obj CMakeFiles/array_pb.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/array_pb.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\array_pb.dir
@@ -178,6 +196,12 @@ build CMakeFiles/02_Link_List.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__02_Link
   OBJECT_DIR = CMakeFiles\02_Link_List.dir
   OBJECT_FILE_DIR = CMakeFiles\02_Link_List.dir\28_AVL_Tree
 
+build CMakeFiles/02_Link_List.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__02_Link_List_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_02_Link_List
+  DEP_FILE = CMakeFiles\02_Link_List.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02_Link_List.dir
+  OBJECT_FILE_DIR = CMakeFiles\02_Link_List.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02_Link_List
@@ -186,7 +210,7 @@ build CMakeFiles/02_Link_List.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__02_Link
 #############################################
 # Link the executable .runtime\02_Link_List.exe
 
-build .runtime/02_Link_List.exe: CXX_EXECUTABLE_LINKER__02_Link_List_Debug CMakeFiles/02_Link_List.dir/02_Link_List/02_Link_List.cpp.obj CMakeFiles/02_Link_List.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/02_Link_List.exe: CXX_EXECUTABLE_LINKER__02_Link_List_Debug CMakeFiles/02_Link_List.dir/02_Link_List/02_Link_List.cpp.obj CMakeFiles/02_Link_List.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/02_Link_List.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\02_Link_List.dir
@@ -217,6 +241,12 @@ build CMakeFiles/linkList.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__linkList_un
   OBJECT_DIR = CMakeFiles\linkList.dir
   OBJECT_FILE_DIR = CMakeFiles\linkList.dir\28_AVL_Tree
 
+build CMakeFiles/linkList.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__linkList_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_linkList
+  DEP_FILE = CMakeFiles\linkList.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linkList.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkList.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target linkList
@@ -225,7 +255,7 @@ build CMakeFiles/linkList.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__linkList_un
 #############################################
 # Link the executable .runtime\linkList.exe
 
-build .runtime/linkList.exe: CXX_EXECUTABLE_LINKER__linkList_Debug CMakeFiles/linkList.dir/02_Link_List/linkList.cpp.obj CMakeFiles/linkList.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/linkList.exe: CXX_EXECUTABLE_LINKER__linkList_Debug CMakeFiles/linkList.dir/02_Link_List/linkList.cpp.obj CMakeFiles/linkList.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/linkList.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linkList.dir
@@ -256,6 +286,12 @@ build CMakeFiles/linkList_pb.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__linkList
   OBJECT_DIR = CMakeFiles\linkList_pb.dir
   OBJECT_FILE_DIR = CMakeFiles\linkList_pb.dir\28_AVL_Tree
 
+build CMakeFiles/linkList_pb.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__linkList_pb_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_linkList_pb
+  DEP_FILE = CMakeFiles\linkList_pb.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linkList_pb.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkList_pb.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target linkList_pb
@@ -264,7 +300,7 @@ build CMakeFiles/linkList_pb.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__linkList
 #############################################
 # Link the executable .runtime\linkList_pb.exe
 
-build .runtime/linkList_pb.exe: CXX_EXECUTABLE_LINKER__linkList_pb_Debug CMakeFiles/linkList_pb.dir/02_Link_List/linkList_pb.cpp.obj CMakeFiles/linkList_pb.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/linkList_pb.exe: CXX_EXECUTABLE_LINKER__linkList_pb_Debug CMakeFiles/linkList_pb.dir/02_Link_List/linkList_pb.cpp.obj CMakeFiles/linkList_pb.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/linkList_pb.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linkList_pb.dir
@@ -295,6 +331,12 @@ build CMakeFiles/03_One-way_Circle_Link_List.dir/28_AVL_Tree/AVL.cpp.obj: CXX_CO
   OBJECT_DIR = CMakeFiles\03_One-way_Circle_Link_List.dir
   OBJECT_FILE_DIR = CMakeFiles\03_One-way_Circle_Link_List.dir\28_AVL_Tree
 
+build CMakeFiles/03_One-way_Circle_Link_List.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__03_One-way_Circle_Link_List_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_03_One-way_Circle_Link_List
+  DEP_FILE = CMakeFiles\03_One-way_Circle_Link_List.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03_One-way_Circle_Link_List.dir
+  OBJECT_FILE_DIR = CMakeFiles\03_One-way_Circle_Link_List.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03_One-way_Circle_Link_List
@@ -303,7 +345,7 @@ build CMakeFiles/03_One-way_Circle_Link_List.dir/28_AVL_Tree/AVL.cpp.obj: CXX_CO
 #############################################
 # Link the executable .runtime\03_One-way_Circle_Link_List.exe
 
-build .runtime/03_One-way_Circle_Link_List.exe: CXX_EXECUTABLE_LINKER__03_One-way_Circle_Link_List_Debug CMakeFiles/03_One-way_Circle_Link_List.dir/03_One-way_Circle_Link_List/03_One-way_Circle_Link_List.cpp.obj CMakeFiles/03_One-way_Circle_Link_List.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/03_One-way_Circle_Link_List.exe: CXX_EXECUTABLE_LINKER__03_One-way_Circle_Link_List_Debug CMakeFiles/03_One-way_Circle_Link_List.dir/03_One-way_Circle_Link_List/03_One-way_Circle_Link_List.cpp.obj CMakeFiles/03_One-way_Circle_Link_List.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/03_One-way_Circle_Link_List.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\03_One-way_Circle_Link_List.dir
@@ -334,6 +376,12 @@ build CMakeFiles/circleLinkList.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__circl
   OBJECT_DIR = CMakeFiles\circleLinkList.dir
   OBJECT_FILE_DIR = CMakeFiles\circleLinkList.dir\28_AVL_Tree
 
+build CMakeFiles/circleLinkList.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__circleLinkList_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_circleLinkList
+  DEP_FILE = CMakeFiles\circleLinkList.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\circleLinkList.dir
+  OBJECT_FILE_DIR = CMakeFiles\circleLinkList.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target circleLinkList
@@ -342,7 +390,7 @@ build CMakeFiles/circleLinkList.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__circl
 #############################################
 # Link the executable .runtime\circleLinkList.exe
 
-build .runtime/circleLinkList.exe: CXX_EXECUTABLE_LINKER__circleLinkList_Debug CMakeFiles/circleLinkList.dir/03_One-way_Circle_Link_List/circleLinkList.cpp.obj CMakeFiles/circleLinkList.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/circleLinkList.exe: CXX_EXECUTABLE_LINKER__circleLinkList_Debug CMakeFiles/circleLinkList.dir/03_One-way_Circle_Link_List/circleLinkList.cpp.obj CMakeFiles/circleLinkList.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/circleLinkList.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\circleLinkList.dir
@@ -373,6 +421,12 @@ build CMakeFiles/circleLinkList_pb.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__ci
   OBJECT_DIR = CMakeFiles\circleLinkList_pb.dir
   OBJECT_FILE_DIR = CMakeFiles\circleLinkList_pb.dir\28_AVL_Tree
 
+build CMakeFiles/circleLinkList_pb.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__circleLinkList_pb_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_circleLinkList_pb
+  DEP_FILE = CMakeFiles\circleLinkList_pb.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\circleLinkList_pb.dir
+  OBJECT_FILE_DIR = CMakeFiles\circleLinkList_pb.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target circleLinkList_pb
@@ -381,7 +435,7 @@ build CMakeFiles/circleLinkList_pb.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__ci
 #############################################
 # Link the executable .runtime\circleLinkList_pb.exe
 
-build .runtime/circleLinkList_pb.exe: CXX_EXECUTABLE_LINKER__circleLinkList_pb_Debug CMakeFiles/circleLinkList_pb.dir/03_One-way_Circle_Link_List/circleLinkList_pb.cpp.obj CMakeFiles/circleLinkList_pb.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/circleLinkList_pb.exe: CXX_EXECUTABLE_LINKER__circleLinkList_pb_Debug CMakeFiles/circleLinkList_pb.dir/03_One-way_Circle_Link_List/circleLinkList_pb.cpp.obj CMakeFiles/circleLinkList_pb.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/circleLinkList_pb.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\circleLinkList_pb.dir
@@ -412,6 +466,12 @@ build CMakeFiles/04_Double_Link_List.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\04_Double_Link_List.dir
   OBJECT_FILE_DIR = CMakeFiles\04_Double_Link_List.dir\28_AVL_Tree
 
+build CMakeFiles/04_Double_Link_List.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__04_Double_Link_List_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_04_Double_Link_List
+  DEP_FILE = CMakeFiles\04_Double_Link_List.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04_Double_Link_List.dir
+  OBJECT_FILE_DIR = CMakeFiles\04_Double_Link_List.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 04_Double_Link_List
@@ -420,7 +480,7 @@ build CMakeFiles/04_Double_Link_List.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable .runtime\04_Double_Link_List.exe
 
-build .runtime/04_Double_Link_List.exe: CXX_EXECUTABLE_LINKER__04_Double_Link_List_Debug CMakeFiles/04_Double_Link_List.dir/04_Double_Link_List/04_Double_Link_List.cpp.obj CMakeFiles/04_Double_Link_List.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/04_Double_Link_List.exe: CXX_EXECUTABLE_LINKER__04_Double_Link_List_Debug CMakeFiles/04_Double_Link_List.dir/04_Double_Link_List/04_Double_Link_List.cpp.obj CMakeFiles/04_Double_Link_List.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/04_Double_Link_List.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\04_Double_Link_List.dir
@@ -451,6 +511,12 @@ build CMakeFiles/doubleLinkList.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__doubl
   OBJECT_DIR = CMakeFiles\doubleLinkList.dir
   OBJECT_FILE_DIR = CMakeFiles\doubleLinkList.dir\28_AVL_Tree
 
+build CMakeFiles/doubleLinkList.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__doubleLinkList_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_doubleLinkList
+  DEP_FILE = CMakeFiles\doubleLinkList.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\doubleLinkList.dir
+  OBJECT_FILE_DIR = CMakeFiles\doubleLinkList.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target doubleLinkList
@@ -459,7 +525,7 @@ build CMakeFiles/doubleLinkList.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__doubl
 #############################################
 # Link the executable .runtime\doubleLinkList.exe
 
-build .runtime/doubleLinkList.exe: CXX_EXECUTABLE_LINKER__doubleLinkList_Debug CMakeFiles/doubleLinkList.dir/04_Double_Link_List/doubleLinkList.cpp.obj CMakeFiles/doubleLinkList.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/doubleLinkList.exe: CXX_EXECUTABLE_LINKER__doubleLinkList_Debug CMakeFiles/doubleLinkList.dir/04_Double_Link_List/doubleLinkList.cpp.obj CMakeFiles/doubleLinkList.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/doubleLinkList.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\doubleLinkList.dir
@@ -490,6 +556,12 @@ build CMakeFiles/05_Double_Circle_Link_List.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COM
   OBJECT_DIR = CMakeFiles\05_Double_Circle_Link_List.dir
   OBJECT_FILE_DIR = CMakeFiles\05_Double_Circle_Link_List.dir\28_AVL_Tree
 
+build CMakeFiles/05_Double_Circle_Link_List.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__05_Double_Circle_Link_List_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_05_Double_Circle_Link_List
+  DEP_FILE = CMakeFiles\05_Double_Circle_Link_List.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05_Double_Circle_Link_List.dir
+  OBJECT_FILE_DIR = CMakeFiles\05_Double_Circle_Link_List.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05_Double_Circle_Link_List
@@ -498,7 +570,7 @@ build CMakeFiles/05_Double_Circle_Link_List.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COM
 #############################################
 # Link the executable .runtime\05_Double_Circle_Link_List.exe
 
-build .runtime/05_Double_Circle_Link_List.exe: CXX_EXECUTABLE_LINKER__05_Double_Circle_Link_List_Debug CMakeFiles/05_Double_Circle_Link_List.dir/05_Double_Circle_Link_List/05_Double_Circle_Link_List.cpp.obj CMakeFiles/05_Double_Circle_Link_List.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/05_Double_Circle_Link_List.exe: CXX_EXECUTABLE_LINKER__05_Double_Circle_Link_List_Debug CMakeFiles/05_Double_Circle_Link_List.dir/05_Double_Circle_Link_List/05_Double_Circle_Link_List.cpp.obj CMakeFiles/05_Double_Circle_Link_List.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/05_Double_Circle_Link_List.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\05_Double_Circle_Link_List.dir
@@ -529,6 +601,12 @@ build CMakeFiles/doubleCircleLinkedList.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\doubleCircleLinkedList.dir
   OBJECT_FILE_DIR = CMakeFiles\doubleCircleLinkedList.dir\28_AVL_Tree
 
+build CMakeFiles/doubleCircleLinkedList.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__doubleCircleLinkedList_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_doubleCircleLinkedList
+  DEP_FILE = CMakeFiles\doubleCircleLinkedList.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\doubleCircleLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles\doubleCircleLinkedList.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target doubleCircleLinkedList
@@ -537,7 +615,7 @@ build CMakeFiles/doubleCircleLinkedList.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable .runtime\doubleCircleLinkedList.exe
 
-build .runtime/doubleCircleLinkedList.exe: CXX_EXECUTABLE_LINKER__doubleCircleLinkedList_Debug CMakeFiles/doubleCircleLinkedList.dir/05_Double_Circle_Link_List/doubleCircleLinkedList.cpp.obj CMakeFiles/doubleCircleLinkedList.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/doubleCircleLinkedList.exe: CXX_EXECUTABLE_LINKER__doubleCircleLinkedList_Debug CMakeFiles/doubleCircleLinkedList.dir/05_Double_Circle_Link_List/doubleCircleLinkedList.cpp.obj CMakeFiles/doubleCircleLinkedList.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/doubleCircleLinkedList.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\doubleCircleLinkedList.dir
@@ -568,6 +646,12 @@ build CMakeFiles/06_Stack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__06_Stack_un
   OBJECT_DIR = CMakeFiles\06_Stack.dir
   OBJECT_FILE_DIR = CMakeFiles\06_Stack.dir\28_AVL_Tree
 
+build CMakeFiles/06_Stack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__06_Stack_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_06_Stack
+  DEP_FILE = CMakeFiles\06_Stack.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\06_Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\06_Stack.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 06_Stack
@@ -576,7 +660,7 @@ build CMakeFiles/06_Stack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__06_Stack_un
 #############################################
 # Link the executable .runtime\06_Stack.exe
 
-build .runtime/06_Stack.exe: CXX_EXECUTABLE_LINKER__06_Stack_Debug CMakeFiles/06_Stack.dir/06_Stack/06_Stack.cpp.obj CMakeFiles/06_Stack.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/06_Stack.exe: CXX_EXECUTABLE_LINKER__06_Stack_Debug CMakeFiles/06_Stack.dir/06_Stack/06_Stack.cpp.obj CMakeFiles/06_Stack.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/06_Stack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\06_Stack.dir
@@ -607,6 +691,12 @@ build CMakeFiles/stack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__stack_unscanne
   OBJECT_DIR = CMakeFiles\stack.dir
   OBJECT_FILE_DIR = CMakeFiles\stack.dir\28_AVL_Tree
 
+build CMakeFiles/stack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__stack_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_stack
+  DEP_FILE = CMakeFiles\stack.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\stack.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target stack
@@ -615,7 +705,7 @@ build CMakeFiles/stack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__stack_unscanne
 #############################################
 # Link the executable .runtime\stack.exe
 
-build .runtime/stack.exe: CXX_EXECUTABLE_LINKER__stack_Debug CMakeFiles/stack.dir/06_Stack/stack.cpp.obj CMakeFiles/stack.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/stack.exe: CXX_EXECUTABLE_LINKER__stack_Debug CMakeFiles/stack.dir/06_Stack/stack.cpp.obj CMakeFiles/stack.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/stack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\stack.dir
@@ -646,6 +736,12 @@ build CMakeFiles/stack_pb.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__stack_pb_un
   OBJECT_DIR = CMakeFiles\stack_pb.dir
   OBJECT_FILE_DIR = CMakeFiles\stack_pb.dir\28_AVL_Tree
 
+build CMakeFiles/stack_pb.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__stack_pb_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_stack_pb
+  DEP_FILE = CMakeFiles\stack_pb.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\stack_pb.dir
+  OBJECT_FILE_DIR = CMakeFiles\stack_pb.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target stack_pb
@@ -654,7 +750,7 @@ build CMakeFiles/stack_pb.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__stack_pb_un
 #############################################
 # Link the executable .runtime\stack_pb.exe
 
-build .runtime/stack_pb.exe: CXX_EXECUTABLE_LINKER__stack_pb_Debug CMakeFiles/stack_pb.dir/06_Stack/stack_pb.cpp.obj CMakeFiles/stack_pb.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/stack_pb.exe: CXX_EXECUTABLE_LINKER__stack_pb_Debug CMakeFiles/stack_pb.dir/06_Stack/stack_pb.cpp.obj CMakeFiles/stack_pb.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/stack_pb.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\stack_pb.dir
@@ -685,6 +781,12 @@ build CMakeFiles/07_Link_Stack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__07_Lin
   OBJECT_DIR = CMakeFiles\07_Link_Stack.dir
   OBJECT_FILE_DIR = CMakeFiles\07_Link_Stack.dir\28_AVL_Tree
 
+build CMakeFiles/07_Link_Stack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__07_Link_Stack_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_07_Link_Stack
+  DEP_FILE = CMakeFiles\07_Link_Stack.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\07_Link_Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\07_Link_Stack.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 07_Link_Stack
@@ -693,7 +795,7 @@ build CMakeFiles/07_Link_Stack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__07_Lin
 #############################################
 # Link the executable .runtime\07_Link_Stack.exe
 
-build .runtime/07_Link_Stack.exe: CXX_EXECUTABLE_LINKER__07_Link_Stack_Debug CMakeFiles/07_Link_Stack.dir/07_Link_Stack/07_Link_Stack.cpp.obj CMakeFiles/07_Link_Stack.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/07_Link_Stack.exe: CXX_EXECUTABLE_LINKER__07_Link_Stack_Debug CMakeFiles/07_Link_Stack.dir/07_Link_Stack/07_Link_Stack.cpp.obj CMakeFiles/07_Link_Stack.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/07_Link_Stack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\07_Link_Stack.dir
@@ -724,6 +826,12 @@ build CMakeFiles/linkStack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__linkStack_
   OBJECT_DIR = CMakeFiles\linkStack.dir
   OBJECT_FILE_DIR = CMakeFiles\linkStack.dir\28_AVL_Tree
 
+build CMakeFiles/linkStack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__linkStack_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_linkStack
+  DEP_FILE = CMakeFiles\linkStack.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linkStack.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkStack.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target linkStack
@@ -732,7 +840,7 @@ build CMakeFiles/linkStack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__linkStack_
 #############################################
 # Link the executable .runtime\linkStack.exe
 
-build .runtime/linkStack.exe: CXX_EXECUTABLE_LINKER__linkStack_Debug CMakeFiles/linkStack.dir/07_Link_Stack/linkStack.cpp.obj CMakeFiles/linkStack.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/linkStack.exe: CXX_EXECUTABLE_LINKER__linkStack_Debug CMakeFiles/linkStack.dir/07_Link_Stack/linkStack.cpp.obj CMakeFiles/linkStack.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/linkStack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linkStack.dir
@@ -763,6 +871,12 @@ build CMakeFiles/08_Ring_Queue.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__08_Rin
   OBJECT_DIR = CMakeFiles\08_Ring_Queue.dir
   OBJECT_FILE_DIR = CMakeFiles\08_Ring_Queue.dir\28_AVL_Tree
 
+build CMakeFiles/08_Ring_Queue.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__08_Ring_Queue_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_08_Ring_Queue
+  DEP_FILE = CMakeFiles\08_Ring_Queue.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\08_Ring_Queue.dir
+  OBJECT_FILE_DIR = CMakeFiles\08_Ring_Queue.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 08_Ring_Queue
@@ -771,7 +885,7 @@ build CMakeFiles/08_Ring_Queue.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__08_Rin
 #############################################
 # Link the executable .runtime\08_Ring_Queue.exe
 
-build .runtime/08_Ring_Queue.exe: CXX_EXECUTABLE_LINKER__08_Ring_Queue_Debug CMakeFiles/08_Ring_Queue.dir/08_Ring_Queue/08_Ring_Queue.cpp.obj CMakeFiles/08_Ring_Queue.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/08_Ring_Queue.exe: CXX_EXECUTABLE_LINKER__08_Ring_Queue_Debug CMakeFiles/08_Ring_Queue.dir/08_Ring_Queue/08_Ring_Queue.cpp.obj CMakeFiles/08_Ring_Queue.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/08_Ring_Queue.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\08_Ring_Queue.dir
@@ -802,6 +916,12 @@ build CMakeFiles/queue.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__queue_unscanne
   OBJECT_DIR = CMakeFiles\queue.dir
   OBJECT_FILE_DIR = CMakeFiles\queue.dir\28_AVL_Tree
 
+build CMakeFiles/queue.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__queue_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_queue
+  DEP_FILE = CMakeFiles\queue.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\queue.dir
+  OBJECT_FILE_DIR = CMakeFiles\queue.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target queue
@@ -810,7 +930,7 @@ build CMakeFiles/queue.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__queue_unscanne
 #############################################
 # Link the executable .runtime\queue.exe
 
-build .runtime/queue.exe: CXX_EXECUTABLE_LINKER__queue_Debug CMakeFiles/queue.dir/08_Ring_Queue/queue.cpp.obj CMakeFiles/queue.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/queue.exe: CXX_EXECUTABLE_LINKER__queue_Debug CMakeFiles/queue.dir/08_Ring_Queue/queue.cpp.obj CMakeFiles/queue.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/queue.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\queue.dir
@@ -841,6 +961,12 @@ build CMakeFiles/queue_pb.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__queue_pb_un
   OBJECT_DIR = CMakeFiles\queue_pb.dir
   OBJECT_FILE_DIR = CMakeFiles\queue_pb.dir\28_AVL_Tree
 
+build CMakeFiles/queue_pb.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__queue_pb_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_queue_pb
+  DEP_FILE = CMakeFiles\queue_pb.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\queue_pb.dir
+  OBJECT_FILE_DIR = CMakeFiles\queue_pb.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target queue_pb
@@ -849,7 +975,7 @@ build CMakeFiles/queue_pb.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__queue_pb_un
 #############################################
 # Link the executable .runtime\queue_pb.exe
 
-build .runtime/queue_pb.exe: CXX_EXECUTABLE_LINKER__queue_pb_Debug CMakeFiles/queue_pb.dir/08_Ring_Queue/queue_pb.cpp.obj CMakeFiles/queue_pb.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/queue_pb.exe: CXX_EXECUTABLE_LINKER__queue_pb_Debug CMakeFiles/queue_pb.dir/08_Ring_Queue/queue_pb.cpp.obj CMakeFiles/queue_pb.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/queue_pb.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\queue_pb.dir
@@ -880,6 +1006,12 @@ build CMakeFiles/09_Chained_Queue.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__09_
   OBJECT_DIR = CMakeFiles\09_Chained_Queue.dir
   OBJECT_FILE_DIR = CMakeFiles\09_Chained_Queue.dir\28_AVL_Tree
 
+build CMakeFiles/09_Chained_Queue.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__09_Chained_Queue_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_09_Chained_Queue
+  DEP_FILE = CMakeFiles\09_Chained_Queue.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\09_Chained_Queue.dir
+  OBJECT_FILE_DIR = CMakeFiles\09_Chained_Queue.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 09_Chained_Queue
@@ -888,7 +1020,7 @@ build CMakeFiles/09_Chained_Queue.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__09_
 #############################################
 # Link the executable .runtime\09_Chained_Queue.exe
 
-build .runtime/09_Chained_Queue.exe: CXX_EXECUTABLE_LINKER__09_Chained_Queue_Debug CMakeFiles/09_Chained_Queue.dir/09_Chained_Queue/09_Chained_Queue.cpp.obj CMakeFiles/09_Chained_Queue.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/09_Chained_Queue.exe: CXX_EXECUTABLE_LINKER__09_Chained_Queue_Debug CMakeFiles/09_Chained_Queue.dir/09_Chained_Queue/09_Chained_Queue.cpp.obj CMakeFiles/09_Chained_Queue.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/09_Chained_Queue.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\09_Chained_Queue.dir
@@ -919,6 +1051,12 @@ build CMakeFiles/linkQueue.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__linkQueue_
   OBJECT_DIR = CMakeFiles\linkQueue.dir
   OBJECT_FILE_DIR = CMakeFiles\linkQueue.dir\28_AVL_Tree
 
+build CMakeFiles/linkQueue.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__linkQueue_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_linkQueue
+  DEP_FILE = CMakeFiles\linkQueue.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linkQueue.dir
+  OBJECT_FILE_DIR = CMakeFiles\linkQueue.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target linkQueue
@@ -927,7 +1065,7 @@ build CMakeFiles/linkQueue.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__linkQueue_
 #############################################
 # Link the executable .runtime\linkQueue.exe
 
-build .runtime/linkQueue.exe: CXX_EXECUTABLE_LINKER__linkQueue_Debug CMakeFiles/linkQueue.dir/09_Chained_Queue/linkQueue.cpp.obj CMakeFiles/linkQueue.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/linkQueue.exe: CXX_EXECUTABLE_LINKER__linkQueue_Debug CMakeFiles/linkQueue.dir/09_Chained_Queue/linkQueue.cpp.obj CMakeFiles/linkQueue.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/linkQueue.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linkQueue.dir
@@ -958,6 +1096,12 @@ build CMakeFiles/10_Binary_Search_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COM
   OBJECT_DIR = CMakeFiles\10_Binary_Search_Algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles\10_Binary_Search_Algorithm.dir\28_AVL_Tree
 
+build CMakeFiles/10_Binary_Search_Algorithm.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__10_Binary_Search_Algorithm_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_10_Binary_Search_Algorithm
+  DEP_FILE = CMakeFiles\10_Binary_Search_Algorithm.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\10_Binary_Search_Algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\10_Binary_Search_Algorithm.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 10_Binary_Search_Algorithm
@@ -966,7 +1110,7 @@ build CMakeFiles/10_Binary_Search_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COM
 #############################################
 # Link the executable .runtime\10_Binary_Search_Algorithm.exe
 
-build .runtime/10_Binary_Search_Algorithm.exe: CXX_EXECUTABLE_LINKER__10_Binary_Search_Algorithm_Debug CMakeFiles/10_Binary_Search_Algorithm.dir/10_Binary_Search_Algorithm/10_Binary_Search_Algorithm.cpp.obj CMakeFiles/10_Binary_Search_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/10_Binary_Search_Algorithm.exe: CXX_EXECUTABLE_LINKER__10_Binary_Search_Algorithm_Debug CMakeFiles/10_Binary_Search_Algorithm.dir/10_Binary_Search_Algorithm/10_Binary_Search_Algorithm.cpp.obj CMakeFiles/10_Binary_Search_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/10_Binary_Search_Algorithm.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\10_Binary_Search_Algorithm.dir
@@ -997,6 +1141,12 @@ build CMakeFiles/binarySearch.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__binaryS
   OBJECT_DIR = CMakeFiles\binarySearch.dir
   OBJECT_FILE_DIR = CMakeFiles\binarySearch.dir\28_AVL_Tree
 
+build CMakeFiles/binarySearch.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__binarySearch_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_binarySearch
+  DEP_FILE = CMakeFiles\binarySearch.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\binarySearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\binarySearch.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target binarySearch
@@ -1005,7 +1155,7 @@ build CMakeFiles/binarySearch.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__binaryS
 #############################################
 # Link the executable .runtime\binarySearch.exe
 
-build .runtime/binarySearch.exe: CXX_EXECUTABLE_LINKER__binarySearch_Debug CMakeFiles/binarySearch.dir/10_Binary_Search_Algorithm/binarySearch.cpp.obj CMakeFiles/binarySearch.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/binarySearch.exe: CXX_EXECUTABLE_LINKER__binarySearch_Debug CMakeFiles/binarySearch.dir/10_Binary_Search_Algorithm/binarySearch.cpp.obj CMakeFiles/binarySearch.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/binarySearch.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\binarySearch.dir
@@ -1036,6 +1186,12 @@ build CMakeFiles/11_Basic_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__11_Bas
   OBJECT_DIR = CMakeFiles\11_Basic_Sort.dir
   OBJECT_FILE_DIR = CMakeFiles\11_Basic_Sort.dir\28_AVL_Tree
 
+build CMakeFiles/11_Basic_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__11_Basic_Sort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_11_Basic_Sort
+  DEP_FILE = CMakeFiles\11_Basic_Sort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\11_Basic_Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\11_Basic_Sort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 11_Basic_Sort
@@ -1044,7 +1200,7 @@ build CMakeFiles/11_Basic_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__11_Bas
 #############################################
 # Link the executable .runtime\11_Basic_Sort.exe
 
-build .runtime/11_Basic_Sort.exe: CXX_EXECUTABLE_LINKER__11_Basic_Sort_Debug CMakeFiles/11_Basic_Sort.dir/11_Basic_Sort/11_Basic_Sort.cpp.obj CMakeFiles/11_Basic_Sort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/11_Basic_Sort.exe: CXX_EXECUTABLE_LINKER__11_Basic_Sort_Debug CMakeFiles/11_Basic_Sort.dir/11_Basic_Sort/11_Basic_Sort.cpp.obj CMakeFiles/11_Basic_Sort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/11_Basic_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\11_Basic_Sort.dir
@@ -1075,6 +1231,12 @@ build CMakeFiles/basicSort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__basicSort_
   OBJECT_DIR = CMakeFiles\basicSort.dir
   OBJECT_FILE_DIR = CMakeFiles\basicSort.dir\28_AVL_Tree
 
+build CMakeFiles/basicSort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__basicSort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_basicSort
+  DEP_FILE = CMakeFiles\basicSort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\basicSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\basicSort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target basicSort
@@ -1083,7 +1245,7 @@ build CMakeFiles/basicSort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__basicSort_
 #############################################
 # Link the executable .runtime\basicSort.exe
 
-build .runtime/basicSort.exe: CXX_EXECUTABLE_LINKER__basicSort_Debug CMakeFiles/basicSort.dir/11_Basic_Sort/basicSort.cpp.obj CMakeFiles/basicSort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/basicSort.exe: CXX_EXECUTABLE_LINKER__basicSort_Debug CMakeFiles/basicSort.dir/11_Basic_Sort/basicSort.cpp.obj CMakeFiles/basicSort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/basicSort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\basicSort.dir
@@ -1114,6 +1276,12 @@ build CMakeFiles/12_Quick_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__12_Qui
   OBJECT_DIR = CMakeFiles\12_Quick_Sort.dir
   OBJECT_FILE_DIR = CMakeFiles\12_Quick_Sort.dir\28_AVL_Tree
 
+build CMakeFiles/12_Quick_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__12_Quick_Sort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_12_Quick_Sort
+  DEP_FILE = CMakeFiles\12_Quick_Sort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\12_Quick_Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\12_Quick_Sort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 12_Quick_Sort
@@ -1122,7 +1290,7 @@ build CMakeFiles/12_Quick_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__12_Qui
 #############################################
 # Link the executable .runtime\12_Quick_Sort.exe
 
-build .runtime/12_Quick_Sort.exe: CXX_EXECUTABLE_LINKER__12_Quick_Sort_Debug CMakeFiles/12_Quick_Sort.dir/12_Quick_Sort/12_Quick_Sort.cpp.obj CMakeFiles/12_Quick_Sort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/12_Quick_Sort.exe: CXX_EXECUTABLE_LINKER__12_Quick_Sort_Debug CMakeFiles/12_Quick_Sort.dir/12_Quick_Sort/12_Quick_Sort.cpp.obj CMakeFiles/12_Quick_Sort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/12_Quick_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\12_Quick_Sort.dir
@@ -1153,6 +1321,12 @@ build CMakeFiles/quickSort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__quickSort_
   OBJECT_DIR = CMakeFiles\quickSort.dir
   OBJECT_FILE_DIR = CMakeFiles\quickSort.dir\28_AVL_Tree
 
+build CMakeFiles/quickSort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__quickSort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_quickSort
+  DEP_FILE = CMakeFiles\quickSort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\quickSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\quickSort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target quickSort
@@ -1161,7 +1335,7 @@ build CMakeFiles/quickSort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__quickSort_
 #############################################
 # Link the executable .runtime\quickSort.exe
 
-build .runtime/quickSort.exe: CXX_EXECUTABLE_LINKER__quickSort_Debug CMakeFiles/quickSort.dir/12_Quick_Sort/quickSort.cpp.obj CMakeFiles/quickSort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/quickSort.exe: CXX_EXECUTABLE_LINKER__quickSort_Debug CMakeFiles/quickSort.dir/12_Quick_Sort/quickSort.cpp.obj CMakeFiles/quickSort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/quickSort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\quickSort.dir
@@ -1192,6 +1366,12 @@ build CMakeFiles/13_Merge_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__13_Mer
   OBJECT_DIR = CMakeFiles\13_Merge_Sort.dir
   OBJECT_FILE_DIR = CMakeFiles\13_Merge_Sort.dir\28_AVL_Tree
 
+build CMakeFiles/13_Merge_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__13_Merge_Sort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_13_Merge_Sort
+  DEP_FILE = CMakeFiles\13_Merge_Sort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\13_Merge_Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\13_Merge_Sort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 13_Merge_Sort
@@ -1200,7 +1380,7 @@ build CMakeFiles/13_Merge_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__13_Mer
 #############################################
 # Link the executable .runtime\13_Merge_Sort.exe
 
-build .runtime/13_Merge_Sort.exe: CXX_EXECUTABLE_LINKER__13_Merge_Sort_Debug CMakeFiles/13_Merge_Sort.dir/13_Merge_Sort/13_Merge_Sort.cpp.obj CMakeFiles/13_Merge_Sort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/13_Merge_Sort.exe: CXX_EXECUTABLE_LINKER__13_Merge_Sort_Debug CMakeFiles/13_Merge_Sort.dir/13_Merge_Sort/13_Merge_Sort.cpp.obj CMakeFiles/13_Merge_Sort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/13_Merge_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\13_Merge_Sort.dir
@@ -1231,6 +1411,12 @@ build CMakeFiles/mergeSort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__mergeSort_
   OBJECT_DIR = CMakeFiles\mergeSort.dir
   OBJECT_FILE_DIR = CMakeFiles\mergeSort.dir\28_AVL_Tree
 
+build CMakeFiles/mergeSort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__mergeSort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_mergeSort
+  DEP_FILE = CMakeFiles\mergeSort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\mergeSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\mergeSort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target mergeSort
@@ -1239,7 +1425,7 @@ build CMakeFiles/mergeSort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__mergeSort_
 #############################################
 # Link the executable .runtime\mergeSort.exe
 
-build .runtime/mergeSort.exe: CXX_EXECUTABLE_LINKER__mergeSort_Debug CMakeFiles/mergeSort.dir/13_Merge_Sort/mergeSort.cpp.obj CMakeFiles/mergeSort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/mergeSort.exe: CXX_EXECUTABLE_LINKER__mergeSort_Debug CMakeFiles/mergeSort.dir/13_Merge_Sort/mergeSort.cpp.obj CMakeFiles/mergeSort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/mergeSort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\mergeSort.dir
@@ -1270,6 +1456,12 @@ build CMakeFiles/14_Binary_Heap.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__14_Bi
   OBJECT_DIR = CMakeFiles\14_Binary_Heap.dir
   OBJECT_FILE_DIR = CMakeFiles\14_Binary_Heap.dir\28_AVL_Tree
 
+build CMakeFiles/14_Binary_Heap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__14_Binary_Heap_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_14_Binary_Heap
+  DEP_FILE = CMakeFiles\14_Binary_Heap.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\14_Binary_Heap.dir
+  OBJECT_FILE_DIR = CMakeFiles\14_Binary_Heap.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 14_Binary_Heap
@@ -1278,7 +1470,7 @@ build CMakeFiles/14_Binary_Heap.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__14_Bi
 #############################################
 # Link the executable .runtime\14_Binary_Heap.exe
 
-build .runtime/14_Binary_Heap.exe: CXX_EXECUTABLE_LINKER__14_Binary_Heap_Debug CMakeFiles/14_Binary_Heap.dir/14_Binary_Heap/14_Binary_Heap.cpp.obj CMakeFiles/14_Binary_Heap.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/14_Binary_Heap.exe: CXX_EXECUTABLE_LINKER__14_Binary_Heap_Debug CMakeFiles/14_Binary_Heap.dir/14_Binary_Heap/14_Binary_Heap.cpp.obj CMakeFiles/14_Binary_Heap.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/14_Binary_Heap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\14_Binary_Heap.dir
@@ -1309,6 +1501,12 @@ build CMakeFiles/binaryHeap.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__binaryHea
   OBJECT_DIR = CMakeFiles\binaryHeap.dir
   OBJECT_FILE_DIR = CMakeFiles\binaryHeap.dir\28_AVL_Tree
 
+build CMakeFiles/binaryHeap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__binaryHeap_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_binaryHeap
+  DEP_FILE = CMakeFiles\binaryHeap.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\binaryHeap.dir
+  OBJECT_FILE_DIR = CMakeFiles\binaryHeap.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target binaryHeap
@@ -1317,7 +1515,7 @@ build CMakeFiles/binaryHeap.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__binaryHea
 #############################################
 # Link the executable .runtime\binaryHeap.exe
 
-build .runtime/binaryHeap.exe: CXX_EXECUTABLE_LINKER__binaryHeap_Debug CMakeFiles/binaryHeap.dir/14_Binary_Heap/binaryHeap.cpp.obj CMakeFiles/binaryHeap.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/binaryHeap.exe: CXX_EXECUTABLE_LINKER__binaryHeap_Debug CMakeFiles/binaryHeap.dir/14_Binary_Heap/binaryHeap.cpp.obj CMakeFiles/binaryHeap.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/binaryHeap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\binaryHeap.dir
@@ -1348,6 +1546,12 @@ build CMakeFiles/15_Heap_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__15_Heap
   OBJECT_DIR = CMakeFiles\15_Heap_Sort.dir
   OBJECT_FILE_DIR = CMakeFiles\15_Heap_Sort.dir\28_AVL_Tree
 
+build CMakeFiles/15_Heap_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__15_Heap_Sort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_15_Heap_Sort
+  DEP_FILE = CMakeFiles\15_Heap_Sort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\15_Heap_Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\15_Heap_Sort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 15_Heap_Sort
@@ -1356,7 +1560,7 @@ build CMakeFiles/15_Heap_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__15_Heap
 #############################################
 # Link the executable .runtime\15_Heap_Sort.exe
 
-build .runtime/15_Heap_Sort.exe: CXX_EXECUTABLE_LINKER__15_Heap_Sort_Debug CMakeFiles/15_Heap_Sort.dir/15_Heap_Sort/15_Heap_Sort.cpp.obj CMakeFiles/15_Heap_Sort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/15_Heap_Sort.exe: CXX_EXECUTABLE_LINKER__15_Heap_Sort_Debug CMakeFiles/15_Heap_Sort.dir/15_Heap_Sort/15_Heap_Sort.cpp.obj CMakeFiles/15_Heap_Sort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/15_Heap_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\15_Heap_Sort.dir
@@ -1387,6 +1591,12 @@ build CMakeFiles/heapSort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__heapSort_un
   OBJECT_DIR = CMakeFiles\heapSort.dir
   OBJECT_FILE_DIR = CMakeFiles\heapSort.dir\28_AVL_Tree
 
+build CMakeFiles/heapSort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__heapSort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_heapSort
+  DEP_FILE = CMakeFiles\heapSort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\heapSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\heapSort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target heapSort
@@ -1395,7 +1605,7 @@ build CMakeFiles/heapSort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__heapSort_un
 #############################################
 # Link the executable .runtime\heapSort.exe
 
-build .runtime/heapSort.exe: CXX_EXECUTABLE_LINKER__heapSort_Debug CMakeFiles/heapSort.dir/15_Heap_Sort/heapSort.cpp.obj CMakeFiles/heapSort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/heapSort.exe: CXX_EXECUTABLE_LINKER__heapSort_Debug CMakeFiles/heapSort.dir/15_Heap_Sort/heapSort.cpp.obj CMakeFiles/heapSort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/heapSort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\heapSort.dir
@@ -1426,6 +1636,12 @@ build CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/28_AVL_Tree/AVL.cpp.ob
   OBJECT_DIR = CMakeFiles\16_Advanced_Sorting_Performance_Test.dir
   OBJECT_FILE_DIR = CMakeFiles\16_Advanced_Sorting_Performance_Test.dir\28_AVL_Tree
 
+build CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__16_Advanced_Sorting_Performance_Test_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_16_Advanced_Sorting_Performance_Test
+  DEP_FILE = CMakeFiles\16_Advanced_Sorting_Performance_Test.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\16_Advanced_Sorting_Performance_Test.dir
+  OBJECT_FILE_DIR = CMakeFiles\16_Advanced_Sorting_Performance_Test.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 16_Advanced_Sorting_Performance_Test
@@ -1434,7 +1650,7 @@ build CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/28_AVL_Tree/AVL.cpp.ob
 #############################################
 # Link the executable .runtime\16_Advanced_Sorting_Performance_Test.exe
 
-build .runtime/16_Advanced_Sorting_Performance_Test.exe: CXX_EXECUTABLE_LINKER__16_Advanced_Sorting_Performance_Test_Debug CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/16_Advanced_Sorting_Performance_Test/16_Advanced_Sorting_Performance_Test.cpp.obj CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/16_Advanced_Sorting_Performance_Test.exe: CXX_EXECUTABLE_LINKER__16_Advanced_Sorting_Performance_Test_Debug CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/16_Advanced_Sorting_Performance_Test/16_Advanced_Sorting_Performance_Test.cpp.obj CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\16_Advanced_Sorting_Performance_Test.dir
@@ -1465,6 +1681,12 @@ build CMakeFiles/17_Radix_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__17_Rad
   OBJECT_DIR = CMakeFiles\17_Radix_Sort.dir
   OBJECT_FILE_DIR = CMakeFiles\17_Radix_Sort.dir\28_AVL_Tree
 
+build CMakeFiles/17_Radix_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__17_Radix_Sort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_17_Radix_Sort
+  DEP_FILE = CMakeFiles\17_Radix_Sort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\17_Radix_Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\17_Radix_Sort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 17_Radix_Sort
@@ -1473,7 +1695,7 @@ build CMakeFiles/17_Radix_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__17_Rad
 #############################################
 # Link the executable .runtime\17_Radix_Sort.exe
 
-build .runtime/17_Radix_Sort.exe: CXX_EXECUTABLE_LINKER__17_Radix_Sort_Debug CMakeFiles/17_Radix_Sort.dir/17_Radix_Sort/17_Radix_Sort.cpp.obj CMakeFiles/17_Radix_Sort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/17_Radix_Sort.exe: CXX_EXECUTABLE_LINKER__17_Radix_Sort_Debug CMakeFiles/17_Radix_Sort.dir/17_Radix_Sort/17_Radix_Sort.cpp.obj CMakeFiles/17_Radix_Sort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/17_Radix_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\17_Radix_Sort.dir
@@ -1504,6 +1726,12 @@ build CMakeFiles/18_Linear_Probing_Hash_Table.dir/28_AVL_Tree/AVL.cpp.obj: CXX_C
   OBJECT_DIR = CMakeFiles\18_Linear_Probing_Hash_Table.dir
   OBJECT_FILE_DIR = CMakeFiles\18_Linear_Probing_Hash_Table.dir\28_AVL_Tree
 
+build CMakeFiles/18_Linear_Probing_Hash_Table.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__18_Linear_Probing_Hash_Table_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_18_Linear_Probing_Hash_Table
+  DEP_FILE = CMakeFiles\18_Linear_Probing_Hash_Table.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\18_Linear_Probing_Hash_Table.dir
+  OBJECT_FILE_DIR = CMakeFiles\18_Linear_Probing_Hash_Table.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 18_Linear_Probing_Hash_Table
@@ -1512,7 +1740,7 @@ build CMakeFiles/18_Linear_Probing_Hash_Table.dir/28_AVL_Tree/AVL.cpp.obj: CXX_C
 #############################################
 # Link the executable .runtime\18_Linear_Probing_Hash_Table.exe
 
-build .runtime/18_Linear_Probing_Hash_Table.exe: CXX_EXECUTABLE_LINKER__18_Linear_Probing_Hash_Table_Debug CMakeFiles/18_Linear_Probing_Hash_Table.dir/18_Linear_Probing_Hash_Table/18_Linear_Probing_Hash_Table.cpp.obj CMakeFiles/18_Linear_Probing_Hash_Table.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/18_Linear_Probing_Hash_Table.exe: CXX_EXECUTABLE_LINKER__18_Linear_Probing_Hash_Table_Debug CMakeFiles/18_Linear_Probing_Hash_Table.dir/18_Linear_Probing_Hash_Table/18_Linear_Probing_Hash_Table.cpp.obj CMakeFiles/18_Linear_Probing_Hash_Table.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/18_Linear_Probing_Hash_Table.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\18_Linear_Probing_Hash_Table.dir
@@ -1543,6 +1771,12 @@ build CMakeFiles/linearProbingHashTable.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\linearProbingHashTable.dir
   OBJECT_FILE_DIR = CMakeFiles\linearProbingHashTable.dir\28_AVL_Tree
 
+build CMakeFiles/linearProbingHashTable.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__linearProbingHashTable_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_linearProbingHashTable
+  DEP_FILE = CMakeFiles\linearProbingHashTable.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linearProbingHashTable.dir
+  OBJECT_FILE_DIR = CMakeFiles\linearProbingHashTable.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target linearProbingHashTable
@@ -1551,7 +1785,7 @@ build CMakeFiles/linearProbingHashTable.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable .runtime\linearProbingHashTable.exe
 
-build .runtime/linearProbingHashTable.exe: CXX_EXECUTABLE_LINKER__linearProbingHashTable_Debug CMakeFiles/linearProbingHashTable.dir/18_Linear_Probing_Hash_Table/linearProbingHashTable.cpp.obj CMakeFiles/linearProbingHashTable.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/linearProbingHashTable.exe: CXX_EXECUTABLE_LINKER__linearProbingHashTable_Debug CMakeFiles/linearProbingHashTable.dir/18_Linear_Probing_Hash_Table/linearProbingHashTable.cpp.obj CMakeFiles/linearProbingHashTable.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/linearProbingHashTable.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linearProbingHashTable.dir
@@ -1582,6 +1816,12 @@ build CMakeFiles/19_Chained_Hash_Table.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER
   OBJECT_DIR = CMakeFiles\19_Chained_Hash_Table.dir
   OBJECT_FILE_DIR = CMakeFiles\19_Chained_Hash_Table.dir\28_AVL_Tree
 
+build CMakeFiles/19_Chained_Hash_Table.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__19_Chained_Hash_Table_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_19_Chained_Hash_Table
+  DEP_FILE = CMakeFiles\19_Chained_Hash_Table.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\19_Chained_Hash_Table.dir
+  OBJECT_FILE_DIR = CMakeFiles\19_Chained_Hash_Table.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 19_Chained_Hash_Table
@@ -1590,7 +1830,7 @@ build CMakeFiles/19_Chained_Hash_Table.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable .runtime\19_Chained_Hash_Table.exe
 
-build .runtime/19_Chained_Hash_Table.exe: CXX_EXECUTABLE_LINKER__19_Chained_Hash_Table_Debug CMakeFiles/19_Chained_Hash_Table.dir/19_Chained_Hash_Table/19_Chained_Hash_Table.cpp.obj CMakeFiles/19_Chained_Hash_Table.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/19_Chained_Hash_Table.exe: CXX_EXECUTABLE_LINKER__19_Chained_Hash_Table_Debug CMakeFiles/19_Chained_Hash_Table.dir/19_Chained_Hash_Table/19_Chained_Hash_Table.cpp.obj CMakeFiles/19_Chained_Hash_Table.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/19_Chained_Hash_Table.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\19_Chained_Hash_Table.dir
@@ -1621,6 +1861,12 @@ build CMakeFiles/chainedHashTable.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__cha
   OBJECT_DIR = CMakeFiles\chainedHashTable.dir
   OBJECT_FILE_DIR = CMakeFiles\chainedHashTable.dir\28_AVL_Tree
 
+build CMakeFiles/chainedHashTable.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__chainedHashTable_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_chainedHashTable
+  DEP_FILE = CMakeFiles\chainedHashTable.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\chainedHashTable.dir
+  OBJECT_FILE_DIR = CMakeFiles\chainedHashTable.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target chainedHashTable
@@ -1629,7 +1875,7 @@ build CMakeFiles/chainedHashTable.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__cha
 #############################################
 # Link the executable .runtime\chainedHashTable.exe
 
-build .runtime/chainedHashTable.exe: CXX_EXECUTABLE_LINKER__chainedHashTable_Debug CMakeFiles/chainedHashTable.dir/19_Chained_Hash_Table/chainedHashTable.cpp.obj CMakeFiles/chainedHashTable.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/chainedHashTable.exe: CXX_EXECUTABLE_LINKER__chainedHashTable_Debug CMakeFiles/chainedHashTable.dir/19_Chained_Hash_Table/chainedHashTable.cpp.obj CMakeFiles/chainedHashTable.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/chainedHashTable.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\chainedHashTable.dir
@@ -1660,6 +1906,12 @@ build CMakeFiles/20_Big_Data_Duplicate_Check.dir/28_AVL_Tree/AVL.cpp.obj: CXX_CO
   OBJECT_DIR = CMakeFiles\20_Big_Data_Duplicate_Check.dir
   OBJECT_FILE_DIR = CMakeFiles\20_Big_Data_Duplicate_Check.dir\28_AVL_Tree
 
+build CMakeFiles/20_Big_Data_Duplicate_Check.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__20_Big_Data_Duplicate_Check_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_20_Big_Data_Duplicate_Check
+  DEP_FILE = CMakeFiles\20_Big_Data_Duplicate_Check.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\20_Big_Data_Duplicate_Check.dir
+  OBJECT_FILE_DIR = CMakeFiles\20_Big_Data_Duplicate_Check.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 20_Big_Data_Duplicate_Check
@@ -1668,7 +1920,7 @@ build CMakeFiles/20_Big_Data_Duplicate_Check.dir/28_AVL_Tree/AVL.cpp.obj: CXX_CO
 #############################################
 # Link the executable .runtime\20_Big_Data_Duplicate_Check.exe
 
-build .runtime/20_Big_Data_Duplicate_Check.exe: CXX_EXECUTABLE_LINKER__20_Big_Data_Duplicate_Check_Debug CMakeFiles/20_Big_Data_Duplicate_Check.dir/20_Big_Data_Duplicate_Check/20_Big_Data_Duplicate_Check.cpp.obj CMakeFiles/20_Big_Data_Duplicate_Check.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/20_Big_Data_Duplicate_Check.exe: CXX_EXECUTABLE_LINKER__20_Big_Data_Duplicate_Check_Debug CMakeFiles/20_Big_Data_Duplicate_Check.dir/20_Big_Data_Duplicate_Check/20_Big_Data_Duplicate_Check.cpp.obj CMakeFiles/20_Big_Data_Duplicate_Check.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/20_Big_Data_Duplicate_Check.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20_Big_Data_Duplicate_Check.dir
@@ -1699,6 +1951,12 @@ build CMakeFiles/bigDataDuplicateCheck.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER
   OBJECT_DIR = CMakeFiles\bigDataDuplicateCheck.dir
   OBJECT_FILE_DIR = CMakeFiles\bigDataDuplicateCheck.dir\28_AVL_Tree
 
+build CMakeFiles/bigDataDuplicateCheck.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__bigDataDuplicateCheck_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_bigDataDuplicateCheck
+  DEP_FILE = CMakeFiles\bigDataDuplicateCheck.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bigDataDuplicateCheck.dir
+  OBJECT_FILE_DIR = CMakeFiles\bigDataDuplicateCheck.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bigDataDuplicateCheck
@@ -1707,7 +1965,7 @@ build CMakeFiles/bigDataDuplicateCheck.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable .runtime\bigDataDuplicateCheck.exe
 
-build .runtime/bigDataDuplicateCheck.exe: CXX_EXECUTABLE_LINKER__bigDataDuplicateCheck_Debug CMakeFiles/bigDataDuplicateCheck.dir/20_Big_Data_Duplicate_Check/bigDataDuplicateCheck.cpp.obj CMakeFiles/bigDataDuplicateCheck.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/bigDataDuplicateCheck.exe: CXX_EXECUTABLE_LINKER__bigDataDuplicateCheck_Debug CMakeFiles/bigDataDuplicateCheck.dir/20_Big_Data_Duplicate_Check/bigDataDuplicateCheck.cpp.obj CMakeFiles/bigDataDuplicateCheck.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/bigDataDuplicateCheck.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bigDataDuplicateCheck.dir
@@ -1738,6 +1996,12 @@ build CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/28_AVL_Tree/AVL.cpp.obj:
   OBJECT_DIR = CMakeFiles\21_Big_Data_Duplicate_Check-Bitmap.dir
   OBJECT_FILE_DIR = CMakeFiles\21_Big_Data_Duplicate_Check-Bitmap.dir\28_AVL_Tree
 
+build CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__21_Big_Data_Duplicate_Check-Bitmap_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_21_Big_Data_Duplicate_Check-Bitmap
+  DEP_FILE = CMakeFiles\21_Big_Data_Duplicate_Check-Bitmap.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\21_Big_Data_Duplicate_Check-Bitmap.dir
+  OBJECT_FILE_DIR = CMakeFiles\21_Big_Data_Duplicate_Check-Bitmap.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 21_Big_Data_Duplicate_Check-Bitmap
@@ -1746,7 +2010,7 @@ build CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/28_AVL_Tree/AVL.cpp.obj:
 #############################################
 # Link the executable .runtime\21_Big_Data_Duplicate_Check-Bitmap.exe
 
-build .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe: CXX_EXECUTABLE_LINKER__21_Big_Data_Duplicate_Check-Bitmap_Debug CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/21_Big_Data_Duplicate_Check-Bitmap/21_Big_Data_Duplicate_Check-Bitmap.cpp.obj CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe: CXX_EXECUTABLE_LINKER__21_Big_Data_Duplicate_Check-Bitmap_Debug CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/21_Big_Data_Duplicate_Check-Bitmap/21_Big_Data_Duplicate_Check-Bitmap.cpp.obj CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\21_Big_Data_Duplicate_Check-Bitmap.dir
@@ -1777,6 +2041,12 @@ build CMakeFiles/bigDataDuplicateCheckBitmap.dir/28_AVL_Tree/AVL.cpp.obj: CXX_CO
   OBJECT_DIR = CMakeFiles\bigDataDuplicateCheckBitmap.dir
   OBJECT_FILE_DIR = CMakeFiles\bigDataDuplicateCheckBitmap.dir\28_AVL_Tree
 
+build CMakeFiles/bigDataDuplicateCheckBitmap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__bigDataDuplicateCheckBitmap_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_bigDataDuplicateCheckBitmap
+  DEP_FILE = CMakeFiles\bigDataDuplicateCheckBitmap.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bigDataDuplicateCheckBitmap.dir
+  OBJECT_FILE_DIR = CMakeFiles\bigDataDuplicateCheckBitmap.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bigDataDuplicateCheckBitmap
@@ -1785,7 +2055,7 @@ build CMakeFiles/bigDataDuplicateCheckBitmap.dir/28_AVL_Tree/AVL.cpp.obj: CXX_CO
 #############################################
 # Link the executable .runtime\bigDataDuplicateCheckBitmap.exe
 
-build .runtime/bigDataDuplicateCheckBitmap.exe: CXX_EXECUTABLE_LINKER__bigDataDuplicateCheckBitmap_Debug CMakeFiles/bigDataDuplicateCheckBitmap.dir/21_Big_Data_Duplicate_Check-Bitmap/bigDataDuplicateCheckBitmap.cpp.obj CMakeFiles/bigDataDuplicateCheckBitmap.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/bigDataDuplicateCheckBitmap.exe: CXX_EXECUTABLE_LINKER__bigDataDuplicateCheckBitmap_Debug CMakeFiles/bigDataDuplicateCheckBitmap.dir/21_Big_Data_Duplicate_Check-Bitmap/bigDataDuplicateCheckBitmap.cpp.obj CMakeFiles/bigDataDuplicateCheckBitmap.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/bigDataDuplicateCheckBitmap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bigDataDuplicateCheckBitmap.dir
@@ -1816,6 +2086,12 @@ build CMakeFiles/22_Bloom_Filter.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__22_B
   OBJECT_DIR = CMakeFiles\22_Bloom_Filter.dir
   OBJECT_FILE_DIR = CMakeFiles\22_Bloom_Filter.dir\28_AVL_Tree
 
+build CMakeFiles/22_Bloom_Filter.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__22_Bloom_Filter_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_22_Bloom_Filter
+  DEP_FILE = CMakeFiles\22_Bloom_Filter.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\22_Bloom_Filter.dir
+  OBJECT_FILE_DIR = CMakeFiles\22_Bloom_Filter.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 22_Bloom_Filter
@@ -1824,7 +2100,7 @@ build CMakeFiles/22_Bloom_Filter.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__22_B
 #############################################
 # Link the executable .runtime\22_Bloom_Filter.exe
 
-build .runtime/22_Bloom_Filter.exe: CXX_EXECUTABLE_LINKER__22_Bloom_Filter_Debug CMakeFiles/22_Bloom_Filter.dir/22_Bloom_Filter/22_Bloom_Filter.cpp.obj CMakeFiles/22_Bloom_Filter.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/22_Bloom_Filter.exe: CXX_EXECUTABLE_LINKER__22_Bloom_Filter_Debug CMakeFiles/22_Bloom_Filter.dir/22_Bloom_Filter/22_Bloom_Filter.cpp.obj CMakeFiles/22_Bloom_Filter.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/22_Bloom_Filter.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\22_Bloom_Filter.dir
@@ -1855,6 +2131,12 @@ build CMakeFiles/bloomFilter.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__bloomFil
   OBJECT_DIR = CMakeFiles\bloomFilter.dir
   OBJECT_FILE_DIR = CMakeFiles\bloomFilter.dir\28_AVL_Tree
 
+build CMakeFiles/bloomFilter.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__bloomFilter_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_bloomFilter
+  DEP_FILE = CMakeFiles\bloomFilter.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bloomFilter.dir
+  OBJECT_FILE_DIR = CMakeFiles\bloomFilter.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bloomFilter
@@ -1863,7 +2145,7 @@ build CMakeFiles/bloomFilter.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__bloomFil
 #############################################
 # Link the executable .runtime\bloomFilter.exe
 
-build .runtime/bloomFilter.exe: CXX_EXECUTABLE_LINKER__bloomFilter_Debug CMakeFiles/bloomFilter.dir/22_Bloom_Filter/bloomFilter.cpp.obj CMakeFiles/bloomFilter.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/bloomFilter.exe: CXX_EXECUTABLE_LINKER__bloomFilter_Debug CMakeFiles/bloomFilter.dir/22_Bloom_Filter/bloomFilter.cpp.obj CMakeFiles/bloomFilter.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/bloomFilter.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bloomFilter.dir
@@ -1894,6 +2176,12 @@ build CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/28_AVL_Tree/AVL.cpp.obj: C
   OBJECT_DIR = CMakeFiles\23_Big_Data_Top_K-Size_Root_Heap.dir
   OBJECT_FILE_DIR = CMakeFiles\23_Big_Data_Top_K-Size_Root_Heap.dir\28_AVL_Tree
 
+build CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__23_Big_Data_Top_K-Size_Root_Heap_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_23_Big_Data_Top_K-Size_Root_Heap
+  DEP_FILE = CMakeFiles\23_Big_Data_Top_K-Size_Root_Heap.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\23_Big_Data_Top_K-Size_Root_Heap.dir
+  OBJECT_FILE_DIR = CMakeFiles\23_Big_Data_Top_K-Size_Root_Heap.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 23_Big_Data_Top_K-Size_Root_Heap
@@ -1902,7 +2190,7 @@ build CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/28_AVL_Tree/AVL.cpp.obj: C
 #############################################
 # Link the executable .runtime\23_Big_Data_Top_K-Size_Root_Heap.exe
 
-build .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe: CXX_EXECUTABLE_LINKER__23_Big_Data_Top_K-Size_Root_Heap_Debug CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/23_Big_Data_Top_K-Size_Root_Heap/23_Big_Data_Top_K-Size_Root_Heap.cpp.obj CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe: CXX_EXECUTABLE_LINKER__23_Big_Data_Top_K-Size_Root_Heap_Debug CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/23_Big_Data_Top_K-Size_Root_Heap/23_Big_Data_Top_K-Size_Root_Heap.cpp.obj CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\23_Big_Data_Top_K-Size_Root_Heap.dir
@@ -1933,6 +2221,12 @@ build CMakeFiles/topKHeap.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__topKHeap_un
   OBJECT_DIR = CMakeFiles\topKHeap.dir
   OBJECT_FILE_DIR = CMakeFiles\topKHeap.dir\28_AVL_Tree
 
+build CMakeFiles/topKHeap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__topKHeap_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_topKHeap
+  DEP_FILE = CMakeFiles\topKHeap.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\topKHeap.dir
+  OBJECT_FILE_DIR = CMakeFiles\topKHeap.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target topKHeap
@@ -1941,7 +2235,7 @@ build CMakeFiles/topKHeap.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__topKHeap_un
 #############################################
 # Link the executable .runtime\topKHeap.exe
 
-build .runtime/topKHeap.exe: CXX_EXECUTABLE_LINKER__topKHeap_Debug CMakeFiles/topKHeap.dir/23_Big_Data_Top_K-Size_Root_Heap/topKHeap.cpp.obj CMakeFiles/topKHeap.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/topKHeap.exe: CXX_EXECUTABLE_LINKER__topKHeap_Debug CMakeFiles/topKHeap.dir/23_Big_Data_Top_K-Size_Root_Heap/topKHeap.cpp.obj CMakeFiles/topKHeap.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/topKHeap.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\topKHeap.dir
@@ -1972,6 +2266,12 @@ build CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/28_AVL_Tree/AVL.cp
   OBJECT_DIR = CMakeFiles\24_Big_Data_Top_K-Fast_Sort_Segmentation.dir
   OBJECT_FILE_DIR = CMakeFiles\24_Big_Data_Top_K-Fast_Sort_Segmentation.dir\28_AVL_Tree
 
+build CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__24_Big_Data_Top_K-Fast_Sort_Segmentation_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_24_Big_Data_Top_K-Fast_Sort_Segmentation
+  DEP_FILE = CMakeFiles\24_Big_Data_Top_K-Fast_Sort_Segmentation.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\24_Big_Data_Top_K-Fast_Sort_Segmentation.dir
+  OBJECT_FILE_DIR = CMakeFiles\24_Big_Data_Top_K-Fast_Sort_Segmentation.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 24_Big_Data_Top_K-Fast_Sort_Segmentation
@@ -1980,7 +2280,7 @@ build CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/28_AVL_Tree/AVL.cp
 #############################################
 # Link the executable .runtime\24_Big_Data_Top_K-Fast_Sort_Segmentation.exe
 
-build .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe: CXX_EXECUTABLE_LINKER__24_Big_Data_Top_K-Fast_Sort_Segmentation_Debug CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/24_Big_Data_Top_K-Fast_Sort_Segmentation/24_Big_Data_Top_K-Fast_Sort_Segmentation.cpp.obj CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe: CXX_EXECUTABLE_LINKER__24_Big_Data_Top_K-Fast_Sort_Segmentation_Debug CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/24_Big_Data_Top_K-Fast_Sort_Segmentation/24_Big_Data_Top_K-Fast_Sort_Segmentation.cpp.obj CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\24_Big_Data_Top_K-Fast_Sort_Segmentation.dir
@@ -2011,6 +2311,12 @@ build CMakeFiles/bigDataTopKFastSortSeg.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\bigDataTopKFastSortSeg.dir
   OBJECT_FILE_DIR = CMakeFiles\bigDataTopKFastSortSeg.dir\28_AVL_Tree
 
+build CMakeFiles/bigDataTopKFastSortSeg.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__bigDataTopKFastSortSeg_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_bigDataTopKFastSortSeg
+  DEP_FILE = CMakeFiles\bigDataTopKFastSortSeg.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bigDataTopKFastSortSeg.dir
+  OBJECT_FILE_DIR = CMakeFiles\bigDataTopKFastSortSeg.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bigDataTopKFastSortSeg
@@ -2019,7 +2325,7 @@ build CMakeFiles/bigDataTopKFastSortSeg.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable .runtime\bigDataTopKFastSortSeg.exe
 
-build .runtime/bigDataTopKFastSortSeg.exe: CXX_EXECUTABLE_LINKER__bigDataTopKFastSortSeg_Debug CMakeFiles/bigDataTopKFastSortSeg.dir/24_Big_Data_Top_K-Fast_Sort_Segmentation/bigDataTopKFastSortSeg.cpp.obj CMakeFiles/bigDataTopKFastSortSeg.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/bigDataTopKFastSortSeg.exe: CXX_EXECUTABLE_LINKER__bigDataTopKFastSortSeg_Debug CMakeFiles/bigDataTopKFastSortSeg.dir/24_Big_Data_Top_K-Fast_Sort_Segmentation/bigDataTopKFastSortSeg.cpp.obj CMakeFiles/bigDataTopKFastSortSeg.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/bigDataTopKFastSortSeg.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bigDataTopKFastSortSeg.dir
@@ -2050,6 +2356,12 @@ build CMakeFiles/25_Consistent_Hashing_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj: CX
   OBJECT_DIR = CMakeFiles\25_Consistent_Hashing_Algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles\25_Consistent_Hashing_Algorithm.dir\28_AVL_Tree
 
+build CMakeFiles/25_Consistent_Hashing_Algorithm.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__25_Consistent_Hashing_Algorithm_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_25_Consistent_Hashing_Algorithm
+  DEP_FILE = CMakeFiles\25_Consistent_Hashing_Algorithm.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\25_Consistent_Hashing_Algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\25_Consistent_Hashing_Algorithm.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 25_Consistent_Hashing_Algorithm
@@ -2058,7 +2370,7 @@ build CMakeFiles/25_Consistent_Hashing_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj: CX
 #############################################
 # Link the executable .runtime\25_Consistent_Hashing_Algorithm.exe
 
-build .runtime/25_Consistent_Hashing_Algorithm.exe: CXX_EXECUTABLE_LINKER__25_Consistent_Hashing_Algorithm_Debug CMakeFiles/25_Consistent_Hashing_Algorithm.dir/25_Consistent_Hashing_Algorithm/25_Consistent_Hashing_Algorithm.cpp.obj CMakeFiles/25_Consistent_Hashing_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/25_Consistent_Hashing_Algorithm.exe: CXX_EXECUTABLE_LINKER__25_Consistent_Hashing_Algorithm_Debug CMakeFiles/25_Consistent_Hashing_Algorithm.dir/25_Consistent_Hashing_Algorithm/25_Consistent_Hashing_Algorithm.cpp.obj CMakeFiles/25_Consistent_Hashing_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/25_Consistent_Hashing_Algorithm.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\25_Consistent_Hashing_Algorithm.dir
@@ -2089,6 +2401,12 @@ build CMakeFiles/consistentHash.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__consi
   OBJECT_DIR = CMakeFiles\consistentHash.dir
   OBJECT_FILE_DIR = CMakeFiles\consistentHash.dir\28_AVL_Tree
 
+build CMakeFiles/consistentHash.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__consistentHash_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_consistentHash
+  DEP_FILE = CMakeFiles\consistentHash.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\consistentHash.dir
+  OBJECT_FILE_DIR = CMakeFiles\consistentHash.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target consistentHash
@@ -2097,7 +2415,7 @@ build CMakeFiles/consistentHash.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__consi
 #############################################
 # Link the executable .runtime\consistentHash.exe
 
-build .runtime/consistentHash.exe: CXX_EXECUTABLE_LINKER__consistentHash_Debug CMakeFiles/consistentHash.dir/25_Consistent_Hashing_Algorithm/consistentHash.cpp.obj CMakeFiles/consistentHash.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/consistentHash.exe: CXX_EXECUTABLE_LINKER__consistentHash_Debug CMakeFiles/consistentHash.dir/25_Consistent_Hashing_Algorithm/consistentHash.cpp.obj CMakeFiles/consistentHash.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/consistentHash.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\consistentHash.dir
@@ -2128,6 +2446,12 @@ build CMakeFiles/26_String_Operations.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\26_String_Operations.dir
   OBJECT_FILE_DIR = CMakeFiles\26_String_Operations.dir\28_AVL_Tree
 
+build CMakeFiles/26_String_Operations.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__26_String_Operations_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_26_String_Operations
+  DEP_FILE = CMakeFiles\26_String_Operations.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\26_String_Operations.dir
+  OBJECT_FILE_DIR = CMakeFiles\26_String_Operations.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 26_String_Operations
@@ -2136,7 +2460,7 @@ build CMakeFiles/26_String_Operations.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable .runtime\26_String_Operations.exe
 
-build .runtime/26_String_Operations.exe: CXX_EXECUTABLE_LINKER__26_String_Operations_Debug CMakeFiles/26_String_Operations.dir/26_String_Operations/26_String_Operations.cpp.obj CMakeFiles/26_String_Operations.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/26_String_Operations.exe: CXX_EXECUTABLE_LINKER__26_String_Operations_Debug CMakeFiles/26_String_Operations.dir/26_String_Operations/26_String_Operations.cpp.obj CMakeFiles/26_String_Operations.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/26_String_Operations.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\26_String_Operations.dir
@@ -2167,6 +2491,12 @@ build CMakeFiles/stringOperation.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__stri
   OBJECT_DIR = CMakeFiles\stringOperation.dir
   OBJECT_FILE_DIR = CMakeFiles\stringOperation.dir\28_AVL_Tree
 
+build CMakeFiles/stringOperation.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__stringOperation_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_stringOperation
+  DEP_FILE = CMakeFiles\stringOperation.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\stringOperation.dir
+  OBJECT_FILE_DIR = CMakeFiles\stringOperation.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target stringOperation
@@ -2175,7 +2505,7 @@ build CMakeFiles/stringOperation.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__stri
 #############################################
 # Link the executable .runtime\stringOperation.exe
 
-build .runtime/stringOperation.exe: CXX_EXECUTABLE_LINKER__stringOperation_Debug CMakeFiles/stringOperation.dir/26_String_Operations/stringOperation.cpp.obj CMakeFiles/stringOperation.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/stringOperation.exe: CXX_EXECUTABLE_LINKER__stringOperation_Debug CMakeFiles/stringOperation.dir/26_String_Operations/stringOperation.cpp.obj CMakeFiles/stringOperation.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/stringOperation.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\stringOperation.dir
@@ -2206,6 +2536,12 @@ build CMakeFiles/27_BST_Tree.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__27_BST_T
   OBJECT_DIR = CMakeFiles\27_BST_Tree.dir
   OBJECT_FILE_DIR = CMakeFiles\27_BST_Tree.dir\28_AVL_Tree
 
+build CMakeFiles/27_BST_Tree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__27_BST_Tree_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_27_BST_Tree
+  DEP_FILE = CMakeFiles\27_BST_Tree.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\27_BST_Tree.dir
+  OBJECT_FILE_DIR = CMakeFiles\27_BST_Tree.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 27_BST_Tree
@@ -2214,7 +2550,7 @@ build CMakeFiles/27_BST_Tree.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__27_BST_T
 #############################################
 # Link the executable .runtime\27_BST_Tree.exe
 
-build .runtime/27_BST_Tree.exe: CXX_EXECUTABLE_LINKER__27_BST_Tree_Debug CMakeFiles/27_BST_Tree.dir/27_BST_Tree/27_BST_Tree.cpp.obj CMakeFiles/27_BST_Tree.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/27_BST_Tree.exe: CXX_EXECUTABLE_LINKER__27_BST_Tree_Debug CMakeFiles/27_BST_Tree.dir/27_BST_Tree/27_BST_Tree.cpp.obj CMakeFiles/27_BST_Tree.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/27_BST_Tree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\27_BST_Tree.dir
@@ -2245,6 +2581,12 @@ build CMakeFiles/bst.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__bst_unscanned_De
   OBJECT_DIR = CMakeFiles\bst.dir
   OBJECT_FILE_DIR = CMakeFiles\bst.dir\28_AVL_Tree
 
+build CMakeFiles/bst.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__bst_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_bst
+  DEP_FILE = CMakeFiles\bst.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bst.dir
+  OBJECT_FILE_DIR = CMakeFiles\bst.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bst
@@ -2253,7 +2595,7 @@ build CMakeFiles/bst.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__bst_unscanned_De
 #############################################
 # Link the executable .runtime\bst.exe
 
-build .runtime/bst.exe: CXX_EXECUTABLE_LINKER__bst_Debug CMakeFiles/bst.dir/27_BST_Tree/bst.cpp.obj CMakeFiles/bst.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/bst.exe: CXX_EXECUTABLE_LINKER__bst_Debug CMakeFiles/bst.dir/27_BST_Tree/bst.cpp.obj CMakeFiles/bst.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/bst.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bst.dir
@@ -2284,6 +2626,12 @@ build CMakeFiles/28_AVL_Tree.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__28_AVL_T
   OBJECT_DIR = CMakeFiles\28_AVL_Tree.dir
   OBJECT_FILE_DIR = CMakeFiles\28_AVL_Tree.dir\28_AVL_Tree
 
+build CMakeFiles/28_AVL_Tree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__28_AVL_Tree_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_28_AVL_Tree
+  DEP_FILE = CMakeFiles\28_AVL_Tree.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\28_AVL_Tree.dir
+  OBJECT_FILE_DIR = CMakeFiles\28_AVL_Tree.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 28_AVL_Tree
@@ -2292,7 +2640,7 @@ build CMakeFiles/28_AVL_Tree.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__28_AVL_T
 #############################################
 # Link the executable .runtime\28_AVL_Tree.exe
 
-build .runtime/28_AVL_Tree.exe: CXX_EXECUTABLE_LINKER__28_AVL_Tree_Debug CMakeFiles/28_AVL_Tree.dir/28_AVL_Tree/28_AVL_Tree.cpp.obj CMakeFiles/28_AVL_Tree.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/28_AVL_Tree.exe: CXX_EXECUTABLE_LINKER__28_AVL_Tree_Debug CMakeFiles/28_AVL_Tree.dir/28_AVL_Tree/28_AVL_Tree.cpp.obj CMakeFiles/28_AVL_Tree.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/28_AVL_Tree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\28_AVL_Tree.dir
@@ -2317,6 +2665,12 @@ build CMakeFiles/AVL.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__AVL_unscanned_De
   OBJECT_DIR = CMakeFiles\AVL.dir
   OBJECT_FILE_DIR = CMakeFiles\AVL.dir\28_AVL_Tree
 
+build CMakeFiles/AVL.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__AVL_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_AVL
+  DEP_FILE = CMakeFiles\AVL.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AVL.dir
+  OBJECT_FILE_DIR = CMakeFiles\AVL.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target AVL
@@ -2325,7 +2679,7 @@ build CMakeFiles/AVL.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__AVL_unscanned_De
 #############################################
 # Link the executable .runtime\AVL.exe
 
-build .runtime/AVL.exe: CXX_EXECUTABLE_LINKER__AVL_Debug CMakeFiles/AVL.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/AVL.exe: CXX_EXECUTABLE_LINKER__AVL_Debug CMakeFiles/AVL.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/AVL.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AVL.dir
@@ -2356,6 +2710,12 @@ build CMakeFiles/29_RB_Red-Black_Tree.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\29_RB_Red-Black_Tree.dir
   OBJECT_FILE_DIR = CMakeFiles\29_RB_Red-Black_Tree.dir\28_AVL_Tree
 
+build CMakeFiles/29_RB_Red-Black_Tree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__29_RB_Red-Black_Tree_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_29_RB_Red-Black_Tree
+  DEP_FILE = CMakeFiles\29_RB_Red-Black_Tree.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\29_RB_Red-Black_Tree.dir
+  OBJECT_FILE_DIR = CMakeFiles\29_RB_Red-Black_Tree.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 29_RB_Red-Black_Tree
@@ -2364,7 +2724,7 @@ build CMakeFiles/29_RB_Red-Black_Tree.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable .runtime\29_RB_Red-Black_Tree.exe
 
-build .runtime/29_RB_Red-Black_Tree.exe: CXX_EXECUTABLE_LINKER__29_RB_Red-Black_Tree_Debug CMakeFiles/29_RB_Red-Black_Tree.dir/29_RB_Red-Black_Tree/29_RB_Red-Black_Tree.cpp.obj CMakeFiles/29_RB_Red-Black_Tree.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/29_RB_Red-Black_Tree.exe: CXX_EXECUTABLE_LINKER__29_RB_Red-Black_Tree_Debug CMakeFiles/29_RB_Red-Black_Tree.dir/29_RB_Red-Black_Tree/29_RB_Red-Black_Tree.cpp.obj CMakeFiles/29_RB_Red-Black_Tree.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/29_RB_Red-Black_Tree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\29_RB_Red-Black_Tree.dir
@@ -2373,6 +2733,45 @@ build .runtime/29_RB_Red-Black_Tree.exe: CXX_EXECUTABLE_LINKER__29_RB_Red-Black_
   TARGET_FILE = .runtime\29_RB_Red-Black_Tree.exe
   TARGET_IMPLIB = .archive\lib29_RB_Red-Black_Tree.dll.a
   TARGET_PDB = 29_RB_Red-Black_Tree.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RBTree
+
+
+#############################################
+# Order-only phony target for RBTree
+
+build cmake_object_order_depends_target_RBTree: phony || .
+
+build CMakeFiles/RBTree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__RBTree_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_RBTree
+  DEP_FILE = CMakeFiles\RBTree.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RBTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\RBTree.dir\29_RB_Red-Black_Tree
+
+build CMakeFiles/RBTree.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__RBTree_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/28_AVL_Tree/AVL.cpp || cmake_object_order_depends_target_RBTree
+  DEP_FILE = CMakeFiles\RBTree.dir\28_AVL_Tree\AVL.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RBTree.dir
+  OBJECT_FILE_DIR = CMakeFiles\RBTree.dir\28_AVL_Tree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RBTree
+
+
+#############################################
+# Link the executable .runtime\RBTree.exe
+
+build .runtime/RBTree.exe: CXX_EXECUTABLE_LINKER__RBTree_Debug CMakeFiles/RBTree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj CMakeFiles/RBTree.dir/28_AVL_Tree/AVL.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RBTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\RBTree.exe
+  TARGET_IMPLIB = .archive\libRBTree.dll.a
+  TARGET_PDB = RBTree.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 31_Backtracking_Algorithm
@@ -2395,6 +2794,12 @@ build CMakeFiles/31_Backtracking_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMP
   OBJECT_DIR = CMakeFiles\31_Backtracking_Algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles\31_Backtracking_Algorithm.dir\28_AVL_Tree
 
+build CMakeFiles/31_Backtracking_Algorithm.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__31_Backtracking_Algorithm_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_31_Backtracking_Algorithm
+  DEP_FILE = CMakeFiles\31_Backtracking_Algorithm.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\31_Backtracking_Algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\31_Backtracking_Algorithm.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 31_Backtracking_Algorithm
@@ -2403,7 +2808,7 @@ build CMakeFiles/31_Backtracking_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMP
 #############################################
 # Link the executable .runtime\31_Backtracking_Algorithm.exe
 
-build .runtime/31_Backtracking_Algorithm.exe: CXX_EXECUTABLE_LINKER__31_Backtracking_Algorithm_Debug CMakeFiles/31_Backtracking_Algorithm.dir/30_Backtracking_Algorithm/31_Backtracking_Algorithm.cpp.obj CMakeFiles/31_Backtracking_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/31_Backtracking_Algorithm.exe: CXX_EXECUTABLE_LINKER__31_Backtracking_Algorithm_Debug CMakeFiles/31_Backtracking_Algorithm.dir/30_Backtracking_Algorithm/31_Backtracking_Algorithm.cpp.obj CMakeFiles/31_Backtracking_Algorithm.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/31_Backtracking_Algorithm.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\31_Backtracking_Algorithm.dir
@@ -2434,6 +2839,12 @@ build CMakeFiles/Binary_Search.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Binary
   OBJECT_DIR = CMakeFiles\Binary_Search.dir
   OBJECT_FILE_DIR = CMakeFiles\Binary_Search.dir\28_AVL_Tree
 
+build CMakeFiles/Binary_Search.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Binary_Search_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Binary_Search
+  DEP_FILE = CMakeFiles\Binary_Search.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Binary_Search.dir
+  OBJECT_FILE_DIR = CMakeFiles\Binary_Search.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Binary_Search
@@ -2442,7 +2853,7 @@ build CMakeFiles/Binary_Search.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Binary
 #############################################
 # Link the executable .runtime\Binary_Search.exe
 
-build .runtime/Binary_Search.exe: CXX_EXECUTABLE_LINKER__Binary_Search_Debug CMakeFiles/Binary_Search.dir/31_Divide_And_Conquer_Algorithm/Binary_Search.cpp.obj CMakeFiles/Binary_Search.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Binary_Search.exe: CXX_EXECUTABLE_LINKER__Binary_Search_Debug CMakeFiles/Binary_Search.dir/31_Divide_And_Conquer_Algorithm/Binary_Search.cpp.obj CMakeFiles/Binary_Search.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Binary_Search.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Binary_Search.dir
@@ -2473,6 +2884,12 @@ build CMakeFiles/Median.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Median_unscan
   OBJECT_DIR = CMakeFiles\Median.dir
   OBJECT_FILE_DIR = CMakeFiles\Median.dir\28_AVL_Tree
 
+build CMakeFiles/Median.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Median_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Median
+  DEP_FILE = CMakeFiles\Median.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Median.dir
+  OBJECT_FILE_DIR = CMakeFiles\Median.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Median
@@ -2481,7 +2898,7 @@ build CMakeFiles/Median.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Median_unscan
 #############################################
 # Link the executable .runtime\Median.exe
 
-build .runtime/Median.exe: CXX_EXECUTABLE_LINKER__Median_Debug CMakeFiles/Median.dir/31_Divide_And_Conquer_Algorithm/Median.cpp.obj CMakeFiles/Median.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Median.exe: CXX_EXECUTABLE_LINKER__Median_Debug CMakeFiles/Median.dir/31_Divide_And_Conquer_Algorithm/Median.cpp.obj CMakeFiles/Median.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Median.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Median.dir
@@ -2512,6 +2929,12 @@ build CMakeFiles/Merge_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Merge_Sor
   OBJECT_DIR = CMakeFiles\Merge_Sort.dir
   OBJECT_FILE_DIR = CMakeFiles\Merge_Sort.dir\28_AVL_Tree
 
+build CMakeFiles/Merge_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Merge_Sort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Merge_Sort
+  DEP_FILE = CMakeFiles\Merge_Sort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Merge_Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\Merge_Sort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Merge_Sort
@@ -2520,7 +2943,7 @@ build CMakeFiles/Merge_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Merge_Sor
 #############################################
 # Link the executable .runtime\Merge_Sort.exe
 
-build .runtime/Merge_Sort.exe: CXX_EXECUTABLE_LINKER__Merge_Sort_Debug CMakeFiles/Merge_Sort.dir/31_Divide_And_Conquer_Algorithm/Merge_Sort.cpp.obj CMakeFiles/Merge_Sort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Merge_Sort.exe: CXX_EXECUTABLE_LINKER__Merge_Sort_Debug CMakeFiles/Merge_Sort.dir/31_Divide_And_Conquer_Algorithm/Merge_Sort.cpp.obj CMakeFiles/Merge_Sort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Merge_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Merge_Sort.dir
@@ -2551,6 +2974,12 @@ build CMakeFiles/Merge_k_ordered_linked_lists.dir/28_AVL_Tree/AVL.cpp.obj: CXX_C
   OBJECT_DIR = CMakeFiles\Merge_k_ordered_linked_lists.dir
   OBJECT_FILE_DIR = CMakeFiles\Merge_k_ordered_linked_lists.dir\28_AVL_Tree
 
+build CMakeFiles/Merge_k_ordered_linked_lists.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Merge_k_ordered_linked_lists_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Merge_k_ordered_linked_lists
+  DEP_FILE = CMakeFiles\Merge_k_ordered_linked_lists.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Merge_k_ordered_linked_lists.dir
+  OBJECT_FILE_DIR = CMakeFiles\Merge_k_ordered_linked_lists.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Merge_k_ordered_linked_lists
@@ -2559,7 +2988,7 @@ build CMakeFiles/Merge_k_ordered_linked_lists.dir/28_AVL_Tree/AVL.cpp.obj: CXX_C
 #############################################
 # Link the executable .runtime\Merge_k_ordered_linked_lists.exe
 
-build .runtime/Merge_k_ordered_linked_lists.exe: CXX_EXECUTABLE_LINKER__Merge_k_ordered_linked_lists_Debug CMakeFiles/Merge_k_ordered_linked_lists.dir/31_Divide_And_Conquer_Algorithm/Merge_k_ordered_linked_lists.cpp.obj CMakeFiles/Merge_k_ordered_linked_lists.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Merge_k_ordered_linked_lists.exe: CXX_EXECUTABLE_LINKER__Merge_k_ordered_linked_lists_Debug CMakeFiles/Merge_k_ordered_linked_lists.dir/31_Divide_And_Conquer_Algorithm/Merge_k_ordered_linked_lists.cpp.obj CMakeFiles/Merge_k_ordered_linked_lists.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Merge_k_ordered_linked_lists.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Merge_k_ordered_linked_lists.dir
@@ -2590,6 +3019,12 @@ build CMakeFiles/Quick_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Quick_Sor
   OBJECT_DIR = CMakeFiles\Quick_Sort.dir
   OBJECT_FILE_DIR = CMakeFiles\Quick_Sort.dir\28_AVL_Tree
 
+build CMakeFiles/Quick_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Quick_Sort_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Quick_Sort
+  DEP_FILE = CMakeFiles\Quick_Sort.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Quick_Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\Quick_Sort.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Quick_Sort
@@ -2598,7 +3033,7 @@ build CMakeFiles/Quick_Sort.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Quick_Sor
 #############################################
 # Link the executable .runtime\Quick_Sort.exe
 
-build .runtime/Quick_Sort.exe: CXX_EXECUTABLE_LINKER__Quick_Sort_Debug CMakeFiles/Quick_Sort.dir/31_Divide_And_Conquer_Algorithm/Quick_Sort.cpp.obj CMakeFiles/Quick_Sort.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Quick_Sort.exe: CXX_EXECUTABLE_LINKER__Quick_Sort_Debug CMakeFiles/Quick_Sort.dir/31_Divide_And_Conquer_Algorithm/Quick_Sort.cpp.obj CMakeFiles/Quick_Sort.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Quick_Sort.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Quick_Sort.dir
@@ -2629,6 +3064,12 @@ build CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/28_AVL_
   OBJECT_DIR = CMakeFiles\Quick_sort_partition_function_to_find_top-k_problem.dir
   OBJECT_FILE_DIR = CMakeFiles\Quick_sort_partition_function_to_find_top-k_problem.dir\28_AVL_Tree
 
+build CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Quick_sort_partition_function_to_find_top-k_problem_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Quick_sort_partition_function_to_find_top-k_problem
+  DEP_FILE = CMakeFiles\Quick_sort_partition_function_to_find_top-k_problem.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Quick_sort_partition_function_to_find_top-k_problem.dir
+  OBJECT_FILE_DIR = CMakeFiles\Quick_sort_partition_function_to_find_top-k_problem.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Quick_sort_partition_function_to_find_top-k_problem
@@ -2637,7 +3078,7 @@ build CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/28_AVL_
 #############################################
 # Link the executable .runtime\Quick_sort_partition_function_to_find_top-k_problem.exe
 
-build .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe: CXX_EXECUTABLE_LINKER__Quick_sort_partition_function_to_find_top-k_problem_Debug CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/31_Divide_And_Conquer_Algorithm/Quick_sort_partition_function_to_find_top-k_problem.cpp.obj CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe: CXX_EXECUTABLE_LINKER__Quick_sort_partition_function_to_find_top-k_problem_Debug CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/31_Divide_And_Conquer_Algorithm/Quick_sort_partition_function_to_find_top-k_problem.cpp.obj CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Quick_sort_partition_function_to_find_top-k_problem.dir
@@ -2668,6 +3109,12 @@ build CMakeFiles/01Backpack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__01Backpac
   OBJECT_DIR = CMakeFiles\01Backpack.dir
   OBJECT_FILE_DIR = CMakeFiles\01Backpack.dir\28_AVL_Tree
 
+build CMakeFiles/01Backpack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__01Backpack_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_01Backpack
+  DEP_FILE = CMakeFiles\01Backpack.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01Backpack.dir
+  OBJECT_FILE_DIR = CMakeFiles\01Backpack.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01Backpack
@@ -2676,7 +3123,7 @@ build CMakeFiles/01Backpack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__01Backpac
 #############################################
 # Link the executable .runtime\01Backpack.exe
 
-build .runtime/01Backpack.exe: CXX_EXECUTABLE_LINKER__01Backpack_Debug CMakeFiles/01Backpack.dir/32_Dynamic_Programming_Algorithm/01Backpack.cpp.obj CMakeFiles/01Backpack.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/01Backpack.exe: CXX_EXECUTABLE_LINKER__01Backpack_Debug CMakeFiles/01Backpack.dir/32_Dynamic_Programming_Algorithm/01Backpack.cpp.obj CMakeFiles/01Backpack.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/01Backpack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\01Backpack.dir
@@ -2707,6 +3154,12 @@ build CMakeFiles/Coin_Problem.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Coin_Pr
   OBJECT_DIR = CMakeFiles\Coin_Problem.dir
   OBJECT_FILE_DIR = CMakeFiles\Coin_Problem.dir\28_AVL_Tree
 
+build CMakeFiles/Coin_Problem.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Coin_Problem_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Coin_Problem
+  DEP_FILE = CMakeFiles\Coin_Problem.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Coin_Problem.dir
+  OBJECT_FILE_DIR = CMakeFiles\Coin_Problem.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Coin_Problem
@@ -2715,7 +3168,7 @@ build CMakeFiles/Coin_Problem.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Coin_Pr
 #############################################
 # Link the executable .runtime\Coin_Problem.exe
 
-build .runtime/Coin_Problem.exe: CXX_EXECUTABLE_LINKER__Coin_Problem_Debug CMakeFiles/Coin_Problem.dir/32_Dynamic_Programming_Algorithm/Coin_Problem.cpp.obj CMakeFiles/Coin_Problem.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Coin_Problem.exe: CXX_EXECUTABLE_LINKER__Coin_Problem_Debug CMakeFiles/Coin_Problem.dir/32_Dynamic_Programming_Algorithm/Coin_Problem.cpp.obj CMakeFiles/Coin_Problem.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Coin_Problem.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Coin_Problem.dir
@@ -2746,6 +3199,12 @@ build CMakeFiles/Fibonacci_Sequence.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__F
   OBJECT_DIR = CMakeFiles\Fibonacci_Sequence.dir
   OBJECT_FILE_DIR = CMakeFiles\Fibonacci_Sequence.dir\28_AVL_Tree
 
+build CMakeFiles/Fibonacci_Sequence.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Fibonacci_Sequence_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Fibonacci_Sequence
+  DEP_FILE = CMakeFiles\Fibonacci_Sequence.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Fibonacci_Sequence.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fibonacci_Sequence.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Fibonacci_Sequence
@@ -2754,7 +3213,7 @@ build CMakeFiles/Fibonacci_Sequence.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__F
 #############################################
 # Link the executable .runtime\Fibonacci_Sequence.exe
 
-build .runtime/Fibonacci_Sequence.exe: CXX_EXECUTABLE_LINKER__Fibonacci_Sequence_Debug CMakeFiles/Fibonacci_Sequence.dir/32_Dynamic_Programming_Algorithm/Fibonacci_Sequence.cpp.obj CMakeFiles/Fibonacci_Sequence.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Fibonacci_Sequence.exe: CXX_EXECUTABLE_LINKER__Fibonacci_Sequence_Debug CMakeFiles/Fibonacci_Sequence.dir/32_Dynamic_Programming_Algorithm/Fibonacci_Sequence.cpp.obj CMakeFiles/Fibonacci_Sequence.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Fibonacci_Sequence.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Fibonacci_Sequence.dir
@@ -2785,6 +3244,12 @@ build CMakeFiles/LCS.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__LCS_unscanned_De
   OBJECT_DIR = CMakeFiles\LCS.dir
   OBJECT_FILE_DIR = CMakeFiles\LCS.dir\28_AVL_Tree
 
+build CMakeFiles/LCS.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__LCS_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_LCS
+  DEP_FILE = CMakeFiles\LCS.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LCS.dir
+  OBJECT_FILE_DIR = CMakeFiles\LCS.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LCS
@@ -2793,7 +3258,7 @@ build CMakeFiles/LCS.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__LCS_unscanned_De
 #############################################
 # Link the executable .runtime\LCS.exe
 
-build .runtime/LCS.exe: CXX_EXECUTABLE_LINKER__LCS_Debug CMakeFiles/LCS.dir/32_Dynamic_Programming_Algorithm/LCS.cpp.obj CMakeFiles/LCS.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/LCS.exe: CXX_EXECUTABLE_LINKER__LCS_Debug CMakeFiles/LCS.dir/32_Dynamic_Programming_Algorithm/LCS.cpp.obj CMakeFiles/LCS.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/LCS.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LCS.dir
@@ -2824,6 +3289,12 @@ build CMakeFiles/Longest_non-decreasing_subsequence.dir/28_AVL_Tree/AVL.cpp.obj:
   OBJECT_DIR = CMakeFiles\Longest_non-decreasing_subsequence.dir
   OBJECT_FILE_DIR = CMakeFiles\Longest_non-decreasing_subsequence.dir\28_AVL_Tree
 
+build CMakeFiles/Longest_non-decreasing_subsequence.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Longest_non-decreasing_subsequence_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Longest_non-decreasing_subsequence
+  DEP_FILE = CMakeFiles\Longest_non-decreasing_subsequence.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Longest_non-decreasing_subsequence.dir
+  OBJECT_FILE_DIR = CMakeFiles\Longest_non-decreasing_subsequence.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Longest_non-decreasing_subsequence
@@ -2832,7 +3303,7 @@ build CMakeFiles/Longest_non-decreasing_subsequence.dir/28_AVL_Tree/AVL.cpp.obj:
 #############################################
 # Link the executable .runtime\Longest_non-decreasing_subsequence.exe
 
-build .runtime/Longest_non-decreasing_subsequence.exe: CXX_EXECUTABLE_LINKER__Longest_non-decreasing_subsequence_Debug CMakeFiles/Longest_non-decreasing_subsequence.dir/32_Dynamic_Programming_Algorithm/Longest_non-decreasing_subsequence.cpp.obj CMakeFiles/Longest_non-decreasing_subsequence.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Longest_non-decreasing_subsequence.exe: CXX_EXECUTABLE_LINKER__Longest_non-decreasing_subsequence_Debug CMakeFiles/Longest_non-decreasing_subsequence.dir/32_Dynamic_Programming_Algorithm/Longest_non-decreasing_subsequence.cpp.obj CMakeFiles/Longest_non-decreasing_subsequence.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Longest_non-decreasing_subsequence.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Longest_non-decreasing_subsequence.dir
@@ -2863,6 +3334,12 @@ build CMakeFiles/Maximum_sub-segment_sum.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\Maximum_sub-segment_sum.dir
   OBJECT_FILE_DIR = CMakeFiles\Maximum_sub-segment_sum.dir\28_AVL_Tree
 
+build CMakeFiles/Maximum_sub-segment_sum.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Maximum_sub-segment_sum_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Maximum_sub-segment_sum
+  DEP_FILE = CMakeFiles\Maximum_sub-segment_sum.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Maximum_sub-segment_sum.dir
+  OBJECT_FILE_DIR = CMakeFiles\Maximum_sub-segment_sum.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Maximum_sub-segment_sum
@@ -2871,7 +3348,7 @@ build CMakeFiles/Maximum_sub-segment_sum.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable .runtime\Maximum_sub-segment_sum.exe
 
-build .runtime/Maximum_sub-segment_sum.exe: CXX_EXECUTABLE_LINKER__Maximum_sub-segment_sum_Debug CMakeFiles/Maximum_sub-segment_sum.dir/32_Dynamic_Programming_Algorithm/Maximum_sub-segment_sum.cpp.obj CMakeFiles/Maximum_sub-segment_sum.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Maximum_sub-segment_sum.exe: CXX_EXECUTABLE_LINKER__Maximum_sub-segment_sum_Debug CMakeFiles/Maximum_sub-segment_sum.dir/32_Dynamic_Programming_Algorithm/Maximum_sub-segment_sum.cpp.obj CMakeFiles/Maximum_sub-segment_sum.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Maximum_sub-segment_sum.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Maximum_sub-segment_sum.dir
@@ -2902,6 +3379,12 @@ build CMakeFiles/Summing_a_triangular_array.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COM
   OBJECT_DIR = CMakeFiles\Summing_a_triangular_array.dir
   OBJECT_FILE_DIR = CMakeFiles\Summing_a_triangular_array.dir\28_AVL_Tree
 
+build CMakeFiles/Summing_a_triangular_array.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Summing_a_triangular_array_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Summing_a_triangular_array
+  DEP_FILE = CMakeFiles\Summing_a_triangular_array.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Summing_a_triangular_array.dir
+  OBJECT_FILE_DIR = CMakeFiles\Summing_a_triangular_array.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Summing_a_triangular_array
@@ -2910,7 +3393,7 @@ build CMakeFiles/Summing_a_triangular_array.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COM
 #############################################
 # Link the executable .runtime\Summing_a_triangular_array.exe
 
-build .runtime/Summing_a_triangular_array.exe: CXX_EXECUTABLE_LINKER__Summing_a_triangular_array_Debug CMakeFiles/Summing_a_triangular_array.dir/32_Dynamic_Programming_Algorithm/Summing_a_triangular_array.cpp.obj CMakeFiles/Summing_a_triangular_array.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Summing_a_triangular_array.exe: CXX_EXECUTABLE_LINKER__Summing_a_triangular_array_Debug CMakeFiles/Summing_a_triangular_array.dir/32_Dynamic_Programming_Algorithm/Summing_a_triangular_array.cpp.obj CMakeFiles/Summing_a_triangular_array.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Summing_a_triangular_array.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Summing_a_triangular_array.dir
@@ -2941,6 +3424,12 @@ build CMakeFiles/Coin_Selection_Problem.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\Coin_Selection_Problem.dir
   OBJECT_FILE_DIR = CMakeFiles\Coin_Selection_Problem.dir\28_AVL_Tree
 
+build CMakeFiles/Coin_Selection_Problem.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Coin_Selection_Problem_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Coin_Selection_Problem
+  DEP_FILE = CMakeFiles\Coin_Selection_Problem.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Coin_Selection_Problem.dir
+  OBJECT_FILE_DIR = CMakeFiles\Coin_Selection_Problem.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Coin_Selection_Problem
@@ -2949,7 +3438,7 @@ build CMakeFiles/Coin_Selection_Problem.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable .runtime\Coin_Selection_Problem.exe
 
-build .runtime/Coin_Selection_Problem.exe: CXX_EXECUTABLE_LINKER__Coin_Selection_Problem_Debug CMakeFiles/Coin_Selection_Problem.dir/33_Greedy_Algorithm/Coin_Selection_Problem.cpp.obj CMakeFiles/Coin_Selection_Problem.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Coin_Selection_Problem.exe: CXX_EXECUTABLE_LINKER__Coin_Selection_Problem_Debug CMakeFiles/Coin_Selection_Problem.dir/33_Greedy_Algorithm/Coin_Selection_Problem.cpp.obj CMakeFiles/Coin_Selection_Problem.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Coin_Selection_Problem.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Coin_Selection_Problem.dir
@@ -2980,6 +3469,12 @@ build CMakeFiles/Partial_Knapsack_Problem.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPI
   OBJECT_DIR = CMakeFiles\Partial_Knapsack_Problem.dir
   OBJECT_FILE_DIR = CMakeFiles\Partial_Knapsack_Problem.dir\28_AVL_Tree
 
+build CMakeFiles/Partial_Knapsack_Problem.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Partial_Knapsack_Problem_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Partial_Knapsack_Problem
+  DEP_FILE = CMakeFiles\Partial_Knapsack_Problem.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Partial_Knapsack_Problem.dir
+  OBJECT_FILE_DIR = CMakeFiles\Partial_Knapsack_Problem.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Partial_Knapsack_Problem
@@ -2988,7 +3483,7 @@ build CMakeFiles/Partial_Knapsack_Problem.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable .runtime\Partial_Knapsack_Problem.exe
 
-build .runtime/Partial_Knapsack_Problem.exe: CXX_EXECUTABLE_LINKER__Partial_Knapsack_Problem_Debug CMakeFiles/Partial_Knapsack_Problem.dir/33_Greedy_Algorithm/Partial_Knapsack_Problem.cpp.obj CMakeFiles/Partial_Knapsack_Problem.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Partial_Knapsack_Problem.exe: CXX_EXECUTABLE_LINKER__Partial_Knapsack_Problem_Debug CMakeFiles/Partial_Knapsack_Problem.dir/33_Greedy_Algorithm/Partial_Knapsack_Problem.cpp.obj CMakeFiles/Partial_Knapsack_Problem.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Partial_Knapsack_Problem.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Partial_Knapsack_Problem.dir
@@ -3019,6 +3514,12 @@ build CMakeFiles/Service_at_the_counter.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\Service_at_the_counter.dir
   OBJECT_FILE_DIR = CMakeFiles\Service_at_the_counter.dir\28_AVL_Tree
 
+build CMakeFiles/Service_at_the_counter.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Service_at_the_counter_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Service_at_the_counter
+  DEP_FILE = CMakeFiles\Service_at_the_counter.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Service_at_the_counter.dir
+  OBJECT_FILE_DIR = CMakeFiles\Service_at_the_counter.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Service_at_the_counter
@@ -3027,7 +3528,7 @@ build CMakeFiles/Service_at_the_counter.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable .runtime\Service_at_the_counter.exe
 
-build .runtime/Service_at_the_counter.exe: CXX_EXECUTABLE_LINKER__Service_at_the_counter_Debug CMakeFiles/Service_at_the_counter.dir/33_Greedy_Algorithm/Service_at_the_counter.cpp.obj CMakeFiles/Service_at_the_counter.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Service_at_the_counter.exe: CXX_EXECUTABLE_LINKER__Service_at_the_counter_Debug CMakeFiles/Service_at_the_counter.dir/33_Greedy_Algorithm/Service_at_the_counter.cpp.obj CMakeFiles/Service_at_the_counter.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Service_at_the_counter.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Service_at_the_counter.dir
@@ -3058,6 +3559,12 @@ build CMakeFiles/02Backpack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__02Backpac
   OBJECT_DIR = CMakeFiles\02Backpack.dir
   OBJECT_FILE_DIR = CMakeFiles\02Backpack.dir\28_AVL_Tree
 
+build CMakeFiles/02Backpack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__02Backpack_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_02Backpack
+  DEP_FILE = CMakeFiles\02Backpack.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02Backpack.dir
+  OBJECT_FILE_DIR = CMakeFiles\02Backpack.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 02Backpack
@@ -3066,7 +3573,7 @@ build CMakeFiles/02Backpack.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__02Backpac
 #############################################
 # Link the executable .runtime\02Backpack.exe
 
-build .runtime/02Backpack.exe: CXX_EXECUTABLE_LINKER__02Backpack_Debug CMakeFiles/02Backpack.dir/34_Branch_And_Bound_Algorithm/02Backpack.cpp.obj CMakeFiles/02Backpack.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/02Backpack.exe: CXX_EXECUTABLE_LINKER__02Backpack_Debug CMakeFiles/02Backpack.dir/34_Branch_And_Bound_Algorithm/02Backpack.cpp.obj CMakeFiles/02Backpack.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/02Backpack.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\02Backpack.dir
@@ -3097,6 +3604,12 @@ build CMakeFiles/Optimal_load.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Optimal
   OBJECT_DIR = CMakeFiles\Optimal_load.dir
   OBJECT_FILE_DIR = CMakeFiles\Optimal_load.dir\28_AVL_Tree
 
+build CMakeFiles/Optimal_load.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Optimal_load_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Optimal_load
+  DEP_FILE = CMakeFiles\Optimal_load.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Optimal_load.dir
+  OBJECT_FILE_DIR = CMakeFiles\Optimal_load.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Optimal_load
@@ -3105,7 +3618,7 @@ build CMakeFiles/Optimal_load.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Optimal
 #############################################
 # Link the executable .runtime\Optimal_load.exe
 
-build .runtime/Optimal_load.exe: CXX_EXECUTABLE_LINKER__Optimal_load_Debug CMakeFiles/Optimal_load.dir/34_Branch_And_Bound_Algorithm/Optimal_load.cpp.obj CMakeFiles/Optimal_load.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Optimal_load.exe: CXX_EXECUTABLE_LINKER__Optimal_load_Debug CMakeFiles/Optimal_load.dir/34_Branch_And_Bound_Algorithm/Optimal_load.cpp.obj CMakeFiles/Optimal_load.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Optimal_load.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Optimal_load.dir
@@ -3136,6 +3649,12 @@ build CMakeFiles/30_Jump_Table.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__30_Jum
   OBJECT_DIR = CMakeFiles\30_Jump_Table.dir
   OBJECT_FILE_DIR = CMakeFiles\30_Jump_Table.dir\28_AVL_Tree
 
+build CMakeFiles/30_Jump_Table.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__30_Jump_Table_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_30_Jump_Table
+  DEP_FILE = CMakeFiles\30_Jump_Table.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\30_Jump_Table.dir
+  OBJECT_FILE_DIR = CMakeFiles\30_Jump_Table.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 30_Jump_Table
@@ -3144,7 +3663,7 @@ build CMakeFiles/30_Jump_Table.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__30_Jum
 #############################################
 # Link the executable .runtime\30_Jump_Table.exe
 
-build .runtime/30_Jump_Table.exe: CXX_EXECUTABLE_LINKER__30_Jump_Table_Debug CMakeFiles/30_Jump_Table.dir/35_Jump_Table/30_Jump_Table.cpp.obj CMakeFiles/30_Jump_Table.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/30_Jump_Table.exe: CXX_EXECUTABLE_LINKER__30_Jump_Table_Debug CMakeFiles/30_Jump_Table.dir/35_Jump_Table/30_Jump_Table.cpp.obj CMakeFiles/30_Jump_Table.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/30_Jump_Table.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\30_Jump_Table.dir
@@ -3175,6 +3694,12 @@ build CMakeFiles/36_Trie_Dictionary_Tree.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\36_Trie_Dictionary_Tree.dir
   OBJECT_FILE_DIR = CMakeFiles\36_Trie_Dictionary_Tree.dir\28_AVL_Tree
 
+build CMakeFiles/36_Trie_Dictionary_Tree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__36_Trie_Dictionary_Tree_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_36_Trie_Dictionary_Tree
+  DEP_FILE = CMakeFiles\36_Trie_Dictionary_Tree.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\36_Trie_Dictionary_Tree.dir
+  OBJECT_FILE_DIR = CMakeFiles\36_Trie_Dictionary_Tree.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 36_Trie_Dictionary_Tree
@@ -3183,7 +3708,7 @@ build CMakeFiles/36_Trie_Dictionary_Tree.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable .runtime\36_Trie_Dictionary_Tree.exe
 
-build .runtime/36_Trie_Dictionary_Tree.exe: CXX_EXECUTABLE_LINKER__36_Trie_Dictionary_Tree_Debug CMakeFiles/36_Trie_Dictionary_Tree.dir/36_Trie_Dictionary_Tree/36_Trie_Dictionary_Tree.cpp.obj CMakeFiles/36_Trie_Dictionary_Tree.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/36_Trie_Dictionary_Tree.exe: CXX_EXECUTABLE_LINKER__36_Trie_Dictionary_Tree_Debug CMakeFiles/36_Trie_Dictionary_Tree.dir/36_Trie_Dictionary_Tree/36_Trie_Dictionary_Tree.cpp.obj CMakeFiles/36_Trie_Dictionary_Tree.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/36_Trie_Dictionary_Tree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\36_Trie_Dictionary_Tree.dir
@@ -3214,6 +3739,12 @@ build CMakeFiles/37_Inverted_Index.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__37
   OBJECT_DIR = CMakeFiles\37_Inverted_Index.dir
   OBJECT_FILE_DIR = CMakeFiles\37_Inverted_Index.dir\28_AVL_Tree
 
+build CMakeFiles/37_Inverted_Index.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__37_Inverted_Index_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_37_Inverted_Index
+  DEP_FILE = CMakeFiles\37_Inverted_Index.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\37_Inverted_Index.dir
+  OBJECT_FILE_DIR = CMakeFiles\37_Inverted_Index.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 37_Inverted_Index
@@ -3222,7 +3753,7 @@ build CMakeFiles/37_Inverted_Index.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__37
 #############################################
 # Link the executable .runtime\37_Inverted_Index.exe
 
-build .runtime/37_Inverted_Index.exe: CXX_EXECUTABLE_LINKER__37_Inverted_Index_Debug CMakeFiles/37_Inverted_Index.dir/37_Inverted_Index/37_Inverted_Index.cpp.obj CMakeFiles/37_Inverted_Index.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/37_Inverted_Index.exe: CXX_EXECUTABLE_LINKER__37_Inverted_Index_Debug CMakeFiles/37_Inverted_Index.dir/37_Inverted_Index/37_Inverted_Index.cpp.obj CMakeFiles/37_Inverted_Index.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/37_Inverted_Index.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\37_Inverted_Index.dir
@@ -3253,6 +3784,12 @@ build CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/28_AVL_Tree/AVL.cpp.obj:
   OBJECT_DIR = CMakeFiles\38_Huffman_Tree_And_Huffman_Coding.dir
   OBJECT_FILE_DIR = CMakeFiles\38_Huffman_Tree_And_Huffman_Coding.dir\28_AVL_Tree
 
+build CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__38_Huffman_Tree_And_Huffman_Coding_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_38_Huffman_Tree_And_Huffman_Coding
+  DEP_FILE = CMakeFiles\38_Huffman_Tree_And_Huffman_Coding.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\38_Huffman_Tree_And_Huffman_Coding.dir
+  OBJECT_FILE_DIR = CMakeFiles\38_Huffman_Tree_And_Huffman_Coding.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 38_Huffman_Tree_And_Huffman_Coding
@@ -3261,7 +3798,7 @@ build CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/28_AVL_Tree/AVL.cpp.obj:
 #############################################
 # Link the executable .runtime\38_Huffman_Tree_And_Huffman_Coding.exe
 
-build .runtime/38_Huffman_Tree_And_Huffman_Coding.exe: CXX_EXECUTABLE_LINKER__38_Huffman_Tree_And_Huffman_Coding_Debug CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/38_Huffman_Tree_And_Huffman_Coding/38_Huffman_Tree_And_Huffman_Coding.cpp.obj CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/38_Huffman_Tree_And_Huffman_Coding.exe: CXX_EXECUTABLE_LINKER__38_Huffman_Tree_And_Huffman_Coding_Debug CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/38_Huffman_Tree_And_Huffman_Coding/38_Huffman_Tree_And_Huffman_Coding.cpp.obj CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\38_Huffman_Tree_And_Huffman_Coding.dir
@@ -3292,6 +3829,12 @@ build CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/28_AVL_Tree/AVL.cpp.
   OBJECT_DIR = CMakeFiles\39_Graphs_And_Shortest_Path_Algorithms.dir
   OBJECT_FILE_DIR = CMakeFiles\39_Graphs_And_Shortest_Path_Algorithms.dir\28_AVL_Tree
 
+build CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__39_Graphs_And_Shortest_Path_Algorithms_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_39_Graphs_And_Shortest_Path_Algorithms
+  DEP_FILE = CMakeFiles\39_Graphs_And_Shortest_Path_Algorithms.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\39_Graphs_And_Shortest_Path_Algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles\39_Graphs_And_Shortest_Path_Algorithms.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 39_Graphs_And_Shortest_Path_Algorithms
@@ -3300,7 +3843,7 @@ build CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/28_AVL_Tree/AVL.cpp.
 #############################################
 # Link the executable .runtime\39_Graphs_And_Shortest_Path_Algorithms.exe
 
-build .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe: CXX_EXECUTABLE_LINKER__39_Graphs_And_Shortest_Path_Algorithms_Debug CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/39_Graphs_And_Shortest_Path_Algorithms/39_Graphs_And_Shortest_Path_Algorithms.cpp.obj CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe: CXX_EXECUTABLE_LINKER__39_Graphs_And_Shortest_Path_Algorithms_Debug CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/39_Graphs_And_Shortest_Path_Algorithms/39_Graphs_And_Shortest_Path_Algorithms.cpp.obj CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\39_Graphs_And_Shortest_Path_Algorithms.dir
@@ -3331,6 +3874,12 @@ build CMakeFiles/Dijkstra.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Dijkstra_un
   OBJECT_DIR = CMakeFiles\Dijkstra.dir
   OBJECT_FILE_DIR = CMakeFiles\Dijkstra.dir\28_AVL_Tree
 
+build CMakeFiles/Dijkstra.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Dijkstra_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Dijkstra
+  DEP_FILE = CMakeFiles\Dijkstra.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Dijkstra.dir
+  OBJECT_FILE_DIR = CMakeFiles\Dijkstra.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Dijkstra
@@ -3339,7 +3888,7 @@ build CMakeFiles/Dijkstra.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Dijkstra_un
 #############################################
 # Link the executable .runtime\Dijkstra.exe
 
-build .runtime/Dijkstra.exe: CXX_EXECUTABLE_LINKER__Dijkstra_Debug CMakeFiles/Dijkstra.dir/39_Graphs_And_Shortest_Path_Algorithms/Dijkstra.cpp.obj CMakeFiles/Dijkstra.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Dijkstra.exe: CXX_EXECUTABLE_LINKER__Dijkstra_Debug CMakeFiles/Dijkstra.dir/39_Graphs_And_Shortest_Path_Algorithms/Dijkstra.cpp.obj CMakeFiles/Dijkstra.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Dijkstra.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Dijkstra.dir
@@ -3370,6 +3919,12 @@ build CMakeFiles/floyd.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__floyd_unscanne
   OBJECT_DIR = CMakeFiles\floyd.dir
   OBJECT_FILE_DIR = CMakeFiles\floyd.dir\28_AVL_Tree
 
+build CMakeFiles/floyd.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__floyd_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_floyd
+  DEP_FILE = CMakeFiles\floyd.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\floyd.dir
+  OBJECT_FILE_DIR = CMakeFiles\floyd.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target floyd
@@ -3378,7 +3933,7 @@ build CMakeFiles/floyd.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__floyd_unscanne
 #############################################
 # Link the executable .runtime\floyd.exe
 
-build .runtime/floyd.exe: CXX_EXECUTABLE_LINKER__floyd_Debug CMakeFiles/floyd.dir/39_Graphs_And_Shortest_Path_Algorithms/floyd.cpp.obj CMakeFiles/floyd.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/floyd.exe: CXX_EXECUTABLE_LINKER__floyd_Debug CMakeFiles/floyd.dir/39_Graphs_And_Shortest_Path_Algorithms/floyd.cpp.obj CMakeFiles/floyd.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/floyd.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\floyd.dir
@@ -3409,6 +3964,12 @@ build CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/28_AVL_Tree/AVL.cp
   OBJECT_DIR = CMakeFiles\40_Union-find_And_Minimum_Spanning_Trees.dir
   OBJECT_FILE_DIR = CMakeFiles\40_Union-find_And_Minimum_Spanning_Trees.dir\28_AVL_Tree
 
+build CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__40_Union-find_And_Minimum_Spanning_Trees_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_40_Union-find_And_Minimum_Spanning_Trees
+  DEP_FILE = CMakeFiles\40_Union-find_And_Minimum_Spanning_Trees.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\40_Union-find_And_Minimum_Spanning_Trees.dir
+  OBJECT_FILE_DIR = CMakeFiles\40_Union-find_And_Minimum_Spanning_Trees.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 40_Union-find_And_Minimum_Spanning_Trees
@@ -3417,7 +3978,7 @@ build CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/28_AVL_Tree/AVL.cp
 #############################################
 # Link the executable .runtime\40_Union-find_And_Minimum_Spanning_Trees.exe
 
-build .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe: CXX_EXECUTABLE_LINKER__40_Union-find_And_Minimum_Spanning_Trees_Debug CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/40_Union-find_And_Minimum_Spanning_Trees/40_Union-find_And_Minimum_Spanning_Trees.cpp.obj CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe: CXX_EXECUTABLE_LINKER__40_Union-find_And_Minimum_Spanning_Trees_Debug CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/40_Union-find_And_Minimum_Spanning_Trees/40_Union-find_And_Minimum_Spanning_Trees.cpp.obj CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\40_Union-find_And_Minimum_Spanning_Trees.dir
@@ -3448,6 +4009,12 @@ build CMakeFiles/Kruskal.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Kruskal_unsc
   OBJECT_DIR = CMakeFiles\Kruskal.dir
   OBJECT_FILE_DIR = CMakeFiles\Kruskal.dir\28_AVL_Tree
 
+build CMakeFiles/Kruskal.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Kruskal_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Kruskal
+  DEP_FILE = CMakeFiles\Kruskal.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Kruskal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Kruskal.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Kruskal
@@ -3456,7 +4023,7 @@ build CMakeFiles/Kruskal.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Kruskal_unsc
 #############################################
 # Link the executable .runtime\Kruskal.exe
 
-build .runtime/Kruskal.exe: CXX_EXECUTABLE_LINKER__Kruskal_Debug CMakeFiles/Kruskal.dir/40_Union-find_And_Minimum_Spanning_Trees/Kruskal.cpp.obj CMakeFiles/Kruskal.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Kruskal.exe: CXX_EXECUTABLE_LINKER__Kruskal_Debug CMakeFiles/Kruskal.dir/40_Union-find_And_Minimum_Spanning_Trees/Kruskal.cpp.obj CMakeFiles/Kruskal.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Kruskal.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Kruskal.dir
@@ -3487,6 +4054,12 @@ build CMakeFiles/Relatives.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Relatives_
   OBJECT_DIR = CMakeFiles\Relatives.dir
   OBJECT_FILE_DIR = CMakeFiles\Relatives.dir\28_AVL_Tree
 
+build CMakeFiles/Relatives.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Relatives_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Relatives
+  DEP_FILE = CMakeFiles\Relatives.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Relatives.dir
+  OBJECT_FILE_DIR = CMakeFiles\Relatives.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Relatives
@@ -3495,7 +4068,7 @@ build CMakeFiles/Relatives.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Relatives_
 #############################################
 # Link the executable .runtime\Relatives.exe
 
-build .runtime/Relatives.exe: CXX_EXECUTABLE_LINKER__Relatives_Debug CMakeFiles/Relatives.dir/40_Union-find_And_Minimum_Spanning_Trees/Relatives.cpp.obj CMakeFiles/Relatives.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Relatives.exe: CXX_EXECUTABLE_LINKER__Relatives_Debug CMakeFiles/Relatives.dir/40_Union-find_And_Minimum_Spanning_Trees/Relatives.cpp.obj CMakeFiles/Relatives.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Relatives.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Relatives.dir
@@ -3526,6 +4099,12 @@ build CMakeFiles/The_best_route_to_avoid_traffic.dir/28_AVL_Tree/AVL.cpp.obj: CX
   OBJECT_DIR = CMakeFiles\The_best_route_to_avoid_traffic.dir
   OBJECT_FILE_DIR = CMakeFiles\The_best_route_to_avoid_traffic.dir\28_AVL_Tree
 
+build CMakeFiles/The_best_route_to_avoid_traffic.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__The_best_route_to_avoid_traffic_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_The_best_route_to_avoid_traffic
+  DEP_FILE = CMakeFiles\The_best_route_to_avoid_traffic.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\The_best_route_to_avoid_traffic.dir
+  OBJECT_FILE_DIR = CMakeFiles\The_best_route_to_avoid_traffic.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target The_best_route_to_avoid_traffic
@@ -3534,7 +4113,7 @@ build CMakeFiles/The_best_route_to_avoid_traffic.dir/28_AVL_Tree/AVL.cpp.obj: CX
 #############################################
 # Link the executable .runtime\The_best_route_to_avoid_traffic.exe
 
-build .runtime/The_best_route_to_avoid_traffic.exe: CXX_EXECUTABLE_LINKER__The_best_route_to_avoid_traffic_Debug CMakeFiles/The_best_route_to_avoid_traffic.dir/40_Union-find_And_Minimum_Spanning_Trees/The_best_route_to_avoid_traffic.cpp.obj CMakeFiles/The_best_route_to_avoid_traffic.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/The_best_route_to_avoid_traffic.exe: CXX_EXECUTABLE_LINKER__The_best_route_to_avoid_traffic_Debug CMakeFiles/The_best_route_to_avoid_traffic.dir/40_Union-find_And_Minimum_Spanning_Trees/The_best_route_to_avoid_traffic.cpp.obj CMakeFiles/The_best_route_to_avoid_traffic.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/The_best_route_to_avoid_traffic.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\The_best_route_to_avoid_traffic.dir
@@ -3565,6 +4144,12 @@ build CMakeFiles/Emphasis.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Emphasis_un
   OBJECT_DIR = CMakeFiles\Emphasis.dir
   OBJECT_FILE_DIR = CMakeFiles\Emphasis.dir\28_AVL_Tree
 
+build CMakeFiles/Emphasis.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__Emphasis_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_Emphasis
+  DEP_FILE = CMakeFiles\Emphasis.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Emphasis.dir
+  OBJECT_FILE_DIR = CMakeFiles\Emphasis.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Emphasis
@@ -3573,7 +4158,7 @@ build CMakeFiles/Emphasis.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__Emphasis_un
 #############################################
 # Link the executable .runtime\Emphasis.exe
 
-build .runtime/Emphasis.exe: CXX_EXECUTABLE_LINKER__Emphasis_Debug CMakeFiles/Emphasis.dir/Other/Emphasis.cpp.obj CMakeFiles/Emphasis.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/Emphasis.exe: CXX_EXECUTABLE_LINKER__Emphasis_Debug CMakeFiles/Emphasis.dir/Other/Emphasis.cpp.obj CMakeFiles/Emphasis.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/Emphasis.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Emphasis.dir
@@ -3604,6 +4189,12 @@ build CMakeFiles/CMakeCXXCompilerId.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__C
   OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
   OBJECT_FILE_DIR = CMakeFiles\CMakeCXXCompilerId.dir\28_AVL_Tree
 
+build CMakeFiles/CMakeCXXCompilerId.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__CMakeCXXCompilerId_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/29_RB_Red-Black_Tree/RBTree.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles\CMakeCXXCompilerId.dir\29_RB_Red-Black_Tree\RBTree.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles\CMakeCXXCompilerId.dir\29_RB_Red-Black_Tree
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CMakeCXXCompilerId
@@ -3612,7 +4203,7 @@ build CMakeFiles/CMakeCXXCompilerId.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__C
 #############################################
 # Link the executable .runtime\CMakeCXXCompilerId.exe
 
-build .runtime/CMakeCXXCompilerId.exe: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj CMakeFiles/CMakeCXXCompilerId.dir/28_AVL_Tree/AVL.cpp.obj
+build .runtime/CMakeCXXCompilerId.exe: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj CMakeFiles/CMakeCXXCompilerId.dir/28_AVL_Tree/AVL.cpp.obj CMakeFiles/CMakeCXXCompilerId.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
@@ -3876,6 +4467,10 @@ build Quick_sort_partition_function_to_find_top-k_problem: phony .runtime/Quick_
 
 build Quick_sort_partition_function_to_find_top-k_problem.exe: phony .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe
 
+build RBTree: phony .runtime/RBTree.exe
+
+build RBTree.exe: phony .runtime/RBTree.exe
+
 build Relatives: phony .runtime/Relatives.exe
 
 build Relatives.exe: phony .runtime/Relatives.exe
@@ -4024,7 +4619,7 @@ build topKHeap.exe: phony .runtime/topKHeap.exe
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 
-build all: phony .runtime/01_Array.exe .runtime/array.exe .runtime/array_pb.exe .runtime/02_Link_List.exe .runtime/linkList.exe .runtime/linkList_pb.exe .runtime/03_One-way_Circle_Link_List.exe .runtime/circleLinkList.exe .runtime/circleLinkList_pb.exe .runtime/04_Double_Link_List.exe .runtime/doubleLinkList.exe .runtime/05_Double_Circle_Link_List.exe .runtime/doubleCircleLinkedList.exe .runtime/06_Stack.exe .runtime/stack.exe .runtime/stack_pb.exe .runtime/07_Link_Stack.exe .runtime/linkStack.exe .runtime/08_Ring_Queue.exe .runtime/queue.exe .runtime/queue_pb.exe .runtime/09_Chained_Queue.exe .runtime/linkQueue.exe .runtime/10_Binary_Search_Algorithm.exe .runtime/binarySearch.exe .runtime/11_Basic_Sort.exe .runtime/basicSort.exe .runtime/12_Quick_Sort.exe .runtime/quickSort.exe .runtime/13_Merge_Sort.exe .runtime/mergeSort.exe .runtime/14_Binary_Heap.exe .runtime/binaryHeap.exe .runtime/15_Heap_Sort.exe .runtime/heapSort.exe .runtime/16_Advanced_Sorting_Performance_Test.exe .runtime/17_Radix_Sort.exe .runtime/18_Linear_Probing_Hash_Table.exe .runtime/linearProbingHashTable.exe .runtime/19_Chained_Hash_Table.exe .runtime/chainedHashTable.exe .runtime/20_Big_Data_Duplicate_Check.exe .runtime/bigDataDuplicateCheck.exe .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe .runtime/bigDataDuplicateCheckBitmap.exe .runtime/22_Bloom_Filter.exe .runtime/bloomFilter.exe .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe .runtime/topKHeap.exe .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe .runtime/bigDataTopKFastSortSeg.exe .runtime/25_Consistent_Hashing_Algorithm.exe .runtime/consistentHash.exe .runtime/26_String_Operations.exe .runtime/stringOperation.exe .runtime/27_BST_Tree.exe .runtime/bst.exe .runtime/28_AVL_Tree.exe .runtime/AVL.exe .runtime/29_RB_Red-Black_Tree.exe .runtime/31_Backtracking_Algorithm.exe .runtime/Binary_Search.exe .runtime/Median.exe .runtime/Merge_Sort.exe .runtime/Merge_k_ordered_linked_lists.exe .runtime/Quick_Sort.exe .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe .runtime/01Backpack.exe .runtime/Coin_Problem.exe .runtime/Fibonacci_Sequence.exe .runtime/LCS.exe .runtime/Longest_non-decreasing_subsequence.exe .runtime/Maximum_sub-segment_sum.exe .runtime/Summing_a_triangular_array.exe .runtime/Coin_Selection_Problem.exe .runtime/Partial_Knapsack_Problem.exe .runtime/Service_at_the_counter.exe .runtime/02Backpack.exe .runtime/Optimal_load.exe .runtime/30_Jump_Table.exe .runtime/36_Trie_Dictionary_Tree.exe .runtime/37_Inverted_Index.exe .runtime/38_Huffman_Tree_And_Huffman_Coding.exe .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe .runtime/Dijkstra.exe .runtime/floyd.exe .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe .runtime/Kruskal.exe .runtime/Relatives.exe .runtime/The_best_route_to_avoid_traffic.exe .runtime/Emphasis.exe .runtime/CMakeCXXCompilerId.exe
+build all: phony .runtime/01_Array.exe .runtime/array.exe .runtime/array_pb.exe .runtime/02_Link_List.exe .runtime/linkList.exe .runtime/linkList_pb.exe .runtime/03_One-way_Circle_Link_List.exe .runtime/circleLinkList.exe .runtime/circleLinkList_pb.exe .runtime/04_Double_Link_List.exe .runtime/doubleLinkList.exe .runtime/05_Double_Circle_Link_List.exe .runtime/doubleCircleLinkedList.exe .runtime/06_Stack.exe .runtime/stack.exe .runtime/stack_pb.exe .runtime/07_Link_Stack.exe .runtime/linkStack.exe .runtime/08_Ring_Queue.exe .runtime/queue.exe .runtime/queue_pb.exe .runtime/09_Chained_Queue.exe .runtime/linkQueue.exe .runtime/10_Binary_Search_Algorithm.exe .runtime/binarySearch.exe .runtime/11_Basic_Sort.exe .runtime/basicSort.exe .runtime/12_Quick_Sort.exe .runtime/quickSort.exe .runtime/13_Merge_Sort.exe .runtime/mergeSort.exe .runtime/14_Binary_Heap.exe .runtime/binaryHeap.exe .runtime/15_Heap_Sort.exe .runtime/heapSort.exe .runtime/16_Advanced_Sorting_Performance_Test.exe .runtime/17_Radix_Sort.exe .runtime/18_Linear_Probing_Hash_Table.exe .runtime/linearProbingHashTable.exe .runtime/19_Chained_Hash_Table.exe .runtime/chainedHashTable.exe .runtime/20_Big_Data_Duplicate_Check.exe .runtime/bigDataDuplicateCheck.exe .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe .runtime/bigDataDuplicateCheckBitmap.exe .runtime/22_Bloom_Filter.exe .runtime/bloomFilter.exe .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe .runtime/topKHeap.exe .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe .runtime/bigDataTopKFastSortSeg.exe .runtime/25_Consistent_Hashing_Algorithm.exe .runtime/consistentHash.exe .runtime/26_String_Operations.exe .runtime/stringOperation.exe .runtime/27_BST_Tree.exe .runtime/bst.exe .runtime/28_AVL_Tree.exe .runtime/AVL.exe .runtime/29_RB_Red-Black_Tree.exe .runtime/RBTree.exe .runtime/31_Backtracking_Algorithm.exe .runtime/Binary_Search.exe .runtime/Median.exe .runtime/Merge_Sort.exe .runtime/Merge_k_ordered_linked_lists.exe .runtime/Quick_Sort.exe .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe .runtime/01Backpack.exe .runtime/Coin_Problem.exe .runtime/Fibonacci_Sequence.exe .runtime/LCS.exe .runtime/Longest_non-decreasing_subsequence.exe .runtime/Maximum_sub-segment_sum.exe .runtime/Summing_a_triangular_array.exe .runtime/Coin_Selection_Problem.exe .runtime/Partial_Knapsack_Problem.exe .runtime/Service_at_the_counter.exe .runtime/02Backpack.exe .runtime/Optimal_load.exe .runtime/30_Jump_Table.exe .runtime/36_Trie_Dictionary_Tree.exe .runtime/37_Inverted_Index.exe .runtime/38_Huffman_Tree_And_Huffman_Coding.exe .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe .runtime/Dijkstra.exe .runtime/floyd.exe .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe .runtime/Kruskal.exe .runtime/Relatives.exe .runtime/The_best_route_to_avoid_traffic.exe .runtime/Emphasis.exe .runtime/CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets

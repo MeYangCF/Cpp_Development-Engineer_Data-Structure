@@ -22,6 +22,7 @@ foreach (file ${files})
     add_executable(${exe} ${file}
             28_AVL_Tree/AVL.cpp
             28_AVL_Tree/AVl.cpp
-            28_AVL_Tree/AVL.cpp)
+            28_AVL_Tree/AVL.cpp
+            29_RB_Red-Black_Tree/RBTree.cpp)
     message( "-- [${exe}.cpp] will be compiled to '.runtime/${exe}.exe'" )
 endforeach ()
