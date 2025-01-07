@@ -115,6 +115,7 @@ public:
             }
         }
     }
+
 private:
     enum Color {
         BLACK,
