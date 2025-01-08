@@ -9,15 +9,15 @@
 using namespace std;
 
 // Trie字典树
-class TrieTree
+class trieTree
 {
 public:
-	TrieTree()
+	trieTree()
 	{
 		root_ = new TrieNode('\0', 0);
 	}
 
-	~TrieTree()
+	~trieTree()
 	{
 		queue<TrieNode*> que;
 		que.push(root_);
@@ -217,7 +217,7 @@ private:
 
 int main()
 {
-	TrieTree trie;
+	trieTree trie;
 	trie.add("hello");
 	trie.add("hello");
 	trie.add("helloo");

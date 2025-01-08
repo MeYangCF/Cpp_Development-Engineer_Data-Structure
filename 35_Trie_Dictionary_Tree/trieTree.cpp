@@ -11,13 +11,13 @@
 #include <queue>
 using namespace std;
 
-class TrieTree {
+class trieTree {
 public:
-    TrieTree() {
+    trieTree() {
         root_ = new TrieNode('\0', 0);
     }
 
-    ~TrieTree() {
+    ~trieTree() {
         queue<TrieNode*> que;
         que.push(root_);
 
@@ -155,7 +155,7 @@ private:
     TrieNode* root_;
 };
 int main() {
-    TrieTree trie;
+    trieTree trie;
     trie.add("hello");
     trie.add("hello");
     trie.add("helloo");
