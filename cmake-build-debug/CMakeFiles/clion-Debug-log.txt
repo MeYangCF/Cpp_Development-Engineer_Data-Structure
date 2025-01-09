@@ -92,9 +92,7 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- [Kruskal.cpp] will be compiled to '.runtime/Kruskal.exe'
 -- [Relatives.cpp] will be compiled to '.runtime/Relatives.exe'
 -- [The_best_route_to_avoid_traffic.cpp] will be compiled to '.runtime/The_best_route_to_avoid_traffic.exe'
--- [Emphasis.cpp] will be compiled to '.runtime/Emphasis.exe'
 -- [CMakeCXXCompilerId.cpp] will be compiled to '.runtime/CMakeCXXCompilerId.exe'
-F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 -- Configuring done (0.2s)
 -- Generating done (0.1s)
 -- Build files have been written to: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
