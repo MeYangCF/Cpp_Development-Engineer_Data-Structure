@@ -24,6 +24,7 @@ foreach (file ${files})
             28_AVL_Tree/AVl.cpp
             28_AVL_Tree/AVL.cpp
             29_RB_Red-Black_Tree/RBTree.cpp
-            35_Trie_Dictionary_Tree/TrieTree.cpp)
+            35_Trie_Dictionary_Tree/TrieTree.cpp
+            36_Jump_Table/skipList.cpp)
     message( "-- [${exe}.cpp] will be compiled to '.runtime/${exe}.exe'" )
 endforeach ()
