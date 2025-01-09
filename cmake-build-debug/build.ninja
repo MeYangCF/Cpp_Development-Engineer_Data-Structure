@@ -61,16 +61,16 @@ build CMakeFiles/01_Array.dir/01_Array/01_Array.cpp.obj: CXX_COMPILER__01_Array_
 
 
 #############################################
-# Link the executable .runtime\01_Array.exe
+# Link the executable 01_Array.exe
 
-build .runtime/01_Array.exe: CXX_EXECUTABLE_LINKER__01_Array_Debug CMakeFiles/01_Array.dir/01_Array/01_Array.cpp.obj
+build 01_Array.exe: CXX_EXECUTABLE_LINKER__01_Array_Debug CMakeFiles/01_Array.dir/01_Array/01_Array.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\01_Array.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\01_Array.exe
-  TARGET_IMPLIB = .archive\lib01_Array.dll.a
+  TARGET_FILE = 01_Array.exe
+  TARGET_IMPLIB = lib01_Array.dll.a
   TARGET_PDB = 01_Array.exe.dbg
 
 # =============================================================================
@@ -94,16 +94,16 @@ build CMakeFiles/array.dir/01_Array/array.cpp.obj: CXX_COMPILER__array_unscanned
 
 
 #############################################
-# Link the executable .runtime\array.exe
+# Link the executable array.exe
 
-build .runtime/array.exe: CXX_EXECUTABLE_LINKER__array_Debug CMakeFiles/array.dir/01_Array/array.cpp.obj
+build array.exe: CXX_EXECUTABLE_LINKER__array_Debug CMakeFiles/array.dir/01_Array/array.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\array.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\array.exe
-  TARGET_IMPLIB = .archive\libarray.dll.a
+  TARGET_FILE = array.exe
+  TARGET_IMPLIB = libarray.dll.a
   TARGET_PDB = array.exe.dbg
 
 # =============================================================================
@@ -127,16 +127,16 @@ build CMakeFiles/array_pb.dir/01_Array/array_pb.cpp.obj: CXX_COMPILER__array_pb_
 
 
 #############################################
-# Link the executable .runtime\array_pb.exe
+# Link the executable array_pb.exe
 
-build .runtime/array_pb.exe: CXX_EXECUTABLE_LINKER__array_pb_Debug CMakeFiles/array_pb.dir/01_Array/array_pb.cpp.obj
+build array_pb.exe: CXX_EXECUTABLE_LINKER__array_pb_Debug CMakeFiles/array_pb.dir/01_Array/array_pb.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\array_pb.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\array_pb.exe
-  TARGET_IMPLIB = .archive\libarray_pb.dll.a
+  TARGET_FILE = array_pb.exe
+  TARGET_IMPLIB = libarray_pb.dll.a
   TARGET_PDB = array_pb.exe.dbg
 
 # =============================================================================
@@ -160,16 +160,16 @@ build CMakeFiles/02_Link_List.dir/02_Link_List/02_Link_List.cpp.obj: CXX_COMPILE
 
 
 #############################################
-# Link the executable .runtime\02_Link_List.exe
+# Link the executable 02_Link_List.exe
 
-build .runtime/02_Link_List.exe: CXX_EXECUTABLE_LINKER__02_Link_List_Debug CMakeFiles/02_Link_List.dir/02_Link_List/02_Link_List.cpp.obj
+build 02_Link_List.exe: CXX_EXECUTABLE_LINKER__02_Link_List_Debug CMakeFiles/02_Link_List.dir/02_Link_List/02_Link_List.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\02_Link_List.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\02_Link_List.exe
-  TARGET_IMPLIB = .archive\lib02_Link_List.dll.a
+  TARGET_FILE = 02_Link_List.exe
+  TARGET_IMPLIB = lib02_Link_List.dll.a
   TARGET_PDB = 02_Link_List.exe.dbg
 
 # =============================================================================
@@ -193,16 +193,16 @@ build CMakeFiles/linkList.dir/02_Link_List/linkList.cpp.obj: CXX_COMPILER__linkL
 
 
 #############################################
-# Link the executable .runtime\linkList.exe
+# Link the executable linkList.exe
 
-build .runtime/linkList.exe: CXX_EXECUTABLE_LINKER__linkList_Debug CMakeFiles/linkList.dir/02_Link_List/linkList.cpp.obj
+build linkList.exe: CXX_EXECUTABLE_LINKER__linkList_Debug CMakeFiles/linkList.dir/02_Link_List/linkList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linkList.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\linkList.exe
-  TARGET_IMPLIB = .archive\liblinkList.dll.a
+  TARGET_FILE = linkList.exe
+  TARGET_IMPLIB = liblinkList.dll.a
   TARGET_PDB = linkList.exe.dbg
 
 # =============================================================================
@@ -226,16 +226,16 @@ build CMakeFiles/linkList_pb.dir/02_Link_List/linkList_pb.cpp.obj: CXX_COMPILER_
 
 
 #############################################
-# Link the executable .runtime\linkList_pb.exe
+# Link the executable linkList_pb.exe
 
-build .runtime/linkList_pb.exe: CXX_EXECUTABLE_LINKER__linkList_pb_Debug CMakeFiles/linkList_pb.dir/02_Link_List/linkList_pb.cpp.obj
+build linkList_pb.exe: CXX_EXECUTABLE_LINKER__linkList_pb_Debug CMakeFiles/linkList_pb.dir/02_Link_List/linkList_pb.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linkList_pb.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\linkList_pb.exe
-  TARGET_IMPLIB = .archive\liblinkList_pb.dll.a
+  TARGET_FILE = linkList_pb.exe
+  TARGET_IMPLIB = liblinkList_pb.dll.a
   TARGET_PDB = linkList_pb.exe.dbg
 
 # =============================================================================
@@ -259,16 +259,16 @@ build CMakeFiles/03_One-way_Circle_Link_List.dir/03_One-way_Circle_Link_List/03_
 
 
 #############################################
-# Link the executable .runtime\03_One-way_Circle_Link_List.exe
+# Link the executable 03_One-way_Circle_Link_List.exe
 
-build .runtime/03_One-way_Circle_Link_List.exe: CXX_EXECUTABLE_LINKER__03_One-way_Circle_Link_List_Debug CMakeFiles/03_One-way_Circle_Link_List.dir/03_One-way_Circle_Link_List/03_One-way_Circle_Link_List.cpp.obj
+build 03_One-way_Circle_Link_List.exe: CXX_EXECUTABLE_LINKER__03_One-way_Circle_Link_List_Debug CMakeFiles/03_One-way_Circle_Link_List.dir/03_One-way_Circle_Link_List/03_One-way_Circle_Link_List.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\03_One-way_Circle_Link_List.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\03_One-way_Circle_Link_List.exe
-  TARGET_IMPLIB = .archive\lib03_One-way_Circle_Link_List.dll.a
+  TARGET_FILE = 03_One-way_Circle_Link_List.exe
+  TARGET_IMPLIB = lib03_One-way_Circle_Link_List.dll.a
   TARGET_PDB = 03_One-way_Circle_Link_List.exe.dbg
 
 # =============================================================================
@@ -292,16 +292,16 @@ build CMakeFiles/circleLinkList.dir/03_One-way_Circle_Link_List/circleLinkList.c
 
 
 #############################################
-# Link the executable .runtime\circleLinkList.exe
+# Link the executable circleLinkList.exe
 
-build .runtime/circleLinkList.exe: CXX_EXECUTABLE_LINKER__circleLinkList_Debug CMakeFiles/circleLinkList.dir/03_One-way_Circle_Link_List/circleLinkList.cpp.obj
+build circleLinkList.exe: CXX_EXECUTABLE_LINKER__circleLinkList_Debug CMakeFiles/circleLinkList.dir/03_One-way_Circle_Link_List/circleLinkList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\circleLinkList.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\circleLinkList.exe
-  TARGET_IMPLIB = .archive\libcircleLinkList.dll.a
+  TARGET_FILE = circleLinkList.exe
+  TARGET_IMPLIB = libcircleLinkList.dll.a
   TARGET_PDB = circleLinkList.exe.dbg
 
 # =============================================================================
@@ -325,16 +325,16 @@ build CMakeFiles/circleLinkList_pb.dir/03_One-way_Circle_Link_List/circleLinkLis
 
 
 #############################################
-# Link the executable .runtime\circleLinkList_pb.exe
+# Link the executable circleLinkList_pb.exe
 
-build .runtime/circleLinkList_pb.exe: CXX_EXECUTABLE_LINKER__circleLinkList_pb_Debug CMakeFiles/circleLinkList_pb.dir/03_One-way_Circle_Link_List/circleLinkList_pb.cpp.obj
+build circleLinkList_pb.exe: CXX_EXECUTABLE_LINKER__circleLinkList_pb_Debug CMakeFiles/circleLinkList_pb.dir/03_One-way_Circle_Link_List/circleLinkList_pb.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\circleLinkList_pb.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\circleLinkList_pb.exe
-  TARGET_IMPLIB = .archive\libcircleLinkList_pb.dll.a
+  TARGET_FILE = circleLinkList_pb.exe
+  TARGET_IMPLIB = libcircleLinkList_pb.dll.a
   TARGET_PDB = circleLinkList_pb.exe.dbg
 
 # =============================================================================
@@ -358,16 +358,16 @@ build CMakeFiles/04_Double_Link_List.dir/04_Double_Link_List/04_Double_Link_List
 
 
 #############################################
-# Link the executable .runtime\04_Double_Link_List.exe
+# Link the executable 04_Double_Link_List.exe
 
-build .runtime/04_Double_Link_List.exe: CXX_EXECUTABLE_LINKER__04_Double_Link_List_Debug CMakeFiles/04_Double_Link_List.dir/04_Double_Link_List/04_Double_Link_List.cpp.obj
+build 04_Double_Link_List.exe: CXX_EXECUTABLE_LINKER__04_Double_Link_List_Debug CMakeFiles/04_Double_Link_List.dir/04_Double_Link_List/04_Double_Link_List.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\04_Double_Link_List.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\04_Double_Link_List.exe
-  TARGET_IMPLIB = .archive\lib04_Double_Link_List.dll.a
+  TARGET_FILE = 04_Double_Link_List.exe
+  TARGET_IMPLIB = lib04_Double_Link_List.dll.a
   TARGET_PDB = 04_Double_Link_List.exe.dbg
 
 # =============================================================================
@@ -391,16 +391,16 @@ build CMakeFiles/doubleLinkList.dir/04_Double_Link_List/doubleLinkList.cpp.obj: 
 
 
 #############################################
-# Link the executable .runtime\doubleLinkList.exe
+# Link the executable doubleLinkList.exe
 
-build .runtime/doubleLinkList.exe: CXX_EXECUTABLE_LINKER__doubleLinkList_Debug CMakeFiles/doubleLinkList.dir/04_Double_Link_List/doubleLinkList.cpp.obj
+build doubleLinkList.exe: CXX_EXECUTABLE_LINKER__doubleLinkList_Debug CMakeFiles/doubleLinkList.dir/04_Double_Link_List/doubleLinkList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\doubleLinkList.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\doubleLinkList.exe
-  TARGET_IMPLIB = .archive\libdoubleLinkList.dll.a
+  TARGET_FILE = doubleLinkList.exe
+  TARGET_IMPLIB = libdoubleLinkList.dll.a
   TARGET_PDB = doubleLinkList.exe.dbg
 
 # =============================================================================
@@ -424,16 +424,16 @@ build CMakeFiles/05_Double_Circle_Link_List.dir/05_Double_Circle_Link_List/05_Do
 
 
 #############################################
-# Link the executable .runtime\05_Double_Circle_Link_List.exe
+# Link the executable 05_Double_Circle_Link_List.exe
 
-build .runtime/05_Double_Circle_Link_List.exe: CXX_EXECUTABLE_LINKER__05_Double_Circle_Link_List_Debug CMakeFiles/05_Double_Circle_Link_List.dir/05_Double_Circle_Link_List/05_Double_Circle_Link_List.cpp.obj
+build 05_Double_Circle_Link_List.exe: CXX_EXECUTABLE_LINKER__05_Double_Circle_Link_List_Debug CMakeFiles/05_Double_Circle_Link_List.dir/05_Double_Circle_Link_List/05_Double_Circle_Link_List.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\05_Double_Circle_Link_List.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\05_Double_Circle_Link_List.exe
-  TARGET_IMPLIB = .archive\lib05_Double_Circle_Link_List.dll.a
+  TARGET_FILE = 05_Double_Circle_Link_List.exe
+  TARGET_IMPLIB = lib05_Double_Circle_Link_List.dll.a
   TARGET_PDB = 05_Double_Circle_Link_List.exe.dbg
 
 # =============================================================================
@@ -457,16 +457,16 @@ build CMakeFiles/doubleCircleLinkedList.dir/05_Double_Circle_Link_List/doubleCir
 
 
 #############################################
-# Link the executable .runtime\doubleCircleLinkedList.exe
+# Link the executable doubleCircleLinkedList.exe
 
-build .runtime/doubleCircleLinkedList.exe: CXX_EXECUTABLE_LINKER__doubleCircleLinkedList_Debug CMakeFiles/doubleCircleLinkedList.dir/05_Double_Circle_Link_List/doubleCircleLinkedList.cpp.obj
+build doubleCircleLinkedList.exe: CXX_EXECUTABLE_LINKER__doubleCircleLinkedList_Debug CMakeFiles/doubleCircleLinkedList.dir/05_Double_Circle_Link_List/doubleCircleLinkedList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\doubleCircleLinkedList.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\doubleCircleLinkedList.exe
-  TARGET_IMPLIB = .archive\libdoubleCircleLinkedList.dll.a
+  TARGET_FILE = doubleCircleLinkedList.exe
+  TARGET_IMPLIB = libdoubleCircleLinkedList.dll.a
   TARGET_PDB = doubleCircleLinkedList.exe.dbg
 
 # =============================================================================
@@ -490,16 +490,16 @@ build CMakeFiles/06_Stack.dir/06_Stack/06_Stack.cpp.obj: CXX_COMPILER__06_Stack_
 
 
 #############################################
-# Link the executable .runtime\06_Stack.exe
+# Link the executable 06_Stack.exe
 
-build .runtime/06_Stack.exe: CXX_EXECUTABLE_LINKER__06_Stack_Debug CMakeFiles/06_Stack.dir/06_Stack/06_Stack.cpp.obj
+build 06_Stack.exe: CXX_EXECUTABLE_LINKER__06_Stack_Debug CMakeFiles/06_Stack.dir/06_Stack/06_Stack.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\06_Stack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\06_Stack.exe
-  TARGET_IMPLIB = .archive\lib06_Stack.dll.a
+  TARGET_FILE = 06_Stack.exe
+  TARGET_IMPLIB = lib06_Stack.dll.a
   TARGET_PDB = 06_Stack.exe.dbg
 
 # =============================================================================
@@ -523,16 +523,16 @@ build CMakeFiles/stack.dir/06_Stack/stack.cpp.obj: CXX_COMPILER__stack_unscanned
 
 
 #############################################
-# Link the executable .runtime\stack.exe
+# Link the executable stack.exe
 
-build .runtime/stack.exe: CXX_EXECUTABLE_LINKER__stack_Debug CMakeFiles/stack.dir/06_Stack/stack.cpp.obj
+build stack.exe: CXX_EXECUTABLE_LINKER__stack_Debug CMakeFiles/stack.dir/06_Stack/stack.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\stack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\stack.exe
-  TARGET_IMPLIB = .archive\libstack.dll.a
+  TARGET_FILE = stack.exe
+  TARGET_IMPLIB = libstack.dll.a
   TARGET_PDB = stack.exe.dbg
 
 # =============================================================================
@@ -556,16 +556,16 @@ build CMakeFiles/stack_pb.dir/06_Stack/stack_pb.cpp.obj: CXX_COMPILER__stack_pb_
 
 
 #############################################
-# Link the executable .runtime\stack_pb.exe
+# Link the executable stack_pb.exe
 
-build .runtime/stack_pb.exe: CXX_EXECUTABLE_LINKER__stack_pb_Debug CMakeFiles/stack_pb.dir/06_Stack/stack_pb.cpp.obj
+build stack_pb.exe: CXX_EXECUTABLE_LINKER__stack_pb_Debug CMakeFiles/stack_pb.dir/06_Stack/stack_pb.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\stack_pb.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\stack_pb.exe
-  TARGET_IMPLIB = .archive\libstack_pb.dll.a
+  TARGET_FILE = stack_pb.exe
+  TARGET_IMPLIB = libstack_pb.dll.a
   TARGET_PDB = stack_pb.exe.dbg
 
 # =============================================================================
@@ -589,16 +589,16 @@ build CMakeFiles/07_Link_Stack.dir/07_Link_Stack/07_Link_Stack.cpp.obj: CXX_COMP
 
 
 #############################################
-# Link the executable .runtime\07_Link_Stack.exe
+# Link the executable 07_Link_Stack.exe
 
-build .runtime/07_Link_Stack.exe: CXX_EXECUTABLE_LINKER__07_Link_Stack_Debug CMakeFiles/07_Link_Stack.dir/07_Link_Stack/07_Link_Stack.cpp.obj
+build 07_Link_Stack.exe: CXX_EXECUTABLE_LINKER__07_Link_Stack_Debug CMakeFiles/07_Link_Stack.dir/07_Link_Stack/07_Link_Stack.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\07_Link_Stack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\07_Link_Stack.exe
-  TARGET_IMPLIB = .archive\lib07_Link_Stack.dll.a
+  TARGET_FILE = 07_Link_Stack.exe
+  TARGET_IMPLIB = lib07_Link_Stack.dll.a
   TARGET_PDB = 07_Link_Stack.exe.dbg
 
 # =============================================================================
@@ -622,16 +622,16 @@ build CMakeFiles/linkStack.dir/07_Link_Stack/linkStack.cpp.obj: CXX_COMPILER__li
 
 
 #############################################
-# Link the executable .runtime\linkStack.exe
+# Link the executable linkStack.exe
 
-build .runtime/linkStack.exe: CXX_EXECUTABLE_LINKER__linkStack_Debug CMakeFiles/linkStack.dir/07_Link_Stack/linkStack.cpp.obj
+build linkStack.exe: CXX_EXECUTABLE_LINKER__linkStack_Debug CMakeFiles/linkStack.dir/07_Link_Stack/linkStack.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linkStack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\linkStack.exe
-  TARGET_IMPLIB = .archive\liblinkStack.dll.a
+  TARGET_FILE = linkStack.exe
+  TARGET_IMPLIB = liblinkStack.dll.a
   TARGET_PDB = linkStack.exe.dbg
 
 # =============================================================================
@@ -655,16 +655,16 @@ build CMakeFiles/08_Ring_Queue.dir/08_Ring_Queue/08_Ring_Queue.cpp.obj: CXX_COMP
 
 
 #############################################
-# Link the executable .runtime\08_Ring_Queue.exe
+# Link the executable 08_Ring_Queue.exe
 
-build .runtime/08_Ring_Queue.exe: CXX_EXECUTABLE_LINKER__08_Ring_Queue_Debug CMakeFiles/08_Ring_Queue.dir/08_Ring_Queue/08_Ring_Queue.cpp.obj
+build 08_Ring_Queue.exe: CXX_EXECUTABLE_LINKER__08_Ring_Queue_Debug CMakeFiles/08_Ring_Queue.dir/08_Ring_Queue/08_Ring_Queue.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\08_Ring_Queue.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\08_Ring_Queue.exe
-  TARGET_IMPLIB = .archive\lib08_Ring_Queue.dll.a
+  TARGET_FILE = 08_Ring_Queue.exe
+  TARGET_IMPLIB = lib08_Ring_Queue.dll.a
   TARGET_PDB = 08_Ring_Queue.exe.dbg
 
 # =============================================================================
@@ -688,16 +688,16 @@ build CMakeFiles/queue.dir/08_Ring_Queue/queue.cpp.obj: CXX_COMPILER__queue_unsc
 
 
 #############################################
-# Link the executable .runtime\queue.exe
+# Link the executable queue.exe
 
-build .runtime/queue.exe: CXX_EXECUTABLE_LINKER__queue_Debug CMakeFiles/queue.dir/08_Ring_Queue/queue.cpp.obj
+build queue.exe: CXX_EXECUTABLE_LINKER__queue_Debug CMakeFiles/queue.dir/08_Ring_Queue/queue.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\queue.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\queue.exe
-  TARGET_IMPLIB = .archive\libqueue.dll.a
+  TARGET_FILE = queue.exe
+  TARGET_IMPLIB = libqueue.dll.a
   TARGET_PDB = queue.exe.dbg
 
 # =============================================================================
@@ -721,16 +721,16 @@ build CMakeFiles/queue_pb.dir/08_Ring_Queue/queue_pb.cpp.obj: CXX_COMPILER__queu
 
 
 #############################################
-# Link the executable .runtime\queue_pb.exe
+# Link the executable queue_pb.exe
 
-build .runtime/queue_pb.exe: CXX_EXECUTABLE_LINKER__queue_pb_Debug CMakeFiles/queue_pb.dir/08_Ring_Queue/queue_pb.cpp.obj
+build queue_pb.exe: CXX_EXECUTABLE_LINKER__queue_pb_Debug CMakeFiles/queue_pb.dir/08_Ring_Queue/queue_pb.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\queue_pb.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\queue_pb.exe
-  TARGET_IMPLIB = .archive\libqueue_pb.dll.a
+  TARGET_FILE = queue_pb.exe
+  TARGET_IMPLIB = libqueue_pb.dll.a
   TARGET_PDB = queue_pb.exe.dbg
 
 # =============================================================================
@@ -754,16 +754,16 @@ build CMakeFiles/09_Chained_Queue.dir/09_Chained_Queue/09_Chained_Queue.cpp.obj:
 
 
 #############################################
-# Link the executable .runtime\09_Chained_Queue.exe
+# Link the executable 09_Chained_Queue.exe
 
-build .runtime/09_Chained_Queue.exe: CXX_EXECUTABLE_LINKER__09_Chained_Queue_Debug CMakeFiles/09_Chained_Queue.dir/09_Chained_Queue/09_Chained_Queue.cpp.obj
+build 09_Chained_Queue.exe: CXX_EXECUTABLE_LINKER__09_Chained_Queue_Debug CMakeFiles/09_Chained_Queue.dir/09_Chained_Queue/09_Chained_Queue.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\09_Chained_Queue.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\09_Chained_Queue.exe
-  TARGET_IMPLIB = .archive\lib09_Chained_Queue.dll.a
+  TARGET_FILE = 09_Chained_Queue.exe
+  TARGET_IMPLIB = lib09_Chained_Queue.dll.a
   TARGET_PDB = 09_Chained_Queue.exe.dbg
 
 # =============================================================================
@@ -787,16 +787,16 @@ build CMakeFiles/linkQueue.dir/09_Chained_Queue/linkQueue.cpp.obj: CXX_COMPILER_
 
 
 #############################################
-# Link the executable .runtime\linkQueue.exe
+# Link the executable linkQueue.exe
 
-build .runtime/linkQueue.exe: CXX_EXECUTABLE_LINKER__linkQueue_Debug CMakeFiles/linkQueue.dir/09_Chained_Queue/linkQueue.cpp.obj
+build linkQueue.exe: CXX_EXECUTABLE_LINKER__linkQueue_Debug CMakeFiles/linkQueue.dir/09_Chained_Queue/linkQueue.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linkQueue.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\linkQueue.exe
-  TARGET_IMPLIB = .archive\liblinkQueue.dll.a
+  TARGET_FILE = linkQueue.exe
+  TARGET_IMPLIB = liblinkQueue.dll.a
   TARGET_PDB = linkQueue.exe.dbg
 
 # =============================================================================
@@ -820,16 +820,16 @@ build CMakeFiles/10_Binary_Search_Algorithm.dir/10_Binary_Search_Algorithm/10_Bi
 
 
 #############################################
-# Link the executable .runtime\10_Binary_Search_Algorithm.exe
+# Link the executable 10_Binary_Search_Algorithm.exe
 
-build .runtime/10_Binary_Search_Algorithm.exe: CXX_EXECUTABLE_LINKER__10_Binary_Search_Algorithm_Debug CMakeFiles/10_Binary_Search_Algorithm.dir/10_Binary_Search_Algorithm/10_Binary_Search_Algorithm.cpp.obj
+build 10_Binary_Search_Algorithm.exe: CXX_EXECUTABLE_LINKER__10_Binary_Search_Algorithm_Debug CMakeFiles/10_Binary_Search_Algorithm.dir/10_Binary_Search_Algorithm/10_Binary_Search_Algorithm.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\10_Binary_Search_Algorithm.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\10_Binary_Search_Algorithm.exe
-  TARGET_IMPLIB = .archive\lib10_Binary_Search_Algorithm.dll.a
+  TARGET_FILE = 10_Binary_Search_Algorithm.exe
+  TARGET_IMPLIB = lib10_Binary_Search_Algorithm.dll.a
   TARGET_PDB = 10_Binary_Search_Algorithm.exe.dbg
 
 # =============================================================================
@@ -853,16 +853,16 @@ build CMakeFiles/binarySearch.dir/10_Binary_Search_Algorithm/binarySearch.cpp.ob
 
 
 #############################################
-# Link the executable .runtime\binarySearch.exe
+# Link the executable binarySearch.exe
 
-build .runtime/binarySearch.exe: CXX_EXECUTABLE_LINKER__binarySearch_Debug CMakeFiles/binarySearch.dir/10_Binary_Search_Algorithm/binarySearch.cpp.obj
+build binarySearch.exe: CXX_EXECUTABLE_LINKER__binarySearch_Debug CMakeFiles/binarySearch.dir/10_Binary_Search_Algorithm/binarySearch.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\binarySearch.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\binarySearch.exe
-  TARGET_IMPLIB = .archive\libbinarySearch.dll.a
+  TARGET_FILE = binarySearch.exe
+  TARGET_IMPLIB = libbinarySearch.dll.a
   TARGET_PDB = binarySearch.exe.dbg
 
 # =============================================================================
@@ -886,16 +886,16 @@ build CMakeFiles/11_Basic_Sort.dir/11_Basic_Sort/11_Basic_Sort.cpp.obj: CXX_COMP
 
 
 #############################################
-# Link the executable .runtime\11_Basic_Sort.exe
+# Link the executable 11_Basic_Sort.exe
 
-build .runtime/11_Basic_Sort.exe: CXX_EXECUTABLE_LINKER__11_Basic_Sort_Debug CMakeFiles/11_Basic_Sort.dir/11_Basic_Sort/11_Basic_Sort.cpp.obj
+build 11_Basic_Sort.exe: CXX_EXECUTABLE_LINKER__11_Basic_Sort_Debug CMakeFiles/11_Basic_Sort.dir/11_Basic_Sort/11_Basic_Sort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\11_Basic_Sort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\11_Basic_Sort.exe
-  TARGET_IMPLIB = .archive\lib11_Basic_Sort.dll.a
+  TARGET_FILE = 11_Basic_Sort.exe
+  TARGET_IMPLIB = lib11_Basic_Sort.dll.a
   TARGET_PDB = 11_Basic_Sort.exe.dbg
 
 # =============================================================================
@@ -919,16 +919,16 @@ build CMakeFiles/basicSort.dir/11_Basic_Sort/basicSort.cpp.obj: CXX_COMPILER__ba
 
 
 #############################################
-# Link the executable .runtime\basicSort.exe
+# Link the executable basicSort.exe
 
-build .runtime/basicSort.exe: CXX_EXECUTABLE_LINKER__basicSort_Debug CMakeFiles/basicSort.dir/11_Basic_Sort/basicSort.cpp.obj
+build basicSort.exe: CXX_EXECUTABLE_LINKER__basicSort_Debug CMakeFiles/basicSort.dir/11_Basic_Sort/basicSort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\basicSort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\basicSort.exe
-  TARGET_IMPLIB = .archive\libbasicSort.dll.a
+  TARGET_FILE = basicSort.exe
+  TARGET_IMPLIB = libbasicSort.dll.a
   TARGET_PDB = basicSort.exe.dbg
 
 # =============================================================================
@@ -952,16 +952,16 @@ build CMakeFiles/12_Quick_Sort.dir/12_Quick_Sort/12_Quick_Sort.cpp.obj: CXX_COMP
 
 
 #############################################
-# Link the executable .runtime\12_Quick_Sort.exe
+# Link the executable 12_Quick_Sort.exe
 
-build .runtime/12_Quick_Sort.exe: CXX_EXECUTABLE_LINKER__12_Quick_Sort_Debug CMakeFiles/12_Quick_Sort.dir/12_Quick_Sort/12_Quick_Sort.cpp.obj
+build 12_Quick_Sort.exe: CXX_EXECUTABLE_LINKER__12_Quick_Sort_Debug CMakeFiles/12_Quick_Sort.dir/12_Quick_Sort/12_Quick_Sort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\12_Quick_Sort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\12_Quick_Sort.exe
-  TARGET_IMPLIB = .archive\lib12_Quick_Sort.dll.a
+  TARGET_FILE = 12_Quick_Sort.exe
+  TARGET_IMPLIB = lib12_Quick_Sort.dll.a
   TARGET_PDB = 12_Quick_Sort.exe.dbg
 
 # =============================================================================
@@ -985,16 +985,16 @@ build CMakeFiles/quickSort.dir/12_Quick_Sort/quickSort.cpp.obj: CXX_COMPILER__qu
 
 
 #############################################
-# Link the executable .runtime\quickSort.exe
+# Link the executable quickSort.exe
 
-build .runtime/quickSort.exe: CXX_EXECUTABLE_LINKER__quickSort_Debug CMakeFiles/quickSort.dir/12_Quick_Sort/quickSort.cpp.obj
+build quickSort.exe: CXX_EXECUTABLE_LINKER__quickSort_Debug CMakeFiles/quickSort.dir/12_Quick_Sort/quickSort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\quickSort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\quickSort.exe
-  TARGET_IMPLIB = .archive\libquickSort.dll.a
+  TARGET_FILE = quickSort.exe
+  TARGET_IMPLIB = libquickSort.dll.a
   TARGET_PDB = quickSort.exe.dbg
 
 # =============================================================================
@@ -1018,16 +1018,16 @@ build CMakeFiles/13_Merge_Sort.dir/13_Merge_Sort/13_Merge_Sort.cpp.obj: CXX_COMP
 
 
 #############################################
-# Link the executable .runtime\13_Merge_Sort.exe
+# Link the executable 13_Merge_Sort.exe
 
-build .runtime/13_Merge_Sort.exe: CXX_EXECUTABLE_LINKER__13_Merge_Sort_Debug CMakeFiles/13_Merge_Sort.dir/13_Merge_Sort/13_Merge_Sort.cpp.obj
+build 13_Merge_Sort.exe: CXX_EXECUTABLE_LINKER__13_Merge_Sort_Debug CMakeFiles/13_Merge_Sort.dir/13_Merge_Sort/13_Merge_Sort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\13_Merge_Sort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\13_Merge_Sort.exe
-  TARGET_IMPLIB = .archive\lib13_Merge_Sort.dll.a
+  TARGET_FILE = 13_Merge_Sort.exe
+  TARGET_IMPLIB = lib13_Merge_Sort.dll.a
   TARGET_PDB = 13_Merge_Sort.exe.dbg
 
 # =============================================================================
@@ -1051,16 +1051,16 @@ build CMakeFiles/mergeSort.dir/13_Merge_Sort/mergeSort.cpp.obj: CXX_COMPILER__me
 
 
 #############################################
-# Link the executable .runtime\mergeSort.exe
+# Link the executable mergeSort.exe
 
-build .runtime/mergeSort.exe: CXX_EXECUTABLE_LINKER__mergeSort_Debug CMakeFiles/mergeSort.dir/13_Merge_Sort/mergeSort.cpp.obj
+build mergeSort.exe: CXX_EXECUTABLE_LINKER__mergeSort_Debug CMakeFiles/mergeSort.dir/13_Merge_Sort/mergeSort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\mergeSort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\mergeSort.exe
-  TARGET_IMPLIB = .archive\libmergeSort.dll.a
+  TARGET_FILE = mergeSort.exe
+  TARGET_IMPLIB = libmergeSort.dll.a
   TARGET_PDB = mergeSort.exe.dbg
 
 # =============================================================================
@@ -1084,16 +1084,16 @@ build CMakeFiles/14_Binary_Heap.dir/14_Binary_Heap/14_Binary_Heap.cpp.obj: CXX_C
 
 
 #############################################
-# Link the executable .runtime\14_Binary_Heap.exe
+# Link the executable 14_Binary_Heap.exe
 
-build .runtime/14_Binary_Heap.exe: CXX_EXECUTABLE_LINKER__14_Binary_Heap_Debug CMakeFiles/14_Binary_Heap.dir/14_Binary_Heap/14_Binary_Heap.cpp.obj
+build 14_Binary_Heap.exe: CXX_EXECUTABLE_LINKER__14_Binary_Heap_Debug CMakeFiles/14_Binary_Heap.dir/14_Binary_Heap/14_Binary_Heap.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\14_Binary_Heap.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\14_Binary_Heap.exe
-  TARGET_IMPLIB = .archive\lib14_Binary_Heap.dll.a
+  TARGET_FILE = 14_Binary_Heap.exe
+  TARGET_IMPLIB = lib14_Binary_Heap.dll.a
   TARGET_PDB = 14_Binary_Heap.exe.dbg
 
 # =============================================================================
@@ -1117,16 +1117,16 @@ build CMakeFiles/binaryHeap.dir/14_Binary_Heap/binaryHeap.cpp.obj: CXX_COMPILER_
 
 
 #############################################
-# Link the executable .runtime\binaryHeap.exe
+# Link the executable binaryHeap.exe
 
-build .runtime/binaryHeap.exe: CXX_EXECUTABLE_LINKER__binaryHeap_Debug CMakeFiles/binaryHeap.dir/14_Binary_Heap/binaryHeap.cpp.obj
+build binaryHeap.exe: CXX_EXECUTABLE_LINKER__binaryHeap_Debug CMakeFiles/binaryHeap.dir/14_Binary_Heap/binaryHeap.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\binaryHeap.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\binaryHeap.exe
-  TARGET_IMPLIB = .archive\libbinaryHeap.dll.a
+  TARGET_FILE = binaryHeap.exe
+  TARGET_IMPLIB = libbinaryHeap.dll.a
   TARGET_PDB = binaryHeap.exe.dbg
 
 # =============================================================================
@@ -1150,16 +1150,16 @@ build CMakeFiles/15_Heap_Sort.dir/15_Heap_Sort/15_Heap_Sort.cpp.obj: CXX_COMPILE
 
 
 #############################################
-# Link the executable .runtime\15_Heap_Sort.exe
+# Link the executable 15_Heap_Sort.exe
 
-build .runtime/15_Heap_Sort.exe: CXX_EXECUTABLE_LINKER__15_Heap_Sort_Debug CMakeFiles/15_Heap_Sort.dir/15_Heap_Sort/15_Heap_Sort.cpp.obj
+build 15_Heap_Sort.exe: CXX_EXECUTABLE_LINKER__15_Heap_Sort_Debug CMakeFiles/15_Heap_Sort.dir/15_Heap_Sort/15_Heap_Sort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\15_Heap_Sort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\15_Heap_Sort.exe
-  TARGET_IMPLIB = .archive\lib15_Heap_Sort.dll.a
+  TARGET_FILE = 15_Heap_Sort.exe
+  TARGET_IMPLIB = lib15_Heap_Sort.dll.a
   TARGET_PDB = 15_Heap_Sort.exe.dbg
 
 # =============================================================================
@@ -1183,16 +1183,16 @@ build CMakeFiles/heapSort.dir/15_Heap_Sort/heapSort.cpp.obj: CXX_COMPILER__heapS
 
 
 #############################################
-# Link the executable .runtime\heapSort.exe
+# Link the executable heapSort.exe
 
-build .runtime/heapSort.exe: CXX_EXECUTABLE_LINKER__heapSort_Debug CMakeFiles/heapSort.dir/15_Heap_Sort/heapSort.cpp.obj
+build heapSort.exe: CXX_EXECUTABLE_LINKER__heapSort_Debug CMakeFiles/heapSort.dir/15_Heap_Sort/heapSort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\heapSort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\heapSort.exe
-  TARGET_IMPLIB = .archive\libheapSort.dll.a
+  TARGET_FILE = heapSort.exe
+  TARGET_IMPLIB = libheapSort.dll.a
   TARGET_PDB = heapSort.exe.dbg
 
 # =============================================================================
@@ -1216,16 +1216,16 @@ build CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/16_Advanced_Sorting_Pe
 
 
 #############################################
-# Link the executable .runtime\16_Advanced_Sorting_Performance_Test.exe
+# Link the executable 16_Advanced_Sorting_Performance_Test.exe
 
-build .runtime/16_Advanced_Sorting_Performance_Test.exe: CXX_EXECUTABLE_LINKER__16_Advanced_Sorting_Performance_Test_Debug CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/16_Advanced_Sorting_Performance_Test/16_Advanced_Sorting_Performance_Test.cpp.obj
+build 16_Advanced_Sorting_Performance_Test.exe: CXX_EXECUTABLE_LINKER__16_Advanced_Sorting_Performance_Test_Debug CMakeFiles/16_Advanced_Sorting_Performance_Test.dir/16_Advanced_Sorting_Performance_Test/16_Advanced_Sorting_Performance_Test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\16_Advanced_Sorting_Performance_Test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\16_Advanced_Sorting_Performance_Test.exe
-  TARGET_IMPLIB = .archive\lib16_Advanced_Sorting_Performance_Test.dll.a
+  TARGET_FILE = 16_Advanced_Sorting_Performance_Test.exe
+  TARGET_IMPLIB = lib16_Advanced_Sorting_Performance_Test.dll.a
   TARGET_PDB = 16_Advanced_Sorting_Performance_Test.exe.dbg
 
 # =============================================================================
@@ -1249,16 +1249,16 @@ build CMakeFiles/17_Radix_Sort.dir/17_Radix_Sort/17_Radix_Sort.cpp.obj: CXX_COMP
 
 
 #############################################
-# Link the executable .runtime\17_Radix_Sort.exe
+# Link the executable 17_Radix_Sort.exe
 
-build .runtime/17_Radix_Sort.exe: CXX_EXECUTABLE_LINKER__17_Radix_Sort_Debug CMakeFiles/17_Radix_Sort.dir/17_Radix_Sort/17_Radix_Sort.cpp.obj
+build 17_Radix_Sort.exe: CXX_EXECUTABLE_LINKER__17_Radix_Sort_Debug CMakeFiles/17_Radix_Sort.dir/17_Radix_Sort/17_Radix_Sort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\17_Radix_Sort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\17_Radix_Sort.exe
-  TARGET_IMPLIB = .archive\lib17_Radix_Sort.dll.a
+  TARGET_FILE = 17_Radix_Sort.exe
+  TARGET_IMPLIB = lib17_Radix_Sort.dll.a
   TARGET_PDB = 17_Radix_Sort.exe.dbg
 
 # =============================================================================
@@ -1282,16 +1282,16 @@ build CMakeFiles/18_Linear_Probing_Hash_Table.dir/18_Linear_Probing_Hash_Table/1
 
 
 #############################################
-# Link the executable .runtime\18_Linear_Probing_Hash_Table.exe
+# Link the executable 18_Linear_Probing_Hash_Table.exe
 
-build .runtime/18_Linear_Probing_Hash_Table.exe: CXX_EXECUTABLE_LINKER__18_Linear_Probing_Hash_Table_Debug CMakeFiles/18_Linear_Probing_Hash_Table.dir/18_Linear_Probing_Hash_Table/18_Linear_Probing_Hash_Table.cpp.obj
+build 18_Linear_Probing_Hash_Table.exe: CXX_EXECUTABLE_LINKER__18_Linear_Probing_Hash_Table_Debug CMakeFiles/18_Linear_Probing_Hash_Table.dir/18_Linear_Probing_Hash_Table/18_Linear_Probing_Hash_Table.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\18_Linear_Probing_Hash_Table.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\18_Linear_Probing_Hash_Table.exe
-  TARGET_IMPLIB = .archive\lib18_Linear_Probing_Hash_Table.dll.a
+  TARGET_FILE = 18_Linear_Probing_Hash_Table.exe
+  TARGET_IMPLIB = lib18_Linear_Probing_Hash_Table.dll.a
   TARGET_PDB = 18_Linear_Probing_Hash_Table.exe.dbg
 
 # =============================================================================
@@ -1315,16 +1315,16 @@ build CMakeFiles/linearProbingHashTable.dir/18_Linear_Probing_Hash_Table/linearP
 
 
 #############################################
-# Link the executable .runtime\linearProbingHashTable.exe
+# Link the executable linearProbingHashTable.exe
 
-build .runtime/linearProbingHashTable.exe: CXX_EXECUTABLE_LINKER__linearProbingHashTable_Debug CMakeFiles/linearProbingHashTable.dir/18_Linear_Probing_Hash_Table/linearProbingHashTable.cpp.obj
+build linearProbingHashTable.exe: CXX_EXECUTABLE_LINKER__linearProbingHashTable_Debug CMakeFiles/linearProbingHashTable.dir/18_Linear_Probing_Hash_Table/linearProbingHashTable.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linearProbingHashTable.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\linearProbingHashTable.exe
-  TARGET_IMPLIB = .archive\liblinearProbingHashTable.dll.a
+  TARGET_FILE = linearProbingHashTable.exe
+  TARGET_IMPLIB = liblinearProbingHashTable.dll.a
   TARGET_PDB = linearProbingHashTable.exe.dbg
 
 # =============================================================================
@@ -1348,16 +1348,16 @@ build CMakeFiles/19_Chained_Hash_Table.dir/19_Chained_Hash_Table/19_Chained_Hash
 
 
 #############################################
-# Link the executable .runtime\19_Chained_Hash_Table.exe
+# Link the executable 19_Chained_Hash_Table.exe
 
-build .runtime/19_Chained_Hash_Table.exe: CXX_EXECUTABLE_LINKER__19_Chained_Hash_Table_Debug CMakeFiles/19_Chained_Hash_Table.dir/19_Chained_Hash_Table/19_Chained_Hash_Table.cpp.obj
+build 19_Chained_Hash_Table.exe: CXX_EXECUTABLE_LINKER__19_Chained_Hash_Table_Debug CMakeFiles/19_Chained_Hash_Table.dir/19_Chained_Hash_Table/19_Chained_Hash_Table.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\19_Chained_Hash_Table.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\19_Chained_Hash_Table.exe
-  TARGET_IMPLIB = .archive\lib19_Chained_Hash_Table.dll.a
+  TARGET_FILE = 19_Chained_Hash_Table.exe
+  TARGET_IMPLIB = lib19_Chained_Hash_Table.dll.a
   TARGET_PDB = 19_Chained_Hash_Table.exe.dbg
 
 # =============================================================================
@@ -1381,16 +1381,16 @@ build CMakeFiles/chainedHashTable.dir/19_Chained_Hash_Table/chainedHashTable.cpp
 
 
 #############################################
-# Link the executable .runtime\chainedHashTable.exe
+# Link the executable chainedHashTable.exe
 
-build .runtime/chainedHashTable.exe: CXX_EXECUTABLE_LINKER__chainedHashTable_Debug CMakeFiles/chainedHashTable.dir/19_Chained_Hash_Table/chainedHashTable.cpp.obj
+build chainedHashTable.exe: CXX_EXECUTABLE_LINKER__chainedHashTable_Debug CMakeFiles/chainedHashTable.dir/19_Chained_Hash_Table/chainedHashTable.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\chainedHashTable.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\chainedHashTable.exe
-  TARGET_IMPLIB = .archive\libchainedHashTable.dll.a
+  TARGET_FILE = chainedHashTable.exe
+  TARGET_IMPLIB = libchainedHashTable.dll.a
   TARGET_PDB = chainedHashTable.exe.dbg
 
 # =============================================================================
@@ -1414,16 +1414,16 @@ build CMakeFiles/20_Big_Data_Duplicate_Check.dir/20_Big_Data_Duplicate_Check/20_
 
 
 #############################################
-# Link the executable .runtime\20_Big_Data_Duplicate_Check.exe
+# Link the executable 20_Big_Data_Duplicate_Check.exe
 
-build .runtime/20_Big_Data_Duplicate_Check.exe: CXX_EXECUTABLE_LINKER__20_Big_Data_Duplicate_Check_Debug CMakeFiles/20_Big_Data_Duplicate_Check.dir/20_Big_Data_Duplicate_Check/20_Big_Data_Duplicate_Check.cpp.obj
+build 20_Big_Data_Duplicate_Check.exe: CXX_EXECUTABLE_LINKER__20_Big_Data_Duplicate_Check_Debug CMakeFiles/20_Big_Data_Duplicate_Check.dir/20_Big_Data_Duplicate_Check/20_Big_Data_Duplicate_Check.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\20_Big_Data_Duplicate_Check.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\20_Big_Data_Duplicate_Check.exe
-  TARGET_IMPLIB = .archive\lib20_Big_Data_Duplicate_Check.dll.a
+  TARGET_FILE = 20_Big_Data_Duplicate_Check.exe
+  TARGET_IMPLIB = lib20_Big_Data_Duplicate_Check.dll.a
   TARGET_PDB = 20_Big_Data_Duplicate_Check.exe.dbg
 
 # =============================================================================
@@ -1447,16 +1447,16 @@ build CMakeFiles/bigDataDuplicateCheck.dir/20_Big_Data_Duplicate_Check/bigDataDu
 
 
 #############################################
-# Link the executable .runtime\bigDataDuplicateCheck.exe
+# Link the executable bigDataDuplicateCheck.exe
 
-build .runtime/bigDataDuplicateCheck.exe: CXX_EXECUTABLE_LINKER__bigDataDuplicateCheck_Debug CMakeFiles/bigDataDuplicateCheck.dir/20_Big_Data_Duplicate_Check/bigDataDuplicateCheck.cpp.obj
+build bigDataDuplicateCheck.exe: CXX_EXECUTABLE_LINKER__bigDataDuplicateCheck_Debug CMakeFiles/bigDataDuplicateCheck.dir/20_Big_Data_Duplicate_Check/bigDataDuplicateCheck.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bigDataDuplicateCheck.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\bigDataDuplicateCheck.exe
-  TARGET_IMPLIB = .archive\libbigDataDuplicateCheck.dll.a
+  TARGET_FILE = bigDataDuplicateCheck.exe
+  TARGET_IMPLIB = libbigDataDuplicateCheck.dll.a
   TARGET_PDB = bigDataDuplicateCheck.exe.dbg
 
 # =============================================================================
@@ -1480,16 +1480,16 @@ build CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/21_Big_Data_Duplicate_Ch
 
 
 #############################################
-# Link the executable .runtime\21_Big_Data_Duplicate_Check-Bitmap.exe
+# Link the executable 21_Big_Data_Duplicate_Check-Bitmap.exe
 
-build .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe: CXX_EXECUTABLE_LINKER__21_Big_Data_Duplicate_Check-Bitmap_Debug CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/21_Big_Data_Duplicate_Check-Bitmap/21_Big_Data_Duplicate_Check-Bitmap.cpp.obj
+build 21_Big_Data_Duplicate_Check-Bitmap.exe: CXX_EXECUTABLE_LINKER__21_Big_Data_Duplicate_Check-Bitmap_Debug CMakeFiles/21_Big_Data_Duplicate_Check-Bitmap.dir/21_Big_Data_Duplicate_Check-Bitmap/21_Big_Data_Duplicate_Check-Bitmap.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\21_Big_Data_Duplicate_Check-Bitmap.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\21_Big_Data_Duplicate_Check-Bitmap.exe
-  TARGET_IMPLIB = .archive\lib21_Big_Data_Duplicate_Check-Bitmap.dll.a
+  TARGET_FILE = 21_Big_Data_Duplicate_Check-Bitmap.exe
+  TARGET_IMPLIB = lib21_Big_Data_Duplicate_Check-Bitmap.dll.a
   TARGET_PDB = 21_Big_Data_Duplicate_Check-Bitmap.exe.dbg
 
 # =============================================================================
@@ -1513,16 +1513,16 @@ build CMakeFiles/bigDataDuplicateCheckBitmap.dir/21_Big_Data_Duplicate_Check-Bit
 
 
 #############################################
-# Link the executable .runtime\bigDataDuplicateCheckBitmap.exe
+# Link the executable bigDataDuplicateCheckBitmap.exe
 
-build .runtime/bigDataDuplicateCheckBitmap.exe: CXX_EXECUTABLE_LINKER__bigDataDuplicateCheckBitmap_Debug CMakeFiles/bigDataDuplicateCheckBitmap.dir/21_Big_Data_Duplicate_Check-Bitmap/bigDataDuplicateCheckBitmap.cpp.obj
+build bigDataDuplicateCheckBitmap.exe: CXX_EXECUTABLE_LINKER__bigDataDuplicateCheckBitmap_Debug CMakeFiles/bigDataDuplicateCheckBitmap.dir/21_Big_Data_Duplicate_Check-Bitmap/bigDataDuplicateCheckBitmap.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bigDataDuplicateCheckBitmap.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\bigDataDuplicateCheckBitmap.exe
-  TARGET_IMPLIB = .archive\libbigDataDuplicateCheckBitmap.dll.a
+  TARGET_FILE = bigDataDuplicateCheckBitmap.exe
+  TARGET_IMPLIB = libbigDataDuplicateCheckBitmap.dll.a
   TARGET_PDB = bigDataDuplicateCheckBitmap.exe.dbg
 
 # =============================================================================
@@ -1546,16 +1546,16 @@ build CMakeFiles/22_Bloom_Filter.dir/22_Bloom_Filter/22_Bloom_Filter.cpp.obj: CX
 
 
 #############################################
-# Link the executable .runtime\22_Bloom_Filter.exe
+# Link the executable 22_Bloom_Filter.exe
 
-build .runtime/22_Bloom_Filter.exe: CXX_EXECUTABLE_LINKER__22_Bloom_Filter_Debug CMakeFiles/22_Bloom_Filter.dir/22_Bloom_Filter/22_Bloom_Filter.cpp.obj
+build 22_Bloom_Filter.exe: CXX_EXECUTABLE_LINKER__22_Bloom_Filter_Debug CMakeFiles/22_Bloom_Filter.dir/22_Bloom_Filter/22_Bloom_Filter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\22_Bloom_Filter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\22_Bloom_Filter.exe
-  TARGET_IMPLIB = .archive\lib22_Bloom_Filter.dll.a
+  TARGET_FILE = 22_Bloom_Filter.exe
+  TARGET_IMPLIB = lib22_Bloom_Filter.dll.a
   TARGET_PDB = 22_Bloom_Filter.exe.dbg
 
 # =============================================================================
@@ -1579,16 +1579,16 @@ build CMakeFiles/bloomFilter.dir/22_Bloom_Filter/bloomFilter.cpp.obj: CXX_COMPIL
 
 
 #############################################
-# Link the executable .runtime\bloomFilter.exe
+# Link the executable bloomFilter.exe
 
-build .runtime/bloomFilter.exe: CXX_EXECUTABLE_LINKER__bloomFilter_Debug CMakeFiles/bloomFilter.dir/22_Bloom_Filter/bloomFilter.cpp.obj
+build bloomFilter.exe: CXX_EXECUTABLE_LINKER__bloomFilter_Debug CMakeFiles/bloomFilter.dir/22_Bloom_Filter/bloomFilter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bloomFilter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\bloomFilter.exe
-  TARGET_IMPLIB = .archive\libbloomFilter.dll.a
+  TARGET_FILE = bloomFilter.exe
+  TARGET_IMPLIB = libbloomFilter.dll.a
   TARGET_PDB = bloomFilter.exe.dbg
 
 # =============================================================================
@@ -1612,16 +1612,16 @@ build CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/23_Big_Data_Top_K-Size_Roo
 
 
 #############################################
-# Link the executable .runtime\23_Big_Data_Top_K-Size_Root_Heap.exe
+# Link the executable 23_Big_Data_Top_K-Size_Root_Heap.exe
 
-build .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe: CXX_EXECUTABLE_LINKER__23_Big_Data_Top_K-Size_Root_Heap_Debug CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/23_Big_Data_Top_K-Size_Root_Heap/23_Big_Data_Top_K-Size_Root_Heap.cpp.obj
+build 23_Big_Data_Top_K-Size_Root_Heap.exe: CXX_EXECUTABLE_LINKER__23_Big_Data_Top_K-Size_Root_Heap_Debug CMakeFiles/23_Big_Data_Top_K-Size_Root_Heap.dir/23_Big_Data_Top_K-Size_Root_Heap/23_Big_Data_Top_K-Size_Root_Heap.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\23_Big_Data_Top_K-Size_Root_Heap.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\23_Big_Data_Top_K-Size_Root_Heap.exe
-  TARGET_IMPLIB = .archive\lib23_Big_Data_Top_K-Size_Root_Heap.dll.a
+  TARGET_FILE = 23_Big_Data_Top_K-Size_Root_Heap.exe
+  TARGET_IMPLIB = lib23_Big_Data_Top_K-Size_Root_Heap.dll.a
   TARGET_PDB = 23_Big_Data_Top_K-Size_Root_Heap.exe.dbg
 
 # =============================================================================
@@ -1645,16 +1645,16 @@ build CMakeFiles/topKHeap.dir/23_Big_Data_Top_K-Size_Root_Heap/topKHeap.cpp.obj:
 
 
 #############################################
-# Link the executable .runtime\topKHeap.exe
+# Link the executable topKHeap.exe
 
-build .runtime/topKHeap.exe: CXX_EXECUTABLE_LINKER__topKHeap_Debug CMakeFiles/topKHeap.dir/23_Big_Data_Top_K-Size_Root_Heap/topKHeap.cpp.obj
+build topKHeap.exe: CXX_EXECUTABLE_LINKER__topKHeap_Debug CMakeFiles/topKHeap.dir/23_Big_Data_Top_K-Size_Root_Heap/topKHeap.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\topKHeap.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\topKHeap.exe
-  TARGET_IMPLIB = .archive\libtopKHeap.dll.a
+  TARGET_FILE = topKHeap.exe
+  TARGET_IMPLIB = libtopKHeap.dll.a
   TARGET_PDB = topKHeap.exe.dbg
 
 # =============================================================================
@@ -1678,16 +1678,16 @@ build CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/24_Big_Data_Top_K-
 
 
 #############################################
-# Link the executable .runtime\24_Big_Data_Top_K-Fast_Sort_Segmentation.exe
+# Link the executable 24_Big_Data_Top_K-Fast_Sort_Segmentation.exe
 
-build .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe: CXX_EXECUTABLE_LINKER__24_Big_Data_Top_K-Fast_Sort_Segmentation_Debug CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/24_Big_Data_Top_K-Fast_Sort_Segmentation/24_Big_Data_Top_K-Fast_Sort_Segmentation.cpp.obj
+build 24_Big_Data_Top_K-Fast_Sort_Segmentation.exe: CXX_EXECUTABLE_LINKER__24_Big_Data_Top_K-Fast_Sort_Segmentation_Debug CMakeFiles/24_Big_Data_Top_K-Fast_Sort_Segmentation.dir/24_Big_Data_Top_K-Fast_Sort_Segmentation/24_Big_Data_Top_K-Fast_Sort_Segmentation.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\24_Big_Data_Top_K-Fast_Sort_Segmentation.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\24_Big_Data_Top_K-Fast_Sort_Segmentation.exe
-  TARGET_IMPLIB = .archive\lib24_Big_Data_Top_K-Fast_Sort_Segmentation.dll.a
+  TARGET_FILE = 24_Big_Data_Top_K-Fast_Sort_Segmentation.exe
+  TARGET_IMPLIB = lib24_Big_Data_Top_K-Fast_Sort_Segmentation.dll.a
   TARGET_PDB = 24_Big_Data_Top_K-Fast_Sort_Segmentation.exe.dbg
 
 # =============================================================================
@@ -1711,16 +1711,16 @@ build CMakeFiles/bigDataTopKFastSortSeg.dir/24_Big_Data_Top_K-Fast_Sort_Segmenta
 
 
 #############################################
-# Link the executable .runtime\bigDataTopKFastSortSeg.exe
+# Link the executable bigDataTopKFastSortSeg.exe
 
-build .runtime/bigDataTopKFastSortSeg.exe: CXX_EXECUTABLE_LINKER__bigDataTopKFastSortSeg_Debug CMakeFiles/bigDataTopKFastSortSeg.dir/24_Big_Data_Top_K-Fast_Sort_Segmentation/bigDataTopKFastSortSeg.cpp.obj
+build bigDataTopKFastSortSeg.exe: CXX_EXECUTABLE_LINKER__bigDataTopKFastSortSeg_Debug CMakeFiles/bigDataTopKFastSortSeg.dir/24_Big_Data_Top_K-Fast_Sort_Segmentation/bigDataTopKFastSortSeg.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bigDataTopKFastSortSeg.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\bigDataTopKFastSortSeg.exe
-  TARGET_IMPLIB = .archive\libbigDataTopKFastSortSeg.dll.a
+  TARGET_FILE = bigDataTopKFastSortSeg.exe
+  TARGET_IMPLIB = libbigDataTopKFastSortSeg.dll.a
   TARGET_PDB = bigDataTopKFastSortSeg.exe.dbg
 
 # =============================================================================
@@ -1744,16 +1744,16 @@ build CMakeFiles/25_Consistent_Hashing_Algorithm.dir/25_Consistent_Hashing_Algor
 
 
 #############################################
-# Link the executable .runtime\25_Consistent_Hashing_Algorithm.exe
+# Link the executable 25_Consistent_Hashing_Algorithm.exe
 
-build .runtime/25_Consistent_Hashing_Algorithm.exe: CXX_EXECUTABLE_LINKER__25_Consistent_Hashing_Algorithm_Debug CMakeFiles/25_Consistent_Hashing_Algorithm.dir/25_Consistent_Hashing_Algorithm/25_Consistent_Hashing_Algorithm.cpp.obj
+build 25_Consistent_Hashing_Algorithm.exe: CXX_EXECUTABLE_LINKER__25_Consistent_Hashing_Algorithm_Debug CMakeFiles/25_Consistent_Hashing_Algorithm.dir/25_Consistent_Hashing_Algorithm/25_Consistent_Hashing_Algorithm.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\25_Consistent_Hashing_Algorithm.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\25_Consistent_Hashing_Algorithm.exe
-  TARGET_IMPLIB = .archive\lib25_Consistent_Hashing_Algorithm.dll.a
+  TARGET_FILE = 25_Consistent_Hashing_Algorithm.exe
+  TARGET_IMPLIB = lib25_Consistent_Hashing_Algorithm.dll.a
   TARGET_PDB = 25_Consistent_Hashing_Algorithm.exe.dbg
 
 # =============================================================================
@@ -1777,16 +1777,16 @@ build CMakeFiles/consistentHash.dir/25_Consistent_Hashing_Algorithm/consistentHa
 
 
 #############################################
-# Link the executable .runtime\consistentHash.exe
+# Link the executable consistentHash.exe
 
-build .runtime/consistentHash.exe: CXX_EXECUTABLE_LINKER__consistentHash_Debug CMakeFiles/consistentHash.dir/25_Consistent_Hashing_Algorithm/consistentHash.cpp.obj
+build consistentHash.exe: CXX_EXECUTABLE_LINKER__consistentHash_Debug CMakeFiles/consistentHash.dir/25_Consistent_Hashing_Algorithm/consistentHash.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\consistentHash.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\consistentHash.exe
-  TARGET_IMPLIB = .archive\libconsistentHash.dll.a
+  TARGET_FILE = consistentHash.exe
+  TARGET_IMPLIB = libconsistentHash.dll.a
   TARGET_PDB = consistentHash.exe.dbg
 
 # =============================================================================
@@ -1810,16 +1810,16 @@ build CMakeFiles/26_String_Operations.dir/26_String_Operations/26_String_Operati
 
 
 #############################################
-# Link the executable .runtime\26_String_Operations.exe
+# Link the executable 26_String_Operations.exe
 
-build .runtime/26_String_Operations.exe: CXX_EXECUTABLE_LINKER__26_String_Operations_Debug CMakeFiles/26_String_Operations.dir/26_String_Operations/26_String_Operations.cpp.obj
+build 26_String_Operations.exe: CXX_EXECUTABLE_LINKER__26_String_Operations_Debug CMakeFiles/26_String_Operations.dir/26_String_Operations/26_String_Operations.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\26_String_Operations.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\26_String_Operations.exe
-  TARGET_IMPLIB = .archive\lib26_String_Operations.dll.a
+  TARGET_FILE = 26_String_Operations.exe
+  TARGET_IMPLIB = lib26_String_Operations.dll.a
   TARGET_PDB = 26_String_Operations.exe.dbg
 
 # =============================================================================
@@ -1843,16 +1843,16 @@ build CMakeFiles/stringOperation.dir/26_String_Operations/stringOperation.cpp.ob
 
 
 #############################################
-# Link the executable .runtime\stringOperation.exe
+# Link the executable stringOperation.exe
 
-build .runtime/stringOperation.exe: CXX_EXECUTABLE_LINKER__stringOperation_Debug CMakeFiles/stringOperation.dir/26_String_Operations/stringOperation.cpp.obj
+build stringOperation.exe: CXX_EXECUTABLE_LINKER__stringOperation_Debug CMakeFiles/stringOperation.dir/26_String_Operations/stringOperation.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\stringOperation.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\stringOperation.exe
-  TARGET_IMPLIB = .archive\libstringOperation.dll.a
+  TARGET_FILE = stringOperation.exe
+  TARGET_IMPLIB = libstringOperation.dll.a
   TARGET_PDB = stringOperation.exe.dbg
 
 # =============================================================================
@@ -1876,16 +1876,16 @@ build CMakeFiles/27_BST_Tree.dir/27_BST_Tree/27_BST_Tree.cpp.obj: CXX_COMPILER__
 
 
 #############################################
-# Link the executable .runtime\27_BST_Tree.exe
+# Link the executable 27_BST_Tree.exe
 
-build .runtime/27_BST_Tree.exe: CXX_EXECUTABLE_LINKER__27_BST_Tree_Debug CMakeFiles/27_BST_Tree.dir/27_BST_Tree/27_BST_Tree.cpp.obj
+build 27_BST_Tree.exe: CXX_EXECUTABLE_LINKER__27_BST_Tree_Debug CMakeFiles/27_BST_Tree.dir/27_BST_Tree/27_BST_Tree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\27_BST_Tree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\27_BST_Tree.exe
-  TARGET_IMPLIB = .archive\lib27_BST_Tree.dll.a
+  TARGET_FILE = 27_BST_Tree.exe
+  TARGET_IMPLIB = lib27_BST_Tree.dll.a
   TARGET_PDB = 27_BST_Tree.exe.dbg
 
 # =============================================================================
@@ -1909,16 +1909,16 @@ build CMakeFiles/bst.dir/27_BST_Tree/bst.cpp.obj: CXX_COMPILER__bst_unscanned_De
 
 
 #############################################
-# Link the executable .runtime\bst.exe
+# Link the executable bst.exe
 
-build .runtime/bst.exe: CXX_EXECUTABLE_LINKER__bst_Debug CMakeFiles/bst.dir/27_BST_Tree/bst.cpp.obj
+build bst.exe: CXX_EXECUTABLE_LINKER__bst_Debug CMakeFiles/bst.dir/27_BST_Tree/bst.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bst.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\bst.exe
-  TARGET_IMPLIB = .archive\libbst.dll.a
+  TARGET_FILE = bst.exe
+  TARGET_IMPLIB = libbst.dll.a
   TARGET_PDB = bst.exe.dbg
 
 # =============================================================================
@@ -1942,16 +1942,16 @@ build CMakeFiles/28_AVL_Tree.dir/28_AVL_Tree/28_AVL_Tree.cpp.obj: CXX_COMPILER__
 
 
 #############################################
-# Link the executable .runtime\28_AVL_Tree.exe
+# Link the executable 28_AVL_Tree.exe
 
-build .runtime/28_AVL_Tree.exe: CXX_EXECUTABLE_LINKER__28_AVL_Tree_Debug CMakeFiles/28_AVL_Tree.dir/28_AVL_Tree/28_AVL_Tree.cpp.obj
+build 28_AVL_Tree.exe: CXX_EXECUTABLE_LINKER__28_AVL_Tree_Debug CMakeFiles/28_AVL_Tree.dir/28_AVL_Tree/28_AVL_Tree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\28_AVL_Tree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\28_AVL_Tree.exe
-  TARGET_IMPLIB = .archive\lib28_AVL_Tree.dll.a
+  TARGET_FILE = 28_AVL_Tree.exe
+  TARGET_IMPLIB = lib28_AVL_Tree.dll.a
   TARGET_PDB = 28_AVL_Tree.exe.dbg
 
 # =============================================================================
@@ -1975,16 +1975,16 @@ build CMakeFiles/AVL.dir/28_AVL_Tree/AVL.cpp.obj: CXX_COMPILER__AVL_unscanned_De
 
 
 #############################################
-# Link the executable .runtime\AVL.exe
+# Link the executable AVL.exe
 
-build .runtime/AVL.exe: CXX_EXECUTABLE_LINKER__AVL_Debug CMakeFiles/AVL.dir/28_AVL_Tree/AVL.cpp.obj
+build AVL.exe: CXX_EXECUTABLE_LINKER__AVL_Debug CMakeFiles/AVL.dir/28_AVL_Tree/AVL.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AVL.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\AVL.exe
-  TARGET_IMPLIB = .archive\libAVL.dll.a
+  TARGET_FILE = AVL.exe
+  TARGET_IMPLIB = libAVL.dll.a
   TARGET_PDB = AVL.exe.dbg
 
 # =============================================================================
@@ -2008,16 +2008,16 @@ build CMakeFiles/29_RB_Red-Black_Tree.dir/29_RB_Red-Black_Tree/29_RB_Red-Black_T
 
 
 #############################################
-# Link the executable .runtime\29_RB_Red-Black_Tree.exe
+# Link the executable 29_RB_Red-Black_Tree.exe
 
-build .runtime/29_RB_Red-Black_Tree.exe: CXX_EXECUTABLE_LINKER__29_RB_Red-Black_Tree_Debug CMakeFiles/29_RB_Red-Black_Tree.dir/29_RB_Red-Black_Tree/29_RB_Red-Black_Tree.cpp.obj
+build 29_RB_Red-Black_Tree.exe: CXX_EXECUTABLE_LINKER__29_RB_Red-Black_Tree_Debug CMakeFiles/29_RB_Red-Black_Tree.dir/29_RB_Red-Black_Tree/29_RB_Red-Black_Tree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\29_RB_Red-Black_Tree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\29_RB_Red-Black_Tree.exe
-  TARGET_IMPLIB = .archive\lib29_RB_Red-Black_Tree.dll.a
+  TARGET_FILE = 29_RB_Red-Black_Tree.exe
+  TARGET_IMPLIB = lib29_RB_Red-Black_Tree.dll.a
   TARGET_PDB = 29_RB_Red-Black_Tree.exe.dbg
 
 # =============================================================================
@@ -2041,16 +2041,16 @@ build CMakeFiles/RBTree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj: CXX_COMPILER__R
 
 
 #############################################
-# Link the executable .runtime\RBTree.exe
+# Link the executable RBTree.exe
 
-build .runtime/RBTree.exe: CXX_EXECUTABLE_LINKER__RBTree_Debug CMakeFiles/RBTree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
+build RBTree.exe: CXX_EXECUTABLE_LINKER__RBTree_Debug CMakeFiles/RBTree.dir/29_RB_Red-Black_Tree/RBTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\RBTree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\RBTree.exe
-  TARGET_IMPLIB = .archive\libRBTree.dll.a
+  TARGET_FILE = RBTree.exe
+  TARGET_IMPLIB = libRBTree.dll.a
   TARGET_PDB = RBTree.exe.dbg
 
 # =============================================================================
@@ -2074,16 +2074,16 @@ build CMakeFiles/31_Backtracking_Algorithm.dir/30_Backtracking_Algorithm/31_Back
 
 
 #############################################
-# Link the executable .runtime\31_Backtracking_Algorithm.exe
+# Link the executable 31_Backtracking_Algorithm.exe
 
-build .runtime/31_Backtracking_Algorithm.exe: CXX_EXECUTABLE_LINKER__31_Backtracking_Algorithm_Debug CMakeFiles/31_Backtracking_Algorithm.dir/30_Backtracking_Algorithm/31_Backtracking_Algorithm.cpp.obj
+build 31_Backtracking_Algorithm.exe: CXX_EXECUTABLE_LINKER__31_Backtracking_Algorithm_Debug CMakeFiles/31_Backtracking_Algorithm.dir/30_Backtracking_Algorithm/31_Backtracking_Algorithm.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\31_Backtracking_Algorithm.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\31_Backtracking_Algorithm.exe
-  TARGET_IMPLIB = .archive\lib31_Backtracking_Algorithm.dll.a
+  TARGET_FILE = 31_Backtracking_Algorithm.exe
+  TARGET_IMPLIB = lib31_Backtracking_Algorithm.dll.a
   TARGET_PDB = 31_Backtracking_Algorithm.exe.dbg
 
 # =============================================================================
@@ -2107,16 +2107,16 @@ build CMakeFiles/Binary_Search.dir/31_Divide_And_Conquer_Algorithm/Binary_Search
 
 
 #############################################
-# Link the executable .runtime\Binary_Search.exe
+# Link the executable Binary_Search.exe
 
-build .runtime/Binary_Search.exe: CXX_EXECUTABLE_LINKER__Binary_Search_Debug CMakeFiles/Binary_Search.dir/31_Divide_And_Conquer_Algorithm/Binary_Search.cpp.obj
+build Binary_Search.exe: CXX_EXECUTABLE_LINKER__Binary_Search_Debug CMakeFiles/Binary_Search.dir/31_Divide_And_Conquer_Algorithm/Binary_Search.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Binary_Search.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Binary_Search.exe
-  TARGET_IMPLIB = .archive\libBinary_Search.dll.a
+  TARGET_FILE = Binary_Search.exe
+  TARGET_IMPLIB = libBinary_Search.dll.a
   TARGET_PDB = Binary_Search.exe.dbg
 
 # =============================================================================
@@ -2140,16 +2140,16 @@ build CMakeFiles/Median.dir/31_Divide_And_Conquer_Algorithm/Median.cpp.obj: CXX_
 
 
 #############################################
-# Link the executable .runtime\Median.exe
+# Link the executable Median.exe
 
-build .runtime/Median.exe: CXX_EXECUTABLE_LINKER__Median_Debug CMakeFiles/Median.dir/31_Divide_And_Conquer_Algorithm/Median.cpp.obj
+build Median.exe: CXX_EXECUTABLE_LINKER__Median_Debug CMakeFiles/Median.dir/31_Divide_And_Conquer_Algorithm/Median.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Median.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Median.exe
-  TARGET_IMPLIB = .archive\libMedian.dll.a
+  TARGET_FILE = Median.exe
+  TARGET_IMPLIB = libMedian.dll.a
   TARGET_PDB = Median.exe.dbg
 
 # =============================================================================
@@ -2173,16 +2173,16 @@ build CMakeFiles/Merge_Sort.dir/31_Divide_And_Conquer_Algorithm/Merge_Sort.cpp.o
 
 
 #############################################
-# Link the executable .runtime\Merge_Sort.exe
+# Link the executable Merge_Sort.exe
 
-build .runtime/Merge_Sort.exe: CXX_EXECUTABLE_LINKER__Merge_Sort_Debug CMakeFiles/Merge_Sort.dir/31_Divide_And_Conquer_Algorithm/Merge_Sort.cpp.obj
+build Merge_Sort.exe: CXX_EXECUTABLE_LINKER__Merge_Sort_Debug CMakeFiles/Merge_Sort.dir/31_Divide_And_Conquer_Algorithm/Merge_Sort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Merge_Sort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Merge_Sort.exe
-  TARGET_IMPLIB = .archive\libMerge_Sort.dll.a
+  TARGET_FILE = Merge_Sort.exe
+  TARGET_IMPLIB = libMerge_Sort.dll.a
   TARGET_PDB = Merge_Sort.exe.dbg
 
 # =============================================================================
@@ -2206,16 +2206,16 @@ build CMakeFiles/Merge_k_ordered_linked_lists.dir/31_Divide_And_Conquer_Algorith
 
 
 #############################################
-# Link the executable .runtime\Merge_k_ordered_linked_lists.exe
+# Link the executable Merge_k_ordered_linked_lists.exe
 
-build .runtime/Merge_k_ordered_linked_lists.exe: CXX_EXECUTABLE_LINKER__Merge_k_ordered_linked_lists_Debug CMakeFiles/Merge_k_ordered_linked_lists.dir/31_Divide_And_Conquer_Algorithm/Merge_k_ordered_linked_lists.cpp.obj
+build Merge_k_ordered_linked_lists.exe: CXX_EXECUTABLE_LINKER__Merge_k_ordered_linked_lists_Debug CMakeFiles/Merge_k_ordered_linked_lists.dir/31_Divide_And_Conquer_Algorithm/Merge_k_ordered_linked_lists.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Merge_k_ordered_linked_lists.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Merge_k_ordered_linked_lists.exe
-  TARGET_IMPLIB = .archive\libMerge_k_ordered_linked_lists.dll.a
+  TARGET_FILE = Merge_k_ordered_linked_lists.exe
+  TARGET_IMPLIB = libMerge_k_ordered_linked_lists.dll.a
   TARGET_PDB = Merge_k_ordered_linked_lists.exe.dbg
 
 # =============================================================================
@@ -2239,16 +2239,16 @@ build CMakeFiles/Quick_Sort.dir/31_Divide_And_Conquer_Algorithm/Quick_Sort.cpp.o
 
 
 #############################################
-# Link the executable .runtime\Quick_Sort.exe
+# Link the executable Quick_Sort.exe
 
-build .runtime/Quick_Sort.exe: CXX_EXECUTABLE_LINKER__Quick_Sort_Debug CMakeFiles/Quick_Sort.dir/31_Divide_And_Conquer_Algorithm/Quick_Sort.cpp.obj
+build Quick_Sort.exe: CXX_EXECUTABLE_LINKER__Quick_Sort_Debug CMakeFiles/Quick_Sort.dir/31_Divide_And_Conquer_Algorithm/Quick_Sort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Quick_Sort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Quick_Sort.exe
-  TARGET_IMPLIB = .archive\libQuick_Sort.dll.a
+  TARGET_FILE = Quick_Sort.exe
+  TARGET_IMPLIB = libQuick_Sort.dll.a
   TARGET_PDB = Quick_Sort.exe.dbg
 
 # =============================================================================
@@ -2272,16 +2272,16 @@ build CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/31_Divi
 
 
 #############################################
-# Link the executable .runtime\Quick_sort_partition_function_to_find_top-k_problem.exe
+# Link the executable Quick_sort_partition_function_to_find_top-k_problem.exe
 
-build .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe: CXX_EXECUTABLE_LINKER__Quick_sort_partition_function_to_find_top-k_problem_Debug CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/31_Divide_And_Conquer_Algorithm/Quick_sort_partition_function_to_find_top-k_problem.cpp.obj
+build Quick_sort_partition_function_to_find_top-k_problem.exe: CXX_EXECUTABLE_LINKER__Quick_sort_partition_function_to_find_top-k_problem_Debug CMakeFiles/Quick_sort_partition_function_to_find_top-k_problem.dir/31_Divide_And_Conquer_Algorithm/Quick_sort_partition_function_to_find_top-k_problem.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Quick_sort_partition_function_to_find_top-k_problem.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Quick_sort_partition_function_to_find_top-k_problem.exe
-  TARGET_IMPLIB = .archive\libQuick_sort_partition_function_to_find_top-k_problem.dll.a
+  TARGET_FILE = Quick_sort_partition_function_to_find_top-k_problem.exe
+  TARGET_IMPLIB = libQuick_sort_partition_function_to_find_top-k_problem.dll.a
   TARGET_PDB = Quick_sort_partition_function_to_find_top-k_problem.exe.dbg
 
 # =============================================================================
@@ -2305,16 +2305,16 @@ build CMakeFiles/01Backpack.dir/32_Dynamic_Programming_Algorithm/01Backpack.cpp.
 
 
 #############################################
-# Link the executable .runtime\01Backpack.exe
+# Link the executable 01Backpack.exe
 
-build .runtime/01Backpack.exe: CXX_EXECUTABLE_LINKER__01Backpack_Debug CMakeFiles/01Backpack.dir/32_Dynamic_Programming_Algorithm/01Backpack.cpp.obj
+build 01Backpack.exe: CXX_EXECUTABLE_LINKER__01Backpack_Debug CMakeFiles/01Backpack.dir/32_Dynamic_Programming_Algorithm/01Backpack.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\01Backpack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\01Backpack.exe
-  TARGET_IMPLIB = .archive\lib01Backpack.dll.a
+  TARGET_FILE = 01Backpack.exe
+  TARGET_IMPLIB = lib01Backpack.dll.a
   TARGET_PDB = 01Backpack.exe.dbg
 
 # =============================================================================
@@ -2338,16 +2338,16 @@ build CMakeFiles/Coin_Problem.dir/32_Dynamic_Programming_Algorithm/Coin_Problem.
 
 
 #############################################
-# Link the executable .runtime\Coin_Problem.exe
+# Link the executable Coin_Problem.exe
 
-build .runtime/Coin_Problem.exe: CXX_EXECUTABLE_LINKER__Coin_Problem_Debug CMakeFiles/Coin_Problem.dir/32_Dynamic_Programming_Algorithm/Coin_Problem.cpp.obj
+build Coin_Problem.exe: CXX_EXECUTABLE_LINKER__Coin_Problem_Debug CMakeFiles/Coin_Problem.dir/32_Dynamic_Programming_Algorithm/Coin_Problem.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Coin_Problem.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Coin_Problem.exe
-  TARGET_IMPLIB = .archive\libCoin_Problem.dll.a
+  TARGET_FILE = Coin_Problem.exe
+  TARGET_IMPLIB = libCoin_Problem.dll.a
   TARGET_PDB = Coin_Problem.exe.dbg
 
 # =============================================================================
@@ -2371,16 +2371,16 @@ build CMakeFiles/Fibonacci_Sequence.dir/32_Dynamic_Programming_Algorithm/Fibonac
 
 
 #############################################
-# Link the executable .runtime\Fibonacci_Sequence.exe
+# Link the executable Fibonacci_Sequence.exe
 
-build .runtime/Fibonacci_Sequence.exe: CXX_EXECUTABLE_LINKER__Fibonacci_Sequence_Debug CMakeFiles/Fibonacci_Sequence.dir/32_Dynamic_Programming_Algorithm/Fibonacci_Sequence.cpp.obj
+build Fibonacci_Sequence.exe: CXX_EXECUTABLE_LINKER__Fibonacci_Sequence_Debug CMakeFiles/Fibonacci_Sequence.dir/32_Dynamic_Programming_Algorithm/Fibonacci_Sequence.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Fibonacci_Sequence.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Fibonacci_Sequence.exe
-  TARGET_IMPLIB = .archive\libFibonacci_Sequence.dll.a
+  TARGET_FILE = Fibonacci_Sequence.exe
+  TARGET_IMPLIB = libFibonacci_Sequence.dll.a
   TARGET_PDB = Fibonacci_Sequence.exe.dbg
 
 # =============================================================================
@@ -2404,16 +2404,16 @@ build CMakeFiles/LCS.dir/32_Dynamic_Programming_Algorithm/LCS.cpp.obj: CXX_COMPI
 
 
 #############################################
-# Link the executable .runtime\LCS.exe
+# Link the executable LCS.exe
 
-build .runtime/LCS.exe: CXX_EXECUTABLE_LINKER__LCS_Debug CMakeFiles/LCS.dir/32_Dynamic_Programming_Algorithm/LCS.cpp.obj
+build LCS.exe: CXX_EXECUTABLE_LINKER__LCS_Debug CMakeFiles/LCS.dir/32_Dynamic_Programming_Algorithm/LCS.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LCS.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\LCS.exe
-  TARGET_IMPLIB = .archive\libLCS.dll.a
+  TARGET_FILE = LCS.exe
+  TARGET_IMPLIB = libLCS.dll.a
   TARGET_PDB = LCS.exe.dbg
 
 # =============================================================================
@@ -2437,16 +2437,16 @@ build CMakeFiles/Longest_non-decreasing_subsequence.dir/32_Dynamic_Programming_A
 
 
 #############################################
-# Link the executable .runtime\Longest_non-decreasing_subsequence.exe
+# Link the executable Longest_non-decreasing_subsequence.exe
 
-build .runtime/Longest_non-decreasing_subsequence.exe: CXX_EXECUTABLE_LINKER__Longest_non-decreasing_subsequence_Debug CMakeFiles/Longest_non-decreasing_subsequence.dir/32_Dynamic_Programming_Algorithm/Longest_non-decreasing_subsequence.cpp.obj
+build Longest_non-decreasing_subsequence.exe: CXX_EXECUTABLE_LINKER__Longest_non-decreasing_subsequence_Debug CMakeFiles/Longest_non-decreasing_subsequence.dir/32_Dynamic_Programming_Algorithm/Longest_non-decreasing_subsequence.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Longest_non-decreasing_subsequence.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Longest_non-decreasing_subsequence.exe
-  TARGET_IMPLIB = .archive\libLongest_non-decreasing_subsequence.dll.a
+  TARGET_FILE = Longest_non-decreasing_subsequence.exe
+  TARGET_IMPLIB = libLongest_non-decreasing_subsequence.dll.a
   TARGET_PDB = Longest_non-decreasing_subsequence.exe.dbg
 
 # =============================================================================
@@ -2470,16 +2470,16 @@ build CMakeFiles/Maximum_sub-segment_sum.dir/32_Dynamic_Programming_Algorithm/Ma
 
 
 #############################################
-# Link the executable .runtime\Maximum_sub-segment_sum.exe
+# Link the executable Maximum_sub-segment_sum.exe
 
-build .runtime/Maximum_sub-segment_sum.exe: CXX_EXECUTABLE_LINKER__Maximum_sub-segment_sum_Debug CMakeFiles/Maximum_sub-segment_sum.dir/32_Dynamic_Programming_Algorithm/Maximum_sub-segment_sum.cpp.obj
+build Maximum_sub-segment_sum.exe: CXX_EXECUTABLE_LINKER__Maximum_sub-segment_sum_Debug CMakeFiles/Maximum_sub-segment_sum.dir/32_Dynamic_Programming_Algorithm/Maximum_sub-segment_sum.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Maximum_sub-segment_sum.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Maximum_sub-segment_sum.exe
-  TARGET_IMPLIB = .archive\libMaximum_sub-segment_sum.dll.a
+  TARGET_FILE = Maximum_sub-segment_sum.exe
+  TARGET_IMPLIB = libMaximum_sub-segment_sum.dll.a
   TARGET_PDB = Maximum_sub-segment_sum.exe.dbg
 
 # =============================================================================
@@ -2503,16 +2503,16 @@ build CMakeFiles/Summing_a_triangular_array.dir/32_Dynamic_Programming_Algorithm
 
 
 #############################################
-# Link the executable .runtime\Summing_a_triangular_array.exe
+# Link the executable Summing_a_triangular_array.exe
 
-build .runtime/Summing_a_triangular_array.exe: CXX_EXECUTABLE_LINKER__Summing_a_triangular_array_Debug CMakeFiles/Summing_a_triangular_array.dir/32_Dynamic_Programming_Algorithm/Summing_a_triangular_array.cpp.obj
+build Summing_a_triangular_array.exe: CXX_EXECUTABLE_LINKER__Summing_a_triangular_array_Debug CMakeFiles/Summing_a_triangular_array.dir/32_Dynamic_Programming_Algorithm/Summing_a_triangular_array.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Summing_a_triangular_array.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Summing_a_triangular_array.exe
-  TARGET_IMPLIB = .archive\libSumming_a_triangular_array.dll.a
+  TARGET_FILE = Summing_a_triangular_array.exe
+  TARGET_IMPLIB = libSumming_a_triangular_array.dll.a
   TARGET_PDB = Summing_a_triangular_array.exe.dbg
 
 # =============================================================================
@@ -2536,16 +2536,16 @@ build CMakeFiles/Coin_Selection_Problem.dir/33_Greedy_Algorithm/Coin_Selection_P
 
 
 #############################################
-# Link the executable .runtime\Coin_Selection_Problem.exe
+# Link the executable Coin_Selection_Problem.exe
 
-build .runtime/Coin_Selection_Problem.exe: CXX_EXECUTABLE_LINKER__Coin_Selection_Problem_Debug CMakeFiles/Coin_Selection_Problem.dir/33_Greedy_Algorithm/Coin_Selection_Problem.cpp.obj
+build Coin_Selection_Problem.exe: CXX_EXECUTABLE_LINKER__Coin_Selection_Problem_Debug CMakeFiles/Coin_Selection_Problem.dir/33_Greedy_Algorithm/Coin_Selection_Problem.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Coin_Selection_Problem.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Coin_Selection_Problem.exe
-  TARGET_IMPLIB = .archive\libCoin_Selection_Problem.dll.a
+  TARGET_FILE = Coin_Selection_Problem.exe
+  TARGET_IMPLIB = libCoin_Selection_Problem.dll.a
   TARGET_PDB = Coin_Selection_Problem.exe.dbg
 
 # =============================================================================
@@ -2569,16 +2569,16 @@ build CMakeFiles/Partial_Knapsack_Problem.dir/33_Greedy_Algorithm/Partial_Knapsa
 
 
 #############################################
-# Link the executable .runtime\Partial_Knapsack_Problem.exe
+# Link the executable Partial_Knapsack_Problem.exe
 
-build .runtime/Partial_Knapsack_Problem.exe: CXX_EXECUTABLE_LINKER__Partial_Knapsack_Problem_Debug CMakeFiles/Partial_Knapsack_Problem.dir/33_Greedy_Algorithm/Partial_Knapsack_Problem.cpp.obj
+build Partial_Knapsack_Problem.exe: CXX_EXECUTABLE_LINKER__Partial_Knapsack_Problem_Debug CMakeFiles/Partial_Knapsack_Problem.dir/33_Greedy_Algorithm/Partial_Knapsack_Problem.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Partial_Knapsack_Problem.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Partial_Knapsack_Problem.exe
-  TARGET_IMPLIB = .archive\libPartial_Knapsack_Problem.dll.a
+  TARGET_FILE = Partial_Knapsack_Problem.exe
+  TARGET_IMPLIB = libPartial_Knapsack_Problem.dll.a
   TARGET_PDB = Partial_Knapsack_Problem.exe.dbg
 
 # =============================================================================
@@ -2602,16 +2602,16 @@ build CMakeFiles/Service_at_the_counter.dir/33_Greedy_Algorithm/Service_at_the_c
 
 
 #############################################
-# Link the executable .runtime\Service_at_the_counter.exe
+# Link the executable Service_at_the_counter.exe
 
-build .runtime/Service_at_the_counter.exe: CXX_EXECUTABLE_LINKER__Service_at_the_counter_Debug CMakeFiles/Service_at_the_counter.dir/33_Greedy_Algorithm/Service_at_the_counter.cpp.obj
+build Service_at_the_counter.exe: CXX_EXECUTABLE_LINKER__Service_at_the_counter_Debug CMakeFiles/Service_at_the_counter.dir/33_Greedy_Algorithm/Service_at_the_counter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Service_at_the_counter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Service_at_the_counter.exe
-  TARGET_IMPLIB = .archive\libService_at_the_counter.dll.a
+  TARGET_FILE = Service_at_the_counter.exe
+  TARGET_IMPLIB = libService_at_the_counter.dll.a
   TARGET_PDB = Service_at_the_counter.exe.dbg
 
 # =============================================================================
@@ -2635,16 +2635,16 @@ build CMakeFiles/02Backpack.dir/34_Branch_And_Bound_Algorithm/02Backpack.cpp.obj
 
 
 #############################################
-# Link the executable .runtime\02Backpack.exe
+# Link the executable 02Backpack.exe
 
-build .runtime/02Backpack.exe: CXX_EXECUTABLE_LINKER__02Backpack_Debug CMakeFiles/02Backpack.dir/34_Branch_And_Bound_Algorithm/02Backpack.cpp.obj
+build 02Backpack.exe: CXX_EXECUTABLE_LINKER__02Backpack_Debug CMakeFiles/02Backpack.dir/34_Branch_And_Bound_Algorithm/02Backpack.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\02Backpack.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\02Backpack.exe
-  TARGET_IMPLIB = .archive\lib02Backpack.dll.a
+  TARGET_FILE = 02Backpack.exe
+  TARGET_IMPLIB = lib02Backpack.dll.a
   TARGET_PDB = 02Backpack.exe.dbg
 
 # =============================================================================
@@ -2668,16 +2668,16 @@ build CMakeFiles/Optimal_load.dir/34_Branch_And_Bound_Algorithm/Optimal_load.cpp
 
 
 #############################################
-# Link the executable .runtime\Optimal_load.exe
+# Link the executable Optimal_load.exe
 
-build .runtime/Optimal_load.exe: CXX_EXECUTABLE_LINKER__Optimal_load_Debug CMakeFiles/Optimal_load.dir/34_Branch_And_Bound_Algorithm/Optimal_load.cpp.obj
+build Optimal_load.exe: CXX_EXECUTABLE_LINKER__Optimal_load_Debug CMakeFiles/Optimal_load.dir/34_Branch_And_Bound_Algorithm/Optimal_load.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Optimal_load.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Optimal_load.exe
-  TARGET_IMPLIB = .archive\libOptimal_load.dll.a
+  TARGET_FILE = Optimal_load.exe
+  TARGET_IMPLIB = libOptimal_load.dll.a
   TARGET_PDB = Optimal_load.exe.dbg
 
 # =============================================================================
@@ -2701,16 +2701,16 @@ build CMakeFiles/36_Trie_Dictionary_Tree.dir/35_Trie_Dictionary_Tree/36_Trie_Dic
 
 
 #############################################
-# Link the executable .runtime\36_Trie_Dictionary_Tree.exe
+# Link the executable 36_Trie_Dictionary_Tree.exe
 
-build .runtime/36_Trie_Dictionary_Tree.exe: CXX_EXECUTABLE_LINKER__36_Trie_Dictionary_Tree_Debug CMakeFiles/36_Trie_Dictionary_Tree.dir/35_Trie_Dictionary_Tree/36_Trie_Dictionary_Tree.cpp.obj
+build 36_Trie_Dictionary_Tree.exe: CXX_EXECUTABLE_LINKER__36_Trie_Dictionary_Tree_Debug CMakeFiles/36_Trie_Dictionary_Tree.dir/35_Trie_Dictionary_Tree/36_Trie_Dictionary_Tree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\36_Trie_Dictionary_Tree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\36_Trie_Dictionary_Tree.exe
-  TARGET_IMPLIB = .archive\lib36_Trie_Dictionary_Tree.dll.a
+  TARGET_FILE = 36_Trie_Dictionary_Tree.exe
+  TARGET_IMPLIB = lib36_Trie_Dictionary_Tree.dll.a
   TARGET_PDB = 36_Trie_Dictionary_Tree.exe.dbg
 
 # =============================================================================
@@ -2734,16 +2734,16 @@ build CMakeFiles/trieTree.dir/35_Trie_Dictionary_Tree/trieTree.cpp.obj: CXX_COMP
 
 
 #############################################
-# Link the executable .runtime\trieTree.exe
+# Link the executable trieTree.exe
 
-build .runtime/trieTree.exe: CXX_EXECUTABLE_LINKER__trieTree_Debug CMakeFiles/trieTree.dir/35_Trie_Dictionary_Tree/trieTree.cpp.obj
+build trieTree.exe: CXX_EXECUTABLE_LINKER__trieTree_Debug CMakeFiles/trieTree.dir/35_Trie_Dictionary_Tree/trieTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\trieTree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\trieTree.exe
-  TARGET_IMPLIB = .archive\libtrieTree.dll.a
+  TARGET_FILE = trieTree.exe
+  TARGET_IMPLIB = libtrieTree.dll.a
   TARGET_PDB = trieTree.exe.dbg
 
 # =============================================================================
@@ -2767,17 +2767,50 @@ build CMakeFiles/30_Jump_Table.dir/36_Jump_Table/30_Jump_Table.cpp.obj: CXX_COMP
 
 
 #############################################
-# Link the executable .runtime\30_Jump_Table.exe
+# Link the executable 30_Jump_Table.exe
 
-build .runtime/30_Jump_Table.exe: CXX_EXECUTABLE_LINKER__30_Jump_Table_Debug CMakeFiles/30_Jump_Table.dir/36_Jump_Table/30_Jump_Table.cpp.obj
+build 30_Jump_Table.exe: CXX_EXECUTABLE_LINKER__30_Jump_Table_Debug CMakeFiles/30_Jump_Table.dir/36_Jump_Table/30_Jump_Table.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\30_Jump_Table.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\30_Jump_Table.exe
-  TARGET_IMPLIB = .archive\lib30_Jump_Table.dll.a
+  TARGET_FILE = 30_Jump_Table.exe
+  TARGET_IMPLIB = lib30_Jump_Table.dll.a
   TARGET_PDB = 30_Jump_Table.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SkipList
+
+
+#############################################
+# Order-only phony target for SkipList
+
+build cmake_object_order_depends_target_SkipList: phony || .
+
+build CMakeFiles/SkipList.dir/36_Jump_Table/SkipList.cpp.obj: CXX_COMPILER__SkipList_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/36_Jump_Table/SkipList.cpp || cmake_object_order_depends_target_SkipList
+  DEP_FILE = CMakeFiles\SkipList.dir\36_Jump_Table\SkipList.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SkipList.dir
+  OBJECT_FILE_DIR = CMakeFiles\SkipList.dir\36_Jump_Table
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SkipList
+
+
+#############################################
+# Link the executable SkipList.exe
+
+build SkipList.exe: CXX_EXECUTABLE_LINKER__SkipList_Debug CMakeFiles/SkipList.dir/36_Jump_Table/SkipList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SkipList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SkipList.exe
+  TARGET_IMPLIB = libSkipList.dll.a
+  TARGET_PDB = SkipList.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 37_Inverted_Index
@@ -2800,16 +2833,16 @@ build CMakeFiles/37_Inverted_Index.dir/37_Inverted_Index/37_Inverted_Index.cpp.o
 
 
 #############################################
-# Link the executable .runtime\37_Inverted_Index.exe
+# Link the executable 37_Inverted_Index.exe
 
-build .runtime/37_Inverted_Index.exe: CXX_EXECUTABLE_LINKER__37_Inverted_Index_Debug CMakeFiles/37_Inverted_Index.dir/37_Inverted_Index/37_Inverted_Index.cpp.obj
+build 37_Inverted_Index.exe: CXX_EXECUTABLE_LINKER__37_Inverted_Index_Debug CMakeFiles/37_Inverted_Index.dir/37_Inverted_Index/37_Inverted_Index.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\37_Inverted_Index.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\37_Inverted_Index.exe
-  TARGET_IMPLIB = .archive\lib37_Inverted_Index.dll.a
+  TARGET_FILE = 37_Inverted_Index.exe
+  TARGET_IMPLIB = lib37_Inverted_Index.dll.a
   TARGET_PDB = 37_Inverted_Index.exe.dbg
 
 # =============================================================================
@@ -2833,16 +2866,16 @@ build CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/38_Huffman_Tree_And_Huff
 
 
 #############################################
-# Link the executable .runtime\38_Huffman_Tree_And_Huffman_Coding.exe
+# Link the executable 38_Huffman_Tree_And_Huffman_Coding.exe
 
-build .runtime/38_Huffman_Tree_And_Huffman_Coding.exe: CXX_EXECUTABLE_LINKER__38_Huffman_Tree_And_Huffman_Coding_Debug CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/38_Huffman_Tree_And_Huffman_Coding/38_Huffman_Tree_And_Huffman_Coding.cpp.obj
+build 38_Huffman_Tree_And_Huffman_Coding.exe: CXX_EXECUTABLE_LINKER__38_Huffman_Tree_And_Huffman_Coding_Debug CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir/38_Huffman_Tree_And_Huffman_Coding/38_Huffman_Tree_And_Huffman_Coding.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\38_Huffman_Tree_And_Huffman_Coding.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\38_Huffman_Tree_And_Huffman_Coding.exe
-  TARGET_IMPLIB = .archive\lib38_Huffman_Tree_And_Huffman_Coding.dll.a
+  TARGET_FILE = 38_Huffman_Tree_And_Huffman_Coding.exe
+  TARGET_IMPLIB = lib38_Huffman_Tree_And_Huffman_Coding.dll.a
   TARGET_PDB = 38_Huffman_Tree_And_Huffman_Coding.exe.dbg
 
 # =============================================================================
@@ -2866,16 +2899,16 @@ build CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/39_Graphs_And_Shorte
 
 
 #############################################
-# Link the executable .runtime\39_Graphs_And_Shortest_Path_Algorithms.exe
+# Link the executable 39_Graphs_And_Shortest_Path_Algorithms.exe
 
-build .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe: CXX_EXECUTABLE_LINKER__39_Graphs_And_Shortest_Path_Algorithms_Debug CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/39_Graphs_And_Shortest_Path_Algorithms/39_Graphs_And_Shortest_Path_Algorithms.cpp.obj
+build 39_Graphs_And_Shortest_Path_Algorithms.exe: CXX_EXECUTABLE_LINKER__39_Graphs_And_Shortest_Path_Algorithms_Debug CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir/39_Graphs_And_Shortest_Path_Algorithms/39_Graphs_And_Shortest_Path_Algorithms.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\39_Graphs_And_Shortest_Path_Algorithms.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\39_Graphs_And_Shortest_Path_Algorithms.exe
-  TARGET_IMPLIB = .archive\lib39_Graphs_And_Shortest_Path_Algorithms.dll.a
+  TARGET_FILE = 39_Graphs_And_Shortest_Path_Algorithms.exe
+  TARGET_IMPLIB = lib39_Graphs_And_Shortest_Path_Algorithms.dll.a
   TARGET_PDB = 39_Graphs_And_Shortest_Path_Algorithms.exe.dbg
 
 # =============================================================================
@@ -2899,16 +2932,16 @@ build CMakeFiles/Dijkstra.dir/39_Graphs_And_Shortest_Path_Algorithms/Dijkstra.cp
 
 
 #############################################
-# Link the executable .runtime\Dijkstra.exe
+# Link the executable Dijkstra.exe
 
-build .runtime/Dijkstra.exe: CXX_EXECUTABLE_LINKER__Dijkstra_Debug CMakeFiles/Dijkstra.dir/39_Graphs_And_Shortest_Path_Algorithms/Dijkstra.cpp.obj
+build Dijkstra.exe: CXX_EXECUTABLE_LINKER__Dijkstra_Debug CMakeFiles/Dijkstra.dir/39_Graphs_And_Shortest_Path_Algorithms/Dijkstra.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Dijkstra.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Dijkstra.exe
-  TARGET_IMPLIB = .archive\libDijkstra.dll.a
+  TARGET_FILE = Dijkstra.exe
+  TARGET_IMPLIB = libDijkstra.dll.a
   TARGET_PDB = Dijkstra.exe.dbg
 
 # =============================================================================
@@ -2932,16 +2965,16 @@ build CMakeFiles/floyd.dir/39_Graphs_And_Shortest_Path_Algorithms/floyd.cpp.obj:
 
 
 #############################################
-# Link the executable .runtime\floyd.exe
+# Link the executable floyd.exe
 
-build .runtime/floyd.exe: CXX_EXECUTABLE_LINKER__floyd_Debug CMakeFiles/floyd.dir/39_Graphs_And_Shortest_Path_Algorithms/floyd.cpp.obj
+build floyd.exe: CXX_EXECUTABLE_LINKER__floyd_Debug CMakeFiles/floyd.dir/39_Graphs_And_Shortest_Path_Algorithms/floyd.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\floyd.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\floyd.exe
-  TARGET_IMPLIB = .archive\libfloyd.dll.a
+  TARGET_FILE = floyd.exe
+  TARGET_IMPLIB = libfloyd.dll.a
   TARGET_PDB = floyd.exe.dbg
 
 # =============================================================================
@@ -2965,16 +2998,16 @@ build CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/40_Union-find_And_
 
 
 #############################################
-# Link the executable .runtime\40_Union-find_And_Minimum_Spanning_Trees.exe
+# Link the executable 40_Union-find_And_Minimum_Spanning_Trees.exe
 
-build .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe: CXX_EXECUTABLE_LINKER__40_Union-find_And_Minimum_Spanning_Trees_Debug CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/40_Union-find_And_Minimum_Spanning_Trees/40_Union-find_And_Minimum_Spanning_Trees.cpp.obj
+build 40_Union-find_And_Minimum_Spanning_Trees.exe: CXX_EXECUTABLE_LINKER__40_Union-find_And_Minimum_Spanning_Trees_Debug CMakeFiles/40_Union-find_And_Minimum_Spanning_Trees.dir/40_Union-find_And_Minimum_Spanning_Trees/40_Union-find_And_Minimum_Spanning_Trees.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\40_Union-find_And_Minimum_Spanning_Trees.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\40_Union-find_And_Minimum_Spanning_Trees.exe
-  TARGET_IMPLIB = .archive\lib40_Union-find_And_Minimum_Spanning_Trees.dll.a
+  TARGET_FILE = 40_Union-find_And_Minimum_Spanning_Trees.exe
+  TARGET_IMPLIB = lib40_Union-find_And_Minimum_Spanning_Trees.dll.a
   TARGET_PDB = 40_Union-find_And_Minimum_Spanning_Trees.exe.dbg
 
 # =============================================================================
@@ -2998,16 +3031,16 @@ build CMakeFiles/Kruskal.dir/40_Union-find_And_Minimum_Spanning_Trees/Kruskal.cp
 
 
 #############################################
-# Link the executable .runtime\Kruskal.exe
+# Link the executable Kruskal.exe
 
-build .runtime/Kruskal.exe: CXX_EXECUTABLE_LINKER__Kruskal_Debug CMakeFiles/Kruskal.dir/40_Union-find_And_Minimum_Spanning_Trees/Kruskal.cpp.obj
+build Kruskal.exe: CXX_EXECUTABLE_LINKER__Kruskal_Debug CMakeFiles/Kruskal.dir/40_Union-find_And_Minimum_Spanning_Trees/Kruskal.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Kruskal.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Kruskal.exe
-  TARGET_IMPLIB = .archive\libKruskal.dll.a
+  TARGET_FILE = Kruskal.exe
+  TARGET_IMPLIB = libKruskal.dll.a
   TARGET_PDB = Kruskal.exe.dbg
 
 # =============================================================================
@@ -3031,16 +3064,16 @@ build CMakeFiles/Relatives.dir/40_Union-find_And_Minimum_Spanning_Trees/Relative
 
 
 #############################################
-# Link the executable .runtime\Relatives.exe
+# Link the executable Relatives.exe
 
-build .runtime/Relatives.exe: CXX_EXECUTABLE_LINKER__Relatives_Debug CMakeFiles/Relatives.dir/40_Union-find_And_Minimum_Spanning_Trees/Relatives.cpp.obj
+build Relatives.exe: CXX_EXECUTABLE_LINKER__Relatives_Debug CMakeFiles/Relatives.dir/40_Union-find_And_Minimum_Spanning_Trees/Relatives.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Relatives.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Relatives.exe
-  TARGET_IMPLIB = .archive\libRelatives.dll.a
+  TARGET_FILE = Relatives.exe
+  TARGET_IMPLIB = libRelatives.dll.a
   TARGET_PDB = Relatives.exe.dbg
 
 # =============================================================================
@@ -3064,16 +3097,16 @@ build CMakeFiles/The_best_route_to_avoid_traffic.dir/40_Union-find_And_Minimum_S
 
 
 #############################################
-# Link the executable .runtime\The_best_route_to_avoid_traffic.exe
+# Link the executable The_best_route_to_avoid_traffic.exe
 
-build .runtime/The_best_route_to_avoid_traffic.exe: CXX_EXECUTABLE_LINKER__The_best_route_to_avoid_traffic_Debug CMakeFiles/The_best_route_to_avoid_traffic.dir/40_Union-find_And_Minimum_Spanning_Trees/The_best_route_to_avoid_traffic.cpp.obj
+build The_best_route_to_avoid_traffic.exe: CXX_EXECUTABLE_LINKER__The_best_route_to_avoid_traffic_Debug CMakeFiles/The_best_route_to_avoid_traffic.dir/40_Union-find_And_Minimum_Spanning_Trees/The_best_route_to_avoid_traffic.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\The_best_route_to_avoid_traffic.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\The_best_route_to_avoid_traffic.exe
-  TARGET_IMPLIB = .archive\libThe_best_route_to_avoid_traffic.dll.a
+  TARGET_FILE = The_best_route_to_avoid_traffic.exe
+  TARGET_IMPLIB = libThe_best_route_to_avoid_traffic.dll.a
   TARGET_PDB = The_best_route_to_avoid_traffic.exe.dbg
 
 # =============================================================================
@@ -3097,16 +3130,16 @@ build CMakeFiles/Emphasis.dir/Other/Emphasis.cpp.obj: CXX_COMPILER__Emphasis_uns
 
 
 #############################################
-# Link the executable .runtime\Emphasis.exe
+# Link the executable Emphasis.exe
 
-build .runtime/Emphasis.exe: CXX_EXECUTABLE_LINKER__Emphasis_Debug CMakeFiles/Emphasis.dir/Other/Emphasis.cpp.obj
+build Emphasis.exe: CXX_EXECUTABLE_LINKER__Emphasis_Debug CMakeFiles/Emphasis.dir/Other/Emphasis.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Emphasis.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\Emphasis.exe
-  TARGET_IMPLIB = .archive\libEmphasis.dll.a
+  TARGET_FILE = Emphasis.exe
+  TARGET_IMPLIB = libEmphasis.dll.a
   TARGET_PDB = Emphasis.exe.dbg
 
 # =============================================================================
@@ -3130,50 +3163,17 @@ build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXX
 
 
 #############################################
-# Link the executable .runtime\CMakeCXXCompilerId.exe
+# Link the executable CMakeCXXCompilerId.exe
 
-build .runtime/CMakeCXXCompilerId.exe: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
+build CMakeCXXCompilerId.exe: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CMakeCXXCompilerId.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\CMakeCXXCompilerId.exe
-  TARGET_IMPLIB = .archive\libCMakeCXXCompilerId.dll.a
+  TARGET_FILE = CMakeCXXCompilerId.exe
+  TARGET_IMPLIB = libCMakeCXXCompilerId.dll.a
   TARGET_PDB = CMakeCXXCompilerId.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target tetess
-
-
-#############################################
-# Order-only phony target for tetess
-
-build cmake_object_order_depends_target_tetess: phony || .
-
-build CMakeFiles/tetess.dir/test/tetess.cpp.obj: CXX_COMPILER__tetess_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/test/tetess.cpp || cmake_object_order_depends_target_tetess
-  DEP_FILE = CMakeFiles\tetess.dir\test\tetess.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\tetess.dir
-  OBJECT_FILE_DIR = CMakeFiles\tetess.dir\test
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target tetess
-
-
-#############################################
-# Link the executable .runtime\tetess.exe
-
-build .runtime/tetess.exe: CXX_EXECUTABLE_LINKER__tetess_Debug CMakeFiles/tetess.dir/test/tetess.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\tetess.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = .runtime\tetess.exe
-  TARGET_IMPLIB = .archive\libtetess.dll.a
-  TARGET_PDB = tetess.exe.dbg
 
 
 #############################################
@@ -3201,385 +3201,195 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 01Backpack: phony .runtime/01Backpack.exe
+build 01Backpack: phony 01Backpack.exe
 
-build 01Backpack.exe: phony .runtime/01Backpack.exe
+build 01_Array: phony 01_Array.exe
 
-build 01_Array: phony .runtime/01_Array.exe
+build 02Backpack: phony 02Backpack.exe
 
-build 01_Array.exe: phony .runtime/01_Array.exe
+build 02_Link_List: phony 02_Link_List.exe
 
-build 02Backpack: phony .runtime/02Backpack.exe
+build 03_One-way_Circle_Link_List: phony 03_One-way_Circle_Link_List.exe
 
-build 02Backpack.exe: phony .runtime/02Backpack.exe
+build 04_Double_Link_List: phony 04_Double_Link_List.exe
 
-build 02_Link_List: phony .runtime/02_Link_List.exe
+build 05_Double_Circle_Link_List: phony 05_Double_Circle_Link_List.exe
 
-build 02_Link_List.exe: phony .runtime/02_Link_List.exe
+build 06_Stack: phony 06_Stack.exe
 
-build 03_One-way_Circle_Link_List: phony .runtime/03_One-way_Circle_Link_List.exe
+build 07_Link_Stack: phony 07_Link_Stack.exe
 
-build 03_One-way_Circle_Link_List.exe: phony .runtime/03_One-way_Circle_Link_List.exe
+build 08_Ring_Queue: phony 08_Ring_Queue.exe
 
-build 04_Double_Link_List: phony .runtime/04_Double_Link_List.exe
+build 09_Chained_Queue: phony 09_Chained_Queue.exe
 
-build 04_Double_Link_List.exe: phony .runtime/04_Double_Link_List.exe
+build 10_Binary_Search_Algorithm: phony 10_Binary_Search_Algorithm.exe
 
-build 05_Double_Circle_Link_List: phony .runtime/05_Double_Circle_Link_List.exe
+build 11_Basic_Sort: phony 11_Basic_Sort.exe
 
-build 05_Double_Circle_Link_List.exe: phony .runtime/05_Double_Circle_Link_List.exe
+build 12_Quick_Sort: phony 12_Quick_Sort.exe
 
-build 06_Stack: phony .runtime/06_Stack.exe
+build 13_Merge_Sort: phony 13_Merge_Sort.exe
 
-build 06_Stack.exe: phony .runtime/06_Stack.exe
+build 14_Binary_Heap: phony 14_Binary_Heap.exe
 
-build 07_Link_Stack: phony .runtime/07_Link_Stack.exe
+build 15_Heap_Sort: phony 15_Heap_Sort.exe
 
-build 07_Link_Stack.exe: phony .runtime/07_Link_Stack.exe
+build 16_Advanced_Sorting_Performance_Test: phony 16_Advanced_Sorting_Performance_Test.exe
 
-build 08_Ring_Queue: phony .runtime/08_Ring_Queue.exe
+build 17_Radix_Sort: phony 17_Radix_Sort.exe
 
-build 08_Ring_Queue.exe: phony .runtime/08_Ring_Queue.exe
+build 18_Linear_Probing_Hash_Table: phony 18_Linear_Probing_Hash_Table.exe
 
-build 09_Chained_Queue: phony .runtime/09_Chained_Queue.exe
+build 19_Chained_Hash_Table: phony 19_Chained_Hash_Table.exe
 
-build 09_Chained_Queue.exe: phony .runtime/09_Chained_Queue.exe
+build 20_Big_Data_Duplicate_Check: phony 20_Big_Data_Duplicate_Check.exe
 
-build 10_Binary_Search_Algorithm: phony .runtime/10_Binary_Search_Algorithm.exe
+build 21_Big_Data_Duplicate_Check-Bitmap: phony 21_Big_Data_Duplicate_Check-Bitmap.exe
 
-build 10_Binary_Search_Algorithm.exe: phony .runtime/10_Binary_Search_Algorithm.exe
+build 22_Bloom_Filter: phony 22_Bloom_Filter.exe
 
-build 11_Basic_Sort: phony .runtime/11_Basic_Sort.exe
+build 23_Big_Data_Top_K-Size_Root_Heap: phony 23_Big_Data_Top_K-Size_Root_Heap.exe
 
-build 11_Basic_Sort.exe: phony .runtime/11_Basic_Sort.exe
+build 24_Big_Data_Top_K-Fast_Sort_Segmentation: phony 24_Big_Data_Top_K-Fast_Sort_Segmentation.exe
 
-build 12_Quick_Sort: phony .runtime/12_Quick_Sort.exe
+build 25_Consistent_Hashing_Algorithm: phony 25_Consistent_Hashing_Algorithm.exe
 
-build 12_Quick_Sort.exe: phony .runtime/12_Quick_Sort.exe
+build 26_String_Operations: phony 26_String_Operations.exe
 
-build 13_Merge_Sort: phony .runtime/13_Merge_Sort.exe
+build 27_BST_Tree: phony 27_BST_Tree.exe
 
-build 13_Merge_Sort.exe: phony .runtime/13_Merge_Sort.exe
+build 28_AVL_Tree: phony 28_AVL_Tree.exe
 
-build 14_Binary_Heap: phony .runtime/14_Binary_Heap.exe
+build 29_RB_Red-Black_Tree: phony 29_RB_Red-Black_Tree.exe
 
-build 14_Binary_Heap.exe: phony .runtime/14_Binary_Heap.exe
+build 30_Jump_Table: phony 30_Jump_Table.exe
 
-build 15_Heap_Sort: phony .runtime/15_Heap_Sort.exe
+build 31_Backtracking_Algorithm: phony 31_Backtracking_Algorithm.exe
 
-build 15_Heap_Sort.exe: phony .runtime/15_Heap_Sort.exe
+build 36_Trie_Dictionary_Tree: phony 36_Trie_Dictionary_Tree.exe
 
-build 16_Advanced_Sorting_Performance_Test: phony .runtime/16_Advanced_Sorting_Performance_Test.exe
+build 37_Inverted_Index: phony 37_Inverted_Index.exe
 
-build 16_Advanced_Sorting_Performance_Test.exe: phony .runtime/16_Advanced_Sorting_Performance_Test.exe
+build 38_Huffman_Tree_And_Huffman_Coding: phony 38_Huffman_Tree_And_Huffman_Coding.exe
 
-build 17_Radix_Sort: phony .runtime/17_Radix_Sort.exe
+build 39_Graphs_And_Shortest_Path_Algorithms: phony 39_Graphs_And_Shortest_Path_Algorithms.exe
 
-build 17_Radix_Sort.exe: phony .runtime/17_Radix_Sort.exe
+build 40_Union-find_And_Minimum_Spanning_Trees: phony 40_Union-find_And_Minimum_Spanning_Trees.exe
 
-build 18_Linear_Probing_Hash_Table: phony .runtime/18_Linear_Probing_Hash_Table.exe
+build AVL: phony AVL.exe
 
-build 18_Linear_Probing_Hash_Table.exe: phony .runtime/18_Linear_Probing_Hash_Table.exe
+build Binary_Search: phony Binary_Search.exe
 
-build 19_Chained_Hash_Table: phony .runtime/19_Chained_Hash_Table.exe
+build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
-build 19_Chained_Hash_Table.exe: phony .runtime/19_Chained_Hash_Table.exe
+build Coin_Problem: phony Coin_Problem.exe
 
-build 20_Big_Data_Duplicate_Check: phony .runtime/20_Big_Data_Duplicate_Check.exe
+build Coin_Selection_Problem: phony Coin_Selection_Problem.exe
 
-build 20_Big_Data_Duplicate_Check.exe: phony .runtime/20_Big_Data_Duplicate_Check.exe
+build Dijkstra: phony Dijkstra.exe
 
-build 21_Big_Data_Duplicate_Check-Bitmap: phony .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe
+build Emphasis: phony Emphasis.exe
 
-build 21_Big_Data_Duplicate_Check-Bitmap.exe: phony .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe
+build Fibonacci_Sequence: phony Fibonacci_Sequence.exe
 
-build 22_Bloom_Filter: phony .runtime/22_Bloom_Filter.exe
+build Kruskal: phony Kruskal.exe
 
-build 22_Bloom_Filter.exe: phony .runtime/22_Bloom_Filter.exe
+build LCS: phony LCS.exe
 
-build 23_Big_Data_Top_K-Size_Root_Heap: phony .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe
+build Longest_non-decreasing_subsequence: phony Longest_non-decreasing_subsequence.exe
 
-build 23_Big_Data_Top_K-Size_Root_Heap.exe: phony .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe
+build Maximum_sub-segment_sum: phony Maximum_sub-segment_sum.exe
 
-build 24_Big_Data_Top_K-Fast_Sort_Segmentation: phony .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe
+build Median: phony Median.exe
 
-build 24_Big_Data_Top_K-Fast_Sort_Segmentation.exe: phony .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe
+build Merge_Sort: phony Merge_Sort.exe
 
-build 25_Consistent_Hashing_Algorithm: phony .runtime/25_Consistent_Hashing_Algorithm.exe
+build Merge_k_ordered_linked_lists: phony Merge_k_ordered_linked_lists.exe
 
-build 25_Consistent_Hashing_Algorithm.exe: phony .runtime/25_Consistent_Hashing_Algorithm.exe
+build Optimal_load: phony Optimal_load.exe
 
-build 26_String_Operations: phony .runtime/26_String_Operations.exe
+build Partial_Knapsack_Problem: phony Partial_Knapsack_Problem.exe
 
-build 26_String_Operations.exe: phony .runtime/26_String_Operations.exe
+build Quick_Sort: phony Quick_Sort.exe
 
-build 27_BST_Tree: phony .runtime/27_BST_Tree.exe
+build Quick_sort_partition_function_to_find_top-k_problem: phony Quick_sort_partition_function_to_find_top-k_problem.exe
 
-build 27_BST_Tree.exe: phony .runtime/27_BST_Tree.exe
+build RBTree: phony RBTree.exe
 
-build 28_AVL_Tree: phony .runtime/28_AVL_Tree.exe
+build Relatives: phony Relatives.exe
 
-build 28_AVL_Tree.exe: phony .runtime/28_AVL_Tree.exe
+build Service_at_the_counter: phony Service_at_the_counter.exe
 
-build 29_RB_Red-Black_Tree: phony .runtime/29_RB_Red-Black_Tree.exe
+build SkipList: phony SkipList.exe
 
-build 29_RB_Red-Black_Tree.exe: phony .runtime/29_RB_Red-Black_Tree.exe
+build Summing_a_triangular_array: phony Summing_a_triangular_array.exe
 
-build 30_Jump_Table: phony .runtime/30_Jump_Table.exe
+build The_best_route_to_avoid_traffic: phony The_best_route_to_avoid_traffic.exe
 
-build 30_Jump_Table.exe: phony .runtime/30_Jump_Table.exe
+build array: phony array.exe
 
-build 31_Backtracking_Algorithm: phony .runtime/31_Backtracking_Algorithm.exe
+build array_pb: phony array_pb.exe
 
-build 31_Backtracking_Algorithm.exe: phony .runtime/31_Backtracking_Algorithm.exe
+build basicSort: phony basicSort.exe
 
-build 36_Trie_Dictionary_Tree: phony .runtime/36_Trie_Dictionary_Tree.exe
+build bigDataDuplicateCheck: phony bigDataDuplicateCheck.exe
 
-build 36_Trie_Dictionary_Tree.exe: phony .runtime/36_Trie_Dictionary_Tree.exe
+build bigDataDuplicateCheckBitmap: phony bigDataDuplicateCheckBitmap.exe
 
-build 37_Inverted_Index: phony .runtime/37_Inverted_Index.exe
+build bigDataTopKFastSortSeg: phony bigDataTopKFastSortSeg.exe
 
-build 37_Inverted_Index.exe: phony .runtime/37_Inverted_Index.exe
+build binaryHeap: phony binaryHeap.exe
 
-build 38_Huffman_Tree_And_Huffman_Coding: phony .runtime/38_Huffman_Tree_And_Huffman_Coding.exe
+build binarySearch: phony binarySearch.exe
 
-build 38_Huffman_Tree_And_Huffman_Coding.exe: phony .runtime/38_Huffman_Tree_And_Huffman_Coding.exe
+build bloomFilter: phony bloomFilter.exe
 
-build 39_Graphs_And_Shortest_Path_Algorithms: phony .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe
+build bst: phony bst.exe
 
-build 39_Graphs_And_Shortest_Path_Algorithms.exe: phony .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe
+build chainedHashTable: phony chainedHashTable.exe
 
-build 40_Union-find_And_Minimum_Spanning_Trees: phony .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe
+build circleLinkList: phony circleLinkList.exe
 
-build 40_Union-find_And_Minimum_Spanning_Trees.exe: phony .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe
+build circleLinkList_pb: phony circleLinkList_pb.exe
 
-build AVL: phony .runtime/AVL.exe
+build consistentHash: phony consistentHash.exe
 
-build AVL.exe: phony .runtime/AVL.exe
+build doubleCircleLinkedList: phony doubleCircleLinkedList.exe
 
-build Binary_Search: phony .runtime/Binary_Search.exe
+build doubleLinkList: phony doubleLinkList.exe
 
-build Binary_Search.exe: phony .runtime/Binary_Search.exe
+build floyd: phony floyd.exe
 
-build CMakeCXXCompilerId: phony .runtime/CMakeCXXCompilerId.exe
+build heapSort: phony heapSort.exe
 
-build CMakeCXXCompilerId.exe: phony .runtime/CMakeCXXCompilerId.exe
+build linearProbingHashTable: phony linearProbingHashTable.exe
 
-build Coin_Problem: phony .runtime/Coin_Problem.exe
+build linkList: phony linkList.exe
 
-build Coin_Problem.exe: phony .runtime/Coin_Problem.exe
+build linkList_pb: phony linkList_pb.exe
 
-build Coin_Selection_Problem: phony .runtime/Coin_Selection_Problem.exe
+build linkQueue: phony linkQueue.exe
 
-build Coin_Selection_Problem.exe: phony .runtime/Coin_Selection_Problem.exe
+build linkStack: phony linkStack.exe
 
-build Dijkstra: phony .runtime/Dijkstra.exe
+build mergeSort: phony mergeSort.exe
 
-build Dijkstra.exe: phony .runtime/Dijkstra.exe
+build queue: phony queue.exe
 
-build Emphasis: phony .runtime/Emphasis.exe
+build queue_pb: phony queue_pb.exe
 
-build Emphasis.exe: phony .runtime/Emphasis.exe
+build quickSort: phony quickSort.exe
 
-build Fibonacci_Sequence: phony .runtime/Fibonacci_Sequence.exe
+build stack: phony stack.exe
 
-build Fibonacci_Sequence.exe: phony .runtime/Fibonacci_Sequence.exe
+build stack_pb: phony stack_pb.exe
 
-build Kruskal: phony .runtime/Kruskal.exe
+build stringOperation: phony stringOperation.exe
 
-build Kruskal.exe: phony .runtime/Kruskal.exe
+build topKHeap: phony topKHeap.exe
 
-build LCS: phony .runtime/LCS.exe
-
-build LCS.exe: phony .runtime/LCS.exe
-
-build Longest_non-decreasing_subsequence: phony .runtime/Longest_non-decreasing_subsequence.exe
-
-build Longest_non-decreasing_subsequence.exe: phony .runtime/Longest_non-decreasing_subsequence.exe
-
-build Maximum_sub-segment_sum: phony .runtime/Maximum_sub-segment_sum.exe
-
-build Maximum_sub-segment_sum.exe: phony .runtime/Maximum_sub-segment_sum.exe
-
-build Median: phony .runtime/Median.exe
-
-build Median.exe: phony .runtime/Median.exe
-
-build Merge_Sort: phony .runtime/Merge_Sort.exe
-
-build Merge_Sort.exe: phony .runtime/Merge_Sort.exe
-
-build Merge_k_ordered_linked_lists: phony .runtime/Merge_k_ordered_linked_lists.exe
-
-build Merge_k_ordered_linked_lists.exe: phony .runtime/Merge_k_ordered_linked_lists.exe
-
-build Optimal_load: phony .runtime/Optimal_load.exe
-
-build Optimal_load.exe: phony .runtime/Optimal_load.exe
-
-build Partial_Knapsack_Problem: phony .runtime/Partial_Knapsack_Problem.exe
-
-build Partial_Knapsack_Problem.exe: phony .runtime/Partial_Knapsack_Problem.exe
-
-build Quick_Sort: phony .runtime/Quick_Sort.exe
-
-build Quick_Sort.exe: phony .runtime/Quick_Sort.exe
-
-build Quick_sort_partition_function_to_find_top-k_problem: phony .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe
-
-build Quick_sort_partition_function_to_find_top-k_problem.exe: phony .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe
-
-build RBTree: phony .runtime/RBTree.exe
-
-build RBTree.exe: phony .runtime/RBTree.exe
-
-build Relatives: phony .runtime/Relatives.exe
-
-build Relatives.exe: phony .runtime/Relatives.exe
-
-build Service_at_the_counter: phony .runtime/Service_at_the_counter.exe
-
-build Service_at_the_counter.exe: phony .runtime/Service_at_the_counter.exe
-
-build Summing_a_triangular_array: phony .runtime/Summing_a_triangular_array.exe
-
-build Summing_a_triangular_array.exe: phony .runtime/Summing_a_triangular_array.exe
-
-build The_best_route_to_avoid_traffic: phony .runtime/The_best_route_to_avoid_traffic.exe
-
-build The_best_route_to_avoid_traffic.exe: phony .runtime/The_best_route_to_avoid_traffic.exe
-
-build array: phony .runtime/array.exe
-
-build array.exe: phony .runtime/array.exe
-
-build array_pb: phony .runtime/array_pb.exe
-
-build array_pb.exe: phony .runtime/array_pb.exe
-
-build basicSort: phony .runtime/basicSort.exe
-
-build basicSort.exe: phony .runtime/basicSort.exe
-
-build bigDataDuplicateCheck: phony .runtime/bigDataDuplicateCheck.exe
-
-build bigDataDuplicateCheck.exe: phony .runtime/bigDataDuplicateCheck.exe
-
-build bigDataDuplicateCheckBitmap: phony .runtime/bigDataDuplicateCheckBitmap.exe
-
-build bigDataDuplicateCheckBitmap.exe: phony .runtime/bigDataDuplicateCheckBitmap.exe
-
-build bigDataTopKFastSortSeg: phony .runtime/bigDataTopKFastSortSeg.exe
-
-build bigDataTopKFastSortSeg.exe: phony .runtime/bigDataTopKFastSortSeg.exe
-
-build binaryHeap: phony .runtime/binaryHeap.exe
-
-build binaryHeap.exe: phony .runtime/binaryHeap.exe
-
-build binarySearch: phony .runtime/binarySearch.exe
-
-build binarySearch.exe: phony .runtime/binarySearch.exe
-
-build bloomFilter: phony .runtime/bloomFilter.exe
-
-build bloomFilter.exe: phony .runtime/bloomFilter.exe
-
-build bst: phony .runtime/bst.exe
-
-build bst.exe: phony .runtime/bst.exe
-
-build chainedHashTable: phony .runtime/chainedHashTable.exe
-
-build chainedHashTable.exe: phony .runtime/chainedHashTable.exe
-
-build circleLinkList: phony .runtime/circleLinkList.exe
-
-build circleLinkList.exe: phony .runtime/circleLinkList.exe
-
-build circleLinkList_pb: phony .runtime/circleLinkList_pb.exe
-
-build circleLinkList_pb.exe: phony .runtime/circleLinkList_pb.exe
-
-build consistentHash: phony .runtime/consistentHash.exe
-
-build consistentHash.exe: phony .runtime/consistentHash.exe
-
-build doubleCircleLinkedList: phony .runtime/doubleCircleLinkedList.exe
-
-build doubleCircleLinkedList.exe: phony .runtime/doubleCircleLinkedList.exe
-
-build doubleLinkList: phony .runtime/doubleLinkList.exe
-
-build doubleLinkList.exe: phony .runtime/doubleLinkList.exe
-
-build floyd: phony .runtime/floyd.exe
-
-build floyd.exe: phony .runtime/floyd.exe
-
-build heapSort: phony .runtime/heapSort.exe
-
-build heapSort.exe: phony .runtime/heapSort.exe
-
-build linearProbingHashTable: phony .runtime/linearProbingHashTable.exe
-
-build linearProbingHashTable.exe: phony .runtime/linearProbingHashTable.exe
-
-build linkList: phony .runtime/linkList.exe
-
-build linkList.exe: phony .runtime/linkList.exe
-
-build linkList_pb: phony .runtime/linkList_pb.exe
-
-build linkList_pb.exe: phony .runtime/linkList_pb.exe
-
-build linkQueue: phony .runtime/linkQueue.exe
-
-build linkQueue.exe: phony .runtime/linkQueue.exe
-
-build linkStack: phony .runtime/linkStack.exe
-
-build linkStack.exe: phony .runtime/linkStack.exe
-
-build mergeSort: phony .runtime/mergeSort.exe
-
-build mergeSort.exe: phony .runtime/mergeSort.exe
-
-build queue: phony .runtime/queue.exe
-
-build queue.exe: phony .runtime/queue.exe
-
-build queue_pb: phony .runtime/queue_pb.exe
-
-build queue_pb.exe: phony .runtime/queue_pb.exe
-
-build quickSort: phony .runtime/quickSort.exe
-
-build quickSort.exe: phony .runtime/quickSort.exe
-
-build stack: phony .runtime/stack.exe
-
-build stack.exe: phony .runtime/stack.exe
-
-build stack_pb: phony .runtime/stack_pb.exe
-
-build stack_pb.exe: phony .runtime/stack_pb.exe
-
-build stringOperation: phony .runtime/stringOperation.exe
-
-build stringOperation.exe: phony .runtime/stringOperation.exe
-
-build tetess: phony .runtime/tetess.exe
-
-build tetess.exe: phony .runtime/tetess.exe
-
-build topKHeap: phony .runtime/topKHeap.exe
-
-build topKHeap.exe: phony .runtime/topKHeap.exe
-
-build trieTree: phony .runtime/trieTree.exe
-
-build trieTree.exe: phony .runtime/trieTree.exe
+build trieTree: phony trieTree.exe
 
 # =============================================================================
 # Folder targets.
@@ -3589,7 +3399,7 @@ build trieTree.exe: phony .runtime/trieTree.exe
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 
-build all: phony .runtime/01_Array.exe .runtime/array.exe .runtime/array_pb.exe .runtime/02_Link_List.exe .runtime/linkList.exe .runtime/linkList_pb.exe .runtime/03_One-way_Circle_Link_List.exe .runtime/circleLinkList.exe .runtime/circleLinkList_pb.exe .runtime/04_Double_Link_List.exe .runtime/doubleLinkList.exe .runtime/05_Double_Circle_Link_List.exe .runtime/doubleCircleLinkedList.exe .runtime/06_Stack.exe .runtime/stack.exe .runtime/stack_pb.exe .runtime/07_Link_Stack.exe .runtime/linkStack.exe .runtime/08_Ring_Queue.exe .runtime/queue.exe .runtime/queue_pb.exe .runtime/09_Chained_Queue.exe .runtime/linkQueue.exe .runtime/10_Binary_Search_Algorithm.exe .runtime/binarySearch.exe .runtime/11_Basic_Sort.exe .runtime/basicSort.exe .runtime/12_Quick_Sort.exe .runtime/quickSort.exe .runtime/13_Merge_Sort.exe .runtime/mergeSort.exe .runtime/14_Binary_Heap.exe .runtime/binaryHeap.exe .runtime/15_Heap_Sort.exe .runtime/heapSort.exe .runtime/16_Advanced_Sorting_Performance_Test.exe .runtime/17_Radix_Sort.exe .runtime/18_Linear_Probing_Hash_Table.exe .runtime/linearProbingHashTable.exe .runtime/19_Chained_Hash_Table.exe .runtime/chainedHashTable.exe .runtime/20_Big_Data_Duplicate_Check.exe .runtime/bigDataDuplicateCheck.exe .runtime/21_Big_Data_Duplicate_Check-Bitmap.exe .runtime/bigDataDuplicateCheckBitmap.exe .runtime/22_Bloom_Filter.exe .runtime/bloomFilter.exe .runtime/23_Big_Data_Top_K-Size_Root_Heap.exe .runtime/topKHeap.exe .runtime/24_Big_Data_Top_K-Fast_Sort_Segmentation.exe .runtime/bigDataTopKFastSortSeg.exe .runtime/25_Consistent_Hashing_Algorithm.exe .runtime/consistentHash.exe .runtime/26_String_Operations.exe .runtime/stringOperation.exe .runtime/27_BST_Tree.exe .runtime/bst.exe .runtime/28_AVL_Tree.exe .runtime/AVL.exe .runtime/29_RB_Red-Black_Tree.exe .runtime/RBTree.exe .runtime/31_Backtracking_Algorithm.exe .runtime/Binary_Search.exe .runtime/Median.exe .runtime/Merge_Sort.exe .runtime/Merge_k_ordered_linked_lists.exe .runtime/Quick_Sort.exe .runtime/Quick_sort_partition_function_to_find_top-k_problem.exe .runtime/01Backpack.exe .runtime/Coin_Problem.exe .runtime/Fibonacci_Sequence.exe .runtime/LCS.exe .runtime/Longest_non-decreasing_subsequence.exe .runtime/Maximum_sub-segment_sum.exe .runtime/Summing_a_triangular_array.exe .runtime/Coin_Selection_Problem.exe .runtime/Partial_Knapsack_Problem.exe .runtime/Service_at_the_counter.exe .runtime/02Backpack.exe .runtime/Optimal_load.exe .runtime/36_Trie_Dictionary_Tree.exe .runtime/trieTree.exe .runtime/30_Jump_Table.exe .runtime/37_Inverted_Index.exe .runtime/38_Huffman_Tree_And_Huffman_Coding.exe .runtime/39_Graphs_And_Shortest_Path_Algorithms.exe .runtime/Dijkstra.exe .runtime/floyd.exe .runtime/40_Union-find_And_Minimum_Spanning_Trees.exe .runtime/Kruskal.exe .runtime/Relatives.exe .runtime/The_best_route_to_avoid_traffic.exe .runtime/Emphasis.exe .runtime/CMakeCXXCompilerId.exe .runtime/tetess.exe
+build all: phony 01_Array.exe array.exe array_pb.exe 02_Link_List.exe linkList.exe linkList_pb.exe 03_One-way_Circle_Link_List.exe circleLinkList.exe circleLinkList_pb.exe 04_Double_Link_List.exe doubleLinkList.exe 05_Double_Circle_Link_List.exe doubleCircleLinkedList.exe 06_Stack.exe stack.exe stack_pb.exe 07_Link_Stack.exe linkStack.exe 08_Ring_Queue.exe queue.exe queue_pb.exe 09_Chained_Queue.exe linkQueue.exe 10_Binary_Search_Algorithm.exe binarySearch.exe 11_Basic_Sort.exe basicSort.exe 12_Quick_Sort.exe quickSort.exe 13_Merge_Sort.exe mergeSort.exe 14_Binary_Heap.exe binaryHeap.exe 15_Heap_Sort.exe heapSort.exe 16_Advanced_Sorting_Performance_Test.exe 17_Radix_Sort.exe 18_Linear_Probing_Hash_Table.exe linearProbingHashTable.exe 19_Chained_Hash_Table.exe chainedHashTable.exe 20_Big_Data_Duplicate_Check.exe bigDataDuplicateCheck.exe 21_Big_Data_Duplicate_Check-Bitmap.exe bigDataDuplicateCheckBitmap.exe 22_Bloom_Filter.exe bloomFilter.exe 23_Big_Data_Top_K-Size_Root_Heap.exe topKHeap.exe 24_Big_Data_Top_K-Fast_Sort_Segmentation.exe bigDataTopKFastSortSeg.exe 25_Consistent_Hashing_Algorithm.exe consistentHash.exe 26_String_Operations.exe stringOperation.exe 27_BST_Tree.exe bst.exe 28_AVL_Tree.exe AVL.exe 29_RB_Red-Black_Tree.exe RBTree.exe 31_Backtracking_Algorithm.exe Binary_Search.exe Median.exe Merge_Sort.exe Merge_k_ordered_linked_lists.exe Quick_Sort.exe Quick_sort_partition_function_to_find_top-k_problem.exe 01Backpack.exe Coin_Problem.exe Fibonacci_Sequence.exe LCS.exe Longest_non-decreasing_subsequence.exe Maximum_sub-segment_sum.exe Summing_a_triangular_array.exe Coin_Selection_Problem.exe Partial_Knapsack_Problem.exe Service_at_the_counter.exe 02Backpack.exe Optimal_load.exe 36_Trie_Dictionary_Tree.exe trieTree.exe 30_Jump_Table.exe SkipList.exe 37_Inverted_Index.exe 38_Huffman_Tree_And_Huffman_Coding.exe 39_Graphs_And_Shortest_Path_Algorithms.exe Dijkstra.exe floyd.exe 40_Union-find_And_Minimum_Spanning_Trees.exe Kruskal.exe Relatives.exe The_best_route_to_avoid_traffic.exe Emphasis.exe CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets
