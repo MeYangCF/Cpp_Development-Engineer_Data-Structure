@@ -1,4 +1,9 @@
 # ninja log v6
-6	256	7581316407585143	CMakeFiles/array.dir/01_Array/array.cpp.obj	21b39499be275391
+5	213	7581772068110305	CMakeFiles/array.dir/01_Array/array.cpp.obj	d17c2e11f2992144
+3	180	7581772517557129	CMakeFiles/SkipList.dir/36_Jump_Table/SkipList.cpp.obj	a05675355dcf9c0
 6	235	7581319002212516	CMakeFiles/01_Array.dir/01_Array/01_Array.cpp.obj	c9ac1e3fa1f52312
 4	236	7581319172552239	CMakeFiles/30_Jump_Table.dir/36_Jump_Table/30_Jump_Table.cpp.obj	113fd32c7dbae443
+214	337	7581772070197023	.runtime/array.exe	759eb531ac58d7a6
+180	264	7581772519327060	.runtime/SkipList.exe	f5d98e40a33512e9
+4	182	7581778552270700	CMakeFiles/teee.dir/36_Jump_Table/teee.cpp.obj	2809ccb91def69c3
+182	252	7581778554046910	.runtime/teee.exe	746cb66666bfc275

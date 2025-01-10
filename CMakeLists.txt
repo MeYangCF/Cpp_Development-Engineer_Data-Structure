@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.29.6)
 get_filename_component(ProjectId ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 string(REPLACE " " "_" ProjectId ${ProjectId})
 project(${ProjectId} CXX)
@@ -20,5 +20,5 @@ foreach (file ${files})
     # 将目标名限制为字母、数字和下划线
     string(REPLACE "/" "_" exe ${exe})
     add_executable(${exe} ${file})
-    message( "-- [${exe}.cpp] will be compiled to '.runtime/${exe}.exe'" )
+#    message( "-- [${exe}.cpp] will be compiled to '.runtime/${exe}.exe'" )
 endforeach ()
