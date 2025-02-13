@@ -85,6 +85,7 @@ F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/Sk
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/37_Inverted_Index.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/InvertIndex.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/38_Huffman_Tree_And_Huffman_Coding.dir
+F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/HuffmanTree.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/39_Graphs_And_Shortest_Path_Algorithms.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/Dijkstra.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/floyd.dir
