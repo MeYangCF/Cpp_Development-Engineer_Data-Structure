@@ -52,7 +52,7 @@ int min_select_topk(vector<int> &vec, int i, int j, int k) {
 		return min_select_topk(vec, i, pos - 1, k);
 	}
 }
-int main3()
+int main()
 {
 	vector<int> vec;
 	for (int i = 0; i < 20; ++i) {
