@@ -45,8 +45,7 @@ void mergeSort(vector<int> &vec, int i, int j) {
 	// 向上回溯，回溯的过程中，合并子问题的解
 	merge(vec, i, j, mid);  // [i,mid] [mid+i, j]
 }
-int main()
-{
+int main() {
 	vector<int> vec;
 	for (int i = 0; i < 11; ++i) {
 		vec.push_back(rand() % 100);
