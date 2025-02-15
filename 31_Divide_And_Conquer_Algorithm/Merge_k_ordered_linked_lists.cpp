@@ -73,7 +73,7 @@ ListNode* mergeLink(vector<ListNode*> &vlink, int i, int j) {
 	ListNode *right = mergeLink(vlink, mid + 1, j);
 	return mergeTwoLink(left, right); // 归结成合并两个有序链表
 }
-int main5()
+int main()
 {
 	ListNode *p1 = init_link({ 3, 6, 8 });  // {}
 	ListNode *p2 = init_link({ 2, 4 });
