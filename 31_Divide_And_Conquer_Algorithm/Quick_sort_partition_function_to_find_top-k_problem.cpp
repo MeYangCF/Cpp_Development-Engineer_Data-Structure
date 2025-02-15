@@ -60,7 +60,7 @@ int main()
 	}
 
 	// 求第top 10大的元素
-	int pos = max_select_topk(vec, 0, vec.size() - 1, 4);
+	int pos = max_select_topk(vec, 0, vec.size() - 1, 10);
 	cout << "第topk大的:" << vec[pos] << endl;
 	cout << "前topk大的:";
 	for (int i = pos; i < vec.size(); ++i) {
