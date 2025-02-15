@@ -33,7 +33,7 @@ void quickSort(vector<int> &vec, int i, int j) {
 	quickSort(vec, i, pos - 1);
 	quickSort(vec, pos + 1, j);
 }
-int main2()
+int main()
 {
 	vector<int> vec;
 	for (int i = 0; i < 11; ++i) {
