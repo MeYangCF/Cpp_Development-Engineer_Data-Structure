@@ -2384,6 +2384,39 @@ build Coin_Problem.exe: CXX_EXECUTABLE_LINKER__Coin_Problem_Debug CMakeFiles/Coi
   TARGET_PDB = Coin_Problem.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target DP
+
+
+#############################################
+# Order-only phony target for DP
+
+build cmake_object_order_depends_target_DP: phony || .
+
+build CMakeFiles/DP.dir/32_Dynamic_Programming_Algorithm/DP.cpp.obj: CXX_COMPILER__DP_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/32_Dynamic_Programming_Algorithm/DP.cpp || cmake_object_order_depends_target_DP
+  DEP_FILE = CMakeFiles\DP.dir\32_Dynamic_Programming_Algorithm\DP.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DP.dir
+  OBJECT_FILE_DIR = CMakeFiles\DP.dir\32_Dynamic_Programming_Algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DP
+
+
+#############################################
+# Link the executable DP.exe
+
+build DP.exe: CXX_EXECUTABLE_LINKER__DP_Debug CMakeFiles/DP.dir/32_Dynamic_Programming_Algorithm/DP.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DP.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DP.exe
+  TARGET_IMPLIB = libDP.dll.a
+  TARGET_PDB = DP.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Fibonacci_Sequence
 
 
@@ -3353,6 +3386,8 @@ build Coin_Problem: phony Coin_Problem.exe
 
 build Coin_Selection_Problem: phony Coin_Selection_Problem.exe
 
+build DP: phony DP.exe
+
 build Dijkstra: phony Dijkstra.exe
 
 build Fibonacci_Sequence: phony Fibonacci_Sequence.exe
@@ -3469,7 +3504,7 @@ build trieTree: phony trieTree.exe
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 
-build all: phony 01_Array.exe array.exe array_pb.exe 02_Link_List.exe linkList.exe linkList_pb.exe 03_One-way_Circle_Link_List.exe circleLinkList.exe circleLinkList_pb.exe 04_Double_Link_List.exe doubleLinkList.exe 05_Double_Circle_Link_List.exe doubleCircleLinkedList.exe 06_Stack.exe stack.exe stack_pb.exe 07_Link_Stack.exe linkStack.exe 08_Ring_Queue.exe queue.exe queue_pb.exe 09_Chained_Queue.exe linkQueue.exe 10_Binary_Search_Algorithm.exe binarySearch.exe 11_Basic_Sort.exe basicSort.exe 12_Quick_Sort.exe quickSort.exe 13_Merge_Sort.exe mergeSort.exe 14_Binary_Heap.exe binaryHeap.exe 15_Heap_Sort.exe heapSort.exe 16_Advanced_Sorting_Performance_Test.exe 17_Radix_Sort.exe 18_Linear_Probing_Hash_Table.exe linearProbingHashTable.exe 19_Chained_Hash_Table.exe chainedHashTable.exe 20_Big_Data_Duplicate_Check.exe bigDataDuplicateCheck.exe 21_Big_Data_Duplicate_Check-Bitmap.exe bigDataDuplicateCheckBitmap.exe 22_Bloom_Filter.exe bloomFilter.exe 23_Big_Data_Top_K-Size_Root_Heap.exe topKHeap.exe 24_Big_Data_Top_K-Fast_Sort_Segmentation.exe bigDataTopKFastSortSeg.exe 25_Consistent_Hashing_Algorithm.exe consistentHash.exe 26_String_Operations.exe stringOperation.exe 27_BST_Tree.exe bst.exe 28_AVL_Tree.exe AVL.exe 29_RB_Red-Black_Tree.exe RBTree.exe 31_Backtracking_Algorithm.exe backtrackAlgorithm.exe Binary_Search.exe Median.exe Merge_Sort.exe Merge_k_ordered_linked_lists.exe Quick_Sort.exe Quick_sort_partition_function_to_find_top-k_problem.exe 01Backpack.exe Coin_Problem.exe Fibonacci_Sequence.exe LCS.exe Longest_non-decreasing_subsequence.exe Maximum_sub-segment_sum.exe Summing_a_triangular_array.exe Coin_Selection_Problem.exe Partial_Knapsack_Problem.exe Service_at_the_counter.exe 02Backpack.exe Optimal_load.exe 36_Trie_Dictionary_Tree.exe trieTree.exe 30_Jump_Table.exe SkipList.exe 37_Inverted_Index.exe InvertIndex.exe 38_Huffman_Tree_And_Huffman_Coding.exe HuffmanTree.exe 39_Graphs_And_Shortest_Path_Algorithms.exe Dijkstra.exe floyd.exe 40_Union-find_And_Minimum_Spanning_Trees.exe Kruskal.exe Relatives.exe The_best_route_to_avoid_traffic.exe CMakeCXXCompilerId.exe
+build all: phony 01_Array.exe array.exe array_pb.exe 02_Link_List.exe linkList.exe linkList_pb.exe 03_One-way_Circle_Link_List.exe circleLinkList.exe circleLinkList_pb.exe 04_Double_Link_List.exe doubleLinkList.exe 05_Double_Circle_Link_List.exe doubleCircleLinkedList.exe 06_Stack.exe stack.exe stack_pb.exe 07_Link_Stack.exe linkStack.exe 08_Ring_Queue.exe queue.exe queue_pb.exe 09_Chained_Queue.exe linkQueue.exe 10_Binary_Search_Algorithm.exe binarySearch.exe 11_Basic_Sort.exe basicSort.exe 12_Quick_Sort.exe quickSort.exe 13_Merge_Sort.exe mergeSort.exe 14_Binary_Heap.exe binaryHeap.exe 15_Heap_Sort.exe heapSort.exe 16_Advanced_Sorting_Performance_Test.exe 17_Radix_Sort.exe 18_Linear_Probing_Hash_Table.exe linearProbingHashTable.exe 19_Chained_Hash_Table.exe chainedHashTable.exe 20_Big_Data_Duplicate_Check.exe bigDataDuplicateCheck.exe 21_Big_Data_Duplicate_Check-Bitmap.exe bigDataDuplicateCheckBitmap.exe 22_Bloom_Filter.exe bloomFilter.exe 23_Big_Data_Top_K-Size_Root_Heap.exe topKHeap.exe 24_Big_Data_Top_K-Fast_Sort_Segmentation.exe bigDataTopKFastSortSeg.exe 25_Consistent_Hashing_Algorithm.exe consistentHash.exe 26_String_Operations.exe stringOperation.exe 27_BST_Tree.exe bst.exe 28_AVL_Tree.exe AVL.exe 29_RB_Red-Black_Tree.exe RBTree.exe 31_Backtracking_Algorithm.exe backtrackAlgorithm.exe Binary_Search.exe Median.exe Merge_Sort.exe Merge_k_ordered_linked_lists.exe Quick_Sort.exe Quick_sort_partition_function_to_find_top-k_problem.exe 01Backpack.exe Coin_Problem.exe DP.exe Fibonacci_Sequence.exe LCS.exe Longest_non-decreasing_subsequence.exe Maximum_sub-segment_sum.exe Summing_a_triangular_array.exe Coin_Selection_Problem.exe Partial_Knapsack_Problem.exe Service_at_the_counter.exe 02Backpack.exe Optimal_load.exe 36_Trie_Dictionary_Tree.exe trieTree.exe 30_Jump_Table.exe SkipList.exe 37_Inverted_Index.exe InvertIndex.exe 38_Huffman_Tree_And_Huffman_Coding.exe HuffmanTree.exe 39_Graphs_And_Shortest_Path_Algorithms.exe Dijkstra.exe floyd.exe 40_Union-find_And_Minimum_Spanning_Trees.exe Kruskal.exe Relatives.exe The_best_route_to_avoid_traffic.exe CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets

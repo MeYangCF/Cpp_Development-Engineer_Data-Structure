@@ -111,7 +111,8 @@
 						93,
 						94,
 						95,
-						96
+						96,
+						97
 					]
 				}
 			],
@@ -222,7 +223,8 @@
 						93,
 						94,
 						95,
-						96
+						96,
+						97
 					]
 				}
 			],
@@ -527,6 +529,13 @@
 					"id" : "Coin_Selection_Problem::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Coin_Selection_Problem-Debug-67ad336c24cbf730b3c6.json",
 					"name" : "Coin_Selection_Problem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DP-Debug-20c35677f4c7ca618ac6.json",
+					"name" : "DP",
 					"projectIndex" : 0
 				},
 				{
