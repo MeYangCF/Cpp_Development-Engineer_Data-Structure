@@ -5,7 +5,6 @@
 #include <queue>
 using namespace std;
 
-#if 0
 int w[] = { 12, 8, 15 }; // 集装箱的重量
 const int n = sizeof(w) / sizeof(w[0]); // 集装箱的数量
 int c = 20; // 轮船的容量
@@ -94,4 +93,3 @@ int main1()
 
 	return 0;
 }
-#endif
