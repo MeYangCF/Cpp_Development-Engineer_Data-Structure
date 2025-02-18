@@ -36,6 +36,7 @@ priority_queue<Node*, vector<Node*>, function<bool(Node*, Node*)>> que([](Node*n
 	return n1->upbound < n2->upbound;
 });
 
+
 void addLiveNode(int w, int v, int l, int up, Node *parent, bool isleft) {
 	Node *node = new Node(w, v, l, up, parent, isleft);
 	que.push(node);
