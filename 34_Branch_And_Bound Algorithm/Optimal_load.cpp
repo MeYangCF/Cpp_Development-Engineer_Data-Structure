@@ -49,7 +49,7 @@ int maxBound(int level) {
 	}
 	return s;
 }
-int main1()
+int main()
 {
 	Node *node = nullptr; // 初始状态
 	while (i < n) { // 当前节点是第i层     开始扩展node节点
