@@ -132,7 +132,7 @@ int main() {
 
         if (j == m) {
             x[0]++;
-            mintime = cons[j].time; * x[0];
+            mintime = cons[j].time * x[0];
         }
     }
 
