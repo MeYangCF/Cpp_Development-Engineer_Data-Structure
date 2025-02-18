@@ -127,6 +127,7 @@ int main() {
                 if (t > mintime) {
                     mintime = t;
                 }
+                break;
             }
         }
 
