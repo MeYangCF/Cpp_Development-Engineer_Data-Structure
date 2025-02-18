@@ -41,9 +41,9 @@ void addLiveNode(int w, int v, int l, int up, Node *parent, bool isleft) {
 	que.push(node);
 
 	// 用优先级队列就不用标记产生最优解的叶子节点了，因为优先级队列到达某一个叶子节点时，最优值就产生了
-	/*if (l == n && v == bestv) {
-		bestnode = node;
-	}*/
+	// if (l == n && v == bestv) {
+	// 	bestnode = node;
+	// }
 }
 // 求价值上界
 int maxBound(int i) {
@@ -98,7 +98,7 @@ int main()
 	return 0;
 }
 
-#if 0
+/*
 // 分支限界算法 - 01背包问题     FIFO队列 
 int w[] = { 16,15,15 }; // 物品的重量
 int v[] = { 45, 25, 25 }; // 物品的价值
@@ -184,4 +184,4 @@ int main()
 	cout << endl;
 	return 0;
 }
-#endif
+*/
