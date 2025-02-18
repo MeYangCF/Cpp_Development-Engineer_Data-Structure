@@ -9,6 +9,7 @@
 # include <iostream>
 # include <algorithm>
 #include <string>
+#include <vector>
 using namespace std;
 
 //1.硬币选择问题
@@ -154,7 +155,7 @@ int main() {
 */
 
 //5.最长公共子序列问题LCS
-
+/*
 static int cnt = 0;
 string str1 = "helloworld";
 string str2 = "hlweord";
@@ -257,5 +258,103 @@ int main() {
   cout << "cnt:" << cnt << endl;
 
   backStrace(str1, n, m);
+  return 0;
+}
+*/
+
+// 0-1背包问题
+/*
+void backStrace(int w[], int v[], int n, int c, int **dp) {
+  int bestv = 0;
+  for (int i = 0; i < n; ++i) {
+    if (dp[i][c] != dp[i + 1][c]) {
+      cout << w[i] << " ";
+      bestv += v[i];
+      c -= w[i];
+    }
+  }
+
+  if (dp[n][c] > 0) {
+    bestv += v[n];
+    cout << w[n] << " ";
+  }
+
+  cout << endl;
+  cout << "背包的最大价值:" << bestv << endl;
+}
+
+int main() {
+  int w[] = {8, 6, 4, 2, 5};
+  int v[] = {6, 4, 7, 8, 6};
+  int n = sizeof(w) / sizeof(w[0]);
+  int c = 12;
+  int **dp = nullptr;
+  dp = new int*[n + 1];
+  for (int i = 0; i < n + 1; i++) {
+    dp[i] = new int[c + 1]();
+  }
+  for (int j = 1; j <= c; j++) {
+    if (w[n] > j) {
+      dp[n][j] = 0;
+    }
+    else {
+      dp[n][j] = v[n];
+    }
+  }
+  for (int i = n - 1; i >= 0; i--) {
+    for (int j = 1; j <= c; j++) {
+      if (w[i] > j) {
+        dp[i][j] = dp[i + 1][j];
+      }
+      else {
+        dp[i][j] = max(dp[i + 1][j], v[i] + dp[i + 1][j - w[j]]);
+      }
+    }
+  }
+
+  backStrace(w, v, n, c, dp);
+
+  for (int i = 0; i < n + 1; i++) {
+    delete[] dp[i];
+  }
+
+  delete []dp;
+  return 0;
+}
+*/
+
+//三角数组求和
+
+int main() {
+  vector<int> v1 = {2};
+  vector<int> v2 = {3, 4};
+  vector<int> v3 = {6, 5, 7};
+  vector<int> v4 = {4, 1, 8, 3};
+  vector<vector<int>> v = {v1, v2, v3, v4};
+
+  int **dp = nullptr;
+  dp = new int *[v.size()];
+  for (int i = 0; i < v.size(); ++i) {
+    dp[i] = new int[v4.size()];
+  }
+
+  int n = v.size() - 1;
+  for (int i = 0; i < v4.size(); ++i) {
+    dp[n][i] = v[n][i];
+  }
+
+  for (int i = n - 1; i >= 0; --i) {
+    for (int j = 0; j < v[i].size(); ++j) {
+      dp[i][j] = std::min(dp[i + 1][j], dp[i + 1][j + 1]) + v[i][j];
+    }
+  }
+
+  cout << dp[0][0] << endl;
+
+  for (int i = 0; i < v.size(); ++i) {
+    delete[] dp[i];
+  }
+
+  delete[] dp;
   return 0;
 }
