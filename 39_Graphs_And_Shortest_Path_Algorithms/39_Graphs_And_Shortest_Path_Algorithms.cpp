@@ -8,7 +8,6 @@
 #include <queue>
 using namespace std;
 
-#if 0
 // 实现一个有向图的邻接表结构
 class Digraph
 {
@@ -207,4 +206,3 @@ int main()
 	graph.shortPath(1, 3);
 	return 0;
 }
-#endif
