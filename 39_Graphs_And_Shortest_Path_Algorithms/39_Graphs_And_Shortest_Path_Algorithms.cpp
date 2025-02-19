@@ -137,11 +137,11 @@ public:
 		if (!que.empty())
 		{
 			// 存在一条最短路径，怎么输出？
-			/*while (end != 0)
-			{
-				cout << vertics[end].data_ << " <= ";
-				end = path[end];
-			}*/
+			// while (end != 0)
+			// {
+			// 	cout << vertics[end].data_ << " <= ";
+			// 	end = path[end];
+			// }
 			showPath(end, path);
 		}
 		else
