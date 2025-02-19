@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-#if 0
 int n, m, p;
 
 const int SIZE = 5001;
@@ -57,4 +56,3 @@ int main()
 		}
 	}
 }
-#endif

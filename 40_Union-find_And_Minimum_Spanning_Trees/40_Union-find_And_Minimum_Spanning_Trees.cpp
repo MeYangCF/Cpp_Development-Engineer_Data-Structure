@@ -6,7 +6,6 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-#if 0
 const int SIZE = 9;
 int parent[SIZE]; // 记录每个节点的父节点(经过优化后记录树的根节点编号)
 int rank[SIZE];   // 记录节点的层高
@@ -88,4 +87,3 @@ int main()
 
 	cout << (find(2) == find(4) ? "OK" : "NO") << endl;
 }
-#endif

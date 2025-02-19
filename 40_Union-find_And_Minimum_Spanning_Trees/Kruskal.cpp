@@ -3,7 +3,6 @@
 #include <algorithm>
 using namespace std;
 
-#if 0
 // Kruskal算法实现 - 并查集的应用
 // 边类型
 struct Edge
@@ -72,4 +71,3 @@ int main()
 		}
 	}
 }
-#endif
