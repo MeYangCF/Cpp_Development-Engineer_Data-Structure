@@ -159,9 +159,11 @@ int main() {
 */
 
 //dijkstra
-
+/*
 using uint = unsigned int;
 const uint INF = INT_MAX;
+
+//未优化的算法
 
 int Dijkstra(vector<vector<uint>>& graph, int start, int end) {
     const int N = graph.size();
@@ -203,6 +205,49 @@ int Dijkstra(vector<vector<uint>>& graph, int start, int end) {
     return dis[end];
 }
 
+
+//引入小根堆进行优化
+int Dijkstra_1(vector<vector<uint>>& graph, int start, int end) {
+    const int N = graph.size();
+    vector<uint> dis(N, 0);
+    vector<bool> use(N, false);
+
+    priority_queue<pair<uint, int>, vector<pair<uint, int>>, greater<pair<uint, int>>> que;
+    use[start] = true;
+    for (int i = 0; i < N; i++) {
+        dis[i] = graph[start][i];
+        if (i != start) {
+            que.emplace(graph[start][i], i);
+        }
+    }
+
+    while (!que.empty()) {
+        auto pair = que.top();
+        que.pop();
+        if (pair.first == INF) {
+            break;
+        }
+        int k = pair.second;
+        int min = pair.first;
+        if (use[k]) {
+            continue;
+        }
+        use[k] = true;
+        for (int j = 0; j < N; j++) {
+            if (!use[j] && min + graph[k][j] < dis[j]) {
+                dis[j] = min + graph[k][j];
+                que.emplace(dis[j], k);
+            }
+        }
+    }
+
+    for (int d : dis) {
+        cout << d << " ";
+    }
+    cout << endl;
+    return dis[end];
+}
+
 int main() {
     vector<vector<uint>> graph = {
         {0, 6, 3, INF, INF, INF},
@@ -220,4 +265,35 @@ int main() {
     else {
         cout << "distance:" << distance << endl;
     }    return 0;
+}
+*/
+
+//Floyd
+using uint = unsigned int;
+const uint INF = INT_MAX;
+
+int main() {
+    vector<vector<uint>> graph = {
+        {0, 6, 3, INF, INF, INF},
+        {6, 0, 2, 5, INF, INF},
+        {3, 2, 0, 3, 4, INF},
+        {INF, 5, 3, 0, 2, 3},
+        {INF, INF, 4, 2, 0, 5},
+        {INF, INF, INF, 3, 5, 0},
+    };
+
+    for (int k = 0; k < graph.size(); k++) {
+        for (int i = 0; i < graph.size(); i++) {
+            for (int j = 0; j < graph.size(); j++) {
+                graph[i][j] = min(graph[i][j], graph[i][k]+graph[k][j]);
+            }
+        }
+    }
+
+    for (auto line : graph){
+        for (auto dis : line){
+            cout << dis << " ";
+        }
+        cout << endl;
+    }
 }
