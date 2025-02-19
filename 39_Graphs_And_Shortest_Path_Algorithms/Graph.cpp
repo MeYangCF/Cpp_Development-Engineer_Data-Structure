@@ -13,6 +13,7 @@
 #include <queue>
 using namespace std;
 
+/*
 class Digraph {
 public:
     void readFile(sring filePath) {
@@ -81,6 +82,37 @@ public:
         cout << endl;
     }
 
+    void shorPath(int start, int end) {
+        vector<bool> visited(vertics.size(), false);
+        queue<int> que;
+        vector<int> path(vertics.size(), 0);
+
+        que.push(start);
+        visited[start] = true;
+        while (!que.empty()) {
+            int cur_no = que.front();
+            if (cur_no == end) {
+                break;
+            }
+            que.pop();
+            for (auto no : vertics[cur_no].adjList_) {
+                if (!visited[no]) {
+                    que.push(no);
+                    visited[no] = true;
+                    path[no] = cur_no;
+                }
+            }
+        }
+
+        if (!que.empty()) {
+            showPath(end, path);
+        }
+        else {
+            cout << "不存在有效的最短路径！"<< endl;
+        }
+        cout << endl;
+    }
+
 private:
     void dfs(int start, vector<bool>& visited) {
         if (visited[start]) {
@@ -93,6 +125,14 @@ private:
             dfs(no, visited);
         }
     }
+
+    void showPath(int end, vector<int>& path){
+        if (end == 0)
+            return;
+
+        showPath(path[end], path);
+        cout << vertics[end].data_ << " ";
+    }
 private:
     struct Vertic {
         Vertic(string data)
@@ -104,6 +144,64 @@ private:
 private:
     vector<Vertic> vertics;
 };
+
+int main() {
+    Digraph graph;
+    graph.readFile("data.txt");
+    graph.show();
+    graph.dfs();
+    graph.bfs();
+
+    cout << "================" << endl;
+    graph.shortPath(1, 3);
+    return 0;
+}
+*/
+
+//dijkstra
+
+using uint = unsigned int;
+const uint INF = INT_MAX;
+
+int Dijkstra(vector<vector<uint>>& graph, int start, int end) {
+    const int N = graph.size();
+    vector<uint> dis(N, 0);
+    vector<bool> use(N, false);
+
+    use[start] = true;
+    for (int i = 0; i < N; i++) {
+        dis[i] = graph[start][i];
+    }
+
+    for (int i = 1; i < N; i++) {
+        int k = -1;
+        int min = INF;
+        for (int j = 0; j < N; j++) {
+            if (!use[j] && dis[j] < min) {
+                min = dis[j];
+                k = j;
+            }
+        }
+
+        if (k == -1) {
+            break;
+        }
+
+        use[k] = true;
+
+        for (int j = 0; j < N; j++) {
+            if (!use[j] && min + graph[k][j] < dis[j]) {
+                dis[j] = min + graph[k][j];
+            }
+        }
+    }
+
+    for (int d : dis) {
+        cout << d << " ";
+    }
+    cout << endl;
+    return dis[end];
+}
 
 int main() {
 

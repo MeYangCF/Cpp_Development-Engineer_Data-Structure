@@ -4,16 +4,14 @@
 using namespace std;
 
 
-#if 0
+
 using uint = unsigned int;
 const uint INF = INT_MAX;
 
 
-#if 0
+/*
 // 迪杰斯特拉算法接口
-int Dijkstra(vector<vector<uint>>& graph,
-			 int start,  // 起点 
-			 int end)    // 终点
+int Dijkstra(vector<vector<uint>>& graph, int start, int end)
 {
 	const int N = graph.size();
 	// 存储各个顶点的最短路径(最小权值)
@@ -70,7 +68,7 @@ int Dijkstra(vector<vector<uint>>& graph,
 
 	return dis[end];
 }
-#endif
+*/
 
 // 迪杰斯特拉算法接口-优化
 int Dijkstra(vector<vector<uint>>& graph,
@@ -138,6 +136,7 @@ int Dijkstra(vector<vector<uint>>& graph,
 
 	return dis[end];
 }
+
 
 int main()
 {
