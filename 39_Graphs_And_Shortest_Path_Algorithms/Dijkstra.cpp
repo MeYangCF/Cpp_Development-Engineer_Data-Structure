@@ -160,4 +160,3 @@ int main()
 		cout << "distance:" << distance << endl;
 	}
 }
-#endif

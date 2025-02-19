@@ -204,6 +204,20 @@ int Dijkstra(vector<vector<uint>>& graph, int start, int end) {
 }
 
 int main() {
+    vector<vector<uint>> graph = {
+        {0, 6, 3, INF, INF, INF},
+        {6, 0, 2, 5, INF, INF},
+        {3, 2, 0, 3, 4, INF},
+        {INF, 5, 3, 0, 2, 3},
+        {INF, INF, 4, 2, 0, 5},
+        {INF, INF, INF, 3, 5, 0},
+    };
 
-    return 0;
+    int distance = Dijkstra(graph, 0, 1);
+    if (distance == INF) {
+        cout << "不存在有效路径!" << endl;
+    }
+    else {
+        cout << "distance:" << distance << endl;
+    }    return 0;
 }
