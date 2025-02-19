@@ -13,7 +13,7 @@ struct Edge
 		, cost(c)
 	{}
 	int start; // 起始的节点
-	int end;   // 末尾节点
+	int end;   // 末 尾节点
 	int cost;  // 边的权值
 };
 
