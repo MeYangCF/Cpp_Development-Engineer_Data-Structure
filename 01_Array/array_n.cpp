@@ -92,6 +92,7 @@ private:
 #include <vector>
 using namespace std;
 
+// 704.二分查找
 int search(vector<int>& nums, int target) {
     int l = 0;
     int r = nums.size() - 1;
@@ -110,6 +111,7 @@ int search(vector<int>& nums, int target) {
     return -1;
 }
 
+// 27.移除元素
 int removeElement(vector<int>& nums, int val) {
     int fastPtr = 0;
     int slowPtr = 0;
@@ -121,6 +123,7 @@ int removeElement(vector<int>& nums, int val) {
     return slowPtr;
 }
 
+// 977.有序数组的平方
 vector<int> sortedSquares(vector<int>& nums) {
     vector<int> result;
     int left = 0;
@@ -141,6 +144,7 @@ vector<int> sortedSquares(vector<int>& nums) {
     return result;
 }
 
+// 209.长度最小的子数组
 int minSubArrayLen(int target, vector<int>& nums) {
     int i = 0;
     int j = 0;
@@ -154,4 +158,37 @@ int minSubArrayLen(int target, vector<int>& nums) {
         }
     }
     return result == INT_MAX ? 0 : result;
+}
+
+// 59.螺旋矩阵Ⅱ
+vector<vector<int>> generateMatrix(int n) {
+    vector<vector<int>> result(n, vector<int>(n, 0));
+    int startx = 0, starty = 0;
+    int end = 1;
+    int count = 1;
+    int loop = n / 2;
+    while (loop --) {
+        int i = startx;
+        int j = starty;
+        for (; j < n - end; ++j) {
+            result[i][j] = count++;
+        }
+        for (; i < n - end; ++i) {
+            result[i][j] = count++;
+        }
+        for (; j > starty; --j) {
+            result[i][j] = count++;
+        }
+        for (; i > startx; --i) {
+            result[i][j] = count++;
+        }
+        startx++;
+        starty++;
+
+        end++;
+    }
+    if (n % 2 != 0) {
+        result[n / 2][n / 2] = count;
+    }
+    return result;
 }
