@@ -90,48 +90,51 @@ private:
 #include <algorithm>
 #include <iostream>
 #include <vector>
+#include <unordered_map>;
 using namespace std;
 
-// 704.二分查找
-int search(vector<int>& nums, int target) {
-    int l = 0;
-    int r = nums.size() - 1;
-    while (l <= r) {
-        int mid = l + (r - l) / 2;
-        if (nums[mid] == target) {
-            return mid;
-        }
-        else if (nums[mid] < target) {
-            l = mid + 1;
-        }
-        else {
-            r = mid - 1;
-        }
-    }
-    return -1;
-}
 
-// 35.搜索插入位置
-int searchInsert(vector<int>& nums, int target) {
-    int l = 0, r = nums.size() - 1;
-    while (l <= r) {
-        int mid = l + (r - l) / 2;
-        if (nums[mid] == target) {
-            return mid;
-        }
-        else if (nums[mid] < target) {
-            l = mid + 1;
-        }
-        else {
-            r = mid - 1;
-        }
-    }
-    return l;
-}
-
-//34.在排序数组中查找元素的第一个和最后一个位置
 class Solution {
 public:
+    // 704.二分查找
+    int search(vector<int>& nums, int target) {
+        int l = 0;
+        int r = nums.size() - 1;
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            }
+            else if (nums[mid] < target) {
+                l = mid + 1;
+            }
+            else {
+                r = mid - 1;
+            }
+        }
+        return -1;
+    }
+
+    // 35.搜索插入位置
+    int searchInsert(vector<int>& nums, int target) {
+        int l = 0, r = nums.size() - 1;
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            }
+            else if (nums[mid] < target) {
+                l = mid + 1;
+            }
+            else {
+                r = mid - 1;
+            }
+        }
+        return l;
+    }
+
+
+    //34.在排序数组中查找元素的第一个和最后一个位置
     vector<int> searchRange(vector<int>& nums, int target) {
         int rightBorder = getRightBorder(nums, target);
         int leftBorder = getleftBorder(nums, target);
@@ -162,7 +165,7 @@ private:
         }
         return rightBorder;
     }
-    
+
     int getleftBorder(vector<int>& nums, int target) {
         int left = 0;
         int right = nums.size() - 1;
@@ -179,86 +182,171 @@ private:
         }
         return leftBorder;
     }
+
+public:
+    // 27.移除元素
+    int removeElement(vector<int>& nums, int val) {
+        int fastPtr = 0;
+        int slowPtr = 0;
+        for (; fastPtr < nums.size(); ++fastPtr) {
+            if (nums[fastPtr] != val) {
+                nums[slowPtr++] = nums[fastPtr];
+            }
+        }
+        return slowPtr;
+    }
+
+    // 26.删除有序数组中的重复项
+    int removeDuplicates(vector<int>& nums) {
+        int i = 0, j = 0;
+        int numsSize = nums.size();
+        for (; j < nums.size(); j++) {
+            if (nums[i] != nums[j]) {
+                i++;
+                nums[i] = nums[j];
+            }
+        }
+        for (int k = 0; k < numsSize - i - 1; ++k) {
+            nums.pop_back();
+        }
+        return nums.size();
+    }
+
+    // 283.移动零
+    void moveZeroes(vector<int>& nums) {
+        int i = 0, j = 0;
+        for (; j < nums.size(); j++) {
+            if (nums[j] != 0) {
+                nums[i++] = nums[j];
+            }
+        }
+        for (int k = i; k < nums.size(); k++) {
+            nums[k] = 0;
+        }
+    }
+
+public:
+    // 977.有序数组的平方
+    vector<int> sortedSquares(vector<int>& nums) {
+        vector<int> result;
+        int left = 0;
+        int right = nums.size() - 1;
+        while (left <= right) {
+            int leftValue = nums[left] * nums[left];
+            int rightValue = nums[right] * nums[right];
+            if (leftValue >= rightValue) {
+                result.push_back(leftValue);
+                left++;
+            }
+            else {
+                result.push_back(rightValue);
+                right--;
+            }
+        }
+        reverse(result.begin(), result.end());
+        return result;
+    }
+
+public:
+    // 209.长度最小的子数组
+    int minSubArrayLen(int target, vector<int>& nums) {
+        int i = 0;
+        int j = 0;
+        int sum = 0;
+        int result = INT_MAX; ,
+        for (; i < nums.size(); ++i) {
+            sum += nums[i];
+            while (sum >= target) {
+                result = min(result, i - j + 1);
+                sum -= nums[j++];
+            }
+        }
+        return result == INT_MAX ? 0 : result;
+    }
+
+    // 904.水果成篮
+    int totalFruit(vector<int>& fruits) {
+        int classNum = 0;
+        int result = 0;
+        unordered_map<int, int> cnt;
+        for (int i = 0, j = 0; i < fruits.size(); ++i) {
+            if (++cnt[fruits[i]] == 1) {
+                classNum++;
+            }
+            while (classNum > 2) {
+                if (--cnt[fruits[j]] == 0) {
+                    classNum--;
+                }
+                j++;
+            }
+            result = result > i - j + 1 ? result : (i - j + 1);
+        }
+        return result;
+    }
+
+public:
+    // 59.螺旋矩阵Ⅱ
+    vector<vector<int>> generateMatrix(int n) {
+        vector<vector<int>> result(n, vector<int>(n, 0));
+        int startx = 0, starty = 0;
+        int end = 1;
+        int count = 1;
+        int loop = n / 2;
+        while (loop --) {
+            int i = startx;
+            int j = starty;
+            for (; j < n - end; ++j) {
+                result[i][j] = count++;
+            }
+            for (; i < n - end; ++i) {
+                result[i][j] = count++;
+            }
+            for (; j > starty; --j) {
+                result[i][j] = count++;
+            }
+            for (; i > startx; --i) {
+                result[i][j] = count++;
+            }
+            startx++;
+            starty++;
+
+            end++;
+        }
+        if (n % 2 != 0) {
+            result[n / 2][n / 2] = count;
+        }
+        return result;
+    }
+
+    //54.螺旋矩阵
+    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        vector<int> res;
+        int up = 0, down = 0;
+        int m = matrix.size();
+        int n = matrix[0].size();
+
+        while (up < m && down < n) {
+            for (int j = down; j < n; ++j) {
+                res.push_back(matrix[up][j]);
+            }
+            up++;
+            for (int i = up; i < m; ++i) {
+                res.push_back(matrix[i][n - 1]);
+            }
+            n--;
+            if (up < m) {
+                for (int j = n - 1; j >= down; --j) {
+                    res.push_back(matrix[m - 1][j]);
+                }
+                m--;
+            }
+            if (down < n) {
+                for (int i = m - 1; i >= up; --i) {
+                    res.push_back(matrix[i][down]);
+                }
+                down++;
+            }
+        }
+        return res;
+    }
 };
-
-// 27.移除元素
-int removeElement(vector<int>& nums, int val) {
-    int fastPtr = 0;
-    int slowPtr = 0;
-    for (; fastPtr < nums.size(); ++fastPtr) {
-        if (nums[fastPtr] != val) {
-            nums[slowPtr++] = nums[fastPtr];
-        }
-    }
-    return slowPtr;
-}
-
-// 977.有序数组的平方
-vector<int> sortedSquares(vector<int>& nums) {
-    vector<int> result;
-    int left = 0;
-    int right = nums.size() - 1;
-    while (left <= right) {
-        int leftValue = nums[left] * nums[left];
-        int rightValue = nums[right] * nums[right];
-        if (leftValue >= rightValue) {
-            result.push_back(leftValue);
-            left++;
-        }
-        else {
-            result.push_back(rightValue);
-            right--;
-        }
-    }
-    reverse(result.begin(), result.end());
-    return result;
-}
-
-// 209.长度最小的子数组
-int minSubArrayLen(int target, vector<int>& nums) {
-    int i = 0;
-    int j = 0;
-    int sum = 0;
-    int result = INT_MAX;
-    for (; i < nums.size(); ++i) {
-        sum += nums[i];
-        while (sum >= target) {
-            result = min(result, i - j + 1);
-            sum -= nums[j++];
-        }
-    }
-    return result == INT_MAX ? 0 : result;
-}
-
-// 59.螺旋矩阵Ⅱ
-vector<vector<int>> generateMatrix(int n) {
-    vector<vector<int>> result(n, vector<int>(n, 0));
-    int startx = 0, starty = 0;
-    int end = 1;
-    int count = 1;
-    int loop = n / 2;
-    while (loop --) {
-        int i = startx;
-        int j = starty;
-        for (; j < n - end; ++j) {
-            result[i][j] = count++;
-        }
-        for (; i < n - end; ++i) {
-            result[i][j] = count++;
-        }
-        for (; j > starty; --j) {
-            result[i][j] = count++;
-        }
-        for (; i > startx; --i) {
-            result[i][j] = count++;
-        }
-        startx++;
-        starty++;
-
-        end++;
-    }
-    if (n % 2 != 0) {
-        result[n / 2][n / 2] = count;
-    }
-    return result;
-}
