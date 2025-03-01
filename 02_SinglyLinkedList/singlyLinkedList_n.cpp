@@ -4,6 +4,7 @@
 @date: 2025-02-27 ÏÂÎç8:36
 @description:
 */
+/*
 # include <iostream>
 #include <mutex>
 #include <stdlib.h>
@@ -107,4 +108,24 @@ private:
 
 private:
     Node* head_;
+};
+*/
+
+# include <iostream>
+using namespace std;
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+class Solution {
+public:
+    // 203. ÒÆ³ýÁ´±íÔªËØ
+    ListNode* removeElements(ListNode* head, int val) {
+
+    }
 };
