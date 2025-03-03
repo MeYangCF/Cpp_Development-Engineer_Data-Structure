@@ -16,6 +16,7 @@ F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/se
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/stack_n.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/LinkedStack_n.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/linkedStack.dir
+F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/queue.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/ringQueue.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/ringQueue_pb.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/linkedQueue.dir

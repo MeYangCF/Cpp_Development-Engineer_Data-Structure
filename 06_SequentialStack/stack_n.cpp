@@ -66,3 +66,28 @@ private:
     int mCap;
 };
 */
+
+
+// 232.用栈实现队列
+class MyQueue {
+public:
+    MyQueue() {
+
+    }
+
+    void push(int x) {
+
+    }
+
+    int pop() {
+
+    }
+
+    int peek() {
+
+    }
+
+    bool empty() {
+
+    }
+};
