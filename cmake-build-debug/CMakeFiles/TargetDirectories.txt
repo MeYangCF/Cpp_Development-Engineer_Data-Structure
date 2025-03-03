@@ -13,6 +13,7 @@ F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/do
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/doubleCircularLinkedList_n.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/sequentialStack.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/sequentialStack_pb.dir
+F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/stack_n.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/linkedStack.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/ringQueue.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/ringQueue_pb.dir
