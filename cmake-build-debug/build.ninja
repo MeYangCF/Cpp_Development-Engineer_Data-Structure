@@ -833,6 +833,39 @@ build binarySearch.exe: CXX_EXECUTABLE_LINKER__binarySearch_Debug CMakeFiles/bin
   TARGET_PDB = binarySearch.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target binarySearch_n
+
+
+#############################################
+# Order-only phony target for binarySearch_n
+
+build cmake_object_order_depends_target_binarySearch_n: phony || .
+
+build CMakeFiles/binarySearch_n.dir/10_BinarySearchAlgorithm/binarySearch_n.cpp.obj: CXX_COMPILER__binarySearch_n_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/10_BinarySearchAlgorithm/binarySearch_n.cpp || cmake_object_order_depends_target_binarySearch_n
+  DEP_FILE = CMakeFiles\binarySearch_n.dir\10_BinarySearchAlgorithm\binarySearch_n.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\binarySearch_n.dir
+  OBJECT_FILE_DIR = CMakeFiles\binarySearch_n.dir\10_BinarySearchAlgorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binarySearch_n
+
+
+#############################################
+# Link the executable binarySearch_n.exe
+
+build binarySearch_n.exe: CXX_EXECUTABLE_LINKER__binarySearch_n_Debug CMakeFiles/binarySearch_n.dir/10_BinarySearchAlgorithm/binarySearch_n.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\binarySearch_n.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = binarySearch_n.exe
+  TARGET_IMPLIB = libbinarySearch_n.dll.a
+  TARGET_PDB = binarySearch_n.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target basicSort
 
 
@@ -2653,6 +2686,8 @@ build binarySearch: phony binarySearch.exe
 
 build binarySearchAlgorithm: phony binarySearchAlgorithm.exe
 
+build binarySearch_n: phony binarySearch_n.exe
+
 build bloomFilter: phony bloomFilter.exe
 
 build chainedAddressHashTable: phony chainedAddressHashTable.exe
@@ -2769,7 +2804,7 @@ build unionFindAndMinimumSpanningTrees: phony unionFindAndMinimumSpanningTrees.e
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 
-build all: phony array.exe array_n.exe array_pb.exe singlyLinkedList.exe singlyLinkedList_n.exe singlyLinkedList_pb.exe circularLinkedList.exe circularLinkedList_n.exe circularLinkedList_pb.exe doubleLinkList.exe doubleLinkList_n.exe doubleCircularLinkedList.exe doubleCircularLinkedList_n.exe sequentialStack.exe sequentialStack_pb.exe stack_n.exe LinkedStack_n.exe linkedStack.exe queue.exe ringQueue.exe ringQueue_pb.exe linkedQueue.exe linkedQueue_n.exe binarySearch.exe basicSort.exe quickSort.exe mergeSort.exe binaryHeap.exe heapSort.exe advancedSortPerformanceTest.exe radixSort.exe linearProbingHashTable.exe chainedAddressHashTable.exe bigDataDuplicateCheckHashTable.exe bigDataDuplicateCheckBitmap.exe bloomFilter.exe bigDataTopK-SizeRootHeap.exe bigDataTopKQuickSortSegmentation.exe consistentHashAlgorithm.exe stringOperation.exe BST.exe AVL.exe RBTree.exe backtrackAlgorithm.exe binarySearchAlgorithm.exe median.exe mergeKOrderedLinkedLists.exe mergeSort_DC.exe quickSortAlgorithm.exe quickSortPartitionFunctionToFindTopKProblem.exe 01Backpack.exe DP.exe LCS.exe coinProblem.exe fibonacciSequence.exe longestNonDecreasingSubsequence.exe maximumSubSegmentSum.exe summingATriangularArray.exe GA.exe coinSelectionProblem.exe partialKnapsackProblem.exe serviceAtTheCounter.exe 02Backpack.exe optimalLoad.exe trieDictionaryTree.exe skipList.exe invertIndex.exe huffmanTree.exe dijkstra.exe floyd.exe graph.exe graphsAndShortestPathAlgorithms.exe kruskal.exe relatives.exe theBestRouteToAvoidTraffic.exe unionFindAndMinimumSpanningTrees.exe CMakeCXXCompilerId.exe
+build all: phony array.exe array_n.exe array_pb.exe singlyLinkedList.exe singlyLinkedList_n.exe singlyLinkedList_pb.exe circularLinkedList.exe circularLinkedList_n.exe circularLinkedList_pb.exe doubleLinkList.exe doubleLinkList_n.exe doubleCircularLinkedList.exe doubleCircularLinkedList_n.exe sequentialStack.exe sequentialStack_pb.exe stack_n.exe LinkedStack_n.exe linkedStack.exe queue.exe ringQueue.exe ringQueue_pb.exe linkedQueue.exe linkedQueue_n.exe binarySearch.exe binarySearch_n.exe basicSort.exe quickSort.exe mergeSort.exe binaryHeap.exe heapSort.exe advancedSortPerformanceTest.exe radixSort.exe linearProbingHashTable.exe chainedAddressHashTable.exe bigDataDuplicateCheckHashTable.exe bigDataDuplicateCheckBitmap.exe bloomFilter.exe bigDataTopK-SizeRootHeap.exe bigDataTopKQuickSortSegmentation.exe consistentHashAlgorithm.exe stringOperation.exe BST.exe AVL.exe RBTree.exe backtrackAlgorithm.exe binarySearchAlgorithm.exe median.exe mergeKOrderedLinkedLists.exe mergeSort_DC.exe quickSortAlgorithm.exe quickSortPartitionFunctionToFindTopKProblem.exe 01Backpack.exe DP.exe LCS.exe coinProblem.exe fibonacciSequence.exe longestNonDecreasingSubsequence.exe maximumSubSegmentSum.exe summingATriangularArray.exe GA.exe coinSelectionProblem.exe partialKnapsackProblem.exe serviceAtTheCounter.exe 02Backpack.exe optimalLoad.exe trieDictionaryTree.exe skipList.exe invertIndex.exe huffmanTree.exe dijkstra.exe floyd.exe graph.exe graphsAndShortestPathAlgorithms.exe kruskal.exe relatives.exe theBestRouteToAvoidTraffic.exe unionFindAndMinimumSpanningTrees.exe CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets
