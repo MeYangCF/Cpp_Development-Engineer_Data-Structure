@@ -4,50 +4,6 @@
 @date: 2024 24-12-13 上午9:17
 @description:
 */
-
-#include <iostream>
-using namespace std;
-
-//二分查找的递归实现
-int BinarySearch(int arr[], int i, int j, int val){
-    if (i > j)
-        return -1;
-    int mid = (i + j) / 2;
-    if(arr[mid] == val)
-        return mid;
-    else if(arr[mid] > val)
-        return BinarySearch(arr, i, mid - 1, val);
-    else
-        return BinarySearch(arr, mid + 1, j, val);
-
-}
-
-//二分查找的非递归实现
-// int BinarySearch(int arr[], int size, int val){
-//     int left = 0;
-//     int right = size - 1;
-//     while (left <= right){
-//         int mid = (left + right) / 2;
-//         if(arr[mid] == val)
-//             return mid;
-//         else if(arr[mid] > val)
-//             right = mid - 1;
-//         else
-//             left = mid + 1;
-//     }
-//     return -1;
-// }
-int main(){
-    int arr[] = {12, 25, 34, 39, 45, 57, 63, 78, 82, 96, 100};
-    int size = sizeof arr / sizeof arr[0];
-    cout << BinarySearch(arr, 0, size - 1, 39) << endl;
-    cout << BinarySearch(arr, 0, size - 1, 45) << endl;
-    cout << BinarySearch(arr, 0, size - 1, 12) << endl;
-    cout << BinarySearch(arr, 0, size - 1, 64) << endl;
-    return 0;
-}
-
-/*
 // 10_二分搜索算法.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
@@ -76,10 +32,8 @@ int BinarySearch(int arr[], int i, int j, int val)
 }
 
 // 二分搜索非递归实现
-int BinarySearch(int arr[], int size, int val)
-{
-    return BinarySearch(arr, 0, size - 1, val);
-
+int BinarySearch(int arr[], int size, int val) {
+    // return BinarySearch(arr, 0, size - 1, val);
     int first = 0;
     int last = size - 1;
 
@@ -112,4 +66,3 @@ int main()
     cout << BinarySearch(arr, size, 12) << endl;
     cout << BinarySearch(arr, size, 64) << endl;
 }
-*/
