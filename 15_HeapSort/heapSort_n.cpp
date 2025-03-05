@@ -6,7 +6,6 @@
 */
 #include <iostream>
 #include <vector>
-#include "time.h"
 using namespace std;
 
 void siftDown(vector<int>& nums, int i, int size) {
