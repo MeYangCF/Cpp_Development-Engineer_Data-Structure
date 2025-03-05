@@ -635,37 +635,37 @@ build linkedStack.exe: CXX_EXECUTABLE_LINKER__linkedStack_Debug CMakeFiles/linke
   TARGET_PDB = linkedStack.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target queue
+# Object build statements for EXECUTABLE target queue_n
 
 
 #############################################
-# Order-only phony target for queue
+# Order-only phony target for queue_n
 
-build cmake_object_order_depends_target_queue: phony || .
+build cmake_object_order_depends_target_queue_n: phony || .
 
-build CMakeFiles/queue.dir/08_RingQueue/queue.cpp.obj: CXX_COMPILER__queue_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/08_RingQueue/queue.cpp || cmake_object_order_depends_target_queue
-  DEP_FILE = CMakeFiles\queue.dir\08_RingQueue\queue.cpp.obj.d
+build CMakeFiles/queue_n.dir/08_RingQueue/queue_n.cpp.obj: CXX_COMPILER__queue_n_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/08_RingQueue/queue_n.cpp || cmake_object_order_depends_target_queue_n
+  DEP_FILE = CMakeFiles\queue_n.dir\08_RingQueue\queue_n.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\queue.dir
-  OBJECT_FILE_DIR = CMakeFiles\queue.dir\08_RingQueue
+  OBJECT_DIR = CMakeFiles\queue_n.dir
+  OBJECT_FILE_DIR = CMakeFiles\queue_n.dir\08_RingQueue
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target queue
+# Link build statements for EXECUTABLE target queue_n
 
 
 #############################################
-# Link the executable queue.exe
+# Link the executable queue_n.exe
 
-build queue.exe: CXX_EXECUTABLE_LINKER__queue_Debug CMakeFiles/queue.dir/08_RingQueue/queue.cpp.obj
+build queue_n.exe: CXX_EXECUTABLE_LINKER__queue_n_Debug CMakeFiles/queue_n.dir/08_RingQueue/queue_n.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\queue.dir
+  OBJECT_DIR = CMakeFiles\queue_n.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = queue.exe
-  TARGET_IMPLIB = libqueue.dll.a
-  TARGET_PDB = queue.exe.dbg
+  TARGET_FILE = queue_n.exe
+  TARGET_IMPLIB = libqueue_n.dll.a
+  TARGET_PDB = queue_n.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ringQueue
@@ -1095,6 +1095,39 @@ build binaryHeap.exe: CXX_EXECUTABLE_LINKER__binaryHeap_Debug CMakeFiles/binaryH
   TARGET_FILE = binaryHeap.exe
   TARGET_IMPLIB = libbinaryHeap.dll.a
   TARGET_PDB = binaryHeap.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target binaryHeap_n
+
+
+#############################################
+# Order-only phony target for binaryHeap_n
+
+build cmake_object_order_depends_target_binaryHeap_n: phony || .
+
+build CMakeFiles/binaryHeap_n.dir/14_BinaryHeap/binaryHeap_n.cpp.obj: CXX_COMPILER__binaryHeap_n_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/14_BinaryHeap/binaryHeap_n.cpp || cmake_object_order_depends_target_binaryHeap_n
+  DEP_FILE = CMakeFiles\binaryHeap_n.dir\14_BinaryHeap\binaryHeap_n.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\binaryHeap_n.dir
+  OBJECT_FILE_DIR = CMakeFiles\binaryHeap_n.dir\14_BinaryHeap
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binaryHeap_n
+
+
+#############################################
+# Link the executable binaryHeap_n.exe
+
+build binaryHeap_n.exe: CXX_EXECUTABLE_LINKER__binaryHeap_n_Debug CMakeFiles/binaryHeap_n.dir/14_BinaryHeap/binaryHeap_n.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\binaryHeap_n.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = binaryHeap_n.exe
+  TARGET_IMPLIB = libbinaryHeap_n.dll.a
+  TARGET_PDB = binaryHeap_n.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target heapSort
@@ -2783,6 +2816,8 @@ build bigDataTopKQuickSortSegmentation: phony bigDataTopKQuickSortSegmentation.e
 
 build binaryHeap: phony binaryHeap.exe
 
+build binaryHeap_n: phony binaryHeap_n.exe
+
 build binarySearch: phony binarySearch.exe
 
 build binarySearchAlgorithm: phony binarySearchAlgorithm.exe
@@ -2857,7 +2892,7 @@ build optimalLoad: phony optimalLoad.exe
 
 build partialKnapsackProblem: phony partialKnapsackProblem.exe
 
-build queue: phony queue.exe
+build queue_n: phony queue_n.exe
 
 build quickSort: phony quickSort.exe
 
@@ -2909,7 +2944,7 @@ build unionFindAndMinimumSpanningTrees: phony unionFindAndMinimumSpanningTrees.e
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 
-build all: phony array.exe array_n.exe array_pb.exe singlyLinkedList.exe singlyLinkedList_n.exe singlyLinkedList_pb.exe circularLinkedList.exe circularLinkedList_n.exe circularLinkedList_pb.exe doubleLinkList.exe doubleLinkList_n.exe doubleCircularLinkedList.exe doubleCircularLinkedList_n.exe sequentialStack.exe sequentialStack_pb.exe stack_n.exe LinkedStack_n.exe linkedStack.exe queue.exe ringQueue.exe ringQueue_pb.exe linkedQueue.exe linkedQueue_n.exe binarySearch.exe binarySearch_n.exe basicSort.exe basicSort_n.exe quickSort.exe quickSort_n.exe mergeSort.exe mergeSort_n.exe binaryHeap.exe heapSort.exe advancedSortPerformanceTest.exe radixSort.exe linearProbingHashTable.exe chainedAddressHashTable.exe bigDataDuplicateCheckHashTable.exe bigDataDuplicateCheckBitmap.exe bloomFilter.exe bigDataTopK-SizeRootHeap.exe bigDataTopKQuickSortSegmentation.exe consistentHashAlgorithm.exe stringOperation.exe BST.exe AVL.exe RBTree.exe backtrackAlgorithm.exe binarySearchAlgorithm.exe median.exe mergeKOrderedLinkedLists.exe mergeSort_DC.exe quickSortAlgorithm.exe quickSortPartitionFunctionToFindTopKProblem.exe 01Backpack.exe DP.exe LCS.exe coinProblem.exe fibonacciSequence.exe longestNonDecreasingSubsequence.exe maximumSubSegmentSum.exe summingATriangularArray.exe GA.exe coinSelectionProblem.exe partialKnapsackProblem.exe serviceAtTheCounter.exe 02Backpack.exe optimalLoad.exe trieDictionaryTree.exe skipList.exe invertIndex.exe huffmanTree.exe dijkstra.exe floyd.exe graph.exe graphsAndShortestPathAlgorithms.exe kruskal.exe relatives.exe theBestRouteToAvoidTraffic.exe unionFindAndMinimumSpanningTrees.exe CMakeCXXCompilerId.exe
+build all: phony array.exe array_n.exe array_pb.exe singlyLinkedList.exe singlyLinkedList_n.exe singlyLinkedList_pb.exe circularLinkedList.exe circularLinkedList_n.exe circularLinkedList_pb.exe doubleLinkList.exe doubleLinkList_n.exe doubleCircularLinkedList.exe doubleCircularLinkedList_n.exe sequentialStack.exe sequentialStack_pb.exe stack_n.exe LinkedStack_n.exe linkedStack.exe queue_n.exe ringQueue.exe ringQueue_pb.exe linkedQueue.exe linkedQueue_n.exe binarySearch.exe binarySearch_n.exe basicSort.exe basicSort_n.exe quickSort.exe quickSort_n.exe mergeSort.exe mergeSort_n.exe binaryHeap.exe binaryHeap_n.exe heapSort.exe advancedSortPerformanceTest.exe radixSort.exe linearProbingHashTable.exe chainedAddressHashTable.exe bigDataDuplicateCheckHashTable.exe bigDataDuplicateCheckBitmap.exe bloomFilter.exe bigDataTopK-SizeRootHeap.exe bigDataTopKQuickSortSegmentation.exe consistentHashAlgorithm.exe stringOperation.exe BST.exe AVL.exe RBTree.exe backtrackAlgorithm.exe binarySearchAlgorithm.exe median.exe mergeKOrderedLinkedLists.exe mergeSort_DC.exe quickSortAlgorithm.exe quickSortPartitionFunctionToFindTopKProblem.exe 01Backpack.exe DP.exe LCS.exe coinProblem.exe fibonacciSequence.exe longestNonDecreasingSubsequence.exe maximumSubSegmentSum.exe summingATriangularArray.exe GA.exe coinSelectionProblem.exe partialKnapsackProblem.exe serviceAtTheCounter.exe 02Backpack.exe optimalLoad.exe trieDictionaryTree.exe skipList.exe invertIndex.exe huffmanTree.exe dijkstra.exe floyd.exe graph.exe graphsAndShortestPathAlgorithms.exe kruskal.exe relatives.exe theBestRouteToAvoidTraffic.exe unionFindAndMinimumSpanningTrees.exe CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets
