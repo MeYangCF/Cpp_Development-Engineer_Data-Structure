@@ -250,20 +250,20 @@ public:
 
 public:
     // 209.长度最小的子数组
-    // int minSubArrayLen(int target, vector<int>& nums) {
-    //     int i = 0;
-    //     int j = 0;
-    //     int sum = 0;
-    //     int result = INT_MAX;
-    //     for (; i < nums.size(); ++i) {
-    //         sum += nums[i];
-    //         while (sum >= target) {
-    //             result = min(result, i - j + 1);
-    //             sum -= nums[j++];
-    //         }
-    //     }
-    //     return result == INT_MAX ? 0 : result;
-    // }
+    int minSubArrayLen(int target, vector<int>& nums) {
+        int i = 0;
+        int j = 0;
+        int sum = 0;
+        int result = INT_MAX;
+        for (; i < nums.size(); ++i) {
+            sum += nums[i];
+            while (sum >= target) {
+                result = min(result, i - j + 1);
+                sum -= nums[j++];
+            }
+        }
+        return result == INT_MAX ? 0 : result;
+    }
 
     // 904.水果成篮
     int totalFruit(vector<int>& fruits) {

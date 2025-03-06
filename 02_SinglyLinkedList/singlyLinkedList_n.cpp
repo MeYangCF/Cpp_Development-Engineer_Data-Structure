@@ -112,6 +112,7 @@ private:
 */
 
 # include <iostream>
+#include <vector>
 using namespace std;
 
 struct ListNode {
@@ -252,6 +253,38 @@ public:
             }
         }
         return nullptr;
+    }
+public:
+    // 234.回文链表
+    bool isPalindrome(ListNode* head) {
+        vector<int> tmp;
+        bool result = true;
+        ListNode* p = head;
+        while (p != nullptr) {
+            tmp.push_back(p->val);
+            p = p->next;
+        }
+        for (int i = 0, j = tmp.size() - 1; i <= j; i++, j--) {
+            if (tmp[i] != tmp[j]) {
+                result = false;
+            }
+        }
+        return result;
+    }
+
+public:
+    // 141. 环形链表
+    bool hasCycle(ListNode *head) {
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while (fast != nullptr && fast->next != nullptr) {
+            slow = slow->next;
+            fast = fast->next->next;
+            if (slow == fast) {
+                return true;
+            }
+        }
+        return false;
     }
 };
 
