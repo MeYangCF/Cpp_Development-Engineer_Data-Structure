@@ -249,21 +249,21 @@ public:
     }
 
 public:
-    209.长度最小的子数组
-    int minSubArrayLen(int target, vector<int>& nums) {
-        int i = 0;
-        int j = 0;
-        int sum = 0;
-        int result = INT_MAX;
-        for (; i < nums.size(); ++i) {
-            sum += nums[i];
-            while (sum >= target) {
-                result = min(result, i - j + 1);
-                sum -= nums[j++];
-            }
-        }
-        return result == INT_MAX ? 0 : result;
-    }
+    // 209.长度最小的子数组
+    // int minSubArrayLen(int target, vector<int>& nums) {
+    //     int i = 0;
+    //     int j = 0;
+    //     int sum = 0;
+    //     int result = INT_MAX;
+    //     for (; i < nums.size(); ++i) {
+    //         sum += nums[i];
+    //         while (sum >= target) {
+    //             result = min(result, i - j + 1);
+    //             sum -= nums[j++];
+    //         }
+    //     }
+    //     return result == INT_MAX ? 0 : result;
+    // }
 
     // 904.水果成篮
     int totalFruit(vector<int>& fruits) {
@@ -384,19 +384,19 @@ public:
         return false;
     }
 
-    bool validMountainArray(vector<int>& arr) {
-        if (arr.size() < 3) {
-            return false;
-        }
-        int max = arr[0];
-        int maxIndex = 0;
-        for (int i = 0; i < arr.size(); ++i) {
-            if (arr[i] > max) {
-                max = arr[i];
-                maxIndex = i;
-            }
-        }
-    }
+    // bool validMountainArray(vector<int>& arr) {
+    //     if (arr.size() < 3) {
+    //         return false;
+    //     }
+    //     int max = arr[0];
+    //     int maxIndex = 0;
+    //     for (int i = 0; i < arr.size(); ++i) {
+    //         if (arr[i] > max) {
+    //             max = arr[i];
+    //             maxIndex = i;
+    //         }
+    //     }
+    // }
     //     if (max != arr[0] && max != arr[arr.size() - 1] &&  0 < maxIndex < arr.size() - 1) {
     //         int flag1 = -1;
     //         int flag2 = -1;
@@ -433,4 +433,71 @@ public:
         }
         return hash1.size() == hash.size();
     }
+
+public:
+    // 189. 旋转数组
+    void rotate(vector<int>& nums, int k) {
+        k = k % nums.size();
+        vector<int> tmp(k);
+        for (int i = nums.size() - k, j = 0; i < nums.size(); j++, i++) {
+            tmp[j] = nums[i];
+        }
+        for (int i = nums.size() - k - 1; i >= 0; i--) {
+            nums[i + k] = nums[i];
+        }
+        for (int i = 0; i < k; i++) {
+            nums[i] = tmp[i];
+        }
+    }
+
+public:
+    // 724.寻找数组的中心下标
+    int pivotIndex(vector<int>& nums) {
+        int sum1 = 0;
+        vector<int> temp = nums;
+        for (int i = 0; i < nums.size(); i++) {
+            sum1 += nums[i];
+            nums[i] = sum1;
+        }
+        int sum2 = 0;
+        for (int i = nums.size() - 1; i >=0 ; i--) {
+            sum2 += temp[i];
+            temp[i] = sum2;
+        }
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] == temp[i]) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+public:
+    // 922. 按奇偶排序数组II
+    vector<int> sortArrayByParityII(vector<int>& nums) {
+        int i = 0;
+        int j = 0;
+        while (i < nums.size() && j < nums.size()) {
+            while (!(i % 2 != 0 && nums[i] % 2 == 0)) {
+                i++;
+                if (i > nums.size() - 1) {
+                    break;
+                }
+            }
+            while (!(j % 2 == 0 && nums[j] % 2 != 0)) {
+                j++;
+                if (j > nums.size() - 1) {
+                    break;
+                }
+            }
+            if (i > nums.size() - 1 || j > nums.size() - 1) {
+                break;
+            }
+            int tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
+        }
+        return nums;
+    }
 };
+
