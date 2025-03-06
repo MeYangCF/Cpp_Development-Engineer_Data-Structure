@@ -90,7 +90,8 @@ private:
 #include <algorithm>
 #include <iostream>
 #include <vector>
-#include <unordered_map>;
+#include <unordered_map>
+#include <unordered_set>
 using namespace std;
 
 
@@ -248,12 +249,12 @@ public:
     }
 
 public:
-    // 209.长度最小的子数组
+    209.长度最小的子数组
     int minSubArrayLen(int target, vector<int>& nums) {
         int i = 0;
         int j = 0;
         int sum = 0;
-        int result = INT_MAX; ,
+        int result = INT_MAX;
         for (; i < nums.size(); ++i) {
             sum += nums[i];
             while (sum >= target) {
@@ -348,5 +349,88 @@ public:
             }
         }
         return res;
+    }
+
+public:
+    // 1365.有多少小于当前数字的数字
+    vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
+        vector<int> result = nums;
+        sort(result.begin(), result.end());
+        int hash[101];
+        for (int i = nums.size() - 1; i >= 0; i--) {
+            hash[result[i]] = i;
+        }
+        for (int i = 0; i < nums.size(); i++) {
+            result[i] = hash[nums[i]];
+        }
+        return result;
+    }
+
+public:
+    // 941.有效的山脉数组
+    bool validMountainArray(vector<int>& arr) {
+        if (arr.size() < 3) return false;
+        int left = 0;
+        int right = arr.size() - 1;
+        while (left < arr.size() - 1 && arr[left] < arr[left + 1]) {
+            left++;
+        }
+        while (right > 0 && arr[right] < arr[right - 1]) {
+            right--;
+        }
+        if (left == right && left != 0 && right != arr.size() - 1) {
+            return true;
+        }
+        return false;
+    }
+
+    bool validMountainArray(vector<int>& arr) {
+        if (arr.size() < 3) {
+            return false;
+        }
+        int max = arr[0];
+        int maxIndex = 0;
+        for (int i = 0; i < arr.size(); ++i) {
+            if (arr[i] > max) {
+                max = arr[i];
+                maxIndex = i;
+            }
+        }
+    }
+    //     if (max != arr[0] && max != arr[arr.size() - 1] &&  0 < maxIndex < arr.size() - 1) {
+    //         int flag1 = -1;
+    //         int flag2 = -1;
+    //         for (int i = 0; i < maxIndex; i++) {
+    //             if (arr[i] >= arr[i + 1]) {
+    //                 flag1 = 1;
+    //             }
+    //         }
+    //         for (int i = maxIndex; i < arr.size() - 1; i++) {
+    //             if (arr[i] <= arr[i + 1]) {
+    //                 flag2 = 1;
+    //             }
+    //         }
+    //         if (flag1 == -1 && flag2 == -1) {
+    //             return true;
+    //         }
+    //         else {
+    //             return false;
+    //         }
+    //     }
+    //     return false;
+    // }
+
+public:
+    // 1207.独一无二的出现次数
+    bool uniqueOccurrences(vector<int>& arr) {
+        unordered_map<int, int> hash;
+        unordered_set<int> hash1;
+        for (auto i : arr) {
+            ++hash[i];
+        }
+        for (auto& num : hash) {
+            hash1.insert(num.second);
+        }
+        return hash1.size() == hash.size();
     }
 };
