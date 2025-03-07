@@ -286,6 +286,59 @@ public:
         }
         return false;
     }
+
+public:
+    // 143.重排链表
+    void reorderList(ListNode* head) {
+        ListNode* nhead = new ListNode(head->val);
+        ListNode* p = head;
+        ListNode* q = nhead;
+        while (p->next != nullptr) {
+            ListNode* node = new ListNode(p->next->val);
+            q->next = node;
+            q = node;
+            p = p->next;
+        }
+        ListNode* rhead = nullptr;
+        p = nhead;
+        ListNode* tmp;
+        int size = 0;
+        while (p != nullptr) {
+            tmp = p->next;
+            p->next = rhead;
+            rhead = p;
+            p = tmp;
+            size++;
+        }
+        p = head;
+        q = rhead;
+        int flag = size;
+        size -= 1;
+        while (size > 0) {
+            ListNode* tmp1 = p->next;
+            ListNode* tmp2 = q->next;
+            p->next = q;
+            size--;
+            if (size <= 0) {
+                if (flag % 2 != 0) {
+                    q = tmp2;
+                }
+                q->next = nullptr;
+                break;
+            }
+            q->next = tmp1;
+            size--;
+            if (size <= 0) {
+                if (flag % 2 != 0) {
+                    p = tmp1;
+                }
+                p->next = nullptr;
+                break;
+            }
+            p = tmp1;
+            q = tmp2;
+        }
+    }
 };
 
 // 707.设计链表
