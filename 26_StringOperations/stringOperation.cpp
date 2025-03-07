@@ -55,7 +55,6 @@ int *getNext(string str) {
             k = next[k]; // 做k值回溯，继续找最长的公共前后缀
         }
     }
-
     return next;
 }
 

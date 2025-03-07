@@ -44,6 +44,7 @@ F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/bi
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/bigDataTopKQuickSortSegmentation.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/consistentHashAlgorithm.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/stringOperation.dir
+F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/stringOperation_n.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/BST.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/AVL.dir
 F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug/CMakeFiles/RBTree.dir
