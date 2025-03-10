@@ -1262,37 +1262,37 @@ build radixSort.exe: CXX_EXECUTABLE_LINKER__radixSort_Debug CMakeFiles/radixSort
   TARGET_PDB = radixSort.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target HashTable
+# Object build statements for EXECUTABLE target HashTable_n
 
 
 #############################################
-# Order-only phony target for HashTable
+# Order-only phony target for HashTable_n
 
-build cmake_object_order_depends_target_HashTable: phony || .
+build cmake_object_order_depends_target_HashTable_n: phony || .
 
-build CMakeFiles/HashTable.dir/18_LinearProbingHashTable/HashTable.cpp.obj: CXX_COMPILER__HashTable_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/18_LinearProbingHashTable/HashTable.cpp || cmake_object_order_depends_target_HashTable
-  DEP_FILE = CMakeFiles\HashTable.dir\18_LinearProbingHashTable\HashTable.cpp.obj.d
+build CMakeFiles/HashTable_n.dir/18_LinearProbingHashTable/HashTable_n.cpp.obj: CXX_COMPILER__HashTable_n_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/18_LinearProbingHashTable/HashTable_n.cpp || cmake_object_order_depends_target_HashTable_n
+  DEP_FILE = CMakeFiles\HashTable_n.dir\18_LinearProbingHashTable\HashTable_n.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\HashTable.dir
-  OBJECT_FILE_DIR = CMakeFiles\HashTable.dir\18_LinearProbingHashTable
+  OBJECT_DIR = CMakeFiles\HashTable_n.dir
+  OBJECT_FILE_DIR = CMakeFiles\HashTable_n.dir\18_LinearProbingHashTable
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target HashTable
+# Link build statements for EXECUTABLE target HashTable_n
 
 
 #############################################
-# Link the executable HashTable.exe
+# Link the executable HashTable_n.exe
 
-build HashTable.exe: CXX_EXECUTABLE_LINKER__HashTable_Debug CMakeFiles/HashTable.dir/18_LinearProbingHashTable/HashTable.cpp.obj
+build HashTable_n.exe: CXX_EXECUTABLE_LINKER__HashTable_n_Debug CMakeFiles/HashTable_n.dir/18_LinearProbingHashTable/HashTable_n.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\HashTable.dir
+  OBJECT_DIR = CMakeFiles\HashTable_n.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = HashTable.exe
-  TARGET_IMPLIB = libHashTable.dll.a
-  TARGET_PDB = HashTable.exe.dbg
+  TARGET_FILE = HashTable_n.exe
+  TARGET_IMPLIB = libHashTable_n.dll.a
+  TARGET_PDB = HashTable_n.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target linearProbingHashTable
@@ -1656,6 +1656,39 @@ build BST.exe: CXX_EXECUTABLE_LINKER__BST_Debug CMakeFiles/BST.dir/27_BST/BST.cp
   TARGET_FILE = BST.exe
   TARGET_IMPLIB = libBST.dll.a
   TARGET_PDB = BST.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BST_n
+
+
+#############################################
+# Order-only phony target for BST_n
+
+build cmake_object_order_depends_target_BST_n: phony || .
+
+build CMakeFiles/BST_n.dir/27_BST/BST_n.cpp.obj: CXX_COMPILER__BST_n_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/27_BST/BST_n.cpp || cmake_object_order_depends_target_BST_n
+  DEP_FILE = CMakeFiles\BST_n.dir\27_BST\BST_n.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BST_n.dir
+  OBJECT_FILE_DIR = CMakeFiles\BST_n.dir\27_BST
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BST_n
+
+
+#############################################
+# Link the executable BST_n.exe
+
+build BST_n.exe: CXX_EXECUTABLE_LINKER__BST_n_Debug CMakeFiles/BST_n.dir/27_BST/BST_n.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BST_n.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BST_n.exe
+  TARGET_IMPLIB = libBST_n.dll.a
+  TARGET_PDB = BST_n.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target AVL
@@ -2879,13 +2912,15 @@ build AVL: phony AVL.exe
 
 build BST: phony BST.exe
 
+build BST_n: phony BST_n.exe
+
 build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
 build DP: phony DP.exe
 
 build GA: phony GA.exe
 
-build HashTable: phony HashTable.exe
+build HashTable_n: phony HashTable_n.exe
 
 build LCS: phony LCS.exe
 
@@ -3049,7 +3084,7 @@ build unionFindAndMinimumSpanningTrees: phony unionFindAndMinimumSpanningTrees.e
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 
-build all: phony array.exe array_n.exe array_pb.exe singlyLinkedList.exe singlyLinkedList_n.exe singlyLinkedList_pb.exe circularLinkedList.exe circularLinkedList_n.exe circularLinkedList_pb.exe doubleLinkList.exe doubleLinkList_n.exe doubleCircularLinkedList.exe doubleCircularLinkedList_n.exe sequentialStack.exe sequentialStack_pb.exe stack_n.exe LinkedStack_n.exe linkedStack.exe queue_n.exe ringQueue.exe ringQueue_pb.exe linkedQueue.exe linkedQueue_n.exe binarySearch.exe binarySearch_n.exe basicSort.exe basicSort_n.exe quickSort.exe quickSort_n.exe mergeSort.exe mergeSort_n.exe binaryHeap.exe binaryHeap_n.exe heapSort.exe heapSort_n.exe advancedSortPerformanceTest.exe radixSort.exe HashTable.exe linearProbingHashTable.exe chainedAddressHashTable.exe bigDataDuplicateCheckHashTable.exe bigDataDuplicateCheckBitmap.exe bloomFilter.exe bigDataTopK-SizeRootHeap.exe bigDataTopKQuickSortSegmentation.exe consistentHashAlgorithm.exe stringOperation.exe stringOperation_n.exe BST.exe AVL.exe RBTree.exe backtrackAlgorithm.exe binarySearchAlgorithm.exe median.exe mergeKOrderedLinkedLists.exe mergeSort_DC.exe quickSortAlgorithm.exe quickSortPartitionFunctionToFindTopKProblem.exe 01Backpack.exe DP.exe LCS.exe coinProblem.exe fibonacciSequence.exe longestNonDecreasingSubsequence.exe maximumSubSegmentSum.exe summingATriangularArray.exe GA.exe coinSelectionProblem.exe partialKnapsackProblem.exe serviceAtTheCounter.exe 02Backpack.exe optimalLoad.exe trieDictionaryTree.exe skipList.exe invertIndex.exe huffmanTree.exe dijkstra.exe floyd.exe graph.exe graphsAndShortestPathAlgorithms.exe kruskal.exe relatives.exe theBestRouteToAvoidTraffic.exe unionFindAndMinimumSpanningTrees.exe CMakeCXXCompilerId.exe
+build all: phony array.exe array_n.exe array_pb.exe singlyLinkedList.exe singlyLinkedList_n.exe singlyLinkedList_pb.exe circularLinkedList.exe circularLinkedList_n.exe circularLinkedList_pb.exe doubleLinkList.exe doubleLinkList_n.exe doubleCircularLinkedList.exe doubleCircularLinkedList_n.exe sequentialStack.exe sequentialStack_pb.exe stack_n.exe LinkedStack_n.exe linkedStack.exe queue_n.exe ringQueue.exe ringQueue_pb.exe linkedQueue.exe linkedQueue_n.exe binarySearch.exe binarySearch_n.exe basicSort.exe basicSort_n.exe quickSort.exe quickSort_n.exe mergeSort.exe mergeSort_n.exe binaryHeap.exe binaryHeap_n.exe heapSort.exe heapSort_n.exe advancedSortPerformanceTest.exe radixSort.exe HashTable_n.exe linearProbingHashTable.exe chainedAddressHashTable.exe bigDataDuplicateCheckHashTable.exe bigDataDuplicateCheckBitmap.exe bloomFilter.exe bigDataTopK-SizeRootHeap.exe bigDataTopKQuickSortSegmentation.exe consistentHashAlgorithm.exe stringOperation.exe stringOperation_n.exe BST.exe BST_n.exe AVL.exe RBTree.exe backtrackAlgorithm.exe binarySearchAlgorithm.exe median.exe mergeKOrderedLinkedLists.exe mergeSort_DC.exe quickSortAlgorithm.exe quickSortPartitionFunctionToFindTopKProblem.exe 01Backpack.exe DP.exe LCS.exe coinProblem.exe fibonacciSequence.exe longestNonDecreasingSubsequence.exe maximumSubSegmentSum.exe summingATriangularArray.exe GA.exe coinSelectionProblem.exe partialKnapsackProblem.exe serviceAtTheCounter.exe 02Backpack.exe optimalLoad.exe trieDictionaryTree.exe skipList.exe invertIndex.exe huffmanTree.exe dijkstra.exe floyd.exe graph.exe graphsAndShortestPathAlgorithms.exe kruskal.exe relatives.exe theBestRouteToAvoidTraffic.exe unionFindAndMinimumSpanningTrees.exe CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets
