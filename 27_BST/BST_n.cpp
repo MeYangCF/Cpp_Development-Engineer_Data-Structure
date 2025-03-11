@@ -4,6 +4,7 @@
 @date: 2025-03-10 下午9:05
 @description:
 */
+/*
 #include <iostream>
 #include <functional>
 #include <stack>
@@ -380,4 +381,363 @@ public:
 
     Node* root_;
     Comp comp_;
+};
+*/
+#include <algorithm>
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <unordered_map>
+#include <unordered_set>
+#include <set>
+#include <map>
+using namespace std;
+
+ struct TreeNode {
+      int val;
+      TreeNode *left;
+      TreeNode *right;
+      TreeNode() : val(0), left(nullptr), right(nullptr) {}
+      TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+      TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ };
+
+class Node {
+public:
+    int val;
+    vector<Node*> children;
+
+    Node() {}
+
+    Node(int _val) {
+        val = _val;
+    }
+
+    Node(int _val, vector<Node*> _children) {
+        val = _val;
+        children = _children;
+    }
+};
+
+class nextNode {
+public:
+    int val;
+    nextNode* left;
+    nextNode* right;
+    nextNode* next;
+
+    nextNode() : val(0), left(nullptr), right(nullptr), next(nullptr) {}
+
+    nextNode(int _val) : val(_val), left(nullptr), right(nullptr), next(nullptr) {}
+
+    nextNode(int _val, nextNode* _left, nextNode* _right, nextNode* _next)
+        : val(_val), left(_left), right(_right), next(_next) {}
+};
+s
+class Solution {
+public:
+    // 144.二叉树的前序遍历
+    vector<int> preorderTraversal(TreeNode* root) {
+        vector<int> res;
+        preOrder(root, res);
+        return res;
+    }
+private:
+    void preOrder(TreeNode* node, vector<int>& res) {
+        if (node != nullptr) {
+            res.push_back(node->val);
+            preOrder(node->left, res);
+            preOrder(node->right, res);
+        }
+    }
+
+public:
+    // 94.二叉树的中序遍历
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int> res;
+        inOrder(root, res);
+        return res;
+    }
+private:
+    void inOrder(TreeNode* node, vector<int>& res) {
+        if (node != nullptr) {
+            inOrder(node->left, res);
+            res.push_back(node->val);
+            inOrder(node->right, res);
+        }
+    }
+
+public:
+    // 145.二叉树的后序遍历
+    vector<int> postorderTraversal(TreeNode* root) {
+        vector<int> res;
+        postOrder(root, res);
+        return res;
+    }
+private:
+    void postOrder(TreeNode* node, vector<int>& res) {
+        if (node != nullptr) {
+            postOrder(node->left, res);
+            postOrder(node->right, res);
+            res.push_back(node->val);
+        }
+    }
+
+public:
+    // 102.二叉树的层序遍历
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        queue<TreeNode*> que;
+        if (root != nullptr) {
+            que.push(root);
+        }
+        vector<vector<int>> result;
+        while (!que.empty()) {
+            int size = que.size();
+            vector<int> vec;
+            for (int i = 0; i < size; i++) {
+                TreeNode* node = que.front();
+                que.pop();
+                vec.push_back(node->val);
+                if (node->left != nullptr) {
+                    que.push(node->left);
+                }
+                if (node->right != nullptr) {
+                    que.push(node->right);
+                }
+            }
+            result.push_back(vec);
+        }
+        return result;
+    }
+
+public:
+    // 107.二叉树的层次遍历 II
+    vector<vector<int>> levelOrderBottom(TreeNode* root) {
+        queue<TreeNode*> que;
+        if (root != nullptr) {
+            que.push(root);
+        }
+        vector<vector<int>> result;
+        while (!que.empty()) {
+            int size = que.size();
+            vector<int> vec;
+            for (int i = 0; i < size; i++) {
+                TreeNode* node = que.front();
+                que.pop();
+                vec.push_back(node->val);
+                if (node->left != nullptr) {
+                    que.push(node->left);
+                }
+                if (node->right != nullptr) {
+                    que.push(node->right);
+                }
+            }
+            result.push_back(vec);
+        }
+        reverse(result.begin(), result.end());
+        return result;
+    }
+
+public:
+    // 199.二叉树的右视图
+    vector<int> rightSideView(TreeNode* root) {
+        queue<TreeNode*> que;
+        if (root != nullptr) {
+            que.push(root);
+        }
+        vector<int> result;
+        while (!que.empty()) {
+            int size = que.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode* node = que.front();
+                que.pop();
+                if (i == size - 1) {
+                    result.push_back(node->val);
+                }
+                if (node->left != nullptr) {
+                    que.push(node->left);
+                }
+                if (node->right != nullptr) {
+                    que.push(node->right);
+                }
+            }
+        }
+        return result;
+    }
+
+public:
+    // 637.二叉树的层平均值
+    vector<double> averageOfLevels(TreeNode* root) {
+        queue<TreeNode*> que;
+        if (root != nullptr) {
+            que.push(root);
+        }
+        vector<double> result;
+        while (!que.empty()) {
+            int size = que.size();
+            double sum = 0;
+            for (int i = 0; i < size; i++) {
+                TreeNode* node = que.front();
+                que.pop();
+                sum += node->val;
+                if (node->left != nullptr) {
+                    que.push(node->left);
+                }
+                if (node->right != nullptr) {
+                    que.push(node->right);
+                }
+            }
+            result.push_back(double(sum / size));
+        }
+        return result;
+    }
+
+public:
+    // 429.N叉树的层序遍历
+    vector<vector<int>> levelOrder(Node* root) {
+        queue<Node*> que;
+        if (root != nullptr) {
+            que.push(root);
+        }
+        vector<vector<int>> result;
+        while (!que.empty()) {
+            int size = que.size();
+            vector<int> vec;
+            for (int i = 0; i < size; i++) {
+                Node* node = que.front();
+                que.pop();
+                vec.push_back(node->val);
+                for (int j = 0; j < node->children.size(); j++) {
+                    que.push(node->children[j]);
+                }
+            }
+            result.push_back(vec);
+        }
+        return result;
+    }
+
+public:
+    // 515.在每个树行中找最大值
+    vector<int> largestValues(TreeNode* root) {
+        queue<TreeNode*> que;
+        if (root != nullptr) {
+            que.push(root);
+        }
+        vector<int> result;
+        while (!que.empty()) {
+            int size = que.size();
+            int max = que.front()->val;
+            for (int i = 0; i < size; i++) {
+                TreeNode* node = que.front();
+                que.pop();
+                if (node->val > max) {
+                    max = node->val;
+                }
+                if (node->left != nullptr) {
+                    que.push(node->left);
+                }
+                if (node->right != nullptr) {
+                    que.push(node->right);
+                }
+            }
+            result.push_back(max);
+        }
+        return result;
+    }
+
+public:
+    // 116.填充每个节点的下一个右侧节点指针
+    nextNode* connect(nextNode* root) {
+        queue<nextNode*> que;
+        if (root != nullptr) {
+            que.push(root);
+        }
+        while (!que.empty()) {
+            int size = que.size();
+            for (int i = 0; i < size; i++) {
+                nextNode* prenode = que.front();
+                que.pop();
+                if (i != size - 1) {
+                    nextNode* node = que.front();
+                    prenode->next = node;
+                }
+                else {
+                    prenode->next = nullptr;
+                }
+
+                if (prenode->left != nullptr) {
+                    que.push(prenode->left);
+                }
+                if (prenode->right != nullptr) {
+                    que.push(prenode->right);
+                }
+            }
+        }
+        return root;
+    }
+
+public:
+    // 117.填充每个节点的下一个右侧节点指针II
+    nextNode* connect2(nextNode* root) {
+        queue<nextNode*> que;
+        if (root != nullptr) {
+            que.push(root);
+        }
+        while (!que.empty()) {
+            int size = que.size();
+            for (int i = 0; i < size; i++) {
+                nextNode* prenode = que.front();
+                que.pop();
+                if (i != size - 1) {
+                    nextNode* node = que.front();
+                    prenode->next = node;
+                }
+                else {
+                    prenode->next = nullptr;
+                }
+
+                if (prenode->left != nullptr) {
+                    que.push(prenode->left);
+                }
+                if (prenode->right != nullptr) {
+                    que.push(prenode->right);
+                }
+            }
+        }
+        return root;
+    }
+
+public:
+    // 104.二叉树的最大深度
+    int maxDepth(TreeNode* root) {
+        if (root == nullptr) {
+            return 0;
+        }
+        int left = maxDepth(root->left);
+        int right = maxDepth(root->right);
+        return left > right ? left + 1 : right + 1;
+    }
+
+public:
+    // 111.二叉树的最小深度
+    int minDepth(TreeNode* root) {
+        if (root == nullptr) return 0;
+        int depth = 0;
+        queue<TreeNode*> que;
+        que.push(root);
+        while(!que.empty()) {
+            int size = que.size();
+            depth++;
+            for (int i = 0; i < size; i++) {
+                TreeNode* node = que.front();
+                que.pop();
+                if (node->left) que.push(node->left);
+                if (node->right) que.push(node->right);
+                if (!node->left && !node->right) {
+                    return depth;
+                }
+            }
+        }
+        return depth;
+    }
 };
