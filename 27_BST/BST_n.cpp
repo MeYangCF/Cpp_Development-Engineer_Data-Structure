@@ -387,6 +387,7 @@ public:
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <stack>
 #include <unordered_map>
 #include <unordered_set>
 #include <set>
@@ -433,7 +434,7 @@ public:
     nextNode(int _val, nextNode* _left, nextNode* _right, nextNode* _next)
         : val(_val), left(_left), right(_right), next(_next) {}
 };
-s
+
 class Solution {
 public:
     // 144.二叉树的前序遍历
@@ -739,5 +740,255 @@ public:
             }
         }
         return depth;
+    }
+
+public:
+    // 226.翻转二叉树
+    TreeNode* invertTree(TreeNode* root) {
+        if (root == nullptr) {
+            return nullptr;
+        }
+        swap(root->left, root->right);
+        invertTree(root->left);
+        invertTree(root->right);
+        return root;
+    }
+
+public:
+    // 101. 对称二叉树
+    bool isSymmetric(TreeNode* root) {
+        return mirror(root->left, root->right);
+    }
+
+private:
+    bool mirror(TreeNode* node1, TreeNode* node2) {
+        if (node1 == nullptr && node2 == nullptr) {
+            return true;
+        }
+        if (node1 == nullptr || node2 == nullptr) {
+            return false;
+        }
+        if (node1->val != node2->val) {
+            return false;
+        }
+
+        return mirror(node1->left, node2->right) &&
+            mirror(node1->right, node2->left);
+    }
+
+public:
+    int maxDepth(Node* root) {
+        if (root == nullptr) {
+            return 0;
+        }
+        int maxChildDepth = 0;
+        vector<Node *> children = root->children;
+        for (auto child : children) {
+            int childDepth = maxDepth(child);
+            maxChildDepth = max(maxChildDepth, childDepth);
+        }
+        return maxChildDepth + 1;
+    }
+
+public:
+    // 222.完全二叉树的节点个数
+    int countNodes(TreeNode* root) {
+        if (root == nullptr) {
+            return 0;
+        }
+        int left = countNodes(root->left);
+        int right = countNodes(root->right);
+        return left + right + 1;
+    }
+
+public:
+    // 110.平衡二叉树
+    bool isBalanced(TreeNode* root) {
+        bool result = true;
+        int l = 0;
+        Bhigh(root, l, result);
+        return result;
+    }
+private:
+    int Bhigh(TreeNode* node, int l, bool& flag) {
+        if (node == nullptr) {
+            return l;
+        }
+        int left = Bhigh(node->left, l + 1, flag);
+        if (!flag) {
+            return false;
+        }
+        int right = Bhigh(node->right, l + 1, flag);
+        if (!flag) {
+            return false;
+        }
+        if (abs(left - right) > 1) {
+            flag = false;
+        }
+        return max(left, right);
+    }
+
+public:
+    // 257. 二叉树的所有路径
+    vector<string> binaryTreePaths(TreeNode* root) {
+        vector<string> result;
+        stack<string> pathSt;
+        stack<TreeNode*> treeSet;
+        if (root == nullptr) {
+            return result;
+        }
+        treeSet.push(root);
+        pathSt.push(to_string(root->val));
+        while (!treeSet.empty()) {
+            TreeNode* node = treeSet.top();
+            treeSet.pop();
+            string path = pathSt.top();
+            pathSt.pop();
+            if (node->left == nullptr && node->right == nullptr) {
+                result.push_back(path);
+            }
+            if (node->right) {
+                treeSet.push(node->right);
+                pathSt.push(path + "->" + to_string(node->right->val));
+            }
+            if (node->left) {
+                treeSet.push(node->left);
+                pathSt.push(path + "->" + to_string(node->left->val));
+            }
+        }
+    }
+
+public:
+    // 404.左叶子之和
+    int sumOfLeftLeaves(TreeNode* root) {
+        if (root == nullptr){
+            return 0;
+        }
+        stack<TreeNode*> s;
+        s.push(root);
+        int sum = 0;
+        while (!s.empty())
+        {
+            TreeNode* top = s.top();
+            s.pop();
+            if (top->right != nullptr){
+                s.push(top->right);
+            }
+            if (top->left != nullptr){
+                s.push(top->left);
+                if (top->left->left == nullptr && top->left->right == nullptr) {
+                    sum += top->left->val;
+                }
+            }
+        }
+        return sum;
+    }
+
+public:
+    // 513.找树左下角的值
+    int findBottomLeftValue(TreeNode* root) {
+        queue<TreeNode*> que;
+        if (root != nullptr) {
+            que.push(root);
+        }
+        vector<vector<int>> result;
+        while (!que.empty()) {
+            int size = que.size();
+            vector<int> vec;
+            for (int i = 0; i < size; i++) {
+                TreeNode* node = que.front();
+                que.pop();
+                vec.push_back(node->val);
+                if (node->left != nullptr) {
+                    que.push(node->left);
+                }
+                if (node->right != nullptr) {
+                    que.push(node->right);
+                }
+            }
+            result.push_back(vec);
+        }
+        return result[result.size() - 1][0];
+    }
+
+public:
+    // 112. 路径总和
+    bool hasPathSum(TreeNode* root, int targetSum) {
+        vector<int> result;
+        stack<int> pathSt;
+        stack<TreeNode*> treeSet;
+        if (root == nullptr) {
+            return false;
+        }
+        treeSet.push(root);
+        pathSt.push(root->val);
+        while (!treeSet.empty()) {
+            TreeNode* node = treeSet.top();
+            treeSet.pop();
+            int val = pathSt.top();
+            pathSt.pop();
+            if (node->left == nullptr && node->right == nullptr) {
+                result.push_back(val);
+            }
+            if (node->right) {
+                treeSet.push(node->right);
+                pathSt.push(val + node->right->val);
+            }
+            if (node->left) {
+                treeSet.push(node->left);
+                pathSt.push(val + node->left->val);
+            }
+        }
+        for (auto i : result) {
+            if (i == targetSum) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+public:
+    // 106.从中序与后序遍历序列构造二叉树
+    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
+        return  rebuildTree(inorder, 0, inorder.size() - 1, postorder, 0, postorder.size() - 1);
+    }
+private:
+    TreeNode* rebuildTree(vector<int>& inorder, int m, int n, vector<int>& postorder, int i, int j) {
+        if (m > n || i > j) {
+            return nullptr;
+        }
+        TreeNode* node = new TreeNode(postorder[j]);
+        for (int k = n; k >= m; k--) {
+            if (inorder[k] == postorder[j]) {
+                node->right = rebuildTree(inorder, k + 1, n, postorder, j - (n - k), j - 1);
+                node->left = rebuildTree(inorder, m, k - 1, postorder, i, j - (n - k) - 1);
+                return node;
+            }
+        }
+        return node;
+    }
+
+public:
+    // 654.最大二叉树
+    TreeNode* constructMaximumBinaryTree(vector<int>& nums) {
+        return buildMaxTree(nums, 0, nums.size() - 1);
+    }
+private:
+    TreeNode* buildMaxTree(vector<int>& nums, int m, int n) {
+        if (m > n) {
+            return nullptr;
+        }
+        int maxVal = nums[m];
+        int k = m;
+        for (int i = m; i <= n; i++) {
+            if (nums[i] > maxVal) {
+                maxVal = nums[i];
+                k = i;
+            }
+        }
+        TreeNode* node = new TreeNode(nums[k]);
+        node->left = buildMaxTree(nums, m, k - 1);
+        node->right = buildMaxTree(nums, k + 1, n);
+        return node;
     }
 };
