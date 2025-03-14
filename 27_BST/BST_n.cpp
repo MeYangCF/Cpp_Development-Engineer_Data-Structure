@@ -856,6 +856,7 @@ public:
                 pathSt.push(path + "->" + to_string(node->left->val));
             }
         }
+        return result;
     }
 
 public:
@@ -991,4 +992,391 @@ private:
         node->right = buildMaxTree(nums, k + 1, n);
         return node;
     }
+
+public:
+    // 617.合并二叉树
+    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
+        if (t1 == nullptr) {
+            return t2;
+        }
+        if (t2 == nullptr) {
+            return t1;
+        }
+        auto merged = new TreeNode(t1->val + t2->val);
+        merged->left = mergeTrees(t1->left, t2->left);
+        merged->right = mergeTrees(t1->right, t2->right);
+        return merged;
+    }
+
+public:
+    // 700.二叉搜索树中的搜索
+    TreeNode* searchBST(TreeNode* root, int val) {
+        if (root == nullptr) {
+            return nullptr;
+        }
+        if (root->val == val) {
+            return root;
+        }
+        return root->val > val ? searchBST(root->left, val) : searchBST(root->right, val);
+    }
+
+public:
+    // 98.验证二叉搜索树
+    bool isValidBST(TreeNode* root) {
+        stack<TreeNode*> s;
+        vector<int> checkVec;
+        TreeNode* cur = root;
+        while (!s.empty() || cur != nullptr)
+        {
+            if (cur != nullptr) {
+                s.push(cur);
+                cur = cur->left;
+            }
+            else
+            {
+                TreeNode* top = s.top();
+                s.pop();
+                if (checkVec.size() != 0) {
+                    if (checkVec.back() >= top->val) {
+                        return false;
+                    }
+                }
+                checkVec.push_back(top->val);
+                cur = top->right;
+            }
+        }
+        return true;
+    }
+
+public:
+    // 530.二叉搜索树的最小绝对差
+    int getMinimumDifference(TreeNode* root) {
+        stack<TreeNode*> s;
+        vector<int> checkVec;
+        TreeNode* cur = root;
+        int minSub = INT_MAX;
+        while (!s.empty() || cur != nullptr)
+        {
+            if (cur != nullptr) {
+                s.push(cur);
+                cur = cur->left;
+            }
+            else
+            {
+                TreeNode* top = s.top();
+                s.pop();
+                if (checkVec.size() != 0) {
+                    int sub = top->val - checkVec.back();
+                    if (sub < minSub) {
+                        minSub = sub;
+                    }
+                }
+                checkVec.push_back(top->val);
+                cur = top->right;
+            }
+        }
+        return minSub;
+    }
+
+public:
+    // 501.二叉搜索树中的众数
+    vector<int> findMode(TreeNode* root) {
+        stack<TreeNode*> s;
+        unordered_map<int, int> map;
+        vector<int> result;
+        TreeNode* cur = root;
+        while (!s.empty() || cur != nullptr)
+        {
+            if (cur != nullptr) {
+                s.push(cur);
+                cur = cur->left;
+            }
+            else
+            {
+                TreeNode* top = s.top();
+                s.pop();
+                map[top->val]++;
+                cur = top->right;
+            }
+        }
+        vector<pair<int, int>> vec(map.begin(), map.end());
+        sort(vec.begin(), vec.end(), [](const pair<int, int>& a, const pair<int, int>& b) {
+        return a.second > b.second; });
+        result.push_back(vec[0].first);
+        for (int i = 1; i < vec.size(); i++) {
+            if (vec[i].second == vec[0].second) {
+                result.push_back(vec[i].first);
+            }
+            else {
+                break;
+            }
+        }
+        return result;
+    }
+
+public:
+    // 236. 二叉树的最近公共祖先
+    TreeNode* lowestCommonAncestorn(TreeNode* root, TreeNode* p, TreeNode* q) {
+        vector<TreeNode*> vecP = getPathIterative(root, p);
+        vector<TreeNode*> vecQ = getPathIterative(root, q);
+        int i = 0, j = 0;
+        for (; i < vecP.size() && j < vecQ.size(); i++, j++) {
+            if (vecP[i] != vecQ[j]) {
+                return vecP[i - 1];
+            }
+        }
+        if (i == vecP.size()) {
+            return vecP[vecP.size() - 1];
+        }
+        if (j == vecQ.size()) {
+            return vecQ[vecQ.size() - 1];
+        }
+        return nullptr;
+    }
+private:
+    vector<TreeNode*> getPathIterative(TreeNode* root, TreeNode* target) {
+        if (!root) {
+            return {};
+        }
+        unordered_map<TreeNode*, TreeNode*> parentMap;
+        stack<TreeNode*> stk;
+        parentMap[root] = nullptr;
+        stk.push(root);
+        TreeNode* targetNode = nullptr;
+        while (!stk.empty()) {
+            TreeNode* node = stk.top();
+            stk.pop();
+
+            if (node == target) {
+                targetNode = node;
+                break;
+            }
+            if (node->left) {
+                parentMap[node->left] = node;
+                stk.push(node->left);
+            }
+            if (node->right) {
+                parentMap[node->right] = node;
+                stk.push(node->right);
+            }
+        }
+
+        if (!targetNode) {
+            return {};
+        }
+        vector<TreeNode*> path;
+        while (targetNode) {
+            path.push_back(targetNode);
+            targetNode = parentMap[targetNode];
+        }
+        reverse(path.begin(), path.end());
+        return path;
+    }
+
+public:
+    // 235. 二叉搜索树的最近公共祖先
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (root == nullptr) {
+            return nullptr;
+        }
+        if (root->val > p->val && root->val > q->val) {
+            return lowestCommonAncestor(root->left, p, q);
+        }
+        if (root->val < p->val && root->val < q->val) {
+            return lowestCommonAncestor(root->right, p, q);
+        }
+        return root;
+    }
+
+public:
+    // 701.二叉搜索树中的插入操作
+    TreeNode* insertIntoBST(TreeNode* root, int val) {
+        if (root == nullptr) {
+            root = new TreeNode(val);
+            return root;
+        }
+        TreeNode* pre = nullptr;
+        TreeNode* cur = root;
+        while (cur != nullptr) {
+            if (cur->val > val) {
+                pre = cur;
+                cur = cur->left;
+            }
+            else {
+                pre = cur;
+                cur = cur->right;
+            }
+        }
+        if (val < pre->val) {
+            pre->left = new TreeNode(val);
+        }
+        else {
+            pre->right = new TreeNode(val);
+        }
+        return root;
+    }
+
+public:
+    // 450.删除二叉搜索树中的节点
+    TreeNode* deleteNode(TreeNode* root, int key) {
+        if (root == nullptr) {
+            return nullptr;
+        }
+        TreeNode* parent = nullptr;
+        TreeNode* cur = root;
+        while (cur != nullptr) {
+            if (cur->val == key) {
+                break;
+            }
+            else if (cur->val < key) {
+                parent = cur;
+                cur = cur->right;
+            }
+            else{
+                parent = cur;
+                cur = cur->left;
+            }
+        }
+        if (cur == nullptr) {
+            return root;
+        }
+        if (cur->left != nullptr && cur->right != nullptr) {
+            TreeNode* p = cur->left;
+            parent = cur;
+            while (p->right != nullptr) {
+                parent = p;
+                p = p->right;
+            }
+            cur->val = p->val;
+            cur = p;
+        }
+
+        TreeNode* child = cur->left;
+        if (child == nullptr) {
+            child = cur->right;
+        }
+        if (parent == nullptr) {
+            root = child;
+        }
+        else {
+            if (parent->left == cur) {
+                parent->left = child;
+            }
+            else {
+                parent->right = child;
+            }
+        }
+        delete cur;
+        return root;
+    }
+
+public:
+    // 669. 修剪二叉搜索树
+    TreeNode* trimBST(TreeNode* root, int low, int high) {
+        if (root == nullptr) return nullptr;
+        if (root->val < low) return trimBST(root->right, low, high);
+        if (root->val > high) return trimBST(root->left, low, high);
+        root->left = trimBST(root->left, low, high);
+        root->right = trimBST(root->right, low, high);
+        return root;
+    }
+
+public:
+    // 108.将有序数组转换为二叉搜索树
+    TreeNode* sortedArrayToBST(vector<int>& nums) {
+        TreeNode* root = traversal(nums, 0, nums.size() - 1);
+        return root;
+    }
+private:
+    TreeNode* traversal(vector<int>& nums, int left, int right) {
+        if (left > right) return nullptr;
+        int mid = left + ((right - left) / 2);
+        TreeNode* root = new TreeNode(nums[mid]);
+        root->left = traversal(nums, left, mid - 1);
+        root->right = traversal(nums, mid + 1, right);
+        return root;
+    }
+
+public:
+    // 538.把二叉搜索树转换为累加树
+    TreeNode* convertBST(TreeNode* root) {
+        if (root != nullptr) {
+            root->right = convertBST(root->right);
+            root->val += sum;
+            sum = root->val;
+            root->left = convertBST(root->left);
+
+        }
+        return root;
+    }
+private:
+    int sum = 0;
+
+public:
+    // 129. 求根节点到叶节点数字之和
+    int sumNumbers(TreeNode* root) {
+        int result = 0;
+        stack<int> pathSt;
+        stack<TreeNode*> treeSet;
+        treeSet.push(root);
+        pathSt.push(root->val);
+        while (!treeSet.empty()) {
+            TreeNode* node = treeSet.top();
+            treeSet.pop();
+            int path = pathSt.top();
+            pathSt.pop();
+            if (node->left == nullptr && node->right == nullptr) {
+                result += path;
+            }
+            if (node->right) {
+                treeSet.push(node->right);
+                pathSt.push(path * 10 + node->right->val);
+            }
+            if (node->left) {
+                treeSet.push(node->left);
+                pathSt.push(path * 10 + node->left->val);
+            }
+        }
+        return result;
+    }
+
+public:
+    // 1382.将二叉搜索树变平衡
+    TreeNode* balanceBST(TreeNode* root) {
+        traversal(root);
+        return getTree(vec, 0, vec.size() - 1);
+    }
+private:
+    vector<int> vec;
+    void traversal(TreeNode* cur) {
+        if (cur == nullptr) {
+            return;
+        }
+        traversal(cur->left);
+        vec.push_back(cur->val);
+        traversal(cur->right);
+    }
+    TreeNode* getTree(vector<int>& nums, int left, int right) {
+        if (left > right) return nullptr;
+        int mid = left + ((right - left) / 2);
+        TreeNode* root = new TreeNode(nums[mid]);
+        root->left = getTree(nums, left, mid - 1);
+        root->right = getTree(nums, mid + 1, right);
+        return root;
+    }
+
+public:
+    // 100. 相同的树
+    bool isSameTree(TreeNode* p, TreeNode* q) {
+        if (p == nullptr && q == nullptr) {
+            return true;
+        } else if (p == nullptr || q == nullptr) {
+            return false;
+        } else if (p->val != q->val) {
+            return false;
+        } else {
+            return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
+        }
+    }
 };
+
