@@ -9,9 +9,9 @@ using uint = unsigned int;
 const uint INF = INT_MAX;
 
 
-/*
+
 // 迪杰斯特拉算法接口
-int Dijkstra(vector<vector<uint>>& graph, int start, int end)
+int Dijkstra_n(vector<vector<uint>>& graph, int start, int end)
 {
 	const int N = graph.size();
 	// 存储各个顶点的最短路径(最小权值)
@@ -68,7 +68,6 @@ int Dijkstra(vector<vector<uint>>& graph, int start, int end)
 
 	return dis[end];
 }
-*/
 
 // 迪杰斯特拉算法接口-优化
 int Dijkstra(vector<vector<uint>>& graph,
