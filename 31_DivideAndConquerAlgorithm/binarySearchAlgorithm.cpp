@@ -23,7 +23,7 @@ bool binarySearch(vector<int> &vec, int i, int j, int val) {
 		return binarySearch(vec, mid + 1, j, val);
 	}
 }
-int main1()
+int main()
 {
 	vector<int> vec;
 	for (int i = 0; i < 11; ++i) {
