@@ -20,7 +20,7 @@ struct Product {
 	int w; // 物品的重量
 	int v; // 物品的价值
 };
-int main2()
+int main()
 {
 	int w[] = { 8,6,4,2,5 };
 	int v[] = { 6,4,7,8,6 };

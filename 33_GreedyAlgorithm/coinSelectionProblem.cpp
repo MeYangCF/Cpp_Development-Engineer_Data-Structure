@@ -8,7 +8,7 @@ using namespace std;
 /*
 1,3,5分的硬币，现在给定一个价值c：11，问组成价值c需要的最少的硬币的数量？？？
 */
-int main1()
+int main()
 {
 	int arr[] = { 1,3,5 };
 	int length = sizeof(arr) / sizeof(arr[0]);
