@@ -108,7 +108,7 @@ void backStrace(string str1, int n, int m) {
 		}
 	}
 }
-int main5()
+int main()
 {
 	// dp是一个n行m列的二维数组
 	int n = str1.size();

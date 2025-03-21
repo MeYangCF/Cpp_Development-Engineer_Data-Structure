@@ -14,7 +14,7 @@ dp[3] = ar[3] + dp[2] = 13 + 7 = 20
 ...
 dp[i] = ar[i] + dp[i-1]   i > 0  i==0子段和认为是已知的
 */
-int main3()
+int main()
 {
 	int ar[] = { -2, 11, -4, 13, -5, -2 };
 	const int n = sizeof(ar) / sizeof(ar[0]);

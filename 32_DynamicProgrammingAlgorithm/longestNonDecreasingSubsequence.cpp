@@ -15,7 +15,7 @@ dp[2] = max{1,  1 + dp[1]}   ar[1] <= ar[2] = 2
 ...
 dp[i] = max{1, 1 + dp[j]}  条件：ar[j] <= ar[i]  j号位元素和i号位元素才能构成非降子序列
 */
-int main4()
+int main()
 {
 	int ar[] = { 5, 3, 4, 1, 8, 6, 7, 10 };
 	const int n = sizeof(ar) / sizeof(ar[0]);

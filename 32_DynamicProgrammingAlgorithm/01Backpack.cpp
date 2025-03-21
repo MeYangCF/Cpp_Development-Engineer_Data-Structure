@@ -61,7 +61,7 @@ void backStrace(int w[], int v[], int n, int c, int **dp) {
 	cout << endl;
 	cout << "背包的最大价值:" << bestv << endl;
 }
-int main6()
+int main()
 {
 	int w[] = { 8,6,4,2,5 };
 	int v[] = { 6,4,7,8,6 };

@@ -63,7 +63,7 @@ dp[5]:
 从上面的理论推导，得到下面的状态转移方程：
 dp[i] = min {1 + dp[i-vj]}   i表示面值   vj表示第j个硬币的面额 条件 i>=Vj
 */
-int main1()
+int main()
 {
 	/*int num = func1(n);
 	cout << "num:" << num << endl;
