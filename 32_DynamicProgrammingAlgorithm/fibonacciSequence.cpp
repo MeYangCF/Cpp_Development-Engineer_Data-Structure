@@ -2,7 +2,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+#if 1
 /*
                            func1(5)   参数：指定个数的斐波那契数列   前两个数字了  1  1
             func1(4)                   func1(3)  
@@ -10,8 +10,6 @@ using namespace std;
 	 怎么描述子问题最优解的性质 《=》 问题的状态 
 	 dp[i]:斐波那契数列中第i个数字的值
 */
-
-#if 1
 // 参数n表示斐波那契数列中数字的个数。返回相应个数的斐波那契数列数字的值。
 int fabnacci(int n, int dp[]) {
 	if (dp[n] > 0) { // 子问题n之前被求解过了
