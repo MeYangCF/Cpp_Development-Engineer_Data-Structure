@@ -178,11 +178,6 @@ public:
 		}
 		return dp[nums.size() - 1][bigSize];
 	}
-
-public:
-	int findMaxForm(vector<string>& strs, int m, int n) {
-
-	}
 };
 
 int main()
