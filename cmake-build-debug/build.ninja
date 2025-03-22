@@ -2054,37 +2054,37 @@ build 01Backpack.exe: CXX_EXECUTABLE_LINKER__01Backpack_Debug CMakeFiles/01Backp
   TARGET_PDB = 01Backpack.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DP
+# Object build statements for EXECUTABLE target DpAlgoorithm
 
 
 #############################################
-# Order-only phony target for DP
+# Order-only phony target for DpAlgoorithm
 
-build cmake_object_order_depends_target_DP: phony || .
+build cmake_object_order_depends_target_DpAlgoorithm: phony || .
 
-build CMakeFiles/DP.dir/32_DynamicProgrammingAlgorithm/DP.cpp.obj: CXX_COMPILER__DP_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/32_DynamicProgrammingAlgorithm/DP.cpp || cmake_object_order_depends_target_DP
-  DEP_FILE = CMakeFiles\DP.dir\32_DynamicProgrammingAlgorithm\DP.cpp.obj.d
+build CMakeFiles/DpAlgoorithm.dir/32_DynamicProgrammingAlgorithm/DpAlgoorithm.cpp.obj: CXX_COMPILER__DpAlgoorithm_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/32_DynamicProgrammingAlgorithm/DpAlgoorithm.cpp || cmake_object_order_depends_target_DpAlgoorithm
+  DEP_FILE = CMakeFiles\DpAlgoorithm.dir\32_DynamicProgrammingAlgorithm\DpAlgoorithm.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DP.dir
-  OBJECT_FILE_DIR = CMakeFiles\DP.dir\32_DynamicProgrammingAlgorithm
+  OBJECT_DIR = CMakeFiles\DpAlgoorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\DpAlgoorithm.dir\32_DynamicProgrammingAlgorithm
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DP
+# Link build statements for EXECUTABLE target DpAlgoorithm
 
 
 #############################################
-# Link the executable DP.exe
+# Link the executable DpAlgoorithm.exe
 
-build DP.exe: CXX_EXECUTABLE_LINKER__DP_Debug CMakeFiles/DP.dir/32_DynamicProgrammingAlgorithm/DP.cpp.obj
+build DpAlgoorithm.exe: CXX_EXECUTABLE_LINKER__DpAlgoorithm_Debug CMakeFiles/DpAlgoorithm.dir/32_DynamicProgrammingAlgorithm/DpAlgoorithm.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DP.dir
+  OBJECT_DIR = CMakeFiles\DpAlgoorithm.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DP.exe
-  TARGET_IMPLIB = libDP.dll.a
-  TARGET_PDB = DP.exe.dbg
+  TARGET_FILE = DpAlgoorithm.exe
+  TARGET_IMPLIB = libDpAlgoorithm.dll.a
+  TARGET_PDB = DpAlgoorithm.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target LCS
@@ -2283,39 +2283,6 @@ build summingATriangularArray.exe: CXX_EXECUTABLE_LINKER__summingATriangularArra
   TARGET_FILE = summingATriangularArray.exe
   TARGET_IMPLIB = libsummingATriangularArray.dll.a
   TARGET_PDB = summingATriangularArray.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target GA
-
-
-#############################################
-# Order-only phony target for GA
-
-build cmake_object_order_depends_target_GA: phony || .
-
-build CMakeFiles/GA.dir/33_GreedyAlgorithm/GA.cpp.obj: CXX_COMPILER__GA_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Data-Structure/33_GreedyAlgorithm/GA.cpp || cmake_object_order_depends_target_GA
-  DEP_FILE = CMakeFiles\GA.dir\33_GreedyAlgorithm\GA.cpp.obj.d
-  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\GA.dir
-  OBJECT_FILE_DIR = CMakeFiles\GA.dir\33_GreedyAlgorithm
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target GA
-
-
-#############################################
-# Link the executable GA.exe
-
-build GA.exe: CXX_EXECUTABLE_LINKER__GA_Debug CMakeFiles/GA.dir/33_GreedyAlgorithm/GA.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\GA.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = GA.exe
-  TARGET_IMPLIB = libGA.dll.a
-  TARGET_PDB = GA.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target coinSelectionProblem
@@ -2951,9 +2918,7 @@ build BST_n: phony BST_n.exe
 
 build CMakeCXXCompilerId: phony CMakeCXXCompilerId.exe
 
-build DP: phony DP.exe
-
-build GA: phony GA.exe
+build DpAlgoorithm: phony DpAlgoorithm.exe
 
 build HashTable_n: phony HashTable_n.exe
 
@@ -3119,7 +3084,7 @@ build unionFindAndMinimumSpanningTrees: phony unionFindAndMinimumSpanningTrees.e
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Data-Structure/cmake-build-debug
 
-build all: phony array.exe array_n.exe array_pb.exe singlyLinkedList.exe singlyLinkedList_n.exe singlyLinkedList_pb.exe circularLinkedList.exe circularLinkedList_n.exe circularLinkedList_pb.exe doubleLinkList.exe doubleLinkList_n.exe doubleCircularLinkedList.exe doubleCircularLinkedList_n.exe sequentialStack.exe sequentialStack_pb.exe stack_n.exe LinkedStack_n.exe linkedStack.exe queue_n.exe ringQueue.exe ringQueue_pb.exe linkedQueue.exe linkedQueue_n.exe binarySearch.exe binarySearch_n.exe basicSort.exe basicSort_n.exe quickSort.exe quickSort_n.exe mergeSort.exe mergeSort_n.exe binaryHeap.exe binaryHeap_n.exe heapSort.exe heapSort_n.exe advancedSortPerformanceTest.exe radixSort.exe HashTable_n.exe linearProbingHashTable.exe chainedAddressHashTable.exe bigDataDuplicateCheckHashTable.exe bigDataDuplicateCheckBitmap.exe bloomFilter.exe bigDataTopK-SizeRootHeap.exe bigDataTopKQuickSortSegmentation.exe consistentHashAlgorithm.exe stringOperation.exe stringOperation_n.exe BST.exe BST_n.exe AVL.exe AVL_n.exe RBTree.exe backtrackAlgorithm.exe binarySearchAlgorithm.exe median.exe mergeKOrderedLinkedLists.exe mergeSort_DC.exe quickSortAlgorithm.exe quickSortPartitionFunctionToFindTopKProblem.exe 01Backpack.exe DP.exe LCS.exe coinProblem.exe fibonacciSequence.exe longestNonDecreasingSubsequence.exe maximumSubSegmentSum.exe summingATriangularArray.exe GA.exe coinSelectionProblem.exe partialKnapsackProblem.exe serviceAtTheCounter.exe 02Backpack.exe optimalLoad.exe trieDictionaryTree.exe skipList.exe invertIndex.exe huffmanTree.exe dijkstra.exe floyd.exe graph.exe graphsAndShortestPathAlgorithms.exe kruskal.exe relatives.exe theBestRouteToAvoidTraffic.exe unionFindAndMinimumSpanningTrees.exe CMakeCXXCompilerId.exe
+build all: phony array.exe array_n.exe array_pb.exe singlyLinkedList.exe singlyLinkedList_n.exe singlyLinkedList_pb.exe circularLinkedList.exe circularLinkedList_n.exe circularLinkedList_pb.exe doubleLinkList.exe doubleLinkList_n.exe doubleCircularLinkedList.exe doubleCircularLinkedList_n.exe sequentialStack.exe sequentialStack_pb.exe stack_n.exe LinkedStack_n.exe linkedStack.exe queue_n.exe ringQueue.exe ringQueue_pb.exe linkedQueue.exe linkedQueue_n.exe binarySearch.exe binarySearch_n.exe basicSort.exe basicSort_n.exe quickSort.exe quickSort_n.exe mergeSort.exe mergeSort_n.exe binaryHeap.exe binaryHeap_n.exe heapSort.exe heapSort_n.exe advancedSortPerformanceTest.exe radixSort.exe HashTable_n.exe linearProbingHashTable.exe chainedAddressHashTable.exe bigDataDuplicateCheckHashTable.exe bigDataDuplicateCheckBitmap.exe bloomFilter.exe bigDataTopK-SizeRootHeap.exe bigDataTopKQuickSortSegmentation.exe consistentHashAlgorithm.exe stringOperation.exe stringOperation_n.exe BST.exe BST_n.exe AVL.exe AVL_n.exe RBTree.exe backtrackAlgorithm.exe binarySearchAlgorithm.exe median.exe mergeKOrderedLinkedLists.exe mergeSort_DC.exe quickSortAlgorithm.exe quickSortPartitionFunctionToFindTopKProblem.exe 01Backpack.exe DpAlgoorithm.exe LCS.exe coinProblem.exe fibonacciSequence.exe longestNonDecreasingSubsequence.exe maximumSubSegmentSum.exe summingATriangularArray.exe coinSelectionProblem.exe partialKnapsackProblem.exe serviceAtTheCounter.exe 02Backpack.exe optimalLoad.exe trieDictionaryTree.exe skipList.exe invertIndex.exe huffmanTree.exe dijkstra.exe floyd.exe graph.exe graphsAndShortestPathAlgorithms.exe kruskal.exe relatives.exe theBestRouteToAvoidTraffic.exe unionFindAndMinimumSpanningTrees.exe CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets

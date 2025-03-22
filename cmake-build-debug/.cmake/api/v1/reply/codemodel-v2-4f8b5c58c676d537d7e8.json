@@ -100,8 +100,7 @@
 						82,
 						83,
 						84,
-						85,
-						86
+						85
 					]
 				}
 			],
@@ -201,8 +200,7 @@
 						82,
 						83,
 						84,
-						85,
-						86
+						85
 					]
 				}
 			],
@@ -259,16 +257,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "DP::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DP-Debug-46e21fa0ce2e832709e9.json",
-					"name" : "DP",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "GA::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GA-Debug-4d006ee0bd771c98af9d.json",
-					"name" : "GA",
+					"id" : "DpAlgoorithm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DpAlgoorithm-Debug-a3b1884ffb9b0ae0866c.json",
+					"name" : "DpAlgoorithm",
 					"projectIndex" : 0
 				},
 				{
