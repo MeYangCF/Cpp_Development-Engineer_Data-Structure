@@ -93,4 +93,106 @@ public:
         }
         return n + 1;
     }
+
+// 链表
+private:
+
+    struct ListNode {
+        int val;
+        ListNode *next;
+        ListNode() : val(0), next(nullptr) {}
+        ListNode(int x) : val(x), next(nullptr) {}
+        ListNode(int x, ListNode *next) : val(x), next(next) {}
+    };
+
+    class Node {
+    public:
+        int val;
+        Node* next;
+        Node* random;
+
+        Node(int _val) {
+            val = _val;
+            next = nullptr;
+            random = nullptr;
+        }
+    };
+
+public:
+    // 160.相交链表
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+
+    }
+
+    // 206.反转链表
+    ListNode* reverseList(ListNode* head) {
+
+    }
+
+    // 234.回文链表
+    bool isPalindrome(ListNode* head) {
+
+    }
+
+    // 141.环形链表
+    bool hasCycle(ListNode *head) {
+
+    }
+
+    // 21.合并两个有序的链表
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+
+    }
+
+    // 2.两数相加
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+
+    }
+
+    // 19.删除链表的倒数第N个节点
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+
+    }
+
+    // 24.两两交换链表中的节点
+    ListNode* swapPairs(ListNode* head) {
+
+    }
+
+    // 25.k个一组的翻转链表
+    ListNode* reverseKGroup(ListNode* head, int k) {
+
+    }
+
+    // 138.随机链表的复制
+    Node* copyRandomList(Node* head) {
+
+    }
+
+    // 148.排序链表
+    ListNode* sortList(ListNode* head) {
+
+    }
+
+    // 23.合并k个升序链表
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+
+    }
+
+    // 146.LRU缓存
+    class LRUCache {
+    public:
+        LRUCache(int capacity) {
+
+        }
+
+        int get(int key) {
+
+        }
+
+        void put(int key, int value) {
+
+        }
+    };
+
 };
