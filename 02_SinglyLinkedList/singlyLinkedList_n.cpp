@@ -353,7 +353,7 @@ public:
         if (index < 0 || index > size - 1) {
             return -1;
         }
-        Node* cur = head->next;
+        Node* cur = head->next; 
 
         while(index--)
             cur = cur->next;
