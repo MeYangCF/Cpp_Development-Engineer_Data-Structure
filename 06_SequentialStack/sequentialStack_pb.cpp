@@ -87,16 +87,12 @@ string MiddleToEndExpr(string expr)
                     s.push(ch);
                     break;
                 }
-
                 char topch = s.top();
-                // Priority:true ch > topch   false ch <= topch
-
                 if (Priority(ch, topch)){
                     s.push(ch);
                     break;
                 }else{
                     s.pop();
-
                     if (topch == '(')
                         break;
                     result.push_back(topch);
@@ -104,12 +100,10 @@ string MiddleToEndExpr(string expr)
             }
         }
     }
-
     while (!s.empty()){
         result.push_back(s.top());
         s.pop();
     }
-
     return result;
 }
 

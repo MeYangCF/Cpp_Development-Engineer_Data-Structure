@@ -678,6 +678,7 @@ public:
         return result;
     }
 
+    // 84.柱状图中最大的矩形
     int largestRectangleArea(vector<int>& heights) {
         int result = 0;
         stack<int> st;
