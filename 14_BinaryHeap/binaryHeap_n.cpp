@@ -11,7 +11,7 @@ using namespace std;
 class PriorityQueue {
 public:
     using Comp = function<bool(int, int)>;
-    PriorityQueue(int cap = 20, Comp comp = greater<int>())
+    PriorityQueue(int cap = 20, Comp comp = less<int>())
         : size_(0)
         , cap_(cap)
         , comp_(comp) {
@@ -46,7 +46,7 @@ public:
         else {
             sifUp(size_, val);
         }
-        size_++
+        size_++;
     }
 
     void pop() {
