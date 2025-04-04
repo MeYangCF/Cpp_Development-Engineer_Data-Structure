@@ -42,6 +42,3 @@ void QuickSort(vector<int>& nums, int begin, int end) {
 void QuickSort(vector<int>& nums) {
     QuickSort(nums, 0, nums.size() - 1);
 }
-
-
-
