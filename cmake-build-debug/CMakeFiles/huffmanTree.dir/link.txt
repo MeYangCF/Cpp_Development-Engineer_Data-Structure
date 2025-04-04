@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\huffmanTree.dir/objects.a
+D:\MinGW64\bin\ar.exe qc CMakeFiles\huffmanTree.dir/objects.a @CMakeFiles\huffmanTree.dir\objects1.rsp
+D:\MinGW64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\huffmanTree.dir/objects.a -Wl,--no-whole-archive -o huffmanTree.exe -Wl,--out-implib,libhuffmanTree.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\huffmanTree.dir\linkLibs.rsp

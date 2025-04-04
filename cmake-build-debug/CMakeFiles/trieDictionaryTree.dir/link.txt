@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\trieDictionaryTree.dir/objects.a
+D:\MinGW64\bin\ar.exe qc CMakeFiles\trieDictionaryTree.dir/objects.a @CMakeFiles\trieDictionaryTree.dir\objects1.rsp
+D:\MinGW64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\trieDictionaryTree.dir/objects.a -Wl,--no-whole-archive -o trieDictionaryTree.exe -Wl,--out-implib,libtrieDictionaryTree.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\trieDictionaryTree.dir\linkLibs.rsp

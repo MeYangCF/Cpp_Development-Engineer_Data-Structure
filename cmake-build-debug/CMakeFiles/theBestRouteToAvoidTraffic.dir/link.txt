@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\theBestRouteToAvoidTraffic.dir/objects.a
+D:\MinGW64\bin\ar.exe qc CMakeFiles\theBestRouteToAvoidTraffic.dir/objects.a @CMakeFiles\theBestRouteToAvoidTraffic.dir\objects1.rsp
+D:\MinGW64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\theBestRouteToAvoidTraffic.dir/objects.a -Wl,--no-whole-archive -o theBestRouteToAvoidTraffic.exe -Wl,--out-implib,libtheBestRouteToAvoidTraffic.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\theBestRouteToAvoidTraffic.dir\linkLibs.rsp

@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\stringOperation.dir/objects.a
+D:\MinGW64\bin\ar.exe qc CMakeFiles\stringOperation.dir/objects.a @CMakeFiles\stringOperation.dir\objects1.rsp
+D:\MinGW64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\stringOperation.dir/objects.a -Wl,--no-whole-archive -o stringOperation.exe -Wl,--out-implib,libstringOperation.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\stringOperation.dir\linkLibs.rsp

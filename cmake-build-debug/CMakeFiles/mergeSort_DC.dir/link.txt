@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\mergeSort_DC.dir/objects.a
+D:\MinGW64\bin\ar.exe qc CMakeFiles\mergeSort_DC.dir/objects.a @CMakeFiles\mergeSort_DC.dir\objects1.rsp
+D:\MinGW64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\mergeSort_DC.dir/objects.a -Wl,--no-whole-archive -o mergeSort_DC.exe -Wl,--out-implib,libmergeSort_DC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mergeSort_DC.dir\linkLibs.rsp

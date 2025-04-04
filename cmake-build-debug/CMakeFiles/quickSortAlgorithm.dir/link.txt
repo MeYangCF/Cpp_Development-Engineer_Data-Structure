@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\quickSortAlgorithm.dir/objects.a
+D:\MinGW64\bin\ar.exe qc CMakeFiles\quickSortAlgorithm.dir/objects.a @CMakeFiles\quickSortAlgorithm.dir\objects1.rsp
+D:\MinGW64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\quickSortAlgorithm.dir/objects.a -Wl,--no-whole-archive -o quickSortAlgorithm.exe -Wl,--out-implib,libquickSortAlgorithm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\quickSortAlgorithm.dir\linkLibs.rsp
