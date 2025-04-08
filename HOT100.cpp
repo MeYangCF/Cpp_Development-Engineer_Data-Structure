@@ -1702,5 +1702,79 @@ public:
         return res;
     }
 
+    // 207.课程表
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        queue<int> que;
+        unordered_map<int, vector<int>> umap;
+        vector<int> inDegree(numCourses, 0);
+        for (int i = 0; i < prerequisites.size(); i++) {
+            inDegree[prerequisites[i][1]]++;
+            umap[prerequisites[i][0]].push_back(prerequisites[i][1]);
+        }
+        int count = 0;
+        for (int i = 0; i < numCourses; i++) {
+            if (inDegree[i] == 0) {
+                que.push(i);
+            }
+        }
+        while (!que.empty()) {
+            int cur = que.front();
+            que.pop();
+            count++;
+            vector<int> course = umap[cur];
+            for (int i = 0; i < course.size(); i++) {
+                inDegree[course[i]]--;
+                if (inDegree[course[i]] == 0) {
+                    que.push(course[i]);
+                }
+            }
+        }
+        if (count == numCourses) {
+            return true;
+        }
+        return false;
+    }
 
+    // 208.实现 Trie (前缀树)
+    class Trie {
+    private:
+        vector<Trie*> children;
+        bool isEnd;
+
+        Trie* searchPrefix(string prefix) {
+            Trie* node = this;
+            for (char ch : prefix) {
+                ch -= 'a';
+                if (node->children[ch] == nullptr) {
+                    return nullptr;
+                }
+                node = node->children[ch];
+            }
+            return node;
+        }
+
+    public:
+        Trie() : children(26), isEnd(false) {}
+
+        void insert(string word) {
+            Trie* node = this;
+            for (char ch : word) {
+                ch -= 'a';
+                if (node->children[ch] == nullptr) {
+                    node->children[ch] = new Trie();
+                }
+                node = node->children[ch];
+            }
+            node->isEnd = true;
+        }
+
+        bool search(string word) {
+            Trie* node = this->searchPrefix(word);
+            return node != nullptr && node->isEnd;
+        }
+
+        bool startsWith(string prefix) {
+            return this->searchPrefix(prefix) != nullptr;
+        }
+    };
 };
