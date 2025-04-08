@@ -72,15 +72,15 @@ CMakeFiles/quickSort.dir/12_QuickSort/quickSort.cpp.obj: CMakeFiles/quickSort.di
 CMakeFiles/quickSort.dir/12_QuickSort/quickSort.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/12_QuickSort/quickSort.cpp
 CMakeFiles/quickSort.dir/12_QuickSort/quickSort.cpp.obj: CMakeFiles/quickSort.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/quickSort.dir/12_QuickSort/quickSort.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quickSort.dir/12_QuickSort/quickSort.cpp.obj -MF CMakeFiles\quickSort.dir\12_QuickSort\quickSort.cpp.obj.d -o CMakeFiles\quickSort.dir\12_QuickSort\quickSort.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\12_QuickSort\quickSort.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quickSort.dir/12_QuickSort/quickSort.cpp.obj -MF CMakeFiles\quickSort.dir\12_QuickSort\quickSort.cpp.obj.d -o CMakeFiles\quickSort.dir\12_QuickSort\quickSort.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\12_QuickSort\quickSort.cpp
 
 CMakeFiles/quickSort.dir/12_QuickSort/quickSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quickSort.dir/12_QuickSort/quickSort.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\12_QuickSort\quickSort.cpp > CMakeFiles\quickSort.dir\12_QuickSort\quickSort.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\12_QuickSort\quickSort.cpp > CMakeFiles\quickSort.dir\12_QuickSort\quickSort.cpp.i
 
 CMakeFiles/quickSort.dir/12_QuickSort/quickSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quickSort.dir/12_QuickSort/quickSort.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\12_QuickSort\quickSort.cpp -o CMakeFiles\quickSort.dir\12_QuickSort\quickSort.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\12_QuickSort\quickSort.cpp -o CMakeFiles\quickSort.dir\12_QuickSort\quickSort.cpp.s
 
 # Object files for target quickSort
 quickSort_OBJECTS = \

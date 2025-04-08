@@ -1,4 +1,4 @@
-ToolSet: 12.0 w64 (local)@D:\MinGW64
+ToolSet: 6.0 w64 (local)@D:\MinGW
 Ninja: 1.12.1@D:\CLion\bin\ninja\win\x64\ninja.exe
 Options: 
 

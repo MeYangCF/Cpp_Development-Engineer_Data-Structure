@@ -72,15 +72,15 @@ CMakeFiles/binarySearch.dir/10_BinarySearchAlgorithm/binarySearch.cpp.obj: CMake
 CMakeFiles/binarySearch.dir/10_BinarySearchAlgorithm/binarySearch.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/10_BinarySearchAlgorithm/binarySearch.cpp
 CMakeFiles/binarySearch.dir/10_BinarySearchAlgorithm/binarySearch.cpp.obj: CMakeFiles/binarySearch.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/binarySearch.dir/10_BinarySearchAlgorithm/binarySearch.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/binarySearch.dir/10_BinarySearchAlgorithm/binarySearch.cpp.obj -MF CMakeFiles\binarySearch.dir\10_BinarySearchAlgorithm\binarySearch.cpp.obj.d -o CMakeFiles\binarySearch.dir\10_BinarySearchAlgorithm\binarySearch.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\10_BinarySearchAlgorithm\binarySearch.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/binarySearch.dir/10_BinarySearchAlgorithm/binarySearch.cpp.obj -MF CMakeFiles\binarySearch.dir\10_BinarySearchAlgorithm\binarySearch.cpp.obj.d -o CMakeFiles\binarySearch.dir\10_BinarySearchAlgorithm\binarySearch.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\10_BinarySearchAlgorithm\binarySearch.cpp
 
 CMakeFiles/binarySearch.dir/10_BinarySearchAlgorithm/binarySearch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/binarySearch.dir/10_BinarySearchAlgorithm/binarySearch.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\10_BinarySearchAlgorithm\binarySearch.cpp > CMakeFiles\binarySearch.dir\10_BinarySearchAlgorithm\binarySearch.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\10_BinarySearchAlgorithm\binarySearch.cpp > CMakeFiles\binarySearch.dir\10_BinarySearchAlgorithm\binarySearch.cpp.i
 
 CMakeFiles/binarySearch.dir/10_BinarySearchAlgorithm/binarySearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/binarySearch.dir/10_BinarySearchAlgorithm/binarySearch.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\10_BinarySearchAlgorithm\binarySearch.cpp -o CMakeFiles\binarySearch.dir\10_BinarySearchAlgorithm\binarySearch.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\10_BinarySearchAlgorithm\binarySearch.cpp -o CMakeFiles\binarySearch.dir\10_BinarySearchAlgorithm\binarySearch.cpp.s
 
 # Object files for target binarySearch
 binarySearch_OBJECTS = \

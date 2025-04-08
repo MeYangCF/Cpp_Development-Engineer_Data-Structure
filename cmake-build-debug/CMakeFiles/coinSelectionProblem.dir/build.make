@@ -72,15 +72,15 @@ CMakeFiles/coinSelectionProblem.dir/33_GreedyAlgorithm/coinSelectionProblem.cpp.
 CMakeFiles/coinSelectionProblem.dir/33_GreedyAlgorithm/coinSelectionProblem.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/33_GreedyAlgorithm/coinSelectionProblem.cpp
 CMakeFiles/coinSelectionProblem.dir/33_GreedyAlgorithm/coinSelectionProblem.cpp.obj: CMakeFiles/coinSelectionProblem.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coinSelectionProblem.dir/33_GreedyAlgorithm/coinSelectionProblem.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coinSelectionProblem.dir/33_GreedyAlgorithm/coinSelectionProblem.cpp.obj -MF CMakeFiles\coinSelectionProblem.dir\33_GreedyAlgorithm\coinSelectionProblem.cpp.obj.d -o CMakeFiles\coinSelectionProblem.dir\33_GreedyAlgorithm\coinSelectionProblem.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\coinSelectionProblem.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coinSelectionProblem.dir/33_GreedyAlgorithm/coinSelectionProblem.cpp.obj -MF CMakeFiles\coinSelectionProblem.dir\33_GreedyAlgorithm\coinSelectionProblem.cpp.obj.d -o CMakeFiles\coinSelectionProblem.dir\33_GreedyAlgorithm\coinSelectionProblem.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\coinSelectionProblem.cpp
 
 CMakeFiles/coinSelectionProblem.dir/33_GreedyAlgorithm/coinSelectionProblem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coinSelectionProblem.dir/33_GreedyAlgorithm/coinSelectionProblem.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\coinSelectionProblem.cpp > CMakeFiles\coinSelectionProblem.dir\33_GreedyAlgorithm\coinSelectionProblem.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\coinSelectionProblem.cpp > CMakeFiles\coinSelectionProblem.dir\33_GreedyAlgorithm\coinSelectionProblem.cpp.i
 
 CMakeFiles/coinSelectionProblem.dir/33_GreedyAlgorithm/coinSelectionProblem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coinSelectionProblem.dir/33_GreedyAlgorithm/coinSelectionProblem.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\coinSelectionProblem.cpp -o CMakeFiles\coinSelectionProblem.dir\33_GreedyAlgorithm\coinSelectionProblem.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\coinSelectionProblem.cpp -o CMakeFiles\coinSelectionProblem.dir\33_GreedyAlgorithm\coinSelectionProblem.cpp.s
 
 # Object files for target coinSelectionProblem
 coinSelectionProblem_OBJECTS = \

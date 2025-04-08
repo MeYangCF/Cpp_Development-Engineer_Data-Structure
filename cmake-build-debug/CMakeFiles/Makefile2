@@ -148,7 +148,6 @@ all: CMakeFiles/relatives.dir/all
 all: CMakeFiles/theBestRouteToAvoidTraffic.dir/all
 all: CMakeFiles/unionFindAndMinimumSpanningTrees.dir/all
 all: CMakeFiles/HOT100.dir/all
-all: CMakeFiles/Test.dir/all
 all: CMakeFiles/CMakeCXXCompilerId.dir/all
 .PHONY : all
 
@@ -243,7 +242,6 @@ clean: CMakeFiles/relatives.dir/clean
 clean: CMakeFiles/theBestRouteToAvoidTraffic.dir/clean
 clean: CMakeFiles/unionFindAndMinimumSpanningTrees.dir/clean
 clean: CMakeFiles/HOT100.dir/clean
-clean: CMakeFiles/Test.dir/clean
 clean: CMakeFiles/CMakeCXXCompilerId.dir/clean
 .PHONY : clean
 
@@ -254,7 +252,7 @@ clean: CMakeFiles/CMakeCXXCompilerId.dir/clean
 CMakeFiles/array.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=18 "Built target array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=17 "Built target array"
 .PHONY : CMakeFiles/array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -280,7 +278,7 @@ CMakeFiles/array.dir/clean:
 CMakeFiles/array_n.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_n.dir\build.make CMakeFiles/array_n.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_n.dir\build.make CMakeFiles/array_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=19 "Built target array_n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=18 "Built target array_n"
 .PHONY : CMakeFiles/array_n.dir/all
 
 # Build rule for subdir invocation for target.
@@ -306,7 +304,7 @@ CMakeFiles/array_n.dir/clean:
 CMakeFiles/array_pb.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_pb.dir\build.make CMakeFiles/array_pb.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_pb.dir\build.make CMakeFiles/array_pb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=20 "Built target array_pb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=19 "Built target array_pb"
 .PHONY : CMakeFiles/array_pb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -410,7 +408,7 @@ CMakeFiles/singlyLinkedList_pb.dir/clean:
 CMakeFiles/circularLinkedList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\circularLinkedList.dir\build.make CMakeFiles/circularLinkedList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\circularLinkedList.dir\build.make CMakeFiles/circularLinkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=37 "Built target circularLinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=36 "Built target circularLinkedList"
 .PHONY : CMakeFiles/circularLinkedList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -436,7 +434,7 @@ CMakeFiles/circularLinkedList.dir/clean:
 CMakeFiles/circularLinkedList_n.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\circularLinkedList_n.dir\build.make CMakeFiles/circularLinkedList_n.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\circularLinkedList_n.dir\build.make CMakeFiles/circularLinkedList_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=38 "Built target circularLinkedList_n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=37 "Built target circularLinkedList_n"
 .PHONY : CMakeFiles/circularLinkedList_n.dir/all
 
 # Build rule for subdir invocation for target.
@@ -462,12 +460,12 @@ CMakeFiles/circularLinkedList_n.dir/clean:
 CMakeFiles/circularLinkedList_pb.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\circularLinkedList_pb.dir\build.make CMakeFiles/circularLinkedList_pb.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\circularLinkedList_pb.dir\build.make CMakeFiles/circularLinkedList_pb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=39 "Built target circularLinkedList_pb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target circularLinkedList_pb"
 .PHONY : CMakeFiles/circularLinkedList_pb.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/circularLinkedList_pb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/circularLinkedList_pb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/circularLinkedList_pb.dir/rule
@@ -488,12 +486,12 @@ CMakeFiles/circularLinkedList_pb.dir/clean:
 CMakeFiles/doubleLinkList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\doubleLinkList.dir\build.make CMakeFiles/doubleLinkList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\doubleLinkList.dir\build.make CMakeFiles/doubleLinkList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=47 "Built target doubleLinkList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=46,47 "Built target doubleLinkList"
 .PHONY : CMakeFiles/doubleLinkList.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doubleLinkList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/doubleLinkList.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/doubleLinkList.dir/rule
@@ -540,7 +538,7 @@ CMakeFiles/doubleLinkList_n.dir/clean:
 CMakeFiles/doubleCircularLinkedList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\doubleCircularLinkedList.dir\build.make CMakeFiles/doubleCircularLinkedList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\doubleCircularLinkedList.dir\build.make CMakeFiles/doubleCircularLinkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=45 "Built target doubleCircularLinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=44 "Built target doubleCircularLinkedList"
 .PHONY : CMakeFiles/doubleCircularLinkedList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -566,7 +564,7 @@ CMakeFiles/doubleCircularLinkedList.dir/clean:
 CMakeFiles/doubleCircularLinkedList_n.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\doubleCircularLinkedList_n.dir\build.make CMakeFiles/doubleCircularLinkedList_n.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\doubleCircularLinkedList_n.dir\build.make CMakeFiles/doubleCircularLinkedList_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=46 "Built target doubleCircularLinkedList_n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=45 "Built target doubleCircularLinkedList_n"
 .PHONY : CMakeFiles/doubleCircularLinkedList_n.dir/all
 
 # Build rule for subdir invocation for target.
@@ -592,12 +590,12 @@ CMakeFiles/doubleCircularLinkedList_n.dir/clean:
 CMakeFiles/sequentialStack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sequentialStack.dir\build.make CMakeFiles/sequentialStack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sequentialStack.dir\build.make CMakeFiles/sequentialStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=85 "Built target sequentialStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=84,85 "Built target sequentialStack"
 .PHONY : CMakeFiles/sequentialStack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sequentialStack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sequentialStack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/sequentialStack.dir/rule
@@ -644,12 +642,12 @@ CMakeFiles/sequentialStack_pb.dir/clean:
 CMakeFiles/stack_n.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_n.dir\build.make CMakeFiles/stack_n.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack_n.dir\build.make CMakeFiles/stack_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=93 "Built target stack_n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=92,93 "Built target stack_n"
 .PHONY : CMakeFiles/stack_n.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stack_n.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/stack_n.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/stack_n.dir/rule
@@ -722,12 +720,12 @@ CMakeFiles/linkedStack.dir/clean:
 CMakeFiles/queue_n.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\queue_n.dir\build.make CMakeFiles/queue_n.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\queue_n.dir\build.make CMakeFiles/queue_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=74,75 "Built target queue_n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=74 "Built target queue_n"
 .PHONY : CMakeFiles/queue_n.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/queue_n.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/queue_n.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/queue_n.dir/rule
@@ -774,12 +772,12 @@ CMakeFiles/ringQueue.dir/clean:
 CMakeFiles/ringQueue_pb.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ringQueue_pb.dir\build.make CMakeFiles/ringQueue_pb.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ringQueue_pb.dir\build.make CMakeFiles/ringQueue_pb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target ringQueue_pb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=83 "Built target ringQueue_pb"
 .PHONY : CMakeFiles/ringQueue_pb.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ringQueue_pb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ringQueue_pb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/ringQueue_pb.dir/rule
@@ -800,7 +798,7 @@ CMakeFiles/ringQueue_pb.dir/clean:
 CMakeFiles/linkedQueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedQueue.dir\build.make CMakeFiles/linkedQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedQueue.dir\build.make CMakeFiles/linkedQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=61 "Built target linkedQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=60 "Built target linkedQueue"
 .PHONY : CMakeFiles/linkedQueue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -826,12 +824,12 @@ CMakeFiles/linkedQueue.dir/clean:
 CMakeFiles/linkedQueue_n.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedQueue_n.dir\build.make CMakeFiles/linkedQueue_n.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedQueue_n.dir\build.make CMakeFiles/linkedQueue_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=62 "Built target linkedQueue_n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target linkedQueue_n"
 .PHONY : CMakeFiles/linkedQueue_n.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/linkedQueue_n.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/linkedQueue_n.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/linkedQueue_n.dir/rule
@@ -852,12 +850,12 @@ CMakeFiles/linkedQueue_n.dir/clean:
 CMakeFiles/binarySearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=31 "Built target binarySearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target binarySearch"
 .PHONY : CMakeFiles/binarySearch.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/binarySearch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/binarySearch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/binarySearch.dir/rule
@@ -878,12 +876,12 @@ CMakeFiles/binarySearch.dir/clean:
 CMakeFiles/binarySearch_n.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarySearch_n.dir\build.make CMakeFiles/binarySearch_n.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarySearch_n.dir\build.make CMakeFiles/binarySearch_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target binarySearch_n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=33 "Built target binarySearch_n"
 .PHONY : CMakeFiles/binarySearch_n.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/binarySearch_n.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/binarySearch_n.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/binarySearch_n.dir/rule
@@ -904,7 +902,7 @@ CMakeFiles/binarySearch_n.dir/clean:
 CMakeFiles/basicSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\basicSort.dir\build.make CMakeFiles/basicSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\basicSort.dir\build.make CMakeFiles/basicSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=22 "Built target basicSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=21 "Built target basicSort"
 .PHONY : CMakeFiles/basicSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -930,7 +928,7 @@ CMakeFiles/basicSort.dir/clean:
 CMakeFiles/basicSort_n.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\basicSort_n.dir\build.make CMakeFiles/basicSort_n.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\basicSort_n.dir\build.make CMakeFiles/basicSort_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=23 "Built target basicSort_n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=22 "Built target basicSort_n"
 .PHONY : CMakeFiles/basicSort_n.dir/all
 
 # Build rule for subdir invocation for target.
@@ -956,7 +954,7 @@ CMakeFiles/basicSort_n.dir/clean:
 CMakeFiles/quickSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quickSort.dir\build.make CMakeFiles/quickSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quickSort.dir\build.make CMakeFiles/quickSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=76 "Built target quickSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=75 "Built target quickSort"
 .PHONY : CMakeFiles/quickSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1008,7 +1006,7 @@ CMakeFiles/quickSort_n.dir/clean:
 CMakeFiles/mergeSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mergeSort.dir\build.make CMakeFiles/mergeSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mergeSort.dir\build.make CMakeFiles/mergeSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=69 "Built target mergeSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=68 "Built target mergeSort"
 .PHONY : CMakeFiles/mergeSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1060,7 +1058,7 @@ CMakeFiles/mergeSort_n.dir/clean:
 CMakeFiles/binaryHeap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\binaryHeap.dir\build.make CMakeFiles/binaryHeap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\binaryHeap.dir\build.make CMakeFiles/binaryHeap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=29 "Built target binaryHeap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=28 "Built target binaryHeap"
 .PHONY : CMakeFiles/binaryHeap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1086,7 +1084,7 @@ CMakeFiles/binaryHeap.dir/clean:
 CMakeFiles/binaryHeap_n.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\binaryHeap_n.dir\build.make CMakeFiles/binaryHeap_n.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\binaryHeap_n.dir\build.make CMakeFiles/binaryHeap_n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=30 "Built target binaryHeap_n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=29 "Built target binaryHeap_n"
 .PHONY : CMakeFiles/binaryHeap_n.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1112,12 +1110,12 @@ CMakeFiles/binaryHeap_n.dir/clean:
 CMakeFiles/heapSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\heapSort.dir\build.make CMakeFiles/heapSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\heapSort.dir\build.make CMakeFiles/heapSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=54 "Built target heapSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target heapSort"
 .PHONY : CMakeFiles/heapSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/heapSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/heapSort.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/heapSort.dir/rule
@@ -1164,7 +1162,7 @@ CMakeFiles/heapSort_n.dir/clean:
 CMakeFiles/advancedSortPerformanceTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\advancedSortPerformanceTest.dir\build.make CMakeFiles/advancedSortPerformanceTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\advancedSortPerformanceTest.dir\build.make CMakeFiles/advancedSortPerformanceTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target advancedSortPerformanceTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target advancedSortPerformanceTest"
 .PHONY : CMakeFiles/advancedSortPerformanceTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1242,7 +1240,7 @@ CMakeFiles/HashTable_n.dir/clean:
 CMakeFiles/linearProbingHashTable.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linearProbingHashTable.dir\build.make CMakeFiles/linearProbingHashTable.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linearProbingHashTable.dir\build.make CMakeFiles/linearProbingHashTable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=60 "Built target linearProbingHashTable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=59 "Built target linearProbingHashTable"
 .PHONY : CMakeFiles/linearProbingHashTable.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1268,7 +1266,7 @@ CMakeFiles/linearProbingHashTable.dir/clean:
 CMakeFiles/chainedAddressHashTable.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chainedAddressHashTable.dir\build.make CMakeFiles/chainedAddressHashTable.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chainedAddressHashTable.dir\build.make CMakeFiles/chainedAddressHashTable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=36 "Built target chainedAddressHashTable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=35 "Built target chainedAddressHashTable"
 .PHONY : CMakeFiles/chainedAddressHashTable.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1294,7 +1292,7 @@ CMakeFiles/chainedAddressHashTable.dir/clean:
 CMakeFiles/bigDataDuplicateCheckHashTable.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bigDataDuplicateCheckHashTable.dir\build.make CMakeFiles/bigDataDuplicateCheckHashTable.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bigDataDuplicateCheckHashTable.dir\build.make CMakeFiles/bigDataDuplicateCheckHashTable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=26 "Built target bigDataDuplicateCheckHashTable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=25 "Built target bigDataDuplicateCheckHashTable"
 .PHONY : CMakeFiles/bigDataDuplicateCheckHashTable.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1320,7 +1318,7 @@ CMakeFiles/bigDataDuplicateCheckHashTable.dir/clean:
 CMakeFiles/bigDataDuplicateCheckBitmap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bigDataDuplicateCheckBitmap.dir\build.make CMakeFiles/bigDataDuplicateCheckBitmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bigDataDuplicateCheckBitmap.dir\build.make CMakeFiles/bigDataDuplicateCheckBitmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target bigDataDuplicateCheckBitmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target bigDataDuplicateCheckBitmap"
 .PHONY : CMakeFiles/bigDataDuplicateCheckBitmap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1346,7 +1344,7 @@ CMakeFiles/bigDataDuplicateCheckBitmap.dir/clean:
 CMakeFiles/bloomFilter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bloomFilter.dir\build.make CMakeFiles/bloomFilter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bloomFilter.dir\build.make CMakeFiles/bloomFilter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=35 "Built target bloomFilter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=34 "Built target bloomFilter"
 .PHONY : CMakeFiles/bloomFilter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1372,7 +1370,7 @@ CMakeFiles/bloomFilter.dir/clean:
 CMakeFiles/bigDataTopK-SizeRootHeap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bigDataTopK-SizeRootHeap.dir\build.make CMakeFiles/bigDataTopK-SizeRootHeap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bigDataTopK-SizeRootHeap.dir\build.make CMakeFiles/bigDataTopK-SizeRootHeap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=27 "Built target bigDataTopK-SizeRootHeap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=26 "Built target bigDataTopK-SizeRootHeap"
 .PHONY : CMakeFiles/bigDataTopK-SizeRootHeap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1398,7 +1396,7 @@ CMakeFiles/bigDataTopK-SizeRootHeap.dir/clean:
 CMakeFiles/bigDataTopKQuickSortSegmentation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bigDataTopKQuickSortSegmentation.dir\build.make CMakeFiles/bigDataTopKQuickSortSegmentation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bigDataTopKQuickSortSegmentation.dir\build.make CMakeFiles/bigDataTopKQuickSortSegmentation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=28 "Built target bigDataTopKQuickSortSegmentation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=27 "Built target bigDataTopKQuickSortSegmentation"
 .PHONY : CMakeFiles/bigDataTopKQuickSortSegmentation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1424,7 +1422,7 @@ CMakeFiles/bigDataTopKQuickSortSegmentation.dir/clean:
 CMakeFiles/consistentHashAlgorithm.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\consistentHashAlgorithm.dir\build.make CMakeFiles/consistentHashAlgorithm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\consistentHashAlgorithm.dir\build.make CMakeFiles/consistentHashAlgorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=43 "Built target consistentHashAlgorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=42 "Built target consistentHashAlgorithm"
 .PHONY : CMakeFiles/consistentHashAlgorithm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1632,7 +1630,7 @@ CMakeFiles/RBTree.dir/clean:
 CMakeFiles/backtrackAlgorithm.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtrackAlgorithm.dir\build.make CMakeFiles/backtrackAlgorithm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtrackAlgorithm.dir\build.make CMakeFiles/backtrackAlgorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=21 "Built target backtrackAlgorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=20 "Built target backtrackAlgorithm"
 .PHONY : CMakeFiles/backtrackAlgorithm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1684,12 +1682,12 @@ CMakeFiles/binarySearchAlgorithm.dir/clean:
 CMakeFiles/median.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\median.dir\build.make CMakeFiles/median.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\median.dir\build.make CMakeFiles/median.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=66,67 "Built target median"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=66 "Built target median"
 .PHONY : CMakeFiles/median.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/median.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/median.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/median.dir/rule
@@ -1710,7 +1708,7 @@ CMakeFiles/median.dir/clean:
 CMakeFiles/mergeKOrderedLinkedLists.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mergeKOrderedLinkedLists.dir\build.make CMakeFiles/mergeKOrderedLinkedLists.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mergeKOrderedLinkedLists.dir\build.make CMakeFiles/mergeKOrderedLinkedLists.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=68 "Built target mergeKOrderedLinkedLists"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=67 "Built target mergeKOrderedLinkedLists"
 .PHONY : CMakeFiles/mergeKOrderedLinkedLists.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1736,12 +1734,12 @@ CMakeFiles/mergeKOrderedLinkedLists.dir/clean:
 CMakeFiles/mergeSort_DC.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mergeSort_DC.dir\build.make CMakeFiles/mergeSort_DC.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mergeSort_DC.dir\build.make CMakeFiles/mergeSort_DC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=70 "Built target mergeSort_DC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target mergeSort_DC"
 .PHONY : CMakeFiles/mergeSort_DC.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mergeSort_DC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/mergeSort_DC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/mergeSort_DC.dir/rule
@@ -1762,12 +1760,12 @@ CMakeFiles/mergeSort_DC.dir/clean:
 CMakeFiles/quickSortAlgorithm.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quickSortAlgorithm.dir\build.make CMakeFiles/quickSortAlgorithm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quickSortAlgorithm.dir\build.make CMakeFiles/quickSortAlgorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=77 "Built target quickSortAlgorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=76,77 "Built target quickSortAlgorithm"
 .PHONY : CMakeFiles/quickSortAlgorithm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/quickSortAlgorithm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/quickSortAlgorithm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/quickSortAlgorithm.dir/rule
@@ -1840,12 +1838,12 @@ CMakeFiles/01Backpack.dir/clean:
 CMakeFiles/DpAlgoorithm.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DpAlgoorithm.dir\build.make CMakeFiles/DpAlgoorithm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DpAlgoorithm.dir\build.make CMakeFiles/DpAlgoorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=8,9 "Built target DpAlgoorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=9 "Built target DpAlgoorithm"
 .PHONY : CMakeFiles/DpAlgoorithm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DpAlgoorithm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DpAlgoorithm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/DpAlgoorithm.dir/rule
@@ -1918,12 +1916,12 @@ CMakeFiles/coinProblem.dir/clean:
 CMakeFiles/fibonacciSequence.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacciSequence.dir\build.make CMakeFiles/fibonacciSequence.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacciSequence.dir\build.make CMakeFiles/fibonacciSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target fibonacciSequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=49 "Built target fibonacciSequence"
 .PHONY : CMakeFiles/fibonacciSequence.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fibonacciSequence.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/fibonacciSequence.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/fibonacciSequence.dir/rule
@@ -2022,12 +2020,12 @@ CMakeFiles/summingATriangularArray.dir/clean:
 CMakeFiles/coinSelectionProblem.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coinSelectionProblem.dir\build.make CMakeFiles/coinSelectionProblem.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coinSelectionProblem.dir\build.make CMakeFiles/coinSelectionProblem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target coinSelectionProblem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=41 "Built target coinSelectionProblem"
 .PHONY : CMakeFiles/coinSelectionProblem.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/coinSelectionProblem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/coinSelectionProblem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/coinSelectionProblem.dir/rule
@@ -2178,12 +2176,12 @@ CMakeFiles/trieDictionaryTree.dir/clean:
 CMakeFiles/skipList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\skipList.dir\build.make CMakeFiles/skipList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\skipList.dir\build.make CMakeFiles/skipList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=91,92 "Built target skipList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=91 "Built target skipList"
 .PHONY : CMakeFiles/skipList.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/skipList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/skipList.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/skipList.dir/rule
@@ -2256,7 +2254,7 @@ CMakeFiles/huffmanTree.dir/clean:
 CMakeFiles/dijkstra.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dijkstra.dir\build.make CMakeFiles/dijkstra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=44 "Built target dijkstra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=43 "Built target dijkstra"
 .PHONY : CMakeFiles/dijkstra.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2282,7 +2280,7 @@ CMakeFiles/dijkstra.dir/clean:
 CMakeFiles/floyd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\floyd.dir\build.make CMakeFiles/floyd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\floyd.dir\build.make CMakeFiles/floyd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=51 "Built target floyd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=50 "Built target floyd"
 .PHONY : CMakeFiles/floyd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2308,7 +2306,7 @@ CMakeFiles/floyd.dir/clean:
 CMakeFiles/graph.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=52 "Built target graph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=51 "Built target graph"
 .PHONY : CMakeFiles/graph.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2334,7 +2332,7 @@ CMakeFiles/graph.dir/clean:
 CMakeFiles/graphsAndShortestPathAlgorithms.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphsAndShortestPathAlgorithms.dir\build.make CMakeFiles/graphsAndShortestPathAlgorithms.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphsAndShortestPathAlgorithms.dir\build.make CMakeFiles/graphsAndShortestPathAlgorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=53 "Built target graphsAndShortestPathAlgorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=52 "Built target graphsAndShortestPathAlgorithms"
 .PHONY : CMakeFiles/graphsAndShortestPathAlgorithms.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2360,12 +2358,12 @@ CMakeFiles/graphsAndShortestPathAlgorithms.dir/clean:
 CMakeFiles/kruskal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\kruskal.dir\build.make CMakeFiles/kruskal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=58,59 "Built target kruskal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=58 "Built target kruskal"
 .PHONY : CMakeFiles/kruskal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kruskal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/kruskal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/kruskal.dir/rule
@@ -2484,44 +2482,18 @@ CMakeFiles/HOT100.dir/clean:
 .PHONY : CMakeFiles/HOT100.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Test.dir
-
-# All Build rule for target.
-CMakeFiles/Test.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=15 "Built target Test"
-.PHONY : CMakeFiles/Test.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Test.dir/rule
-
-# Convenience name for target.
-Test: CMakeFiles/Test.dir/rule
-.PHONY : Test
-
-# clean rule for target.
-CMakeFiles/Test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/clean
-.PHONY : CMakeFiles/Test.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/CMakeCXXCompilerId.dir
 
 # All Build rule for target.
 CMakeFiles/CMakeCXXCompilerId.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=7 "Built target CMakeCXXCompilerId"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target CMakeCXXCompilerId"
 .PHONY : CMakeFiles/CMakeCXXCompilerId.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CMakeCXXCompilerId.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CMakeCXXCompilerId.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/CMakeCXXCompilerId.dir/rule

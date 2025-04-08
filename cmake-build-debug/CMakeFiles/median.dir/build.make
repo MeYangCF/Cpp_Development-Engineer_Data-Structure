@@ -72,15 +72,15 @@ CMakeFiles/median.dir/31_DivideAndConquerAlgorithm/median.cpp.obj: CMakeFiles/me
 CMakeFiles/median.dir/31_DivideAndConquerAlgorithm/median.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/31_DivideAndConquerAlgorithm/median.cpp
 CMakeFiles/median.dir/31_DivideAndConquerAlgorithm/median.cpp.obj: CMakeFiles/median.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/median.dir/31_DivideAndConquerAlgorithm/median.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/median.dir/31_DivideAndConquerAlgorithm/median.cpp.obj -MF CMakeFiles\median.dir\31_DivideAndConquerAlgorithm\median.cpp.obj.d -o CMakeFiles\median.dir\31_DivideAndConquerAlgorithm\median.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\31_DivideAndConquerAlgorithm\median.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/median.dir/31_DivideAndConquerAlgorithm/median.cpp.obj -MF CMakeFiles\median.dir\31_DivideAndConquerAlgorithm\median.cpp.obj.d -o CMakeFiles\median.dir\31_DivideAndConquerAlgorithm\median.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\31_DivideAndConquerAlgorithm\median.cpp
 
 CMakeFiles/median.dir/31_DivideAndConquerAlgorithm/median.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/median.dir/31_DivideAndConquerAlgorithm/median.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\31_DivideAndConquerAlgorithm\median.cpp > CMakeFiles\median.dir\31_DivideAndConquerAlgorithm\median.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\31_DivideAndConquerAlgorithm\median.cpp > CMakeFiles\median.dir\31_DivideAndConquerAlgorithm\median.cpp.i
 
 CMakeFiles/median.dir/31_DivideAndConquerAlgorithm/median.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/median.dir/31_DivideAndConquerAlgorithm/median.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\31_DivideAndConquerAlgorithm\median.cpp -o CMakeFiles\median.dir\31_DivideAndConquerAlgorithm\median.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\31_DivideAndConquerAlgorithm\median.cpp -o CMakeFiles\median.dir\31_DivideAndConquerAlgorithm\median.cpp.s
 
 # Object files for target median
 median_OBJECTS = \

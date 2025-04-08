@@ -72,15 +72,15 @@ CMakeFiles/bigDataTopK-SizeRootHeap.dir/23_BigDataTopK-SizeRootHeap/bigDataTopK-
 CMakeFiles/bigDataTopK-SizeRootHeap.dir/23_BigDataTopK-SizeRootHeap/bigDataTopK-SizeRootHeap.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/23_BigDataTopK-SizeRootHeap/bigDataTopK-SizeRootHeap.cpp
 CMakeFiles/bigDataTopK-SizeRootHeap.dir/23_BigDataTopK-SizeRootHeap/bigDataTopK-SizeRootHeap.cpp.obj: CMakeFiles/bigDataTopK-SizeRootHeap.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bigDataTopK-SizeRootHeap.dir/23_BigDataTopK-SizeRootHeap/bigDataTopK-SizeRootHeap.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bigDataTopK-SizeRootHeap.dir/23_BigDataTopK-SizeRootHeap/bigDataTopK-SizeRootHeap.cpp.obj -MF CMakeFiles\bigDataTopK-SizeRootHeap.dir\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp.obj.d -o CMakeFiles\bigDataTopK-SizeRootHeap.dir\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bigDataTopK-SizeRootHeap.dir/23_BigDataTopK-SizeRootHeap/bigDataTopK-SizeRootHeap.cpp.obj -MF CMakeFiles\bigDataTopK-SizeRootHeap.dir\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp.obj.d -o CMakeFiles\bigDataTopK-SizeRootHeap.dir\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp
 
 CMakeFiles/bigDataTopK-SizeRootHeap.dir/23_BigDataTopK-SizeRootHeap/bigDataTopK-SizeRootHeap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bigDataTopK-SizeRootHeap.dir/23_BigDataTopK-SizeRootHeap/bigDataTopK-SizeRootHeap.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp > CMakeFiles\bigDataTopK-SizeRootHeap.dir\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp > CMakeFiles\bigDataTopK-SizeRootHeap.dir\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp.i
 
 CMakeFiles/bigDataTopK-SizeRootHeap.dir/23_BigDataTopK-SizeRootHeap/bigDataTopK-SizeRootHeap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bigDataTopK-SizeRootHeap.dir/23_BigDataTopK-SizeRootHeap/bigDataTopK-SizeRootHeap.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp -o CMakeFiles\bigDataTopK-SizeRootHeap.dir\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp -o CMakeFiles\bigDataTopK-SizeRootHeap.dir\23_BigDataTopK-SizeRootHeap\bigDataTopK-SizeRootHeap.cpp.s
 
 # Object files for target bigDataTopK-SizeRootHeap
 bigDataTopK__SizeRootHeap_OBJECTS = \

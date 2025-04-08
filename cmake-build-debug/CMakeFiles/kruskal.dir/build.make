@@ -72,15 +72,15 @@ CMakeFiles/kruskal.dir/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp.obj: CMak
 CMakeFiles/kruskal.dir/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp
 CMakeFiles/kruskal.dir/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp.obj: CMakeFiles/kruskal.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kruskal.dir/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kruskal.dir/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp.obj -MF CMakeFiles\kruskal.dir\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp.obj.d -o CMakeFiles\kruskal.dir\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kruskal.dir/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp.obj -MF CMakeFiles\kruskal.dir\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp.obj.d -o CMakeFiles\kruskal.dir\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp
 
 CMakeFiles/kruskal.dir/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kruskal.dir/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp > CMakeFiles\kruskal.dir\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp > CMakeFiles\kruskal.dir\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp.i
 
 CMakeFiles/kruskal.dir/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kruskal.dir/40_UnionFindAndMinimumSpanningTrees/kruskal.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp -o CMakeFiles\kruskal.dir\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp -o CMakeFiles\kruskal.dir\40_UnionFindAndMinimumSpanningTrees\kruskal.cpp.s
 
 # Object files for target kruskal
 kruskal_OBJECTS = \

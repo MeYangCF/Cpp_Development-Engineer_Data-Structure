@@ -72,15 +72,15 @@ CMakeFiles/serviceAtTheCounter.dir/33_GreedyAlgorithm/serviceAtTheCounter.cpp.ob
 CMakeFiles/serviceAtTheCounter.dir/33_GreedyAlgorithm/serviceAtTheCounter.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/33_GreedyAlgorithm/serviceAtTheCounter.cpp
 CMakeFiles/serviceAtTheCounter.dir/33_GreedyAlgorithm/serviceAtTheCounter.cpp.obj: CMakeFiles/serviceAtTheCounter.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/serviceAtTheCounter.dir/33_GreedyAlgorithm/serviceAtTheCounter.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serviceAtTheCounter.dir/33_GreedyAlgorithm/serviceAtTheCounter.cpp.obj -MF CMakeFiles\serviceAtTheCounter.dir\33_GreedyAlgorithm\serviceAtTheCounter.cpp.obj.d -o CMakeFiles\serviceAtTheCounter.dir\33_GreedyAlgorithm\serviceAtTheCounter.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\serviceAtTheCounter.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serviceAtTheCounter.dir/33_GreedyAlgorithm/serviceAtTheCounter.cpp.obj -MF CMakeFiles\serviceAtTheCounter.dir\33_GreedyAlgorithm\serviceAtTheCounter.cpp.obj.d -o CMakeFiles\serviceAtTheCounter.dir\33_GreedyAlgorithm\serviceAtTheCounter.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\serviceAtTheCounter.cpp
 
 CMakeFiles/serviceAtTheCounter.dir/33_GreedyAlgorithm/serviceAtTheCounter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/serviceAtTheCounter.dir/33_GreedyAlgorithm/serviceAtTheCounter.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\serviceAtTheCounter.cpp > CMakeFiles\serviceAtTheCounter.dir\33_GreedyAlgorithm\serviceAtTheCounter.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\serviceAtTheCounter.cpp > CMakeFiles\serviceAtTheCounter.dir\33_GreedyAlgorithm\serviceAtTheCounter.cpp.i
 
 CMakeFiles/serviceAtTheCounter.dir/33_GreedyAlgorithm/serviceAtTheCounter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/serviceAtTheCounter.dir/33_GreedyAlgorithm/serviceAtTheCounter.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\serviceAtTheCounter.cpp -o CMakeFiles\serviceAtTheCounter.dir\33_GreedyAlgorithm\serviceAtTheCounter.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\33_GreedyAlgorithm\serviceAtTheCounter.cpp -o CMakeFiles\serviceAtTheCounter.dir\33_GreedyAlgorithm\serviceAtTheCounter.cpp.s
 
 # Object files for target serviceAtTheCounter
 serviceAtTheCounter_OBJECTS = \

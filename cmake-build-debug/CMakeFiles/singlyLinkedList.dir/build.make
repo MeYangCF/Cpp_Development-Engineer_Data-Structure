@@ -72,15 +72,15 @@ CMakeFiles/singlyLinkedList.dir/02_SinglyLinkedList/singlyLinkedList.cpp.obj: CM
 CMakeFiles/singlyLinkedList.dir/02_SinglyLinkedList/singlyLinkedList.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/02_SinglyLinkedList/singlyLinkedList.cpp
 CMakeFiles/singlyLinkedList.dir/02_SinglyLinkedList/singlyLinkedList.cpp.obj: CMakeFiles/singlyLinkedList.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/singlyLinkedList.dir/02_SinglyLinkedList/singlyLinkedList.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/singlyLinkedList.dir/02_SinglyLinkedList/singlyLinkedList.cpp.obj -MF CMakeFiles\singlyLinkedList.dir\02_SinglyLinkedList\singlyLinkedList.cpp.obj.d -o CMakeFiles\singlyLinkedList.dir\02_SinglyLinkedList\singlyLinkedList.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\02_SinglyLinkedList\singlyLinkedList.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/singlyLinkedList.dir/02_SinglyLinkedList/singlyLinkedList.cpp.obj -MF CMakeFiles\singlyLinkedList.dir\02_SinglyLinkedList\singlyLinkedList.cpp.obj.d -o CMakeFiles\singlyLinkedList.dir\02_SinglyLinkedList\singlyLinkedList.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\02_SinglyLinkedList\singlyLinkedList.cpp
 
 CMakeFiles/singlyLinkedList.dir/02_SinglyLinkedList/singlyLinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/singlyLinkedList.dir/02_SinglyLinkedList/singlyLinkedList.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\02_SinglyLinkedList\singlyLinkedList.cpp > CMakeFiles\singlyLinkedList.dir\02_SinglyLinkedList\singlyLinkedList.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\02_SinglyLinkedList\singlyLinkedList.cpp > CMakeFiles\singlyLinkedList.dir\02_SinglyLinkedList\singlyLinkedList.cpp.i
 
 CMakeFiles/singlyLinkedList.dir/02_SinglyLinkedList/singlyLinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/singlyLinkedList.dir/02_SinglyLinkedList/singlyLinkedList.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\02_SinglyLinkedList\singlyLinkedList.cpp -o CMakeFiles\singlyLinkedList.dir\02_SinglyLinkedList\singlyLinkedList.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\02_SinglyLinkedList\singlyLinkedList.cpp -o CMakeFiles\singlyLinkedList.dir\02_SinglyLinkedList\singlyLinkedList.cpp.s
 
 # Object files for target singlyLinkedList
 singlyLinkedList_OBJECTS = \

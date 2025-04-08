@@ -72,15 +72,15 @@ CMakeFiles/mergeSort.dir/13_MergeSort/mergeSort.cpp.obj: CMakeFiles/mergeSort.di
 CMakeFiles/mergeSort.dir/13_MergeSort/mergeSort.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/13_MergeSort/mergeSort.cpp
 CMakeFiles/mergeSort.dir/13_MergeSort/mergeSort.cpp.obj: CMakeFiles/mergeSort.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mergeSort.dir/13_MergeSort/mergeSort.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mergeSort.dir/13_MergeSort/mergeSort.cpp.obj -MF CMakeFiles\mergeSort.dir\13_MergeSort\mergeSort.cpp.obj.d -o CMakeFiles\mergeSort.dir\13_MergeSort\mergeSort.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\13_MergeSort\mergeSort.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mergeSort.dir/13_MergeSort/mergeSort.cpp.obj -MF CMakeFiles\mergeSort.dir\13_MergeSort\mergeSort.cpp.obj.d -o CMakeFiles\mergeSort.dir\13_MergeSort\mergeSort.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\13_MergeSort\mergeSort.cpp
 
 CMakeFiles/mergeSort.dir/13_MergeSort/mergeSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mergeSort.dir/13_MergeSort/mergeSort.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\13_MergeSort\mergeSort.cpp > CMakeFiles\mergeSort.dir\13_MergeSort\mergeSort.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\13_MergeSort\mergeSort.cpp > CMakeFiles\mergeSort.dir\13_MergeSort\mergeSort.cpp.i
 
 CMakeFiles/mergeSort.dir/13_MergeSort/mergeSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mergeSort.dir/13_MergeSort/mergeSort.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\13_MergeSort\mergeSort.cpp -o CMakeFiles\mergeSort.dir\13_MergeSort\mergeSort.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\13_MergeSort\mergeSort.cpp -o CMakeFiles\mergeSort.dir\13_MergeSort\mergeSort.cpp.s
 
 # Object files for target mergeSort
 mergeSort_OBJECTS = \

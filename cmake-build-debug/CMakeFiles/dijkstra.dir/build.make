@@ -72,15 +72,15 @@ CMakeFiles/dijkstra.dir/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp.obj: CMa
 CMakeFiles/dijkstra.dir/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp
 CMakeFiles/dijkstra.dir/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp.obj: CMakeFiles/dijkstra.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dijkstra.dir/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dijkstra.dir/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp.obj -MF CMakeFiles\dijkstra.dir\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp.obj.d -o CMakeFiles\dijkstra.dir\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dijkstra.dir/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp.obj -MF CMakeFiles\dijkstra.dir\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp.obj.d -o CMakeFiles\dijkstra.dir\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp
 
 CMakeFiles/dijkstra.dir/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dijkstra.dir/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp > CMakeFiles\dijkstra.dir\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp > CMakeFiles\dijkstra.dir\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp.i
 
 CMakeFiles/dijkstra.dir/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dijkstra.dir/39_GraphsAndShortestPathAlgorithms/dijkstra.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp -o CMakeFiles\dijkstra.dir\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp -o CMakeFiles\dijkstra.dir\39_GraphsAndShortestPathAlgorithms\dijkstra.cpp.s
 
 # Object files for target dijkstra
 dijkstra_OBJECTS = \

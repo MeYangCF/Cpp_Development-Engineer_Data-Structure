@@ -72,15 +72,15 @@ CMakeFiles/doubleCircularLinkedList_n.dir/05_DoubleCircularLinkedList/doubleCirc
 CMakeFiles/doubleCircularLinkedList_n.dir/05_DoubleCircularLinkedList/doubleCircularLinkedList_n.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/05_DoubleCircularLinkedList/doubleCircularLinkedList_n.cpp
 CMakeFiles/doubleCircularLinkedList_n.dir/05_DoubleCircularLinkedList/doubleCircularLinkedList_n.cpp.obj: CMakeFiles/doubleCircularLinkedList_n.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/doubleCircularLinkedList_n.dir/05_DoubleCircularLinkedList/doubleCircularLinkedList_n.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/doubleCircularLinkedList_n.dir/05_DoubleCircularLinkedList/doubleCircularLinkedList_n.cpp.obj -MF CMakeFiles\doubleCircularLinkedList_n.dir\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp.obj.d -o CMakeFiles\doubleCircularLinkedList_n.dir\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/doubleCircularLinkedList_n.dir/05_DoubleCircularLinkedList/doubleCircularLinkedList_n.cpp.obj -MF CMakeFiles\doubleCircularLinkedList_n.dir\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp.obj.d -o CMakeFiles\doubleCircularLinkedList_n.dir\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp
 
 CMakeFiles/doubleCircularLinkedList_n.dir/05_DoubleCircularLinkedList/doubleCircularLinkedList_n.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/doubleCircularLinkedList_n.dir/05_DoubleCircularLinkedList/doubleCircularLinkedList_n.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp > CMakeFiles\doubleCircularLinkedList_n.dir\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp > CMakeFiles\doubleCircularLinkedList_n.dir\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp.i
 
 CMakeFiles/doubleCircularLinkedList_n.dir/05_DoubleCircularLinkedList/doubleCircularLinkedList_n.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/doubleCircularLinkedList_n.dir/05_DoubleCircularLinkedList/doubleCircularLinkedList_n.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp -o CMakeFiles\doubleCircularLinkedList_n.dir\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp -o CMakeFiles\doubleCircularLinkedList_n.dir\05_DoubleCircularLinkedList\doubleCircularLinkedList_n.cpp.s
 
 # Object files for target doubleCircularLinkedList_n
 doubleCircularLinkedList_n_OBJECTS = \

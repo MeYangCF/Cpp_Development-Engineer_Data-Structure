@@ -1234,19 +1234,6 @@ HOT100/fast:
 .PHONY : HOT100/fast
 
 #=============================================================================
-# Target rules for targets named Test
-
-# Build rule for target.
-Test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test
-.PHONY : Test
-
-# fast build rule for target.
-Test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
-.PHONY : Test/fast
-
-#=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
 
 # Build rule for target.
@@ -3347,30 +3334,6 @@ HOT100.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOT100.dir\build.make CMakeFiles/HOT100.dir/HOT100.cpp.s
 .PHONY : HOT100.cpp.s
 
-Test.obj: Test.cpp.obj
-.PHONY : Test.obj
-
-# target to build an object file
-Test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.obj
-.PHONY : Test.cpp.obj
-
-Test.i: Test.cpp.i
-.PHONY : Test.i
-
-# target to preprocess a source file
-Test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.i
-.PHONY : Test.cpp.i
-
-Test.s: Test.cpp.s
-.PHONY : Test.s
-
-# target to generate assembly for a file
-Test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.s
-.PHONY : Test.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3392,7 +3355,6 @@ help:
 	@echo ... LCS
 	@echo ... LinkedStack_n
 	@echo ... RBTree
-	@echo ... Test
 	@echo ... advancedSortPerformanceTest
 	@echo ... array
 	@echo ... array_n
@@ -3728,9 +3690,6 @@ help:
 	@echo ... HOT100.obj
 	@echo ... HOT100.i
 	@echo ... HOT100.s
-	@echo ... Test.obj
-	@echo ... Test.i
-	@echo ... Test.s
 .PHONY : help
 
 

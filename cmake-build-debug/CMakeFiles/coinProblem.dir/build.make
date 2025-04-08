@@ -72,15 +72,15 @@ CMakeFiles/coinProblem.dir/32_DynamicProgrammingAlgorithm/coinProblem.cpp.obj: C
 CMakeFiles/coinProblem.dir/32_DynamicProgrammingAlgorithm/coinProblem.cpp.obj: F:/CLion/Cpp_Development-Engineer_Data-Structure/32_DynamicProgrammingAlgorithm/coinProblem.cpp
 CMakeFiles/coinProblem.dir/32_DynamicProgrammingAlgorithm/coinProblem.cpp.obj: CMakeFiles/coinProblem.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\CLion\Cpp_Development-Engineer_Data-Structure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coinProblem.dir/32_DynamicProgrammingAlgorithm/coinProblem.cpp.obj"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coinProblem.dir/32_DynamicProgrammingAlgorithm/coinProblem.cpp.obj -MF CMakeFiles\coinProblem.dir\32_DynamicProgrammingAlgorithm\coinProblem.cpp.obj.d -o CMakeFiles\coinProblem.dir\32_DynamicProgrammingAlgorithm\coinProblem.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\32_DynamicProgrammingAlgorithm\coinProblem.cpp
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coinProblem.dir/32_DynamicProgrammingAlgorithm/coinProblem.cpp.obj -MF CMakeFiles\coinProblem.dir\32_DynamicProgrammingAlgorithm\coinProblem.cpp.obj.d -o CMakeFiles\coinProblem.dir\32_DynamicProgrammingAlgorithm\coinProblem.cpp.obj -c F:\CLion\Cpp_Development-Engineer_Data-Structure\32_DynamicProgrammingAlgorithm\coinProblem.cpp
 
 CMakeFiles/coinProblem.dir/32_DynamicProgrammingAlgorithm/coinProblem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coinProblem.dir/32_DynamicProgrammingAlgorithm/coinProblem.cpp.i"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\32_DynamicProgrammingAlgorithm\coinProblem.cpp > CMakeFiles\coinProblem.dir\32_DynamicProgrammingAlgorithm\coinProblem.cpp.i
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\CLion\Cpp_Development-Engineer_Data-Structure\32_DynamicProgrammingAlgorithm\coinProblem.cpp > CMakeFiles\coinProblem.dir\32_DynamicProgrammingAlgorithm\coinProblem.cpp.i
 
 CMakeFiles/coinProblem.dir/32_DynamicProgrammingAlgorithm/coinProblem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coinProblem.dir/32_DynamicProgrammingAlgorithm/coinProblem.cpp.s"
-	D:\MinGW64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\32_DynamicProgrammingAlgorithm\coinProblem.cpp -o CMakeFiles\coinProblem.dir\32_DynamicProgrammingAlgorithm\coinProblem.cpp.s
+	D:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\CLion\Cpp_Development-Engineer_Data-Structure\32_DynamicProgrammingAlgorithm\coinProblem.cpp -o CMakeFiles\coinProblem.dir\32_DynamicProgrammingAlgorithm\coinProblem.cpp.s
 
 # Object files for target coinProblem
 coinProblem_OBJECTS = \
