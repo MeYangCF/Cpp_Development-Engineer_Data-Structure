@@ -1246,6 +1246,19 @@ CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/build
 .PHONY : CMakeCXXCompilerId/fast
 
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
 01_Array/array.obj: 01_Array/array.cpp.obj
 .PHONY : 01_Array/array.obj
 
@@ -3334,6 +3347,30 @@ HOT100.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HOT100.dir\build.make CMakeFiles/HOT100.dir/HOT100.cpp.s
 .PHONY : HOT100.cpp.s
 
+test.obj: test.cpp.obj
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3426,6 +3463,7 @@ help:
 	@echo ... stringOperation
 	@echo ... stringOperation_n
 	@echo ... summingATriangularArray
+	@echo ... test
 	@echo ... theBestRouteToAvoidTraffic
 	@echo ... trieDictionaryTree
 	@echo ... unionFindAndMinimumSpanningTrees
@@ -3690,6 +3728,9 @@ help:
 	@echo ... HOT100.obj
 	@echo ... HOT100.i
 	@echo ... HOT100.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 
