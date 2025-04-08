@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\summingATriangularArray.dir/objects.a
+D:\MinGW64\bin\ar.exe qc CMakeFiles\summingATriangularArray.dir/objects.a @CMakeFiles\summingATriangularArray.dir\objects1.rsp
+D:\MinGW64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\summingATriangularArray.dir/objects.a -Wl,--no-whole-archive -o summingATriangularArray.exe -Wl,--out-implib,libsummingATriangularArray.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\summingATriangularArray.dir\linkLibs.rsp

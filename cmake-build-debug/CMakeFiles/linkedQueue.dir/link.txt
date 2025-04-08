@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\linkedQueue.dir/objects.a
+D:\MinGW64\bin\ar.exe qc CMakeFiles\linkedQueue.dir/objects.a @CMakeFiles\linkedQueue.dir\objects1.rsp
+D:\MinGW64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\linkedQueue.dir/objects.a -Wl,--no-whole-archive -o linkedQueue.exe -Wl,--out-implib,liblinkedQueue.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\linkedQueue.dir\linkLibs.rsp

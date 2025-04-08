@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\backtrackAlgorithm.dir/objects.a
+D:\MinGW64\bin\ar.exe qc CMakeFiles\backtrackAlgorithm.dir/objects.a @CMakeFiles\backtrackAlgorithm.dir\objects1.rsp
+D:\MinGW64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\backtrackAlgorithm.dir/objects.a -Wl,--no-whole-archive -o backtrackAlgorithm.exe -Wl,--out-implib,libbacktrackAlgorithm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\backtrackAlgorithm.dir\linkLibs.rsp

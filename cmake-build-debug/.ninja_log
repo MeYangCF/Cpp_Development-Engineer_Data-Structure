@@ -1,0 +1,8 @@
+# ninja log v6
+5	213	7581772068110305	CMakeFiles/array.dir/01_Array/array.cpp.obj	d17c2e11f2992144
+5	492	7647031991937816	CMakeFiles/HOT100.dir/HOT100.cpp.obj	3ae25ece730dc70e
+1057	1598	7611386994609157	backtrackAlgorithm.exe	3c3f91ee282c66e6
+4	1057	7611386984091136	CMakeFiles/backtrackAlgorithm.dir/30_Backtracking_Algorithm/backtrackAlgorithm.cpp.obj	508181f2eae89d2d
+493	697	7647031996821750	HOT100.exe	fe7fa45dac7f2e0e
+3	458	7651301158475140	CMakeFiles/HOT100.dir/HOT100.cpp.obj	3ae25ece730dc70e
+459	597	7651301163030420	HOT100.exe	fe7fa45dac7f2e0e
